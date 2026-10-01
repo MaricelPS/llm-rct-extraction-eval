@@ -8,3 +8,11 @@ wheels/
 
 # Virtual environments
 .venv
+
+# Local data (full text is not redistributed)
+data/raw/
+data/processed/
+
+# IDE
+.idea/
+.env
