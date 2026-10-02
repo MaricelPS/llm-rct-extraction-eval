@@ -59,7 +59,7 @@ def _table_to_markdown(table: etree._Element) -> str:
     return "\n".join(lines)
 
 def _extract_license(article: etree._Element) -> str | None:
-    """Return a normalized CC license (e.g. 'cc-by', 'cc-by-nc-nd', 'cc0') or the raw value."""
+    """Return a normalized license label (e.g. 'cc-by', 'cc0', 'ada-license') or None."""
     permissions = article.find(".//article-meta/permissions")
     if permissions is None:
         return None
@@ -71,6 +71,9 @@ def _extract_license(article: etree._Element) -> str | None:
         _text(license_node),
     ]
     values = [v for v in candidates if v]
+    if not values:
+        return None
+
     for value in values:
         match = _CC_URL.search(value)
         if match:
@@ -78,12 +81,17 @@ def _extract_license(article: etree._Element) -> str | None:
             if kind == "publicdomain":
                 return "cc0" if code == "zero" else f"pd-{code}"
             return f"cc-{code}"
-        if not values:
-            return None
-        raw = values[0]
-        if "text mining" in raw.lower():
-            return "pmc-text-mining"
-        return raw if len(raw) <= 40 else "other"
+
+    lowered = " ".join(values).lower()
+    if "diabetesjournals.org" in lowered:
+        return "ada-license"
+    if "public domain" in lowered and "government" in lowered:
+        return "us-gov-pd"
+    if "text mining" in lowered:
+        return "pmc-text-mining"
+
+    raw = values[0]
+    return raw if len(raw) <= 40 else "other"
 
 def parse_jats(pmcid: str, xml: bytes) -> ParsedArticle:
     root = etree.fromstring(xml)
