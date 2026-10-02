@@ -87,19 +87,22 @@ def upsert_article(
 
 
 def pending_classification(
-    con: duckdb.DuckDBPyConnection, limit: int | None = None
+    con: duckdb.DuckDBPyConnection,
+    limit: int | None = None,
+    include_ungrounded: bool = False,
 ) -> list[tuple[str, str]]:
-    """Articles with full text, not retracted and not yet classified: (pmcid, raw_path)."""
+    """Articles with full text, not retracted, unclassified (or ungrounded if requested)."""
     query = """
         SELECT a.pmcid, a.raw_path
         FROM articles a
         LEFT JOIN classifications c USING (pmcid)
-        WHERE c.pmcid IS NULL AND a.has_full_text AND NOT a.is_retracted
+        WHERE (c.pmcid IS NULL OR (? AND NOT c.is_grounded))
+          AND a.has_full_text AND NOT a.is_retracted
         ORDER BY a.pmcid
     """
     if limit is not None:
         query += f" LIMIT {int(limit)}"
-    return con.execute(query).fetchall()
+    return con.execute(query, [include_ungrounded]).fetchall()
 
 
 def upsert_classification(

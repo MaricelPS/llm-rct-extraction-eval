@@ -1,5 +1,6 @@
 """Deterministic post-extraction checks. Issues are reported, not silently fixed."""
 
+import unicodedata
 import re
 from dataclasses import dataclass
 
@@ -15,8 +16,26 @@ class ValidationIssue:
     message: str
 
 
+_CHAR_MAP = str.maketrans(
+    {
+        "\u2010": "-",  # hyphen
+        "\u2011": "-",  # non-breaking hyphen
+        "\u2012": "-",  # figure dash
+        "\u2013": "-",  # en dash
+        "\u2014": "-",  # em dash
+        "\u2015": "-",  # horizontal bar
+        "\u2212": "-",  # minus sign
+        "\u2018": "'",
+        "\u2019": "'",
+        "\u201c": '"',
+        "\u201d": '"',
+    }
+)
+
+
 def _normalize(text: str) -> str:
-    """Lowercase, collapse whitespace and drop markdown table pipes for fuzzy matching."""
+    """NFKC, unify dashes and quotes, drop table pipes, collapse whitespace, lowercase."""
+    text = unicodedata.normalize("NFKC", text).translate(_CHAR_MAP)
     return re.sub(r"\s+", " ", text.replace("|", " ")).strip().lower()
 
 

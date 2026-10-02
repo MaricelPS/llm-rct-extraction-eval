@@ -78,7 +78,12 @@ def _extract_license(article: etree._Element) -> str | None:
             if kind == "publicdomain":
                 return "cc0" if code == "zero" else f"pd-{code}"
             return f"cc-{code}"
-    return values[0] if values else None
+        if not values:
+            return None
+        raw = values[0]
+        if "text mining" in raw.lower():
+            return "pmc-text-mining"
+        return raw if len(raw) <= 40 else "other"
 
 def parse_jats(pmcid: str, xml: bytes) -> ParsedArticle:
     root = etree.fromstring(xml)

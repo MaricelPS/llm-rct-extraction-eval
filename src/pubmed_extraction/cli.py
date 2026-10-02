@@ -28,6 +28,7 @@ app = typer.Typer(help="PubMed structured extraction pipeline.", no_args_is_help
 def ingest(
     retmax: int = typer.Option(200, help="Max PubMed results to consider."),
     query: str = typer.Option(GLP1_RCT_QUERY, help="PubMed query."),
+    force: bool = typer.Option(False, help="Re-parse articles already in the database."),
 ) -> None:
     """Search PubMed, download JATS XML for new articles and store parsed metadata."""
     client = NCBIClient()
@@ -37,7 +38,9 @@ def ingest(
 
     with connect() as con:
         known = known_pmcids(con)
-        pending = [(pmid, pmcid) for pmid, pmcid in mapping.items() if pmcid not in known]
+        pending = [
+            (pmid, pmcid) for pmid, pmcid in mapping.items() if force or pmcid not in known
+        ]
         typer.echo(f"PMIDs: {len(pmids)} | With PMCID: {len(mapping)} | New: {len(pending)}")
 
         failures = 0
@@ -58,6 +61,9 @@ def ingest(
 @app.command()
 def classify(
     limit: int | None = typer.Option(None, help="Max articles to classify in this run."),
+    retry_ungrounded: bool = typer.Option(
+        False, help="Also re-classify articles whose evidence quote failed grounding."
+    ),
 ) -> None:
     """Classify pending articles by report type."""
     classifier = ArticleClassifier()
@@ -65,7 +71,7 @@ def classify(
     failures = 0
 
     with connect() as con:
-        pending = pending_classification(con, limit)
+        pending = pending_classification(con, limit, include_ungrounded=retry_ungrounded)
         typer.echo(f"Pending: {len(pending)}")
 
         for pmcid, raw_path in track(pending, description="Classifying"):
