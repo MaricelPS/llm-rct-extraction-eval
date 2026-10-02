@@ -1,5 +1,6 @@
 """Application settings loaded from environment variables / .env file."""
 
+from pathlib import Path
 from pydantic_settings import BaseSettings, SettingsConfigDict
 
 
@@ -15,6 +16,8 @@ class Settings(BaseSettings):
     extraction_max_tokens: int = 8192
     classification_model: str = "claude-haiku-4-5-20251001"
     classification_max_tokens: int = 1024
+    raw_dir: Path = Path("data/raw")
+    db_path: Path = Path("data/processed/pubmed_extraction.duckdb")
 
     @property
     def ncbi_rate_limit(self) -> float:
