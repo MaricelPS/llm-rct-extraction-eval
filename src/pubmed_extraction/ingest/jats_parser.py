@@ -1,5 +1,11 @@
 """Parse JATS XML into section-aware text and markdown tables."""
 
+import re
+
+_ALI_NS = "http://www.niso.org/schemas/ali/1.0/"
+_XLINK_NS = "http://www.w3.org/1999/xlink"
+_CC_URL = re.compile(r"creativecommons\.org/(licenses|publicdomain)/([a-z-]+)", re.I)
+
 from dataclasses import dataclass, field
 
 from lxml import etree
@@ -10,6 +16,7 @@ class Table:
     label: str
     caption: str
     markdown: str
+    is_image_only: bool = False
 
 
 @dataclass
@@ -51,6 +58,27 @@ def _table_to_markdown(table: etree._Element) -> str:
     lines += ["| " + " | ".join(r) + " |" for r in body]
     return "\n".join(lines)
 
+def _extract_license(article: etree._Element) -> str | None:
+    """Return a normalized CC license (e.g. 'cc-by', 'cc-by-nc-nd', 'cc0') or the raw value."""
+    permissions = article.find(".//article-meta/permissions")
+    if permissions is None:
+        return None
+    license_node = permissions.find("license")
+    candidates = [
+        license_node.get("license-type") if license_node is not None else None,
+        license_node.get(f"{{{_XLINK_NS}}}href") if license_node is not None else None,
+        permissions.findtext(f".//{{{_ALI_NS}}}license_ref"),
+        _text(license_node),
+    ]
+    values = [v for v in candidates if v]
+    for value in values:
+        match = _CC_URL.search(value)
+        if match:
+            kind, code = match.group(1).lower(), match.group(2).lower()
+            if kind == "publicdomain":
+                return "cc0" if code == "zero" else f"pd-{code}"
+            return f"cc-{code}"
+    return values[0] if values else None
 
 def parse_jats(pmcid: str, xml: bytes) -> ParsedArticle:
     root = etree.fromstring(xml)
@@ -58,8 +86,7 @@ def parse_jats(pmcid: str, xml: bytes) -> ParsedArticle:
     if article is None:
         article = root
 
-    license_node = article.find(".//article-meta/permissions/license")
-    license_type = license_node.get("license-type") if license_node is not None else None
+    license_type = _extract_license(article)
 
     related = article.xpath(".//related-article/@related-article-type")
     is_retracted = any(r in ("retracted-article", "retraction-forward") for r in related)
@@ -72,14 +99,17 @@ def parse_jats(pmcid: str, xml: bytes) -> ParsedArticle:
             paragraphs = [_text(p) for p in sec.iter("p") if p.getparent().tag != "table-wrap-foot"]
             sections.append(Section(title=title, text="\n".join(paragraphs), sec_type=sec.get("sec-type")))
 
-    tables = [
-        Table(
-            label=_text(tw.find("label")),
-            caption=_text(tw.find("caption")),
-            markdown=_table_to_markdown(tw.find(".//table")) if tw.find(".//table") is not None else "",
+    tables = []
+    for tw in article.iter("table-wrap"):
+        table_node = tw.find(".//table")
+        tables.append(
+            Table(
+                label=_text(tw.find("label")),
+                caption=_text(tw.find("caption")),
+                markdown=_table_to_markdown(table_node) if table_node is not None else "",
+                is_image_only=table_node is None and tw.find(".//graphic") is not None,
+            )
         )
-        for tw in article.iter("table-wrap")
-    ]
 
     return ParsedArticle(
         pmcid=pmcid,

@@ -13,6 +13,8 @@ class Settings(BaseSettings):
     anthropic_api_key: str
     extraction_model: str = "claude-sonnet-5"
     extraction_max_tokens: int = 8192
+    classification_model: str = "claude-haiku-4-5-20251001"
+    classification_max_tokens: int = 1024
 
     @property
     def ncbi_rate_limit(self) -> float:

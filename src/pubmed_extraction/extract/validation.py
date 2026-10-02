@@ -72,3 +72,7 @@ def validate(extraction: TrialExtraction, context: str) -> list[ValidationIssue]
             issues.append(ValidationIssue(path, "error", "Out of 0-100 range."))
 
     return issues
+
+def quote_in_source(quote: str, source: str) -> bool:
+    """Check whether a quote appears verbatim (after whitespace normalization) in the source."""
+    return _normalize(quote) in _normalize(source)

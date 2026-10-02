@@ -33,6 +33,12 @@ def _assemble(article: ParsedArticle, kind: str) -> str:
     for table in article.tables:
         if table.markdown:
             parts.append(f"# {table.label}: {table.caption}\n{table.markdown}")
+        elif table.is_image_only:
+            parts.append(
+                f"# {table.label}: {table.caption}\n"
+                "[Table content is only available as an image and was not extracted. "
+                "Do not infer its values.]"
+            )
     return "\n\n".join(parts)
 
 
