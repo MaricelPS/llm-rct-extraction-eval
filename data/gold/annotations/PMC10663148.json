@@ -1,0 +1,54 @@
+{
+  "pmcid": "PMC10663148",
+  "trial_registration": "TODO",
+  "design_notes": null,
+  "population": {
+    "condition": "TODO",
+    "key_inclusion_criteria": [
+      "TODO"
+    ],
+    "mean_age": null,
+    "percent_female": null,
+    "evidence": []
+  },
+  "arms": [
+    {
+      "name": "TODO",
+      "role": "TODO",
+      "drug": "TODO",
+      "dose": "TODO",
+      "route": "TODO",
+      "is_fixed_combination": false,
+      "n_randomized": null,
+      "n_analyzed": null,
+      "evidence": []
+    }
+  ],
+  "outcomes": [
+    {
+      "name": "TODO",
+      "is_primary": true,
+      "timepoint": "TODO",
+      "comparison": "TODO vs TODO",
+      "effect_measure": "TODO",
+      "estimand": "TODO",
+      "value": null,
+      "ci_lower": null,
+      "ci_upper": null,
+      "ci_level": null,
+      "p_value": null,
+      "unit": null,
+      "evidence": []
+    }
+  ],
+  "adverse_events": [
+    {
+      "term": "TODO",
+      "arm_name": "TODO",
+      "n_patients": null,
+      "percent_patients": null,
+      "is_serious": null,
+      "evidence": []
+    }
+  ]
+}
