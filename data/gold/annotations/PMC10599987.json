@@ -3,52 +3,313 @@
   "trial_registration": "TODO",
   "design_notes": null,
   "population": {
-    "condition": "TODO",
+    "condition": "obesity and type 2 diabetes mellitus",
     "key_inclusion_criteria": [
-      "TODO"
+      "age 18–70 years",
+      "body mass index (BMI) of 30–50 kg/m2",
+      "type 2 diabetes mellitus with HbA1c ≥ 48 mmol/mol and <97 mmol/mol at or before screening",
+      "undergoing laparoscopic adjustable gastric banding (LAGB)"
     ],
-    "mean_age": null,
-    "percent_female": null,
-    "evidence": []
+    "mean_age": 52.30,
+    "percent_female": 77.8,
+    "evidence": [
+      "Participants were adults aged 18–70 years with BMI 30–50 kg/m2 and T2DM with HbA1c ≥48 mmol/mol and <97 mmol/mol. :chatgpt-content-reference{index="0"}",
+      "At randomisation, the total population had a mean age of 52.30 ± 8.38 years and 21/27 (77.8%) were female. :chatgpt-content-reference{index="1"}"
+    ]
   },
   "arms": [
     {
-      "name": "TODO",
-      "role": "TODO",
-      "drug": "TODO",
-      "dose": "TODO",
-      "route": "TODO",
+      "name": "Liraglutide",
+      "role": "experimental",
+      "drug": "liraglutide",
+      "dose": "1.8 mg once daily",
+      "route": "subcutaneous",
       "is_fixed_combination": false,
-      "n_randomized": null,
-      "n_analyzed": null,
-      "evidence": []
+      "n_randomized": 13,
+      "n_analyzed": 12,
+      "evidence": [
+        "Participants were randomised 1:1 to subcutaneous liraglutide 1.8 mg or placebo once daily within 6 weeks of surgery; liraglutide was titrated to a maximum tolerated dose of 1.8 mg. :chatgpt-content-reference{index="2"}",
+        "13 participants were randomised to liraglutide and 1 was lost to follow-up, leaving 12 for analysis. :chatgpt-content-reference{index="3"}"
+      ]
+    },
+    {
+      "name": "Placebo",
+      "role": "placebo",
+      "drug": null,
+      "dose": null,
+      "route": "subcutaneous",
+      "is_fixed_combination": false,
+      "n_randomized": 14,
+      "n_analyzed": 13,
+      "evidence": [
+        "Participants were randomised 1:1 to subcutaneous liraglutide 1.8 mg or placebo once daily. :chatgpt-content-reference{index="4"}",
+        "14 participants were randomised to placebo and 1 was lost to follow-up, leaving 13 for analysis. :chatgpt-content-reference{index="5"}"
+      ]
     }
   ],
   "outcomes": [
     {
-      "name": "TODO",
+      "name": "change in HbA1c",
       "is_primary": true,
-      "timepoint": "TODO",
-      "comparison": "TODO vs TODO",
-      "effect_measure": "TODO",
-      "estimand": "TODO",
-      "value": null,
-      "ci_lower": null,
-      "ci_upper": null,
-      "ci_level": null,
-      "p_value": null,
-      "unit": null,
-      "evidence": []
+      "timepoint": "6 months",
+      "comparison": "Liraglutide vs Placebo",
+      "effect_measure": "mean_difference",
+      "value": 0.2,
+      "ci_lower": -11.3,
+      "ci_upper": 11.6,
+      "ci_level": 0.95,
+      "p_value": "0.98",
+      "unit": "mmol/mol",
+      "estimand": "not_reported",
+      "evidence": [
+        "The primary endpoint was change in HbA1c between randomisation and 6 months. :chatgpt-content-reference{index="6"}",
+        "The prespecified multivariate analysis reported a difference of 0.2 mmol/mol, 95% CI −11.3, 11.6 mmol/mol, p = 0.98. :chatgpt-content-reference{index="7"}"
+      ]
     }
   ],
   "adverse_events": [
     {
-      "term": "TODO",
-      "arm_name": "TODO",
-      "n_patients": null,
-      "percent_patients": null,
+      "name": "Number of patients with adverse events",
+      "n_patients": 8,
+      "percent_patients": 61.5,
       "is_serious": null,
-      "evidence": []
+      "evidence": [
+        "Table 3 reports 8 (61.5%) patients with adverse events in the liraglutide arm. :chatgpt-content-reference{index="8"}"
+      ]
+    },
+    {
+      "name": "Number of patients with adverse events",
+      "n_patients": 4,
+      "percent_patients": 28.6,
+      "is_serious": null,
+      "evidence": [
+        "Table 3 reports 4 (28.6%) patients with adverse events in the placebo arm. :chatgpt-content-reference{index="9"}"
+      ]
+    },
+    {
+      "name": "Nausea",
+      "n_patients": 6,
+      "percent_patients": 46.2,
+      "is_serious": null,
+      "evidence": [
+        "Nausea occurred in 6 (46.2%) patients in the liraglutide arm. :chatgpt-content-reference{index="10"}"
+      ]
+    },
+    {
+      "name": "Diarrhoea",
+      "n_patients": 1,
+      "percent_patients": 7.7,
+      "is_serious": null,
+      "evidence": [
+        "Diarrhoea occurred in 1 (7.7%) patient in the liraglutide arm. :chatgpt-content-reference{index="11"}"
+      ]
+    },
+    {
+      "name": "Constipation",
+      "n_patients": 1,
+      "percent_patients": 7.7,
+      "is_serious": null,
+      "evidence": [
+        "Constipation occurred in 1 (7.7%) patient in the liraglutide arm. :chatgpt-content-reference{index="12"}"
+      ]
+    },
+    {
+      "name": "Vomiting",
+      "n_patients": 2,
+      "percent_patients": 15.4,
+      "is_serious": null,
+      "evidence": [
+        "Vomiting occurred in 2 (15.4%) patients in the liraglutide arm. :chatgpt-content-reference{index="13"}"
+      ]
+    },
+    {
+      "name": "Abdominal discomfort",
+      "n_patients": 2,
+      "percent_patients": 15.4,
+      "is_serious": null,
+      "evidence": [
+        "Abdominal discomfort occurred in 2 (15.4%) patients in the liraglutide arm. :chatgpt-content-reference{index="14"}"
+      ]
+    },
+    {
+      "name": "Gastro-oesophageal reflux",
+      "n_patients": 2,
+      "percent_patients": 14.3,
+      "is_serious": null,
+      "evidence": [
+        "Gastro-oesophageal reflux occurred in 2 (14.3%) patients in the placebo arm. :chatgpt-content-reference{index="15"}"
+      ]
+    },
+    {
+      "name": "Loss of appetite",
+      "n_patients": 2,
+      "percent_patients": 15.4,
+      "is_serious": null,
+      "evidence": [
+        "Loss of appetite occurred in 2 (15.4%) patients in the liraglutide arm. :chatgpt-content-reference{index="16"}"
+      ]
+    },
+    {
+      "name": "Bloating",
+      "n_patients": 1,
+      "percent_patients": 7.7,
+      "is_serious": null,
+      "evidence": [
+        "Bloating occurred in 1 (7.7%) patient in the liraglutide arm. :chatgpt-content-reference{index="17"}"
+      ]
+    },
+    {
+      "name": "Dry mouth",
+      "n_patients": 1,
+      "percent_patients": 7.7,
+      "is_serious": null,
+      "evidence": [
+        "Dry mouth occurred in 1 (7.7%) patient in the liraglutide arm. :chatgpt-content-reference{index="18"}"
+      ]
+    },
+    {
+      "name": "Cramps (not GI)",
+      "n_patients": 1,
+      "percent_patients": 7.7,
+      "is_serious": null,
+      "evidence": [
+        "Cramps (not GI) occurred in 1 (7.7%) patient in the liraglutide arm. :chatgpt-content-reference{index="19"}"
+      ]
+    },
+    {
+      "name": "Irritable legs",
+      "n_patients": 1,
+      "percent_patients": 7.7,
+      "is_serious": null,
+      "evidence": [
+        "Irritable legs occurred in 1 (7.7%) patient in the liraglutide arm. :chatgpt-content-reference{index="20"}"
+      ]
+    },
+    {
+      "name": "Sweating",
+      "n_patients": 1,
+      "percent_patients": 7.7,
+      "is_serious": null,
+      "evidence": [
+        "Sweating occurred in 1 (7.7%) patient in the liraglutide arm. :chatgpt-content-reference{index="21"}"
+      ]
+    },
+    {
+      "name": "Itching",
+      "n_patients": 1,
+      "percent_patients": 7.7,
+      "is_serious": null,
+      "evidence": [
+        "Itching occurred in 1 (7.7%) patient in the liraglutide arm. :chatgpt-content-reference{index="22"}"
+      ]
+    },
+    {
+      "name": "Cough",
+      "n_patients": 1,
+      "percent_patients": 7.1,
+      "is_serious": null,
+      "evidence": [
+        "Cough occurred in 1 (7.1%) patient in the placebo arm. :chatgpt-content-reference{index="23"}"
+      ]
+    },
+    {
+      "name": "Numbness/cold to extremities",
+      "n_patients": 2,
+      "percent_patients": 15.4,
+      "is_serious": null,
+      "evidence": [
+        "Numbness/cold to extremities occurred in 2 (15.4%) patients in the liraglutide arm. :chatgpt-content-reference{index="24"}"
+      ]
+    },
+    {
+      "name": "Chest pain",
+      "n_patients": 1,
+      "percent_patients": 7.7,
+      "is_serious": null,
+      "evidence": [
+        "Chest pain occurred in 1 (7.7%) patient in the liraglutide arm. :chatgpt-content-reference{index="25"}"
+      ]
+    },
+    {
+      "name": "Migraine",
+      "n_patients": 1,
+      "percent_patients": 7.7,
+      "is_serious": null,
+      "evidence": [
+        "Migraine occurred in 1 (7.7%) patient in the liraglutide arm. :chatgpt-content-reference{index="26"}"
+      ]
+    },
+    {
+      "name": "Sciatic Pain",
+      "n_patients": 1,
+      "percent_patients": 7.7,
+      "is_serious": null,
+      "evidence": [
+        "Sciatic Pain occurred in 1 (7.7%) patient in the liraglutide arm. :chatgpt-content-reference{index="27"}"
+      ]
+    },
+    {
+      "name": "Pain of right side flank",
+      "n_patients": 1,
+      "percent_patients": 7.1,
+      "is_serious": null,
+      "evidence": [
+        "Pain of right side flank occurred in 1 (7.1%) patient in the placebo arm. :chatgpt-content-reference{index="28"}"
+      ]
+    },
+    {
+      "name": "Dizziness",
+      "n_patients": 1,
+      "percent_patients": 7.7,
+      "is_serious": null,
+      "evidence": [
+        "Dizziness occurred in 1 (7.7%) patient in the liraglutide arm. :chatgpt-content-reference{index="29"}"
+      ]
+    },
+    {
+      "name": "Thrush",
+      "n_patients": 1,
+      "percent_patients": 7.7,
+      "is_serious": null,
+      "evidence": [
+        "Thrush occurred in 1 (7.7%) patient in the liraglutide arm. :chatgpt-content-reference{index="30"}"
+      ]
+    },
+    {
+      "name": "Urinary Tract Infection",
+      "n_patients": 1,
+      "percent_patients": 7.7,
+      "is_serious": null,
+      "evidence": [
+        "Urinary Tract Infection occurred in 1 (7.7%) patient in the liraglutide arm. :chatgpt-content-reference{index="31"}"
+      ]
+    },
+    {
+      "name": "Cholecystitis",
+      "n_patients": 1,
+      "percent_patients": 7.1,
+      "is_serious": true,
+      "evidence": [
+        "Cholecystitis was reported as a serious adverse event in 1 (7.1%) placebo patient and required cholecystectomy. :chatgpt-content-reference{index="32"}"
+      ]
+    },
+    {
+      "name": "Pain of left upper quadrant",
+      "n_patients": 1,
+      "percent_patients": 7.7,
+      "is_serious": true,
+      "evidence": [
+        "Pain of left upper quadrant was reported as a serious adverse event in 1 (7.7%) liraglutide patient. :chatgpt-content-reference{index="33"}"
+      ]
+    },
+    {
+      "name": "Abdominal Pain",
+      "n_patients": 1,
+      "percent_patients": 7.7,
+      "is_serious": true,
+      "evidence": [
+        "Abdominal Pain was reported as a serious adverse event in 1 (7.7%) liraglutide patient; the investigational medicinal product was stopped. :chatgpt-content-reference{index="34"}"
+      ]
     }
   ]
 }

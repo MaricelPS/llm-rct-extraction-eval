@@ -3,52 +3,48 @@
   "trial_registration": "TODO",
   "design_notes": null,
   "population": {
-    "condition": "TODO",
+    "condition": "Bile acid diarrhea (BAD), idiopathic or postcholecystectomy, SeHCAT-verified moderate-to-severe",
     "key_inclusion_criteria": [
-      "TODO"
+      "SeHCAT test result ≤10%",
+      "No diabetes",
+      "No other gastrointestinal diseases",
+      "Idiopathic or postcholecystectomy bile acid diarrhea"
     ],
     "mean_age": null,
     "percent_female": null,
-    "evidence": []
+    "evidence": [
+      "The study included 52 patients with moderate-to-severe, SeHCAT-verified bile acid diarrhea. The article reports mean ages separately by treatment group, but not an overall mean age. fileciteturn22file0",
+      "Key eligibility criteria included a SeHCAT result ≤10%, no diabetes, and no other gastrointestinal diseases. The reported sex counts (32 women and 18 men) do not sum to the stated total of 52; therefore, the overall female percentage is not recorded. fileciteturn22file0"
+    ]
   },
   "arms": [
     {
-      "name": "TODO",
-      "role": "TODO",
-      "drug": "TODO",
-      "dose": "TODO",
-      "route": "TODO",
+      "name": "Liraglutide",
+      "role": "active_comparator",
+      "drug": "liraglutide",
+      "dose": "0.6 mg daily, uptitrated by weekly increments of 0.6 mg to 1.8 mg daily over 3 weeks",
+      "route": "subcutaneous",
       "is_fixed_combination": false,
-      "n_randomized": null,
-      "n_analyzed": null,
-      "evidence": []
+      "n_randomized": 26,
+      "n_analyzed": 25,
+      "evidence": [
+        "Participants were randomized to 6 weeks of liraglutide treatment, starting at 0.6 mg daily and increasing by 0.6 mg weekly to 1.8 mg daily over 3 weeks. One participant withdrew because of gastrointestinal side effects. fileciteturn22file0"
+      ]
+    },
+    {
+      "name": "Colesevelam",
+      "role": "active_comparator",
+      "drug": "colesevelam",
+      "dose": "1,875 mg twice daily",
+      "route": "oral",
+      "is_fixed_combination": false,
+      "n_randomized": 26,
+      "n_analyzed": 25,
+      "evidence": [
+        "Participants were randomized to 6 weeks of oral colesevelam treatment at 1,875 mg twice daily. One participant withdrew because of gastrointestinal side effects. fileciteturn22file0"
+      ]
     }
   ],
-  "outcomes": [
-    {
-      "name": "TODO",
-      "is_primary": true,
-      "timepoint": "TODO",
-      "comparison": "TODO vs TODO",
-      "effect_measure": "TODO",
-      "estimand": "TODO",
-      "value": null,
-      "ci_lower": null,
-      "ci_upper": null,
-      "ci_level": null,
-      "p_value": null,
-      "unit": null,
-      "evidence": []
-    }
-  ],
-  "adverse_events": [
-    {
-      "term": "TODO",
-      "arm_name": "TODO",
-      "n_patients": null,
-      "percent_patients": null,
-      "is_serious": null,
-      "evidence": []
-    }
-  ]
+  "outcomes": [],
+  "adverse_events": []
 }

@@ -3,50 +3,259 @@
   "trial_registration": "TODO",
   "design_notes": null,
   "population": {
-    "condition": "TODO",
-    "key_inclusion_criteria": [
-      "TODO"
-    ],
-    "mean_age": null,
-    "percent_female": null,
+    "condition": "Type 2 diabetes mellitus (T2DM) with inadequate glycemic control despite a stable dose of metformin",
+    "key_inclusion_criteria": "Age 18–75 years; diagnosed with T2DM for at least 6 months; inadequate blood glucose control after taking a stable metformin dose of 1.5–2.0 g daily for at least 8 weeks before screening; BMI 18.5–35 kg/m²; HbA1c 7%–11% at screening and baseline.",
+    "mean_age": 52.4,
+    "percent_female": 40.9,
     "evidence": []
   },
   "arms": [
     {
-      "name": "TODO",
-      "role": "TODO",
-      "drug": "TODO",
-      "dose": "TODO",
-      "route": "TODO",
+      "name": "LY05008",
+      "role": "experimental",
+      "drug": "Dulaglutide biosimilar LY05008",
+      "dose": "1.5 mg once weekly for 24 weeks, with metformin 1.5–2.0 g daily as background therapy",
+      "route": "subcutaneous",
       "is_fixed_combination": false,
-      "n_randomized": null,
-      "n_analyzed": null,
+      "n_randomized": 222,
+      "n_analyzed": 222,
+      "evidence": []
+    },
+    {
+      "name": "Dulaglutide",
+      "role": "active_comparator",
+      "drug": "Dulaglutide (Trulicity), reference product",
+      "dose": "1.5 mg once weekly for 24 weeks, with metformin 1.5–2.0 g daily as background therapy",
+      "route": "subcutaneous",
+      "is_fixed_combination": false,
+      "n_randomized": 218,
+      "n_analyzed": 218,
       "evidence": []
     }
   ],
   "outcomes": [
     {
-      "name": "TODO",
+      "name": "Mean change from baseline in HbA1c at Week 24",
       "is_primary": true,
-      "timepoint": "TODO",
-      "comparison": "TODO vs TODO",
-      "effect_measure": "TODO",
-      "estimand": "TODO",
-      "value": null,
-      "ci_lower": null,
-      "ci_upper": null,
-      "ci_level": null,
-      "p_value": null,
-      "unit": null,
+      "timepoint": "Week 24",
+      "comparison": "LY05008 vs Dulaglutide",
+      "effect_measure": "Least squares mean difference",
+      "value": 0.06,
+      "ci_lower": -0.08,
+      "ci_upper": 0.19,
+      "ci_level": 95,
+      "p_value": 0.421,
+      "unit": "%",
+      "estimand": "not_reported",
       "evidence": []
     }
   ],
   "adverse_events": [
     {
-      "term": "TODO",
-      "arm_name": "TODO",
-      "n_patients": null,
-      "percent_patients": null,
+      "term": "Any adverse event",
+      "arm_name": "LY05008",
+      "n_patients": 207,
+      "percent_patients": 93.2,
+      "is_serious": null,
+      "evidence": []
+    },
+    {
+      "term": "Any adverse event",
+      "arm_name": "Dulaglutide",
+      "n_patients": 202,
+      "percent_patients": 92.7,
+      "is_serious": null,
+      "evidence": []
+    },
+    {
+      "term": "Treatment-emergent adverse event (TEAE)",
+      "arm_name": "LY05008",
+      "n_patients": 202,
+      "percent_patients": 91.0,
+      "is_serious": null,
+      "evidence": []
+    },
+    {
+      "term": "Treatment-emergent adverse event (TEAE)",
+      "arm_name": "Dulaglutide",
+      "n_patients": 196,
+      "percent_patients": 89.9,
+      "is_serious": null,
+      "evidence": []
+    },
+    {
+      "term": "Study drug-related TEAE",
+      "arm_name": "LY05008",
+      "n_patients": 128,
+      "percent_patients": 57.7,
+      "is_serious": null,
+      "evidence": []
+    },
+    {
+      "term": "Study drug-related TEAE",
+      "arm_name": "Dulaglutide",
+      "n_patients": 134,
+      "percent_patients": 61.5,
+      "is_serious": null,
+      "evidence": []
+    },
+    {
+      "term": "Severe TEAE",
+      "arm_name": "LY05008",
+      "n_patients": 0,
+      "percent_patients": 0,
+      "is_serious": null,
+      "evidence": []
+    },
+    {
+      "term": "Severe TEAE",
+      "arm_name": "Dulaglutide",
+      "n_patients": 3,
+      "percent_patients": 1.4,
+      "is_serious": null,
+      "evidence": []
+    },
+    {
+      "term": "Serious adverse event (SAE)",
+      "arm_name": "LY05008",
+      "n_patients": 9,
+      "percent_patients": 4.1,
+      "is_serious": true,
+      "evidence": []
+    },
+    {
+      "term": "Serious adverse event (SAE)",
+      "arm_name": "Dulaglutide",
+      "n_patients": 8,
+      "percent_patients": 3.7,
+      "is_serious": true,
+      "evidence": []
+    },
+    {
+      "term": "Study drug-related SAE",
+      "arm_name": "LY05008",
+      "n_patients": 1,
+      "percent_patients": 0.5,
+      "is_serious": true,
+      "evidence": []
+    },
+    {
+      "term": "Study drug-related SAE",
+      "arm_name": "Dulaglutide",
+      "n_patients": 1,
+      "percent_patients": 0.5,
+      "is_serious": true,
+      "evidence": []
+    },
+    {
+      "term": "Decreased appetite",
+      "arm_name": "LY05008",
+      "n_patients": 48,
+      "percent_patients": 21.6,
+      "is_serious": null,
+      "evidence": []
+    },
+    {
+      "term": "Decreased appetite",
+      "arm_name": "Dulaglutide",
+      "n_patients": 62,
+      "percent_patients": 28.4,
+      "is_serious": null,
+      "evidence": []
+    },
+    {
+      "term": "Hyperuricemia",
+      "arm_name": "LY05008",
+      "n_patients": 39,
+      "percent_patients": 17.6,
+      "is_serious": null,
+      "evidence": []
+    },
+    {
+      "term": "Hyperuricemia",
+      "arm_name": "Dulaglutide",
+      "n_patients": 42,
+      "percent_patients": 19.3,
+      "is_serious": null,
+      "evidence": []
+    },
+    {
+      "term": "Diarrhea",
+      "arm_name": "LY05008",
+      "n_patients": 43,
+      "percent_patients": 19.4,
+      "is_serious": null,
+      "evidence": []
+    },
+    {
+      "term": "Diarrhea",
+      "arm_name": "Dulaglutide",
+      "n_patients": 42,
+      "percent_patients": 19.3,
+      "is_serious": null,
+      "evidence": []
+    },
+    {
+      "term": "Nausea",
+      "arm_name": "LY05008",
+      "n_patients": 28,
+      "percent_patients": 12.6,
+      "is_serious": null,
+      "evidence": []
+    },
+    {
+      "term": "Nausea",
+      "arm_name": "Dulaglutide",
+      "n_patients": 34,
+      "percent_patients": 15.6,
+      "is_serious": null,
+      "evidence": []
+    },
+    {
+      "term": "Vomiting",
+      "arm_name": "LY05008",
+      "n_patients": 23,
+      "percent_patients": 10.4,
+      "is_serious": null,
+      "evidence": []
+    },
+    {
+      "term": "Vomiting",
+      "arm_name": "Dulaglutide",
+      "n_patients": 19,
+      "percent_patients": 8.7,
+      "is_serious": null,
+      "evidence": []
+    },
+    {
+      "term": "Upper respiratory tract infection",
+      "arm_name": "LY05008",
+      "n_patients": 39,
+      "percent_patients": 17.6,
+      "is_serious": null,
+      "evidence": []
+    },
+    {
+      "term": "Upper respiratory tract infection",
+      "arm_name": "Dulaglutide",
+      "n_patients": 43,
+      "percent_patients": 19.7,
+      "is_serious": null,
+      "evidence": []
+    },
+    {
+      "term": "Urinary tract infection",
+      "arm_name": "LY05008",
+      "n_patients": 25,
+      "percent_patients": 11.3,
+      "is_serious": null,
+      "evidence": []
+    },
+    {
+      "term": "Urinary tract infection",
+      "arm_name": "Dulaglutide",
+      "n_patients": 31,
+      "percent_patients": 14.2,
       "is_serious": null,
       "evidence": []
     }

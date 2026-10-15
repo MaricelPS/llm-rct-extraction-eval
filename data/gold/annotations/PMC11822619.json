@@ -3,52 +3,73 @@
   "trial_registration": "TODO",
   "design_notes": null,
   "population": {
-    "condition": "TODO",
+    "condition": "alcohol use disorder (AUD)",
     "key_inclusion_criteria": [
-      "TODO"
+      "Adults aged 21 to 65 years",
+      "Reporting past-year DSM-5 criteria for alcohol use disorder",
+      "Past-month consumption of more than 7 standard drinks per week for women or more than 14 standard drinks per week for men",
+      "Two or more heavy drinking episodes, defined as 4 or more drinks for women and 5 or more drinks for men",
+      "Ability to attend weekly clinic visits and pretreatment and posttreatment laboratory sessions"
     ],
-    "mean_age": null,
-    "percent_female": null,
+    "mean_age": 39.9,
+    "percent_female": 71,
     "evidence": []
   },
   "arms": [
     {
-      "name": "TODO",
-      "role": "TODO",
-      "drug": "TODO",
-      "dose": "TODO",
-      "route": "TODO",
+      "name": "Semaglutide",
+      "role": "experimental",
+      "drug": "semaglutide",
+      "dose": "0.25 mg/week for weeks 1–4, 0.5 mg/week for weeks 5–8, and 1.0 mg at week 9 if tolerated; the week 9 dose could be maintained at 0.5 mg or deferred for safety or practical reasons",
+      "route": "subcutaneous",
       "is_fixed_combination": false,
-      "n_randomized": null,
-      "n_analyzed": null,
+      "n_randomized": 24,
+      "n_analyzed": 24,
+      "evidence": []
+    },
+    {
+      "name": "Placebo",
+      "role": "placebo_comparator",
+      "drug": "placebo",
+      "dose": "Administered weekly; matching dose details not reported",
+      "route": "subcutaneous",
+      "is_fixed_combination": false,
+      "n_randomized": 24,
+      "n_analyzed": 24,
       "evidence": []
     }
   ],
   "outcomes": [
     {
-      "name": "TODO",
+      "name": "Alcohol consumed during laboratory self-administration",
       "is_primary": true,
-      "timepoint": "TODO",
-      "comparison": "TODO vs TODO",
-      "effect_measure": "TODO",
-      "estimand": "TODO",
-      "value": null,
-      "ci_lower": null,
-      "ci_upper": null,
-      "ci_level": null,
-      "p_value": null,
-      "unit": null,
+      "timepoint": "Posttreatment, between weeks 8 and 9",
+      "comparison": "Semaglutide vs Placebo",
+      "effect_measure": "beta",
+      "value": -0.48,
+      "ci_lower": -0.85,
+      "ci_upper": -0.11,
+      "ci_level": 95,
+      "p_value": "0.01",
+      "unit": "g-ETOH",
+      "estimand": "not_reported",
+      "evidence": []
+    },
+    {
+      "name": "Peak breath alcohol concentration",
+      "is_primary": true,
+      "timepoint": "Posttreatment, between weeks 8 and 9",
+      "comparison": "Semaglutide vs Placebo",
+      "effect_measure": "beta",
+      "value": -0.46,
+      "ci_lower": -0.87,
+      "ci_upper": -0.06,
+      "ci_level": 95,
+      "p_value": "0.03",
+      "unit": "breath alcohol concentration",
+      "estimand": "not_reported",
       "evidence": []
     }
   ],
-  "adverse_events": [
-    {
-      "term": "TODO",
-      "arm_name": "TODO",
-      "n_patients": null,
-      "percent_patients": null,
-      "is_serious": null,
-      "evidence": []
-    }
-  ]
+  "adverse_events": []
 }

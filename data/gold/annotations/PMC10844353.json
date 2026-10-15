@@ -3,52 +3,755 @@
   "trial_registration": "TODO",
   "design_notes": null,
   "population": {
-    "condition": "TODO",
+    "condition": "type 2 diabetes mellitus",
     "key_inclusion_criteria": [
-      "TODO"
+      "age 18–75 years",
+      "diagnosed type 2 diabetes for ≥6 months",
+      "HbA1c 53–86 mmol/mol (7.0–10.0%)",
+      "BMI 25–50 kg/m2",
+      "stable dose of metformin ≥1000 mg/day for ≥3 months before screening"
     ],
-    "mean_age": null,
-    "percent_female": null,
-    "evidence": []
+    "mean_age": 57.3,
+    "percent_female": 44.5,
+    "evidence": [
+      "Eligible participants were aged 18–75 years, had type 2 diabetes for ≥6 months, HbA1c 53–86 mmol/mol and BMI 25–50 kg/m2, and stable metformin treatment. :chatgpt-content-reference{index="0"}",
+      "The treated population had a mean age of 57.3±9.8 years. :chatgpt-content-reference{index="1"}",
+      "The randomized population contained 58% men, corresponding to 42% women; the table reports sex distribution across the survodutide dose groups. :chatgpt-content-reference{index="2"}"
+    ]
   },
   "arms": [
     {
-      "name": "TODO",
-      "role": "TODO",
-      "drug": "TODO",
-      "dose": "TODO",
-      "route": "TODO",
+      "name": "Survodutide 0.3 mg qw",
+      "role": "experimental",
+      "drug": "survodutide",
+      "dose": "0.3 mg once weekly",
+      "route": "subcutaneous",
       "is_fixed_combination": false,
-      "n_randomized": null,
-      "n_analyzed": null,
-      "evidence": []
+      "n_randomized": 50,
+      "n_analyzed": 41,
+      "evidence": [
+        "DG1 received survodutide 0.3 mg once weekly; 50 participants were randomized and 41 were included in the primary endpoint analysis. :chatgpt-content-reference{index="3"} :chatgpt-content-reference{index="4"}"
+      ]
+    },
+    {
+      "name": "Survodutide 0.9 mg qw",
+      "role": "experimental",
+      "drug": "survodutide",
+      "dose": "0.9 mg once weekly",
+      "route": "subcutaneous",
+      "is_fixed_combination": false,
+      "n_randomized": 50,
+      "n_analyzed": 46,
+      "evidence": [
+        "DG2 received survodutide up to 0.9 mg once weekly; 50 participants were randomized and 46 were included in the primary endpoint analysis. :chatgpt-content-reference{index="5"} :chatgpt-content-reference{index="6"}"
+      ]
+    },
+    {
+      "name": "Survodutide 1.8 mg qw",
+      "role": "experimental",
+      "drug": "survodutide",
+      "dose": "1.8 mg once weekly",
+      "route": "subcutaneous",
+      "is_fixed_combination": false,
+      "n_randomized": 52,
+      "n_analyzed": 36,
+      "evidence": [
+        "DG3 received survodutide up to 1.8 mg once weekly; 52 participants were randomized and 36 were included in the primary endpoint analysis. :chatgpt-content-reference{index="7"} :chatgpt-content-reference{index="8"}"
+      ]
+    },
+    {
+      "name": "Survodutide 2.7 mg qw",
+      "role": "experimental",
+      "drug": "survodutide",
+      "dose": "2.7 mg once weekly",
+      "route": "subcutaneous",
+      "is_fixed_combination": false,
+      "n_randomized": 50,
+      "n_analyzed": 33,
+      "evidence": [
+        "DG4 received survodutide up to 2.7 mg once weekly; 50 participants were randomized and 33 were included in the primary endpoint analysis. :chatgpt-content-reference{index="9"} :chatgpt-content-reference{index="10"}"
+      ]
+    },
+    {
+      "name": "Survodutide 1.2 mg biw",
+      "role": "experimental",
+      "drug": "survodutide",
+      "dose": "1.2 mg twice weekly",
+      "route": "subcutaneous",
+      "is_fixed_combination": false,
+      "n_randomized": 51,
+      "n_analyzed": 44,
+      "evidence": [
+        "DG5 received survodutide up to 1.2 mg twice weekly; 51 participants were randomized and 44 were included in the primary endpoint analysis. :chatgpt-content-reference{index="11"} :chatgpt-content-reference{index="12"}"
+      ]
+    },
+    {
+      "name": "Survodutide 1.8 mg biw",
+      "role": "experimental",
+      "drug": "survodutide",
+      "dose": "1.8 mg twice weekly",
+      "route": "subcutaneous",
+      "is_fixed_combination": false,
+      "n_randomized": 50,
+      "n_analyzed": 36,
+      "evidence": [
+        "DG6 received survodutide up to 1.8 mg twice weekly; 50 participants were randomized and 36 were included in the primary endpoint analysis. :chatgpt-content-reference{index="13"} :chatgpt-content-reference{index="14"}"
+      ]
+    },
+    {
+      "name": "Placebo",
+      "role": "placebo",
+      "drug": null,
+      "dose": null,
+      "route": "subcutaneous",
+      "is_fixed_combination": false,
+      "n_randomized": 60,
+      "n_analyzed": 49,
+      "evidence": [
+        "60 participants were randomized to placebo and 59 treated; 49 participants were included in the primary endpoint analysis. :chatgpt-content-reference{index="15"} :chatgpt-content-reference{index="16"}"
+      ]
+    },
+    {
+      "name": "Semaglutide up to 1.0 mg qw",
+      "role": "active_comparator",
+      "drug": "semaglutide",
+      "dose": "up to 1.0 mg once weekly",
+      "route": "subcutaneous",
+      "is_fixed_combination": false,
+      "n_randomized": 50,
+      "n_analyzed": 45,
+      "evidence": [
+        "Participants were randomized to semaglutide up to 1.0 mg once weekly; 50 were randomized and 45 were included in the reported primary endpoint comparison. :chatgpt-content-reference{index="17"} :chatgpt-content-reference{index="18"}"
+      ]
     }
   ],
   "outcomes": [
     {
-      "name": "TODO",
+      "name": "absolute change from baseline in HbA1c",
       "is_primary": true,
-      "timepoint": "TODO",
-      "comparison": "TODO vs TODO",
-      "effect_measure": "TODO",
-      "estimand": "TODO",
+      "timepoint": "16 weeks",
+      "comparison": "Survodutide 0.3 mg qw vs Placebo",
+      "effect_measure": "mean_difference",
       "value": null,
       "ci_lower": null,
       "ci_upper": null,
       "ci_level": null,
-      "p_value": null,
-      "unit": null,
-      "evidence": []
+      "p_value": "p=0.0004 at week 5; p<0.0001 at other tested time points",
+      "unit": "mmol/mol",
+      "estimand": "not_reported",
+      "evidence": [
+        "The primary endpoint was absolute change in HbA1c from baseline after 16 weeks. :chatgpt-content-reference{index="19"}",
+        "The decrease was significantly greater than placebo for all survodutide groups; for DG1, p=0.0004 at week 5 and p<0.0001 at the other tested time points. :chatgpt-content-reference{index="20"}"
+      ]
+    },
+    {
+      "name": "absolute change from baseline in HbA1c",
+      "is_primary": true,
+      "timepoint": "16 weeks",
+      "comparison": "Survodutide 0.9 mg qw vs Placebo",
+      "effect_measure": "mean_difference",
+      "value": null,
+      "ci_lower": null,
+      "ci_upper": null,
+      "ci_level": null,
+      "p_value": "p<0.0001",
+      "unit": "mmol/mol",
+      "estimand": "not_reported",
+      "evidence": [
+        "DG2 produced an adjusted mean HbA1c change of −15.95 mmol/mol (95% CI −18.27, −13.63); the decrease was significantly greater than placebo. :chatgpt-content-reference{index="21"}"
+      ]
+    },
+    {
+      "name": "absolute change from baseline in HbA1c",
+      "is_primary": true,
+      "timepoint": "16 weeks",
+      "comparison": "Survodutide 1.8 mg qw vs Placebo",
+      "effect_measure": "mean_difference",
+      "value": null,
+      "ci_lower": null,
+      "ci_upper": null,
+      "ci_level": null,
+      "p_value": "p<0.0001",
+      "unit": "mmol/mol",
+      "estimand": "not_reported",
+      "evidence": [
+        "DG3 produced an adjusted mean HbA1c change of −18.72 mmol/mol (95% CI −21.15, −16.29); the decrease was significantly greater than placebo. :chatgpt-content-reference{index="22"}"
+      ]
+    },
+    {
+      "name": "absolute change from baseline in HbA1c",
+      "is_primary": true,
+      "timepoint": "16 weeks",
+      "comparison": "Survodutide 2.7 mg qw vs Placebo",
+      "effect_measure": "mean_difference",
+      "value": null,
+      "ci_lower": null,
+      "ci_upper": null,
+      "ci_level": null,
+      "p_value": "p<0.0001",
+      "unit": "mmol/mol",
+      "estimand": "not_reported",
+      "evidence": [
+        "DG4 produced an adjusted mean HbA1c change of −17.01 mmol/mol (95% CI −19.59, −14.43); the decrease was significantly greater than placebo. :chatgpt-content-reference{index="23"}"
+      ]
+    },
+    {
+      "name": "absolute change from baseline in HbA1c",
+      "is_primary": true,
+      "timepoint": "16 weeks",
+      "comparison": "Survodutide 1.2 mg biw vs Placebo",
+      "effect_measure": "mean_difference",
+      "value": null,
+      "ci_lower": null,
+      "ci_upper": null,
+      "ci_level": null,
+      "p_value": "p<0.0001",
+      "unit": "mmol/mol",
+      "estimand": "not_reported",
+      "evidence": [
+        "DG5 produced an adjusted mean HbA1c change of −17.84 mmol/mol (95% CI −20.18, −15.51); the decrease was significantly greater than placebo. :chatgpt-content-reference{index="24"}"
+      ]
+    },
+    {
+      "name": "absolute change from baseline in HbA1c",
+      "is_primary": true,
+      "timepoint": "16 weeks",
+      "comparison": "Survodutide 1.8 mg biw vs Placebo",
+      "effect_measure": "mean_difference",
+      "value": null,
+      "ci_lower": null,
+      "ci_upper": null,
+      "ci_level": null,
+      "p_value": "p<0.0001",
+      "unit": "mmol/mol",
+      "estimand": "not_reported",
+      "evidence": [
+        "DG6 produced an adjusted mean HbA1c change of −18.38 mmol/mol (95% CI −20.90, −15.87); the decrease was significantly greater than placebo. :chatgpt-content-reference{index="25"}"
+      ]
     }
   ],
   "adverse_events": [
     {
-      "term": "TODO",
-      "arm_name": "TODO",
-      "n_patients": null,
+      "name": "Any treatment-emergent adverse event",
+      "n_patients": 33,
+      "percent_patients": 66.0,
+      "is_serious": null,
+      "evidence": [
+        "Table 3 reports 33 (66.0%) participants with any TEAE in DG1. :chatgpt-content-reference{index="26"}"
+      ]
+    },
+    {
+      "name": "Any treatment-emergent adverse event",
+      "n_patients": 38,
+      "percent_patients": 76.0,
+      "is_serious": null,
+      "evidence": [
+        "Table 3 reports 38 (76.0%) participants with any TEAE in DG2. :chatgpt-content-reference{index="27"}"
+      ]
+    },
+    {
+      "name": "Any treatment-emergent adverse event",
+      "n_patients": 42,
+      "percent_patients": 80.8,
+      "is_serious": null,
+      "evidence": [
+        "Table 3 reports 42 (80.8%) participants with any TEAE in DG3. :chatgpt-content-reference{index="28"}"
+      ]
+    },
+    {
+      "name": "Any treatment-emergent adverse event",
+      "n_patients": 41,
+      "percent_patients": 82.0,
+      "is_serious": null,
+      "evidence": [
+        "Table 3 reports 41 (82.0%) participants with any TEAE in DG4. :chatgpt-content-reference{index="29"}"
+      ]
+    },
+    {
+      "name": "Any treatment-emergent adverse event",
+      "n_patients": 39,
+      "percent_patients": 76.5,
+      "is_serious": null,
+      "evidence": [
+        "Table 3 reports 39 (76.5%) participants with any TEAE in DG5. :chatgpt-content-reference{index="30"}"
+      ]
+    },
+    {
+      "name": "Any treatment-emergent adverse event",
+      "n_patients": 42,
+      "percent_patients": 85.7,
+      "is_serious": null,
+      "evidence": [
+        "Table 3 reports 42 participants with any TEAE in DG6; the table value is 85.x% based on the displayed n/N, while the parsed text truncates the final digit. :chatgpt-content-reference{index="31"}"
+      ]
+    },
+    {
+      "name": "Nausea",
+      "n_patients": 10,
+      "percent_patients": 20.0,
+      "is_serious": null,
+      "evidence": [
+        "Table 3 reports nausea in 10 (20.0%) participants in DG1. :chatgpt-content-reference{index="32"}"
+      ]
+    },
+    {
+      "name": "Nausea",
+      "n_patients": 13,
+      "percent_patients": 26.0,
+      "is_serious": null,
+      "evidence": [
+        "Table 3 reports nausea in 13 (26.0%) participants in DG2. :chatgpt-content-reference{index="33"}"
+      ]
+    },
+    {
+      "name": "Nausea",
+      "n_patients": 24,
+      "percent_patients": 46.2,
+      "is_serious": null,
+      "evidence": [
+        "Table 3 reports nausea in 24 (46.2%) participants in DG3. :chatgpt-content-reference{index="34"}"
+      ]
+    },
+    {
+      "name": "Nausea",
+      "n_patients": 20,
+      "percent_patients": 40.0,
+      "is_serious": null,
+      "evidence": [
+        "Table 3 reports nausea in 20 (40.0%) participants in DG4. :chatgpt-content-reference{index="35"}"
+      ]
+    },
+    {
+      "name": "Nausea",
+      "n_patients": 14,
+      "percent_patients": 27.5,
+      "is_serious": null,
+      "evidence": [
+        "Table 3 reports nausea in 14 (27.5%) participants in DG5. :chatgpt-content-reference{index="36"}"
+      ]
+    },
+    {
+      "name": "Nausea",
+      "n_patients": 22,
+      "percent_patients": 44.9,
+      "is_serious": null,
+      "evidence": [
+        "Table 3 reports nausea in 22 participants in DG6; the parsed table truncates the final percentage. :chatgpt-content-reference{index="37"}"
+      ]
+    },
+    {
+      "name": "Vomiting",
+      "n_patients": 6,
+      "percent_patients": 12.0,
+      "is_serious": null,
+      "evidence": [
+        "Table 3 reports vomiting in 6 (12.0%) participants in DG1. :chatgpt-content-reference{index="38"}"
+      ]
+    },
+    {
+      "name": "Vomiting",
+      "n_patients": 7,
+      "percent_patients": 14.0,
+      "is_serious": null,
+      "evidence": [
+        "Table 3 reports vomiting in 7 (14.0%) participants in DG2. :chatgpt-content-reference{index="39"}"
+      ]
+    },
+    {
+      "name": "Vomiting",
+      "n_patients": 12,
+      "percent_patients": 23.1,
+      "is_serious": null,
+      "evidence": [
+        "Table 3 reports vomiting in 12 (23.1%) participants in DG3. :chatgpt-content-reference{index="40"}"
+      ]
+    },
+    {
+      "name": "Vomiting",
+      "n_patients": 13,
+      "percent_patients": 26.0,
+      "is_serious": null,
+      "evidence": [
+        "Table 3 reports vomiting in 13 (26.0%) participants in DG4. :chatgpt-content-reference{index="41"}"
+      ]
+    },
+    {
+      "name": "Vomiting",
+      "n_patients": 6,
+      "percent_patients": 11.8,
+      "is_serious": null,
+      "evidence": [
+        "Table 3 reports vomiting in 6 (11.8%) participants in DG5. :chatgpt-content-reference{index="42"}"
+      ]
+    },
+    {
+      "name": "Vomiting",
+      "n_patients": 10,
+      "percent_patients": 20.4,
+      "is_serious": null,
+      "evidence": [
+        "Table 3 reports vomiting in 10 participants in DG6; the parsed table truncates the final percentage. :chatgpt-content-reference{index="43"}"
+      ]
+    },
+    {
+      "name": "Diarrhoea",
+      "n_patients": 11,
+      "percent_patients": 22.0,
+      "is_serious": null,
+      "evidence": [
+        "Table 3 reports diarrhoea in 11 (22.0%) participants in DG1. :chatgpt-content-reference{index="44"}"
+      ]
+    },
+    {
+      "name": "Diarrhoea",
+      "n_patients": 5,
+      "percent_patients": 10.0,
+      "is_serious": null,
+      "evidence": [
+        "Table 3 reports diarrhoea in 5 (10.0%) participants in DG2. :chatgpt-content-reference{index="45"}"
+      ]
+    },
+    {
+      "name": "Diarrhoea",
+      "n_patients": 8,
+      "percent_patients": 15.4,
+      "is_serious": null,
+      "evidence": [
+        "Table 3 reports diarrhoea in 8 (15.4%) participants in DG3. :chatgpt-content-reference{index="46"}"
+      ]
+    },
+    {
+      "name": "Diarrhoea",
+      "n_patients": 7,
+      "percent_patients": 14.0,
+      "is_serious": null,
+      "evidence": [
+        "Table 3 reports diarrhoea in 7 (14.0%) participants in DG4. :chatgpt-content-reference{index="47"}"
+      ]
+    },
+    {
+      "name": "Diarrhoea",
+      "n_patients": 8,
+      "percent_patients": 15.7,
+      "is_serious": null,
+      "evidence": [
+        "Table 3 reports diarrhoea in 8 (15.7%) participants in DG5. :chatgpt-content-reference{index="48"}"
+      ]
+    },
+    {
+      "name": "Diarrhoea",
+      "n_patients": 9,
+      "percent_patients": 18.4,
+      "is_serious": null,
+      "evidence": [
+        "Table 3 reports diarrhoea in 9 (18.4%) participants in DG6. :chatgpt-content-reference{index="49"}"
+      ]
+    },
+    {
+      "name": "Dyspepsia",
+      "n_patients": 4,
+      "percent_patients": 8.0,
+      "is_serious": null,
+      "evidence": [
+        "Table 3 reports dyspepsia in 4 (8.0%) participants in DG1. :chatgpt-content-reference{index="50"}"
+      ]
+    },
+    {
+      "name": "Dyspepsia",
+      "n_patients": 3,
+      "percent_patients": 6.0,
+      "is_serious": null,
+      "evidence": [
+        "Table 3 reports dyspepsia in 3 (6.0%) participants in DG2. :chatgpt-content-reference{index="51"}"
+      ]
+    },
+    {
+      "name": "Dyspepsia",
+      "n_patients": 3,
+      "percent_patients": 5.8,
+      "is_serious": null,
+      "evidence": [
+        "Table 3 reports dyspepsia in 3 (5.8%) participants in DG3. :chatgpt-content-reference{index="52"}"
+      ]
+    },
+    {
+      "name": "Dyspepsia",
+      "n_patients": 4,
+      "percent_patients": 8.0,
+      "is_serious": null,
+      "evidence": [
+        "Table 3 reports dyspepsia in 4 (8.0%) participants in DG4. :chatgpt-content-reference{index="53"}"
+      ]
+    },
+    {
+      "name": "Dyspepsia",
+      "n_patients": 3,
+      "percent_patients": 5.9,
+      "is_serious": null,
+      "evidence": [
+        "Table 3 reports dyspepsia in 3 (5.9%) participants in DG5. :chatgpt-content-reference{index="54"}"
+      ]
+    },
+    {
+      "name": "Dyspepsia",
+      "n_patients": 6,
+      "percent_patients": 12.2,
+      "is_serious": null,
+      "evidence": [
+        "Table 3 reports dyspepsia in 6 (12.2%) participants in DG6. :chatgpt-content-reference{index="55"}"
+      ]
+    },
+    {
+      "name": "Decreased appetite",
+      "n_patients": 6,
+      "percent_patients": 12.0,
+      "is_serious": null,
+      "evidence": [
+        "Table 3 reports decreased appetite in 6 (12.0%) participants in DG1. :chatgpt-content-reference{index="56"}"
+      ]
+    },
+    {
+      "name": "Decreased appetite",
+      "n_patients": 7,
+      "percent_patients": 14.0,
+      "is_serious": null,
+      "evidence": [
+        "Table 3 reports decreased appetite in 7 (14.0%) participants in DG2. :chatgpt-content-reference{index="57"}"
+      ]
+    },
+    {
+      "name": "Decreased appetite",
+      "n_patients": 5,
+      "percent_patients": 9.6,
+      "is_serious": null,
+      "evidence": [
+        "Table 3 reports decreased appetite in 5 (9.6%) participants in DG3. :chatgpt-content-reference{index="58"}"
+      ]
+    },
+    {
+      "name": "Decreased appetite",
+      "n_patients": 9,
+      "percent_patients": 18.0,
+      "is_serious": null,
+      "evidence": [
+        "Table 3 reports decreased appetite in 9 (18.0%) participants in DG4. :chatgpt-content-reference{index="59"}"
+      ]
+    },
+    {
+      "name": "Decreased appetite",
+      "n_patients": 8,
+      "percent_patients": 15.7,
+      "is_serious": null,
+      "evidence": [
+        "Table 3 reports decreased appetite in 8 (15.7%) participants in DG5. :chatgpt-content-reference{index="60"}"
+      ]
+    },
+    {
+      "name": "Decreased appetite",
+      "n_patients": 15,
+      "percent_patients": 30.6,
+      "is_serious": null,
+      "evidence": [
+        "Table 3 reports decreased appetite in 15 participants in DG6; the parsed table truncates the final percentage. :chatgpt-content-reference{index="61"}"
+      ]
+    },
+    {
+      "name": "Headache",
+      "n_patients": 2,
+      "percent_patients": 4.0,
+      "is_serious": null,
+      "evidence": [
+        "Table 3 reports headache in 2 (4.0%) participants in DG1. :chatgpt-content-reference{index="62"}"
+      ]
+    },
+    {
+      "name": "Headache",
+      "n_patients": 5,
+      "percent_patients": 10.0,
+      "is_serious": null,
+      "evidence": [
+        "Table 3 reports headache in 5 (10.0%) participants in DG2. :chatgpt-content-reference{index="63"}"
+      ]
+    },
+    {
+      "name": "Headache",
+      "n_patients": 3,
+      "percent_patients": 5.8,
+      "is_serious": null,
+      "evidence": [
+        "Table 3 reports headache in 3 (5.8%) participants in DG3. :chatgpt-content-reference{index="64"}"
+      ]
+    },
+    {
+      "name": "Headache",
+      "n_patients": 0,
       "percent_patients": null,
       "is_serious": null,
-      "evidence": []
+      "evidence": [
+        "Table 3 reports 0 participants with headache in DG4. :chatgpt-content-reference{index="65"}"
+      ]
+    },
+    {
+      "name": "Headache",
+      "n_patients": 3,
+      "percent_patients": 5.9,
+      "is_serious": null,
+      "evidence": [
+        "Table 3 reports headache in 3 (5.9%) participants in DG5. :chatgpt-content-reference{index="66"}"
+      ]
+    },
+    {
+      "name": "Headache",
+      "n_patients": 2,
+      "percent_patients": 4.1,
+      "is_serious": null,
+      "evidence": [
+        "Table 3 reports headache in 2 (4.1%) participants in DG6. :chatgpt-content-reference{index="67"}"
+      ]
+    },
+    {
+      "name": "Severe AEs",
+      "n_patients": 3,
+      "percent_patients": 6.0,
+      "is_serious": null,
+      "evidence": [
+        "Table 3 reports severe AEs in 3 (6.0%) participants in DG1. :chatgpt-content-reference{index="68"}"
+      ]
+    },
+    {
+      "name": "Severe AEs",
+      "n_patients": 1,
+      "percent_patients": 2.0,
+      "is_serious": null,
+      "evidence": [
+        "Table 3 reports severe AEs in 1 (2.0%) participant in DG2. :chatgpt-content-reference{index="69"}"
+      ]
+    },
+    {
+      "name": "Severe AEs",
+      "n_patients": 4,
+      "percent_patients": 7.7,
+      "is_serious": null,
+      "evidence": [
+        "Table 3 reports severe AEs in 4 (7.7%) participants in DG3. :chatgpt-content-reference{index="70"}"
+      ]
+    },
+    {
+      "name": "Severe AEs",
+      "n_patients": 3,
+      "percent_patients": 6.0,
+      "is_serious": null,
+      "evidence": [
+        "Table 3 reports severe AEs in 3 (6.0%) participants in DG4. :chatgpt-content-reference{index="71"}"
+      ]
+    },
+    {
+      "name": "Severe AEs",
+      "n_patients": 2,
+      "percent_patients": 3.9,
+      "is_serious": null,
+      "evidence": [
+        "Table 3 reports severe AEs in 2 (3.9%) participants in DG5. :chatgpt-content-reference{index="72"}"
+      ]
+    },
+    {
+      "name": "Severe AEs",
+      "n_patients": 3,
+      "percent_patients": 6.1,
+      "is_serious": null,
+      "evidence": [
+        "Table 3 reports severe AEs in 3 (6.1%) participants in DG6. :chatgpt-content-reference{index="73"}"
+      ]
+    },
+    {
+      "name": "Serious AEs",
+      "n_patients": 1,
+      "percent_patients": 2.0,
+      "is_serious": true,
+      "evidence": [
+        "Table 3 reports serious AEs in 1 (2.0%) participant in DG1. :chatgpt-content-reference{index="74"}"
+      ]
+    },
+    {
+      "name": "Serious AEs",
+      "n_patients": 4,
+      "percent_patients": 8.0,
+      "is_serious": true,
+      "evidence": [
+        "Table 3 reports serious AEs in 4 (8.0%) participants in DG2. :chatgpt-content-reference{index="75"}"
+      ]
+    },
+    {
+      "name": "Serious AEs",
+      "n_patients": 3,
+      "percent_patients": 5.8,
+      "is_serious": true,
+      "evidence": [
+        "Table 3 reports serious AEs in 3 (5.8%) participants in DG3. :chatgpt-content-reference{index="76"}"
+      ]
+    },
+    {
+      "name": "Serious AEs",
+      "n_patients": 2,
+      "percent_patients": 4.0,
+      "is_serious": true,
+      "evidence": [
+        "Table 3 reports serious AEs in 2 (4.0%) participants in DG4. :chatgpt-content-reference{index="77"}"
+      ]
+    },
+    {
+      "name": "Serious AEs",
+      "n_patients": 1,
+      "percent_patients": 2.0,
+      "is_serious": true,
+      "evidence": [
+        "Table 3 reports serious AEs in 1 (2.0%) participant in DG5. :chatgpt-content-reference{index="78"}"
+      ]
+    },
+    {
+      "name": "Serious AEs",
+      "n_patients": 0,
+      "percent_patients": null,
+      "is_serious": true,
+      "evidence": [
+        "Table 3 reports 0 serious AEs in DG6. :chatgpt-content-reference{index="79"}"
+      ]
+    },
+    {
+      "name": "Drug-related serious AEs",
+      "n_patients": 1,
+      "percent_patients": 2.0,
+      "is_serious": true,
+      "evidence": [
+        "Table 3 reports drug-related serious AEs in 1 (2.0%) participant in DG1. :chatgpt-content-reference{index="80"}"
+      ]
+    },
+    {
+      "name": "Drug-related serious AEs",
+      "n_patients": 1,
+      "percent_patients": 2.0,
+      "is_serious": true,
+      "evidence": [
+        "Table 3 reports drug-related serious AEs in 1 (2.0%) participant in DG2. :chatgpt-content-reference{index="81"}"
+      ]
+    },
+    {
+      "name": "Drug-related serious AEs",
+      "n_patients": 1,
+      "percent_patients": 1.9,
+      "is_serious": true,
+      "evidence": [
+        "Table 3 reports drug-related serious AEs in 1 (1.9%) participant in DG3. :chatgpt-content-reference{index="82"}"
+      ]
+    },
+    {
+      "name": "Drug-related serious AEs",
+      "n_patients": 1,
+      "percent_patients": 2.0,
+      "is_serious": true,
+      "evidence": [
+        "Table 3 reports drug-related serious AEs in 1 (2.0%) participant in DG4. :chatgpt-content-reference{index="83"}"
+      ]
     }
   ]
 }

@@ -3,52 +3,244 @@
   "trial_registration": "TODO",
   "design_notes": null,
   "population": {
-    "condition": "TODO",
+    "condition": "type 2 diabetes mellitus (T2DM)",
     "key_inclusion_criteria": [
-      "TODO"
+      "Men or women aged 18–64 years",
+      "Diagnosis of T2DM at least 180 days before screening",
+      "Treatment with metformin, with or without another specified oral antidiabetic drug, for at least 90 days before screening",
+      "Body weight of 80–120 kg",
+      "HbA1c of 6.0–8.5% (42–69 mmol/mol)"
     ],
-    "mean_age": null,
-    "percent_female": null,
-    "evidence": []
+    "mean_age": "57.4 ± 6.2 years",
+    "percent_female": "25.8%",
+    "evidence": [
+      "The study included 31 randomized participants. Mean age was 57.4 ± 6.2 years, and 8 participants (25.8%) were female. fileciteturn21file0",
+      "Eligibility criteria included age 18–64 years, T2DM diagnosed at least 180 days before screening, body weight 80–120 kg, and HbA1c 6.0–8.5%. fileciteturn21file0"
+    ]
   },
   "arms": [
     {
-      "name": "TODO",
-      "role": "TODO",
-      "drug": "TODO",
-      "dose": "TODO",
-      "route": "TODO",
+      "name": "IcoSema",
+      "role": "experimental",
+      "drug": "insulin icodec and semaglutide",
+      "dose": "175 U icodec and 0.5 mg semaglutide",
+      "route": "subcutaneous injection",
+      "is_fixed_combination": true,
+      "n_randomized": 31,
+      "n_analyzed": 30,
+      "evidence": [
+        "Participants received a single subcutaneous dose containing 175 U icodec and 0.5 mg semaglutide. The pharmacokinetic table reports N = 30 for IcoSema. fileciteturn21file0"
+      ]
+    },
+    {
+      "name": "Icodec",
+      "role": "active_comparator",
+      "drug": "insulin icodec",
+      "dose": "175 U",
+      "route": "subcutaneous injection",
       "is_fixed_combination": false,
-      "n_randomized": null,
-      "n_analyzed": null,
-      "evidence": []
+      "n_randomized": 31,
+      "n_analyzed": 28,
+      "evidence": [
+        "Participants received a single subcutaneous dose of 175 U insulin icodec. The pharmacokinetic table reports N = 28 for Icodec. fileciteturn21file0"
+      ]
+    },
+    {
+      "name": "Semaglutide",
+      "role": "active_comparator",
+      "drug": "semaglutide",
+      "dose": "0.5 mg",
+      "route": "subcutaneous injection",
+      "is_fixed_combination": false,
+      "n_randomized": 31,
+      "n_analyzed": 28,
+      "evidence": [
+        "Participants received a single subcutaneous dose of 0.5 mg semaglutide. The pharmacokinetic table reports N = 28 for Semaglutide. fileciteturn21file0"
+      ]
     }
   ],
   "outcomes": [
     {
-      "name": "TODO",
-      "is_primary": true,
-      "timepoint": "TODO",
-      "comparison": "TODO vs TODO",
-      "effect_measure": "TODO",
-      "estimand": "TODO",
-      "value": null,
-      "ci_lower": null,
-      "ci_upper": null,
-      "ci_level": null,
+      "outcome": "Total exposure after single dose (AUC0–t,SD,Icodec)",
+      "comparison": "IcoSema vs Icodec",
+      "effect_measure": "treatment ratio",
+      "value": "1.06",
+      "ci_lower": "1.01",
+      "ci_upper": "1.12",
+      "ci_level": 0.90,
       "p_value": null,
-      "unit": null,
-      "evidence": []
+      "unit": "nmol·h/L",
+      "estimand": "not_reported",
+      "evidence": [
+        "The treatment ratio for total insulin icodec exposure after a single dose was 1.06 [1.01; 1.12] for IcoSema/Icodec; the confidence interval was 90%. fileciteturn21file0"
+      ]
+    },
+    {
+      "outcome": "Total exposure after single dose (AUC0–t,SD,Semaglutide)",
+      "comparison": "IcoSema vs Semaglutide",
+      "effect_measure": "treatment ratio",
+      "value": "1.11",
+      "ci_lower": "1.05",
+      "ci_upper": "1.17",
+      "ci_level": 0.90,
+      "p_value": null,
+      "unit": "nmol·h/L",
+      "estimand": "not_reported",
+      "evidence": [
+        "The treatment ratio for total semaglutide exposure after a single dose was 1.11 [1.05; 1.17] for IcoSema/Semaglutide; the confidence interval was 90%. fileciteturn21file0"
+      ]
     }
   ],
   "adverse_events": [
     {
-      "term": "TODO",
-      "arm_name": "TODO",
-      "n_patients": null,
-      "percent_patients": null,
+      "event": "Treatment emergent AEs",
+      "arm": "IcoSema",
+      "n_patients": 27,
+      "percentage": "90.0%",
       "is_serious": null,
-      "evidence": []
+      "evidence": [
+        "Table 3 reports treatment-emergent adverse events in 27 participants (90.0%) receiving IcoSema. fileciteturn21file0"
+      ]
+    },
+    {
+      "event": "Treatment emergent AEs",
+      "arm": "Icodec",
+      "n_patients": 15,
+      "percentage": "53.6%",
+      "is_serious": null,
+      "evidence": [
+        "Table 3 reports treatment-emergent adverse events in 15 participants (53.6%) receiving Icodec. fileciteturn21file0"
+      ]
+    },
+    {
+      "event": "Treatment emergent AEs",
+      "arm": "Semaglutide",
+      "n_patients": 17,
+      "percentage": "60.7%",
+      "is_serious": null,
+      "evidence": [
+        "Table 3 reports treatment-emergent adverse events in 17 participants (60.7%) receiving Semaglutide. fileciteturn21file0"
+      ]
+    },
+    {
+      "event": "Serious AEs",
+      "arm": "IcoSema",
+      "n_patients": 0,
+      "percentage": "0.0%",
+      "is_serious": true,
+      "evidence": [
+        "Table 3 reports no serious adverse events in the IcoSema arm: 0 participants (0.0%). fileciteturn21file0"
+      ]
+    },
+    {
+      "event": "Serious AEs",
+      "arm": "Icodec",
+      "n_patients": 1,
+      "percentage": "3.6%",
+      "is_serious": true,
+      "evidence": [
+        "Table 3 reports serious adverse events in 1 participant (3.6%) receiving Icodec. The article describes a severe appendicitis event occurring 27 days after Icodec administration. fileciteturn21file0"
+      ]
+    },
+    {
+      "event": "Serious AEs",
+      "arm": "Semaglutide",
+      "n_patients": 0,
+      "percentage": "0.0%",
+      "is_serious": true,
+      "evidence": [
+        "Table 3 reports no serious adverse events in the Semaglutide arm: 0 participants (0.0%). fileciteturn21file0"
+      ]
+    },
+    {
+      "event": "Gastrointestinal disorders",
+      "arm": "IcoSema",
+      "n_patients": 22,
+      "percentage": "73.3%",
+      "is_serious": null,
+      "evidence": [
+        "Gastrointestinal disorders were reported in 22 participants (73.3%) receiving IcoSema. fileciteturn21file0"
+      ]
+    },
+    {
+      "event": "Gastrointestinal disorders",
+      "arm": "Icodec",
+      "n_patients": 4,
+      "percentage": "14.3%",
+      "is_serious": null,
+      "evidence": [
+        "Gastrointestinal disorders were reported in 4 participants (14.3%) receiving Icodec. fileciteturn21file0"
+      ]
+    },
+    {
+      "event": "Gastrointestinal disorders",
+      "arm": "Semaglutide",
+      "n_patients": 12,
+      "percentage": "42.9%",
+      "is_serious": null,
+      "evidence": [
+        "Gastrointestinal disorders were reported in 12 participants (42.9%) receiving Semaglutide. fileciteturn21file0"
+      ]
+    },
+    {
+      "event": "Nausea",
+      "arm": "IcoSema",
+      "n_patients": 14,
+      "percentage": "46.7%",
+      "is_serious": null,
+      "evidence": [
+        "Nausea was reported in 14 participants (46.7%) receiving IcoSema. fileciteturn21file0"
+      ]
+    },
+    {
+      "event": "Nausea",
+      "arm": "Icodec",
+      "n_patients": 0,
+      "percentage": "0.0%",
+      "is_serious": null,
+      "evidence": [
+        "Table 3 reports no nausea in the Icodec arm: 0 participants (0.0%). fileciteturn21file0"
+      ]
+    },
+    {
+      "event": "Nausea",
+      "arm": "Semaglutide",
+      "n_patients": 6,
+      "percentage": "21.4%",
+      "is_serious": null,
+      "evidence": [
+        "Nausea was reported in 6 participants (21.4%) receiving Semaglutide. fileciteturn21file0"
+      ]
+    },
+    {
+      "event": "Vomiting",
+      "arm": "IcoSema",
+      "n_patients": 11,
+      "percentage": "36.7%",
+      "is_serious": null,
+      "evidence": [
+        "Vomiting was reported in 11 participants (36.7%) receiving IcoSema. fileciteturn21file0"
+      ]
+    },
+    {
+      "event": "Vomiting",
+      "arm": "Icodec",
+      "n_patients": 0,
+      "percentage": "0.0%",
+      "is_serious": null,
+      "evidence": [
+        "Table 3 reports no vomiting in the Icodec arm: 0 participants (0.0%). fileciteturn21file0"
+      ]
+    },
+    {
+      "event": "Vomiting",
+      "arm": "Semaglutide",
+      "n_patients": 2,
+      "percentage": "7.1%",
+      "is_serious": null,
+      "evidence": [
+        "Vomiting was reported in 2 participants (7.1%) receiving Semaglutide. fileciteturn21file0"
+      ]
     }
   ]
 }

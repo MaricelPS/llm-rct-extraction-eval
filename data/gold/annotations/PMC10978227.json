@@ -3,52 +3,75 @@
   "trial_registration": "TODO",
   "design_notes": null,
   "population": {
-    "condition": "TODO",
+    "condition": "type 2 diabetes mellitus",
     "key_inclusion_criteria": [
-      "TODO"
+      "adult participants with type 2 diabetes mellitus",
+      "type 2 diabetes duration of less than 10 years",
+      "diabetes diagnosed at age ≥30 years, or ≥20 years if American Indian/Alaska Native",
+      "HbA1c of 6.8–8.5% (50.8–69.4 mmol/mol) at randomization",
+      "maximally tolerated metformin at a dose of ≥1000 mg/day"
     ],
-    "mean_age": null,
-    "percent_female": null,
-    "evidence": []
-  },
+    "mean_age": 57.2,
+    "percent_female": 36.4,
+    "evidence": [
+      "Eligible participants had T2DM of less than 10 years' duration, diagnosed at age ≥30 years or ≥20 years if American Indian/Alaska Native, and HbA1c 6.8–8.5% on maximally tolerated metformin ≥1000 mg/day. :chatgpt-content-reference{index="0"}",
+      "The 5047 participants had a mean age of 57.2 ± 10.0 years and 36.4% were women. :chatgpt-content-reference{index="1"}"
+    ]
+   },
   "arms": [
     {
-      "name": "TODO",
-      "role": "TODO",
-      "drug": "TODO",
-      "dose": "TODO",
-      "route": "TODO",
+      "name": "insulin glargine",
+      "role": "active_comparator",
+      "drug": "insulin glargine",
+      "dose": null,
+      "route": null,
       "is_fixed_combination": false,
       "n_randomized": null,
       "n_analyzed": null,
-      "evidence": []
+      "evidence": [
+        "Participants were randomly assigned to insulin glargine added to baseline metformin. :chatgpt-content-reference{index="2"}"
+      ]
+    },
+    {
+      "name": "glimepiride",
+      "role": "active_comparator",
+      "drug": "glimepiride",
+      "dose": null,
+      "route": null,
+      "is_fixed_combination": false,
+      "n_randomized": null,
+      "n_analyzed": null,
+      "evidence": [
+        "Participants were randomly assigned to glimepiride added to baseline metformin. :chatgpt-content-reference{index="3"}"
+      ]
+    },
+    {
+      "name": "liraglutide",
+      "role": "experimental",
+      "drug": "liraglutide",
+      "dose": null,
+      "route": null,
+      "is_fixed_combination": false,
+      "n_randomized": null,
+      "n_analyzed": null,
+      "evidence": [
+        "Participants were randomly assigned to liraglutide added to baseline metformin. :chatgpt-content-reference{index="4"}"
+      ]
+    },
+    {
+      "name": "sitagliptin",
+      "role": "active_comparator",
+      "drug": "sitagliptin",
+      "dose": null,
+      "route": null,
+      "is_fixed_combination": false,
+      "n_randomized": null,
+      "n_analyzed": null,
+      "evidence": [
+        "Participants were randomly assigned to sitagliptin added to baseline metformin. :chatgpt-content-reference{index="5"}"
+      ]
     }
   ],
-  "outcomes": [
-    {
-      "name": "TODO",
-      "is_primary": true,
-      "timepoint": "TODO",
-      "comparison": "TODO vs TODO",
-      "effect_measure": "TODO",
-      "estimand": "TODO",
-      "value": null,
-      "ci_lower": null,
-      "ci_upper": null,
-      "ci_level": null,
-      "p_value": null,
-      "unit": null,
-      "evidence": []
-    }
-  ],
-  "adverse_events": [
-    {
-      "term": "TODO",
-      "arm_name": "TODO",
-      "n_patients": null,
-      "percent_patients": null,
-      "is_serious": null,
-      "evidence": []
-    }
-  ]
+  "outcomes": [],
+  "adverse_events": []
 }

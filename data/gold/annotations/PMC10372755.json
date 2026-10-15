@@ -3,52 +3,410 @@
   "trial_registration": "TODO",
   "design_notes": null,
   "population": {
-    "condition": "TODO",
+    "condition": "poor weight loss and a suboptimal GLP-1 response after metabolic surgery",
     "key_inclusion_criteria": [
-      "TODO"
+      "adult patients at least 1 year after metabolic surgery",
+      "20% or less body weight loss from the day of surgery",
+      "suboptimal nutrient-stimulated GLP-1 response",
+      "primary Roux-en-Y gastric bypass or sleeve gastrectomy"
     ],
-    "mean_age": null,
-    "percent_female": null,
+    "mean_age": 47.6,
+    "percent_female": 74,
     "evidence": []
   },
   "arms": [
     {
-      "name": "TODO",
-      "role": "TODO",
-      "drug": "TODO",
-      "dose": "TODO",
-      "route": "TODO",
+      "name": "Liraglutide, 3.0 mg",
+      "role": "experimental",
+      "drug": "liraglutide",
+      "dose": "3.0 mg once daily",
+      "route": "subcutaneous",
       "is_fixed_combination": false,
-      "n_randomized": null,
-      "n_analyzed": null,
+      "n_randomized": 35,
+      "n_analyzed": 31,
+      "evidence": []
+    },
+    {
+      "name": "placebo",
+      "role": "placebo",
+      "drug": null,
+      "dose": null,
+      "route": "subcutaneous",
+      "is_fixed_combination": false,
+      "n_randomized": 35,
+      "n_analyzed": 26,
       "evidence": []
     }
   ],
   "outcomes": [
     {
-      "name": "TODO",
+      "name": "percentage change in body weight from baseline",
       "is_primary": true,
-      "timepoint": "TODO",
-      "comparison": "TODO vs TODO",
-      "effect_measure": "TODO",
-      "estimand": "TODO",
-      "value": null,
-      "ci_lower": null,
-      "ci_upper": null,
-      "ci_level": null,
-      "p_value": null,
-      "unit": null,
+      "timepoint": "week 24",
+      "comparison": "Liraglutide, 3.0 mg vs placebo",
+      "effect_measure": "mean_difference",
+      "value": -8.03,
+      "ci_lower": -10.39,
+      "ci_upper": -5.66,
+      "ci_level": 0.95,
+      "p_value": "<.001",
+      "unit": "%",
       "evidence": []
     }
   ],
   "adverse_events": [
     {
-      "term": "TODO",
-      "arm_name": "TODO",
-      "n_patients": null,
-      "percent_patients": null,
+      "term": "Total",
+      "arm_name": "placebo",
+      "n_patients": 20,
+      "percent_patients": 57,
       "is_serious": null,
       "evidence": []
+    },
+    {
+      "term": "Total",
+      "arm_name": "Liraglutide, 3.0 mg",
+      "n_patients": 28,
+      "percent_patients": 80,
+      "is_serious": null,
+      "evidence": []
+    },
+    {
+      "term": "Nausea",
+      "arm_name": "placebo",
+      "n_patients": 7,
+      "percent_patients": 20,
+      "is_serious": null,
+      "evidence": []
+    },
+    {
+      "term": "Nausea",
+      "arm_name": "Liraglutide, 3.0 mg",
+      "n_patients": 18,
+      "percent_patients": 51,
+      "is_serious": null,
+      "evidence": []
+    },
+    {
+      "term": "Diarrhea",
+      "arm_name": "placebo",
+      "n_patients": 2,
+      "percent_patients": 6,
+      "is_serious": null,
+      "evidence": []
+    },
+    {
+      "term": "Diarrhea",
+      "arm_name": "Liraglutide, 3.0 mg",
+      "n_patients": 2,
+      "percent_patients": 6,
+      "is_serious": null,
+      "evidence": []
+    },
+    {
+      "term": "Constipation",
+      "arm_name": "placebo",
+      "n_patients": 2,
+      "percent_patients": 6,
+      "is_serious": null,
+      "evidence": []
+    },
+    {
+      "term": "Constipation",
+      "arm_name": "Liraglutide, 3.0 mg",
+      "n_patients": 9,
+      "percent_patients": 26,
+      "is_serious": null,
+      "evidence": []
+    },
+    {
+      "term": "Vomiting",
+      "arm_name": "placebo",
+      "n_patients": 1,
+      "percent_patients": 3,
+      "is_serious": null,
+      "evidence": []
+    },
+    {
+      "term": "Vomiting",
+      "arm_name": "Liraglutide, 3.0 mg",
+      "n_patients": 1,
+      "percent_patients": 3,
+      "is_serious": null,
+      "evidence": []
+    },
+    {
+      "term": "Abdominal pain",
+      "arm_name": "placebo",
+      "n_patients": 1,
+      "percent_patients": 3,
+      "is_serious": null,
+      "evidence": []
+    },
+    {
+      "term": "Abdominal pain",
+      "arm_name": "Liraglutide, 3.0 mg",
+      "n_patients": 2,
+      "percent_patients": 6,
+      "is_serious": null,
+      "evidence": []
+    },
+    {
+      "term": "Abdominal bloating",
+      "arm_name": "placebo",
+      "n_patients": 0,
+      "percent_patients": 0,
+      "is_serious": null,
+      "evidence": []
+    },
+    {
+      "term": "Abdominal bloating",
+      "arm_name": "Liraglutide, 3.0 mg",
+      "n_patients": 1,
+      "percent_patients": 3,
+      "is_serious": null,
+      "evidence": []
+    },
+    {
+      "term": "Dyspepsia",
+      "arm_name": "placebo",
+      "n_patients": 0,
+      "percent_patients": 0,
+      "is_serious": null,
+      "evidence": []
+    },
+    {
+      "term": "Dyspepsia",
+      "arm_name": "Liraglutide, 3.0 mg",
+      "n_patients": 1,
+      "percent_patients": 3,
+      "is_serious": null,
+      "evidence": []
+    },
+    {
+      "term": "Headache",
+      "arm_name": "placebo",
+      "n_patients": 2,
+      "percent_patients": 6,
+      "is_serious": null,
+      "evidence": []
+    },
+    {
+      "term": "Headache",
+      "arm_name": "Liraglutide, 3.0 mg",
+      "n_patients": 1,
+      "percent_patients": 3,
+      "is_serious": null,
+      "evidence": []
+    },
+    {
+      "term": "Injection site reaction",
+      "arm_name": "placebo",
+      "n_patients": 3,
+      "percent_patients": 9,
+      "is_serious": null,
+      "evidence": []
+    },
+    {
+      "term": "Injection site reaction",
+      "arm_name": "Liraglutide, 3.0 mg",
+      "n_patients": 2,
+      "percent_patients": 6,
+      "is_serious": null,
+      "evidence": []
+    },
+    {
+      "term": "Urticaria",
+      "arm_name": "placebo",
+      "n_patients": 0,
+      "percent_patients": 0,
+      "is_serious": null,
+      "evidence": []
+    },
+    {
+      "term": "Urticaria",
+      "arm_name": "Liraglutide, 3.0 mg",
+      "n_patients": 1,
+      "percent_patients": 3,
+      "is_serious": null,
+      "evidence": []
+    },
+    {
+      "term": "Fatigue",
+      "arm_name": "placebo",
+      "n_patients": 2,
+      "percent_patients": 6,
+      "is_serious": null,
+      "evidence": []
+    },
+    {
+      "term": "Fatigue",
+      "arm_name": "Liraglutide, 3.0 mg",
+      "n_patients": 5,
+      "percent_patients": 14,
+      "is_serious": null,
+      "evidence": []
+    },
+    {
+      "term": "Insomnia",
+      "arm_name": "placebo",
+      "n_patients": 2,
+      "percent_patients": 6,
+      "is_serious": null,
+      "evidence": []
+    },
+    {
+      "term": "Insomnia",
+      "arm_name": "Liraglutide, 3.0 mg",
+      "n_patients": 0,
+      "percent_patients": 0,
+      "is_serious": null,
+      "evidence": []
+    },
+    {
+      "term": "Dizziness",
+      "arm_name": "placebo",
+      "n_patients": 2,
+      "percent_patients": 6,
+      "is_serious": null,
+      "evidence": []
+    },
+    {
+      "term": "Dizziness",
+      "arm_name": "Liraglutide, 3.0 mg",
+      "n_patients": 3,
+      "percent_patients": 9,
+      "is_serious": null,
+      "evidence": []
+    },
+    {
+      "term": "Palpitations",
+      "arm_name": "placebo",
+      "n_patients": 1,
+      "percent_patients": 3,
+      "is_serious": null,
+      "evidence": []
+    },
+    {
+      "term": "Palpitations",
+      "arm_name": "Liraglutide, 3.0 mg",
+      "n_patients": 3,
+      "percent_patients": 9,
+      "is_serious": null,
+      "evidence": []
+    },
+    {
+      "term": "Upper respiratory tract infection",
+      "arm_name": "placebo",
+      "n_patients": 2,
+      "percent_patients": 6,
+      "is_serious": null,
+      "evidence": []
+    },
+    {
+      "term": "Upper respiratory tract infection",
+      "arm_name": "Liraglutide, 3.0 mg",
+      "n_patients": 5,
+      "percent_patients": 14,
+      "is_serious": null,
+      "evidence": []
+    },
+    {
+      "term": "Influenza",
+      "arm_name": "placebo",
+      "n_patients": 2,
+      "percent_patients": 6,
+      "is_serious": null,
+      "evidence": []
+    },
+    {
+      "term": "Influenza",
+      "arm_name": "Liraglutide, 3.0 mg",
+      "n_patients": 3,
+      "percent_patients": 9,
+      "is_serious": null,
+      "evidence": []
+    },
+    {
+      "term": "Decreased appetite",
+      "arm_name": "placebo",
+      "n_patients": 3,
+      "percent_patients": 9,
+      "is_serious": null,
+      "evidence": []
+    },
+    {
+      "term": "Decreased appetite",
+      "arm_name": "Liraglutide, 3.0 mg",
+      "n_patients": 11,
+      "percent_patients": 31,
+      "is_serious": null,
+      "evidence": []
+    },
+    {
+      "term": "Dry mouth",
+      "arm_name": "placebo",
+      "n_patients": 2,
+      "percent_patients": 6,
+      "is_serious": null,
+      "evidence": []
+    },
+    {
+      "term": "Dry mouth",
+      "arm_name": "Liraglutide, 3.0 mg",
+      "n_patients": 3,
+      "percent_patients": 9,
+      "is_serious": null,
+      "evidence": []
+    },
+    {
+      "term": "Back pain",
+      "arm_name": "placebo",
+      "n_patients": 0,
+      "percent_patients": 0,
+      "is_serious": null,
+      "evidence": []
+    },
+    {
+      "term": "Back pain",
+      "arm_name": "Liraglutide, 3.0 mg",
+      "n_patients": 1,
+      "percent_patients": 3,
+      "is_serious": null,
+      "evidence": []
+    },
+    {
+      "term": "Arthralgia",
+      "arm_name": "placebo",
+      "n_patients": 2,
+      "percent_patients": 6,
+      "is_serious": null,
+      "evidence": []
+    },
+    {
+      "term": "Arthralgia",
+      "arm_name": "Liraglutide, 3.0 mg",
+      "n_patients": 2,
+      "percent_patients": 6,
+      "is_serious": null,
+      "evidence": []
+    },
+    {
+      "term": "Serious AEs",
+      "arm_name": "placebo",
+      "n_patients": 0,
+      "percent_patients": 0,
+      "is_serious": true,
+      "evidence": []
+    },
+    {
+      "term": "Serious AEs",
+      "arm_name": "Liraglutide, 3.0 mg",
+      "n_patients": 0,
+      "percent_patients": 0,
+      "is_serious": true,
+      "evidence": []
     }
+
   ]
 }

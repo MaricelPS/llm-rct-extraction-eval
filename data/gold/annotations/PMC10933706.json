@@ -3,52 +3,89 @@
   "trial_registration": "TODO",
   "design_notes": null,
   "population": {
-    "condition": "TODO",
+    "condition": "type 2 diabetes mellitus and peripheral artery disease",
     "key_inclusion_criteria": [
-      "TODO"
+      "age 35 years or older",
+      "type 2 diabetes mellitus",
+      "diagnosis of peripheral artery disease",
+      "TcPo2 of the foot between 30 and 49 mm Hg",
+      "HbA1c ranging from 6.5% to 8% while taking stable doses of glucose-lowering medications"
     ],
-    "mean_age": null,
-    "percent_female": null,
-    "evidence": []
+    "mean_age": 67.5,
+    "percent_female": 22,
+    "evidence": [
+      "Participants were aged 35 years or older, had type 2 diabetes and PAD, TcPo2 of 30–49 mm Hg, and HbA1c of 6.5%–8% on stable glucose-lowering medication. :chatgpt-content-reference{index="0"}",
+      "Fifty-five participants had a mean age of 67.5 years; 43 (78%) were male and 12 (22%) female. :chatgpt-content-reference{index="1"}"
+    ]
   },
   "arms": [
     {
-      "name": "TODO",
-      "role": "TODO",
-      "drug": "TODO",
-      "dose": "TODO",
-      "route": "TODO",
+      "name": "liraglutide group",
+      "role": "experimental",
+      "drug": "liraglutide",
+      "dose": "1.8 mg/d",
+      "route": "subcutaneous",
       "is_fixed_combination": false,
-      "n_randomized": null,
-      "n_analyzed": null,
-      "evidence": []
+      "n_randomized": 27,
+      "n_analyzed": 27,
+      "evidence": [
+        "Participants received liraglutide subcutaneous injections, starting at 0.6 mg once daily and titrated weekly to a target dose of 1.8 mg or the maximum tolerated dose. :chatgpt-content-reference{index="2"}",
+        "Twenty-seven participants were randomized to the liraglutide group and were included in the final analysis. :chatgpt-content-reference{index="3"}"
+      ]
+    },
+    {
+      "name": "control group",
+      "role": "active_comparator",
+      "drug": null,
+      "dose": null,
+      "route": null,
+      "is_fixed_combination": false,
+      "n_randomized": 28,
+      "n_analyzed": 28,
+      "evidence": [
+        "Participants were randomized to a matching control group receiving conventional treatment of cardiovascular risk factors. :chatgpt-content-reference{index="4"}",
+        "Twenty-eight participants were randomized to the control group and were included in the final analysis. :chatgpt-content-reference{index="5"}"
+      ]
     }
   ],
   "outcomes": [
     {
-      "name": "TODO",
+      "name": "change from baseline in peripheral perfusion (TcPo2)",
       "is_primary": true,
-      "timepoint": "TODO",
-      "comparison": "TODO vs TODO",
-      "effect_measure": "TODO",
-      "estimand": "TODO",
-      "value": null,
-      "ci_lower": null,
-      "ci_upper": null,
-      "ci_level": null,
-      "p_value": null,
+      "timepoint": "6 months",
+      "comparison": "liraglutide group vs control group",
+      "effect_measure": "mean_difference",
+      "value": 11.2,
+      "ci_lower": 8.0,
+      "ci_upper": 14.5,
+      "ci_level": 0.95,
+      "p_value": "< .001",
+      "unit": "mm Hg",
+      "estimand": "not_reported",
+      "evidence": [
+        "The coprimary outcome included the difference in change from baseline of peripheral perfusion between groups. :chatgpt-content-reference{index="6"}",
+        "After 6 months, the estimated treatment difference was 11.2 mm Hg (95% CI, 8.0-14.5 mm Hg; P < .001). :chatgpt-content-reference{index="7"}",
+        "Table 2 reports the estimated treatment difference for liraglutide vs control as 11.2 (8.0 to 14.5) mm Hg. :chatgpt-content-reference{index="8"}"
+      ]
+    },
+    {
+      "name": "proportion of individuals achieving a 10% increase in TcPo2 from baseline",
+      "is_primary": true,
+      "timepoint": "6 months",
+      "comparison": "liraglutide group vs control group",
+      "effect_measure": "risk_ratio",
+      "value": 1.91,
+      "ci_lower": 1.26,
+      "ci_upper": 2.90,
+      "ci_level": 0.95,
+      "p_value": "< .001",
       "unit": null,
-      "evidence": []
+      "estimand": "not_reported",
+      "evidence": [
+        "The second coprimary outcome was the comparison of the proportion of individuals who reached a 10% increase in TcPo2 from baseline in each group. :chatgpt-content-reference{index="9"}",
+        "At 6 months, 24 (89%) participants in the liraglutide group and 13 (46%) in the control group reached the endpoint; relative risk was 1.91 (95% CI, 1.26-2.90; P < .001). :chatgpt-content-reference{index="10"}"
+      ]
     }
   ],
-  "adverse_events": [
-    {
-      "term": "TODO",
-      "arm_name": "TODO",
-      "n_patients": null,
-      "percent_patients": null,
-      "is_serious": null,
-      "evidence": []
-    }
-  ]
+  "adverse_events": []
 }

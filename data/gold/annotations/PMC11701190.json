@@ -3,51 +3,123 @@
   "trial_registration": "TODO",
   "design_notes": null,
   "population": {
-    "condition": "TODO",
+    "condition": "type 2 diabetes mellitus",
     "key_inclusion_criteria": [
-      "TODO"
+      "Adults aged 18–75 years",
+      "HbA1c ≤7.5% (≤58 mmol/mol)",
+      "Receiving multiple daily insulin injections (MDI), defined as at least 3 daily injections of insulin analogues, including at least 2 injections of prandial insulin",
+      "Total daily insulin dose ≤120 units/day",
+      "Prandial insulin dose ≤0.5 units/kg per day",
+      "Background diabetes therapy limited to metformin and/or SGLT2 inhibitors"
     ],
     "mean_age": null,
-    "percent_female": null,
+    "percent_female": 42,
     "evidence": []
   },
   "arms": [
     {
-      "name": "TODO",
-      "role": "TODO",
-      "drug": "TODO",
-      "dose": "TODO",
-      "route": "TODO",
+      "name": "Semaglutide plus basal insulin",
+      "role": "experimental",
+      "drug": "semaglutide + insulin degludec",
+      "dose": "Semaglutide initiated at 0.25 mg once weekly, increased as tolerated to 0.5 mg at Week 4 and 1 mg at Week 8; insulin degludec once daily",
+      "route": "subcutaneous",
       "is_fixed_combination": false,
-      "n_randomized": null,
-      "n_analyzed": null,
+      "n_randomized": 40,
+      "n_analyzed": 40,
+      "evidence": []
+    },
+    {
+      "name": "Multiple daily insulin injections (MDI)",
+      "role": "active_comparator",
+      "drug": "insulin degludec + insulin aspart",
+      "dose": "Insulin degludec once daily plus prandial insulin aspart; doses adjusted according to the study protocol",
+      "route": "subcutaneous",
+      "is_fixed_combination": false,
+      "n_randomized": 20,
+      "n_analyzed": 20,
       "evidence": []
     }
   ],
   "outcomes": [
     {
-      "name": "TODO",
+      "name": "Percentage of participants maintaining HbA1c ≤7.5% (≤58 mmol/mol)",
       "is_primary": true,
-      "timepoint": "TODO",
-      "comparison": "TODO vs TODO",
-      "effect_measure": "TODO",
-      "estimand": "TODO",
-      "value": null,
-      "ci_lower": null,
-      "ci_upper": null,
-      "ci_level": null,
-      "p_value": null,
-      "unit": null,
+      "timepoint": "Week 26",
+      "comparison": "Semaglutide plus basal insulin vs Multiple daily insulin injections (MDI)",
+      "effect_measure": "odds ratio",
+      "value": 2.6,
+      "ci_lower": 0.7,
+      "ci_upper": 11.0,
+      "ci_level": 95,
+      "p_value": "0.18",
+      "unit": "%",
+      "estimand": "not_reported",
       "evidence": []
     }
   ],
   "adverse_events": [
     {
-      "term": "TODO",
-      "arm_name": "TODO",
-      "n_patients": null,
-      "percent_patients": null,
-      "is_serious": null,
+      "term": "Any adverse event",
+      "arm_name": "Multiple daily insulin injections (MDI)",
+      "n_patients": 8,
+      "percent_patients": 40,
+      "is_serious": false,
+      "evidence": []
+    },
+    {
+      "term": "Any adverse event",
+      "arm_name": "Semaglutide plus basal insulin",
+      "n_patients": 16,
+      "percent_patients": 40,
+      "is_serious": false,
+      "evidence": []
+    },
+    {
+      "term": "Serious adverse event",
+      "arm_name": "Multiple daily insulin injections (MDI)",
+      "n_patients": 4,
+      "percent_patients": 20,
+      "is_serious": true,
+      "evidence": []
+    },
+    {
+      "term": "Serious adverse event",
+      "arm_name": "Semaglutide plus basal insulin",
+      "n_patients": 9,
+      "percent_patients": 22,
+      "is_serious": true,
+      "evidence": []
+    },
+    {
+      "term": "Adverse event leading to drug discontinuation",
+      "arm_name": "Multiple daily insulin injections (MDI)",
+      "n_patients": 1,
+      "percent_patients": 5,
+      "is_serious": false,
+      "evidence": []
+    },
+    {
+      "term": "Adverse event leading to drug discontinuation",
+      "arm_name": "Semaglutide plus basal insulin",
+      "n_patients": 2,
+      "percent_patients": 5,
+      "is_serious": false,
+      "evidence": []
+    },
+    {
+      "term": "Adverse event leading to a dose decrease",
+      "arm_name": "Multiple daily insulin injections (MDI)",
+      "n_patients": 1,
+      "percent_patients": 5,
+      "is_serious": false,
+      "evidence": []
+    },
+    {
+      "term": "Adverse event leading to a dose decrease",
+      "arm_name": "Semaglutide plus basal insulin",
+      "n_patients": 4,
+      "percent_patients": 10,
+      "is_serious": false,
       "evidence": []
     }
   ]

@@ -3,52 +3,52 @@
   "trial_registration": "TODO",
   "design_notes": null,
   "population": {
-    "condition": "TODO",
+    "condition": "obesity and prediabetes",
     "key_inclusion_criteria": [
-      "TODO"
+      "age 18–65 years",
+      "body mass index (BMI) 30 kg/m2 or greater",
+      "prediabetes defined by American Diabetes Association criteria",
+      "impaired fasting serum glucose level 100–125 mg/dL, or impaired glucose tolerance 140–199 mg/dL at 2 hours after 75-g oral glucose challenge, or fasting serum glycated haemoglobin level of 5.7%–6.4%"
     ],
-    "mean_age": null,
-    "percent_female": null,
+    "mean_age": 50.3,
+    "percent_female": 68,
     "evidence": []
   },
   "arms": [
     {
-      "name": "TODO",
-      "role": "TODO",
-      "drug": "TODO",
-      "dose": "TODO",
-      "route": "TODO",
+      "name": "Liraglutide",
+      "role": "experimental",
+      "drug": "liraglutide",
+      "dose": "1.8 mg/d",
+      "route": "subcutaneous",
       "is_fixed_combination": false,
-      "n_randomized": null,
-      "n_analyzed": null,
+      "n_randomized": 44,
+      "n_analyzed": 44,
+      "evidence": []
+    },
+    {
+      "name": "Sitagliptin",
+      "role": "active_comparator",
+      "drug": "sitagliptin",
+      "dose": "100 mg/d",
+      "route": "oral",
+      "is_fixed_combination": false,
+      "n_randomized": 22,
+      "n_analyzed": 22,
+      "evidence": []
+    },
+    {
+      "name": "Caloric restriction",
+      "role": "active_comparator",
+      "drug": null,
+      "dose": null,
+      "route": null,
+      "is_fixed_combination": false,
+      "n_randomized": 22,
+      "n_analyzed": 22,
       "evidence": []
     }
   ],
-  "outcomes": [
-    {
-      "name": "TODO",
-      "is_primary": true,
-      "timepoint": "TODO",
-      "comparison": "TODO vs TODO",
-      "effect_measure": "TODO",
-      "estimand": "TODO",
-      "value": null,
-      "ci_lower": null,
-      "ci_upper": null,
-      "ci_level": null,
-      "p_value": null,
-      "unit": null,
-      "evidence": []
-    }
-  ],
-  "adverse_events": [
-    {
-      "term": "TODO",
-      "arm_name": "TODO",
-      "n_patients": null,
-      "percent_patients": null,
-      "is_serious": null,
-      "evidence": []
-    }
-  ]
+  "outcomes": [],
+  "adverse_events": []
 }

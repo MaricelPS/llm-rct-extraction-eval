@@ -3,9 +3,13 @@
   "trial_registration": "TODO",
   "design_notes": null,
   "population": {
-    "condition": "TODO",
+    "condition": "type 2 diabetes mellitus, obesity and functional hypogonadism",
     "key_inclusion_criteria": [
-      "TODO"
+      "Men aged 18–65 years",
+      "Type 2 diabetes on oral antidiabetic treatment",
+      "BMI above 30 kg/m2",
+      "Total testosterone less than 11 nmol/L measured on at least two separate morning measurements at least 4 weeks apart",
+      "At least two symptoms of sexual dysfunction and low or inappropriately normal gonadotropin levels"
     ],
     "mean_age": null,
     "percent_female": null,
@@ -13,42 +17,104 @@
   },
   "arms": [
     {
-      "name": "TODO",
-      "role": "TODO",
-      "drug": "TODO",
-      "dose": "TODO",
-      "route": "TODO",
+      "name": "Semaglutide",
+      "role": "experimental",
+      "drug": "semaglutide",
+      "dose": "1 mg QW from the third month onwards; titrated at 0.25 mg QW over the first month and 0.5 mg QW over the second month",
+      "route": "subcutaneous",
       "is_fixed_combination": false,
-      "n_randomized": null,
-      "n_analyzed": null,
+      "n_randomized": 13,
+      "n_analyzed": 13,
+      "evidence": []
+    },
+    {
+      "name": "Testosterone",
+      "role": "active_comparator",
+      "drug": "testosterone undecanoate",
+      "dose": "1000 mg once 10–12 weeks",
+      "route": "other",
+      "is_fixed_combination": false,
+      "n_randomized": 12,
+      "n_analyzed": 12,
       "evidence": []
     }
   ],
   "outcomes": [
     {
-      "name": "TODO",
+      "name": "change in semen volume",
       "is_primary": true,
-      "timepoint": "TODO",
-      "comparison": "TODO vs TODO",
-      "effect_measure": "TODO",
-      "estimand": "TODO",
+      "timepoint": "24 weeks",
+      "comparison": "Semaglutide vs Testosterone",
+      "effect_measure": "other",
       "value": null,
       "ci_lower": null,
       "ci_upper": null,
       "ci_level": null,
       "p_value": null,
-      "unit": null,
+      "unit": "mL",
+      "estimand": "not_reported",
+      "evidence": []
+    },
+    {
+      "name": "change in sperm concentration",
+      "is_primary": true,
+      "timepoint": "24 weeks",
+      "comparison": "Semaglutide vs Testosterone",
+      "effect_measure": "other",
+      "value": null,
+      "ci_lower": null,
+      "ci_upper": null,
+      "ci_level": null,
+      "p_value": "0.002",
+      "unit": "10^6/mL",
+      "estimand": "not_reported",
+      "evidence": []
+    },
+    {
+      "name": "change in total sperm number",
+      "is_primary": true,
+      "timepoint": "24 weeks",
+      "comparison": "Semaglutide vs Testosterone",
+      "effect_measure": "other",
+      "value": null,
+      "ci_lower": null,
+      "ci_upper": null,
+      "ci_level": null,
+      "p_value": "0.026",
+      "unit": "10^6/ejaculate",
+      "estimand": "not_reported",
+      "evidence": []
+    },
+    {
+      "name": "change in total motility",
+      "is_primary": true,
+      "timepoint": "24 weeks",
+      "comparison": "Semaglutide vs Testosterone",
+      "effect_measure": "other",
+      "value": null,
+      "ci_lower": null,
+      "ci_upper": null,
+      "ci_level": null,
+      "p_value": null,
+      "unit": "%",
+      "estimand": "not_reported",
+      "evidence": []
+    },
+    {
+      "name": "change in morphologically normal sperm",
+      "is_primary": true,
+      "timepoint": "24 weeks",
+      "comparison": "Semaglutide vs Testosterone",
+      "effect_measure": "other",
+      "value": null,
+      "ci_lower": null,
+      "ci_upper": null,
+      "ci_level": null,
+      "p_value": "0.001",
+      "unit": "%",
+      "estimand": "not_reported",
       "evidence": []
     }
   ],
-  "adverse_events": [
-    {
-      "term": "TODO",
-      "arm_name": "TODO",
-      "n_patients": null,
-      "percent_patients": null,
-      "is_serious": null,
-      "evidence": []
-    }
-  ]
+  "adverse_events": []
 }

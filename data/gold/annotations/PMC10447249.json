@@ -3,9 +3,12 @@
   "trial_registration": "TODO",
   "design_notes": null,
   "population": {
-    "condition": "TODO",
+    "condition": "obesity and impaired insulin sensitivity",
     "key_inclusion_criteria": [
-      "TODO"
+      "healthy volunteers with a large variance in body weight",
+      "medication-free non-smokers",
+      "no history of neurological, psychiatric, gastrointestinal or eating disorders",
+      "no special diets"
     ],
     "mean_age": null,
     "percent_female": null,
@@ -13,11 +16,22 @@
   },
   "arms": [
     {
-      "name": "TODO",
-      "role": "TODO",
-      "drug": "TODO",
-      "dose": "TODO",
-      "route": "TODO",
+      "name": "liraglutide",
+      "role": "experimental",
+      "drug": "liraglutide",
+      "dose": "0.6 mg",
+      "route": "subcutaneous",
+      "is_fixed_combination": false,
+      "n_randomized": null,
+      "n_analyzed": null,
+      "evidence": []
+    },
+    {
+      "name": "placebo",
+      "role": "placebo",
+      "drug": null,
+      "dose": null,
+      "route": "subcutaneous",
       "is_fixed_combination": false,
       "n_randomized": null,
       "n_analyzed": null,
@@ -26,29 +40,20 @@
   ],
   "outcomes": [
     {
-      "name": "TODO",
+      "name": "adaptive prediction error",
       "is_primary": true,
-      "timepoint": "TODO",
-      "comparison": "TODO vs TODO",
-      "effect_measure": "TODO",
-      "estimand": "TODO",
+      "timepoint": "during the associative learning task",
+      "comparison": "liraglutide vs placebo",
+      "effect_measure": null,
       "value": null,
       "ci_lower": null,
       "ci_upper": null,
       "ci_level": null,
-      "p_value": null,
+      "p_value": "< 0.001",
       "unit": null,
+      "estimand": "not_reported",
       "evidence": []
     }
   ],
-  "adverse_events": [
-    {
-      "term": "TODO",
-      "arm_name": "TODO",
-      "n_patients": null,
-      "percent_patients": null,
-      "is_serious": null,
-      "evidence": []
-    }
-  ]
+  "adverse_events": []
 }
