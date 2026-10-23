@@ -1,6 +1,6 @@
 {
   "pmcid": "PMC10971983",
-  "trial_registration": "TODO",
+  "trial_registration": null,
   "design_notes": null,
   "population": {
     "condition": "type 2 diabetes mellitus at high or exceptionally high cardiovascular risk",
@@ -12,25 +12,19 @@
     ],
     "mean_age": 59.5,
     "percent_female": null,
-    "evidence": [
-      "Patients were included if they had type 2 diabetes treated with metformin and were at high or exceptionally high cardiovascular risk; HbA1c >7% was an inclusion criterion. :chatgpt-content-reference{index="0"}",
-      "The final analysis included 200 patients with a mean age of 59.5 ± 9.1 years. :chatgpt-content-reference{index="1"}"
-    ]
+    "evidence": []
   },
   "arms": [
-   {
+    {
       "name": "Insulin",
       "role": "active_comparator",
       "drug": "basal insulin",
       "dose": null,
-      "route": null,
+      "route": "not_reported",
       "is_fixed_combination": false,
       "n_randomized": 50,
       "n_analyzed": 50,
-      "evidence": [
-        "Patients were randomized to basal insulin, liraglutide, empagliflozin, or the combination for 6 months. :chatgpt-content-reference{index="2"}",
-        "The final analysis included 50 patients in the insulin group. :chatgpt-content-reference{index="3"}"
-      ]
+      "evidence": []
     },
     {
       "name": "GLP1 (Liraglutide)",
@@ -41,10 +35,7 @@
       "is_fixed_combination": false,
       "n_randomized": 50,
       "n_analyzed": 50,
-      "evidence": [
-        "Patients received 1.8 mg of liraglutide subcutaneously once daily for 6 months. :chatgpt-content-reference{index="4"}",
-        "The study included 50 patients in the GLP1 (liraglutide) group. :chatgpt-content-reference{index="5"}"
-      ]
+      "evidence": []
     },
     {
       "name": "SGLT2 (Empagliflozin)",
@@ -55,24 +46,18 @@
       "is_fixed_combination": false,
       "n_randomized": 50,
       "n_analyzed": 50,
-      "evidence": [
-        "Patients received 25 mg of empagliflozin per os once daily for 6 months. :chatgpt-content-reference{index="6"}",
-        "The study included 50 patients in the SGLT2 (empagliflozin) group. :chatgpt-content-reference{index="7"}"
-      ]
+      "evidence": []
     },
     {
       "name": "GLP1 & SGLT2 (Liraglutide and Empagliflozin)",
       "role": "experimental",
       "drug": "liraglutide + empagliflozin",
       "dose": "1.8 mg liraglutide daily + 25 mg empagliflozin daily",
-      "route": "subcutaneous + oral",
+      "route": "other",
       "is_fixed_combination": true,
       "n_randomized": 50,
       "n_analyzed": 50,
-      "evidence": [
-        "The combination consisted of liraglutide and empagliflozin administered for 6 months; liraglutide was 1.8 mg daily and empagliflozin 25 mg daily. :chatgpt-content-reference{index="8"}",
-        "The study included 50 patients in the GLP1 & SGLT2 group. :chatgpt-content-reference{index="9"}"
-      ]
+      "evidence": []
     }
   ],
   "outcomes": [
@@ -81,7 +66,7 @@
       "is_primary": true,
       "timepoint": "6 months",
       "comparison": "GLP1 & SGLT2 (Liraglutide and Empagliflozin) vs Insulin",
-      "effect_measure": null,
+      "effect_measure": "other",
       "value": null,
       "ci_lower": null,
       "ci_upper": null,
@@ -89,17 +74,14 @@
       "p_value": "0.005",
       "unit": "%",
       "estimand": "not_reported",
-      "evidence": [
-        "The primary endpoint was alteration in left atrial function, assessed by LA strain after 6 months of treatment. :chatgpt-content-reference{index="10"}",
-        "The combination produced a greater improvement in LA reservoir strain than insulin, liraglutide, and empagliflozin; the comparison with insulin had p = 0.005. :chatgpt-content-reference{index="11"}"
-      ]
+      "evidence": []
     },
     {
       "name": "alteration in left atrial function assessed by left atrial reservoir strain",
       "is_primary": true,
       "timepoint": "6 months",
       "comparison": "GLP1 & SGLT2 (Liraglutide and Empagliflozin) vs GLP1 (Liraglutide)",
-      "effect_measure": null,
+      "effect_measure": "other",
       "value": null,
       "ci_lower": null,
       "ci_upper": null,
@@ -107,16 +89,14 @@
       "p_value": "0.015",
       "unit": "%",
       "estimand": "not_reported",
-      "evidence": [
-        "The combination resulted in a greater improvement in LA reservoir strain than the liraglutide group, with p = 0.015. :chatgpt-content-reference{index="12"}"
-      ]
+      "evidence": []
     },
     {
       "name": "alteration in left atrial function assessed by left atrial reservoir strain",
       "is_primary": true,
       "timepoint": "6 months",
       "comparison": "GLP1 & SGLT2 (Liraglutide and Empagliflozin) vs SGLT2 (Empagliflozin)",
-      "effect_measure": null,
+      "effect_measure": "other",
       "value": null,
       "ci_lower": null,
       "ci_upper": null,
@@ -124,9 +104,7 @@
       "p_value": "0.017",
       "unit": "%",
       "estimand": "not_reported",
-      "evidence": [
-        "The combination resulted in a greater improvement in LA reservoir strain than the empagliflozin group, with p = 0.017. :chatgpt-content-reference{index="13"}"
-      ]
+      "evidence": []
     }
   ],
   "adverse_events": []

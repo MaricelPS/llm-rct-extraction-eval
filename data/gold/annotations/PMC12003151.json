@@ -1,5 +1,7 @@
-
 {
+  "pmcid": "PMC12003151",
+  "trial_registration": "TODO",
+  "design_notes": null,
   "population": {
     "condition": "Type 1 diabetes mellitus (T1D) in adults using insulin pump therapy and automated insulin delivery",
     "key_inclusion_criteria": "Age 18 years or older; diagnosis of T1D for at least 1 year; insulin pump use for at least 3 months; HbA1c ≤11%; participants with child-bearing potential agreed to use a highly effective method of birth control or actively avoid pregnancy during the trial.",

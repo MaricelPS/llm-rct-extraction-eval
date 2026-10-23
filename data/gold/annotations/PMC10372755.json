@@ -1,6 +1,6 @@
 {
   "pmcid": "PMC10372755",
-  "trial_registration": "TODO",
+  "trial_registration": "NCT03341429",
   "design_notes": null,
   "population": {
     "condition": "poor weight loss and a suboptimal GLP-1 response after metabolic surgery",
@@ -51,7 +51,8 @@
       "ci_level": 0.95,
       "p_value": "<.001",
       "unit": "%",
-      "evidence": []
+      "evidence": [],
+      "estimand": "not_reported"
     }
   ],
   "adverse_events": [
@@ -407,6 +408,5 @@
       "is_serious": true,
       "evidence": []
     }
-
   ]
 }

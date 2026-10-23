@@ -1,6 +1,6 @@
 {
   "pmcid": "PMC11410852",
-  "trial_registration": "TODO",
+  "trial_registration": "NCT04017832",
   "design_notes": null,
   "population": {
     "condition": "type 2 diabetes mellitus inadequately controlled with metformin in a predominantly Chinese population",
@@ -12,10 +12,7 @@
     ],
     "mean_age": 53,
     "percent_female": null,
-    "evidence": [
-      "Eligibility criteria included age ≥18 years (≥20 years in Taiwan), type 2 diabetes diagnosed ≥60 days before screening, HbA1c 53–91 mmol/mol, and stable metformin treatment for ≥60 days. fileciteturn18file0",
-      "The overall population had a mean age of 53 years; 58.3% (n=840) were male. The overall female percentage was not explicitly reported. fileciteturn18file0"
-    ]
+    "evidence": []
   },
   "arms": [
     {
@@ -27,9 +24,7 @@
       "is_fixed_combination": false,
       "n_randomized": 361,
       "n_analyzed": 361,
-      "evidence": [
-        "Participants were randomised to once-daily oral semaglutide 3 mg; 361 participants were randomised and included in the full analysis set. fileciteturn18file0"
-      ]
+      "evidence": []
     },
     {
       "name": "oral semaglutide 7 mg",
@@ -40,9 +35,7 @@
       "is_fixed_combination": false,
       "n_randomized": 360,
       "n_analyzed": 360,
-      "evidence": [
-        "Participants were randomised to once-daily oral semaglutide 7 mg; 360 participants were randomised and included in the full analysis set. fileciteturn18file0"
-      ]
+      "evidence": []
     },
     {
       "name": "oral semaglutide 14 mg",
@@ -53,9 +46,7 @@
       "is_fixed_combination": false,
       "n_randomized": 361,
       "n_analyzed": 361,
-      "evidence": [
-        "Participants were randomised to once-daily oral semaglutide 14 mg; 361 participants were randomised and included in the full analysis set. fileciteturn18file0"
-      ]
+      "evidence": []
     },
     {
       "name": "sitagliptin 100 mg",
@@ -66,9 +57,7 @@
       "is_fixed_combination": false,
       "n_randomized": 359,
       "n_analyzed": 359,
-      "evidence": [
-        "Participants were randomised to once-daily oral sitagliptin 100 mg; 359 participants were randomised and included in the full analysis set. fileciteturn18file0"
-      ]
+      "evidence": []
     }
   ],
   "outcomes": [
@@ -77,240 +66,655 @@
       "timepoint": "26 weeks",
       "comparison": "oral semaglutide 3 mg vs sitagliptin 100 mg",
       "effect_measure": "mean_difference",
-      "effect_value": "-2",
-      "ci_lower": "-4",
-      "ci_upper": "-1",
+      "ci_lower": -4,
+      "ci_upper": -1,
       "ci_level": 0.95,
       "p_value": "p<0.01",
       "unit": "mmol/mol",
       "estimand": "other",
-      "evidence": [
-        "The primary endpoint was change in HbA1c from baseline to week 26. The estimated treatment difference for oral semaglutide 3 mg versus sitagliptin 100 mg was −2 mmol/mol (95% CI −4, −1; p<0.01) for the trial product estimand. fileciteturn18file0"
-      ]
+      "evidence": [],
+      "value": -2,
+      "is_primary": true
     },
     {
       "name": "Change in HbA1c from baseline to week 26",
       "timepoint": "26 weeks",
       "comparison": "oral semaglutide 7 mg vs sitagliptin 100 mg",
       "effect_measure": "mean_difference",
-      "effect_value": "-8",
-      "ci_lower": "-9",
-      "ci_upper": "-6",
+      "ci_lower": -9,
+      "ci_upper": -6,
       "ci_level": 0.95,
       "p_value": "p<0.001",
       "unit": "mmol/mol",
       "estimand": "other",
-      "evidence": [
-        "The estimated treatment difference for oral semaglutide 7 mg versus sitagliptin 100 mg was −8 mmol/mol (95% CI −9, −6; p<0.001) for the trial product estimand. fileciteturn18file0"
-      ]
+      "evidence": [],
+      "value": -8,
+      "is_primary": true
     },
     {
       "name": "Change in HbA1c from baseline to week 26",
       "timepoint": "26 weeks",
       "comparison": "oral semaglutide 14 mg vs sitagliptin 100 mg",
       "effect_measure": "mean_difference",
-      "effect_value": "-11",
-      "ci_lower": "-12",
-      "ci_upper": "-9",
+      "ci_lower": -12,
+      "ci_upper": -9,
       "ci_level": 0.95,
       "p_value": "p<0.001",
       "unit": "mmol/mol",
       "estimand": "other",
-      "evidence": [
-        "The estimated treatment difference for oral semaglutide 14 mg versus sitagliptin 100 mg was −11 mmol/mol (95% CI −12, −9; p<0.001) for the trial product estimand. fileciteturn18file0"
-      ]
+      "evidence": [],
+      "value": -11,
+      "is_primary": true
     }
   ],
   "adverse_events": [
     {
-      "event": "Any adverse event",
-      "arm": "oral semaglutide 3 mg",
+      "term": "Any AE",
+      "arm_name": "oral semaglutide 3 mg",
       "n_patients": 234,
-      "percentage": "64.8%",
+      "percent_patients": 64.8,
       "is_serious": null,
-      "evidence": [
-        "Table 3 reports any adverse event in 234 participants (64.8%) in the oral semaglutide 3 mg arm. fileciteturn18file0"
-      ]
+      "evidence": []
     },
     {
-      "event": "Any adverse event",
-      "arm": "oral semaglutide 7 mg",
+      "term": "Any AE",
+      "arm_name": "oral semaglutide 7 mg",
       "n_patients": 257,
-      "percentage": "71.8%",
+      "percent_patients": 71.8,
       "is_serious": null,
-      "evidence": [
-        "Table 3 reports any adverse event in 257 participants (71.8%) in the oral semaglutide 7 mg arm. fileciteturn18file0"
-      ]
+      "evidence": []
     },
     {
-      "event": "Any adverse event",
-      "arm": "oral semaglutide 14 mg",
+      "term": "Any AE",
+      "arm_name": "oral semaglutide 14 mg",
       "n_patients": 263,
-      "percentage": "72.9%",
+      "percent_patients": 72.9,
       "is_serious": null,
-      "evidence": [
-        "Table 3 reports any adverse event in 263 participants (72.9%) in the oral semaglutide 14 mg arm. fileciteturn18file0"
-      ]
+      "evidence": []
     },
     {
-      "event": "Serious adverse events",
-      "arm": "oral semaglutide 3 mg",
-      "n_patients": 16,
-      "percentage": "4.4%",
-      "is_serious": true,
-      "evidence": [
-        "Table 3 reports serious adverse events in 16 participants (4.4%) in the oral semaglutide 3 mg arm. fileciteturn18file0"
-      ]
-    },
-    {
-      "event": "Serious adverse events",
-      "arm": "oral semaglutide 7 mg",
-      "n_patients": 11,
-      "percentage": "3.1%",
-      "is_serious": true,
-      "evidence": [
-        "Table 3 reports serious adverse events in 11 participants (3.1%) in the oral semaglutide 7 mg arm. fileciteturn18file0"
-      ]
-    },
-    {
-      "event": "Serious adverse events",
-      "arm": "oral semaglutide 14 mg",
-      "n_patients": 11,
-      "percentage": "3.0%",
-      "is_serious": true,
-      "evidence": [
-        "Table 3 reports serious adverse events in 11 participants (3.0%) in the oral semaglutide 14 mg arm. fileciteturn18file0"
-      ]
-    },
-    {
-      "event": "Nausea",
-      "arm": "oral semaglutide 3 mg",
-      "n_patients": 36,
-      "percentage": "10.0%",
+      "term": "Any AE",
+      "arm_name": "sitagliptin 100 mg",
+      "n_patients": 237,
+      "percent_patients": 66.2,
       "is_serious": null,
-      "evidence": [
-        "Nausea was reported in 36 participants (10.0%) in the oral semaglutide 3 mg arm. fileciteturn18file0"
-      ]
+      "evidence": []
     },
     {
-      "event": "Nausea",
-      "arm": "oral semaglutide 7 mg",
-      "n_patients": 39,
-      "percentage": "10.9%",
+      "term": "AEs by severity: Mild",
+      "arm_name": "oral semaglutide 3 mg",
+      "n_patients": 221,
+      "percent_patients": 61.2,
       "is_serious": null,
-      "evidence": [
-        "Nausea was reported in 39 participants (10.9%) in the oral semaglutide 7 mg arm. fileciteturn18file0"
-      ]
+      "evidence": []
     },
     {
-      "event": "Nausea",
-      "arm": "oral semaglutide 14 mg",
+      "term": "AEs by severity: Mild",
+      "arm_name": "oral semaglutide 7 mg",
+      "n_patients": 240,
+      "percent_patients": 67.0,
+      "is_serious": null,
+      "evidence": []
+    },
+    {
+      "term": "AEs by severity: Mild",
+      "arm_name": "oral semaglutide 14 mg",
+      "n_patients": 238,
+      "percent_patients": 65.9,
+      "is_serious": null,
+      "evidence": []
+    },
+    {
+      "term": "AEs by severity: Mild",
+      "arm_name": "sitagliptin 100 mg",
+      "n_patients": 219,
+      "percent_patients": 61.2,
+      "is_serious": null,
+      "evidence": []
+    },
+    {
+      "term": "AEs by severity: Moderate",
+      "arm_name": "oral semaglutide 3 mg",
       "n_patients": 44,
-      "percentage": "12.2%",
+      "percent_patients": 12.2,
       "is_serious": null,
-      "evidence": [
-        "Nausea was reported in 44 participants (12.2%) in the oral semaglutide 14 mg arm. fileciteturn18file0"
-      ]
+      "evidence": []
     },
     {
-      "event": "Diarrhoea",
-      "arm": "oral semaglutide 3 mg",
-      "n_patients": 30,
-      "percentage": "8.3%",
+      "term": "AEs by severity: Moderate",
+      "arm_name": "oral semaglutide 7 mg",
+      "n_patients": 57,
+      "percent_patients": 15.9,
       "is_serious": null,
-      "evidence": [
-        "Diarrhoea was reported in 30 participants (8.3%) in the oral semaglutide 3 mg arm. fileciteturn18file0"
-      ]
+      "evidence": []
     },
     {
-      "event": "Diarrhoea",
-      "arm": "oral semaglutide 7 mg",
-      "n_patients": 32,
-      "percentage": "8.9%",
+      "term": "AEs by severity: Moderate",
+      "arm_name": "oral semaglutide 14 mg",
+      "n_patients": 73,
+      "percent_patients": 20.2,
       "is_serious": null,
-      "evidence": [
-        "Diarrhoea was reported in 32 participants (8.9%) in the oral semaglutide 7 mg arm. fileciteturn18file0"
-      ]
+      "evidence": []
     },
     {
-      "event": "Diarrhoea",
-      "arm": "oral semaglutide 14 mg",
-      "n_patients": 48,
-      "percentage": "13.3%",
+      "term": "AEs by severity: Moderate",
+      "arm_name": "sitagliptin 100 mg",
+      "n_patients": 56,
+      "percent_patients": 15.6,
       "is_serious": null,
-      "evidence": [
-        "Diarrhoea was reported in 48 participants (13.3%) in the oral semaglutide 14 mg arm. fileciteturn18file0"
-      ]
+      "evidence": []
     },
     {
-      "event": "Vomiting",
-      "arm": "oral semaglutide 3 mg",
-      "n_patients": 16,
-      "percentage": "4.4%",
+      "term": "AEs by severity: Severe",
+      "arm_name": "oral semaglutide 3 mg",
+      "n_patients": 8,
+      "percent_patients": 2.2,
       "is_serious": null,
-      "evidence": [
-        "Vomiting was reported in 16 participants (4.4%) in the oral semaglutide 3 mg arm. fileciteturn18file0"
-      ]
+      "evidence": []
     },
     {
-      "event": "Vomiting",
-      "arm": "oral semaglutide 7 mg",
-      "n_patients": 18,
-      "percentage": "5.0%",
+      "term": "AEs by severity: Severe",
+      "arm_name": "oral semaglutide 7 mg",
+      "n_patients": 12,
+      "percent_patients": 3.4,
       "is_serious": null,
-      "evidence": [
-        "Vomiting was reported in 18 participants (5.0%) in the oral semaglutide 7 mg arm. fileciteturn18file0"
-      ]
+      "evidence": []
     },
     {
-      "event": "Vomiting",
-      "arm": "oral semaglutide 14 mg",
-      "n_patients": 29,
-      "percentage": "8.0%",
+      "term": "AEs by severity: Severe",
+      "arm_name": "oral semaglutide 14 mg",
+      "n_patients": 8,
+      "percent_patients": 2.2,
       "is_serious": null,
-      "evidence": [
-        "Vomiting was reported in 29 participants (8.0%) in the oral semaglutide 14 mg arm. fileciteturn18file0"
-      ]
+      "evidence": []
     },
     {
-      "event": "Hypoglycaemic event, level 2",
-      "arm": "oral semaglutide 3 mg",
+      "term": "AEs by severity: Severe",
+      "arm_name": "sitagliptin 100 mg",
       "n_patients": 5,
-      "percentage": "1.4%",
+      "percent_patients": 1.4,
       "is_serious": null,
-      "evidence": [
-        "Table 3 reports level 2 hypoglycaemic events in 5 participants (1.4%) in the oral semaglutide 3 mg arm. fileciteturn18file0"
-      ]
+      "evidence": []
     },
     {
-      "event": "Hypoglycaemic event, level 2",
-      "arm": "oral semaglutide 7 mg",
+      "term": "SAEs",
+      "arm_name": "oral semaglutide 3 mg",
+      "n_patients": 16,
+      "percent_patients": 4.4,
+      "is_serious": true,
+      "evidence": []
+    },
+    {
+      "term": "SAEs",
+      "arm_name": "oral semaglutide 7 mg",
+      "n_patients": 11,
+      "percent_patients": 3.1,
+      "is_serious": true,
+      "evidence": []
+    },
+    {
+      "term": "SAEs",
+      "arm_name": "oral semaglutide 14 mg",
+      "n_patients": 11,
+      "percent_patients": 3.0,
+      "is_serious": true,
+      "evidence": []
+    },
+    {
+      "term": "SAEs",
+      "arm_name": "sitagliptin 100 mg",
+      "n_patients": 15,
+      "percent_patients": 4.2,
+      "is_serious": true,
+      "evidence": []
+    },
+    {
+      "term": "AEs leading to trial product discontinuation",
+      "arm_name": "oral semaglutide 3 mg",
+      "n_patients": 17,
+      "percent_patients": 4.7,
+      "is_serious": null,
+      "evidence": []
+    },
+    {
+      "term": "AEs leading to trial product discontinuation",
+      "arm_name": "oral semaglutide 7 mg",
+      "n_patients": 16,
+      "percent_patients": 4.5,
+      "is_serious": null,
+      "evidence": []
+    },
+    {
+      "term": "AEs leading to trial product discontinuation",
+      "arm_name": "oral semaglutide 14 mg",
+      "n_patients": 35,
+      "percent_patients": 9.7,
+      "is_serious": null,
+      "evidence": []
+    },
+    {
+      "term": "AEs leading to trial product discontinuation",
+      "arm_name": "sitagliptin 100 mg",
+      "n_patients": 6,
+      "percent_patients": 1.7,
+      "is_serious": null,
+      "evidence": []
+    },
+    {
+      "term": "Hypoglycaemic events: Level 1",
+      "arm_name": "oral semaglutide 3 mg",
+      "n_patients": 9,
+      "percent_patients": 2.5,
+      "is_serious": null,
+      "evidence": []
+    },
+    {
+      "term": "Hypoglycaemic events: Level 1",
+      "arm_name": "oral semaglutide 7 mg",
+      "n_patients": 12,
+      "percent_patients": 3.4,
+      "is_serious": null,
+      "evidence": []
+    },
+    {
+      "term": "Hypoglycaemic events: Level 1",
+      "arm_name": "oral semaglutide 14 mg",
+      "n_patients": 22,
+      "percent_patients": 6.1,
+      "is_serious": null,
+      "evidence": []
+    },
+    {
+      "term": "Hypoglycaemic events: Level 1",
+      "arm_name": "sitagliptin 100 mg",
+      "n_patients": 8,
+      "percent_patients": 2.2,
+      "is_serious": null,
+      "evidence": []
+    },
+    {
+      "term": "Hypoglycaemic events: Level 2",
+      "arm_name": "oral semaglutide 3 mg",
+      "n_patients": 5,
+      "percent_patients": 1.4,
+      "is_serious": null,
+      "evidence": []
+    },
+    {
+      "term": "Hypoglycaemic events: Level 2",
+      "arm_name": "oral semaglutide 7 mg",
       "n_patients": 2,
-      "percentage": "0.6%",
+      "percent_patients": 0.6,
       "is_serious": null,
-      "evidence": [
-        "Table 3 reports level 2 hypoglycaemic events in 2 participants (0.6%) in the oral semaglutide 7 mg arm. fileciteturn18file0"
-      ]
+      "evidence": []
     },
     {
-      "event": "Hypoglycaemic event, level 2",
-      "arm": "oral semaglutide 14 mg",
+      "term": "Hypoglycaemic events: Level 2",
+      "arm_name": "oral semaglutide 14 mg",
       "n_patients": 2,
-      "percentage": "0.6%",
+      "percent_patients": 0.6,
       "is_serious": null,
-      "evidence": [
-        "Table 3 reports level 2 hypoglycaemic events in 2 participants (0.6%) in the oral semaglutide 14 mg arm. fileciteturn18file0"
-      ]
+      "evidence": []
     },
     {
-      "event": "Hypoglycaemic event, level 2",
-      "arm": "sitagliptin 100 mg",
+      "term": "Hypoglycaemic events: Level 2",
+      "arm_name": "sitagliptin 100 mg",
+      "n_patients": 1,
+      "percent_patients": 0.4,
+      "is_serious": null,
+      "evidence": []
+    },
+    {
+      "term": "Hypoglycaemic events: Level 3",
+      "arm_name": "oral semaglutide 3 mg",
       "n_patients": 0,
-      "percentage": "0%",
+      "percent_patients": null,
       "is_serious": null,
-      "evidence": [
-        "The article reports that 0% of participants in the sitagliptin 100 mg arm experienced a level 2 hypoglycaemic event. fileciteturn18file0"
-      ]
+      "evidence": []
+    },
+    {
+      "term": "Hypoglycaemic events: Level 3",
+      "arm_name": "oral semaglutide 7 mg",
+      "n_patients": 0,
+      "percent_patients": null,
+      "is_serious": null,
+      "evidence": []
+    },
+    {
+      "term": "Hypoglycaemic events: Level 3",
+      "arm_name": "oral semaglutide 14 mg",
+      "n_patients": 0,
+      "percent_patients": null,
+      "is_serious": null,
+      "evidence": []
+    },
+    {
+      "term": "Hypoglycaemic events: Level 3",
+      "arm_name": "sitagliptin 100 mg",
+      "n_patients": 0,
+      "percent_patients": null,
+      "is_serious": null,
+      "evidence": []
+    },
+    {
+      "term": "EAC-confirmed deaths",
+      "arm_name": "oral semaglutide 3 mg",
+      "n_patients": 2,
+      "percent_patients": 0.6,
+      "is_serious": true,
+      "evidence": []
+    },
+    {
+      "term": "EAC-confirmed deaths",
+      "arm_name": "oral semaglutide 7 mg",
+      "n_patients": 2,
+      "percent_patients": 0.6,
+      "is_serious": true,
+      "evidence": []
+    },
+    {
+      "term": "EAC-confirmed deaths",
+      "arm_name": "oral semaglutide 14 mg",
+      "n_patients": 1,
+      "percent_patients": 0.3,
+      "is_serious": true,
+      "evidence": []
+    },
+    {
+      "term": "EAC-confirmed deaths",
+      "arm_name": "sitagliptin 100 mg",
+      "n_patients": 0,
+      "percent_patients": null,
+      "is_serious": true,
+      "evidence": []
+    },
+    {
+      "term": "Nausea",
+      "arm_name": "oral semaglutide 3 mg",
+      "n_patients": 36,
+      "percent_patients": 10.0,
+      "is_serious": null,
+      "evidence": []
+    },
+    {
+      "term": "Nausea",
+      "arm_name": "oral semaglutide 7 mg",
+      "n_patients": 39,
+      "percent_patients": 10.9,
+      "is_serious": null,
+      "evidence": []
+    },
+    {
+      "term": "Nausea",
+      "arm_name": "oral semaglutide 14 mg",
+      "n_patients": 44,
+      "percent_patients": 12.2,
+      "is_serious": null,
+      "evidence": []
+    },
+    {
+      "term": "Nausea",
+      "arm_name": "sitagliptin 100 mg",
+      "n_patients": 14,
+      "percent_patients": 3.9,
+      "is_serious": null,
+      "evidence": []
+    },
+    {
+      "term": "Diarrhoea",
+      "arm_name": "oral semaglutide 3 mg",
+      "n_patients": 30,
+      "percent_patients": 8.3,
+      "is_serious": null,
+      "evidence": []
+    },
+    {
+      "term": "Diarrhoea",
+      "arm_name": "oral semaglutide 7 mg",
+      "n_patients": 32,
+      "percent_patients": 8.9,
+      "is_serious": null,
+      "evidence": []
+    },
+    {
+      "term": "Diarrhoea",
+      "arm_name": "oral semaglutide 14 mg",
+      "n_patients": 48,
+      "percent_patients": 13.3,
+      "is_serious": null,
+      "evidence": []
+    },
+    {
+      "term": "Diarrhoea",
+      "arm_name": "sitagliptin 100 mg",
+      "n_patients": 16,
+      "percent_patients": 4.5,
+      "is_serious": null,
+      "evidence": []
+    },
+    {
+      "term": "Vomiting",
+      "arm_name": "oral semaglutide 3 mg",
+      "n_patients": 16,
+      "percent_patients": 4.4,
+      "is_serious": null,
+      "evidence": []
+    },
+    {
+      "term": "Vomiting",
+      "arm_name": "oral semaglutide 7 mg",
+      "n_patients": 18,
+      "percent_patients": 5.0,
+      "is_serious": null,
+      "evidence": []
+    },
+    {
+      "term": "Vomiting",
+      "arm_name": "oral semaglutide 14 mg",
+      "n_patients": 29,
+      "percent_patients": 8.0,
+      "is_serious": null,
+      "evidence": []
+    },
+    {
+      "term": "Vomiting",
+      "arm_name": "sitagliptin 100 mg",
+      "n_patients": 1,
+      "percent_patients": 0.3,
+      "is_serious": null,
+      "evidence": []
+    },
+    {
+      "term": "Abdominal distension",
+      "arm_name": "oral semaglutide 3 mg",
+      "n_patients": 7,
+      "percent_patients": 1.9,
+      "is_serious": null,
+      "evidence": []
+    },
+    {
+      "term": "Abdominal distension",
+      "arm_name": "oral semaglutide 7 mg",
+      "n_patients": 16,
+      "percent_patients": 4.5,
+      "is_serious": null,
+      "evidence": []
+    },
+    {
+      "term": "Abdominal distension",
+      "arm_name": "oral semaglutide 14 mg",
+      "n_patients": 17,
+      "percent_patients": 4.7,
+      "is_serious": null,
+      "evidence": []
+    },
+    {
+      "term": "Abdominal distension",
+      "arm_name": "sitagliptin 100 mg",
+      "n_patients": 4,
+      "percent_patients": 1.1,
+      "is_serious": null,
+      "evidence": []
+    },
+    {
+      "term": "Decreased apetite",
+      "arm_name": "oral semaglutide 3 mg",
+      "n_patients": 22,
+      "percent_patients": 6.1,
+      "is_serious": null,
+      "evidence": []
+    },
+    {
+      "term": "Decreased apetite",
+      "arm_name": "oral semaglutide 7 mg",
+      "n_patients": 30,
+      "percent_patients": 8.4,
+      "is_serious": null,
+      "evidence": []
+    },
+    {
+      "term": "Decreased apetite",
+      "arm_name": "oral semaglutide 14 mg",
+      "n_patients": 34,
+      "percent_patients": 9.4,
+      "is_serious": null,
+      "evidence": []
+    },
+    {
+      "term": "Decreased apetite",
+      "arm_name": "sitagliptin 100 mg",
+      "n_patients": 5,
+      "percent_patients": 1.4,
+      "is_serious": null,
+      "evidence": []
+    },
+    {
+      "term": "Upper respiratory tract infection",
+      "arm_name": "oral semaglutide 3 mg",
+      "n_patients": 26,
+      "percent_patients": 7.2,
+      "is_serious": null,
+      "evidence": []
+    },
+    {
+      "term": "Upper respiratory tract infection",
+      "arm_name": "oral semaglutide 7 mg",
+      "n_patients": 26,
+      "percent_patients": 7.3,
+      "is_serious": null,
+      "evidence": []
+    },
+    {
+      "term": "Upper respiratory tract infection",
+      "arm_name": "oral semaglutide 14 mg",
+      "n_patients": 31,
+      "percent_patients": 8.6,
+      "is_serious": null,
+      "evidence": []
+    },
+    {
+      "term": "Upper respiratory tract infection",
+      "arm_name": "sitagliptin 100 mg",
+      "n_patients": 28,
+      "percent_patients": 7.8,
+      "is_serious": null,
+      "evidence": []
+    },
+    {
+      "term": "Increased lipase levels",
+      "arm_name": "oral semaglutide 3 mg",
+      "n_patients": 15,
+      "percent_patients": 4.2,
+      "is_serious": null,
+      "evidence": []
+    },
+    {
+      "term": "Increased lipase levels",
+      "arm_name": "oral semaglutide 7 mg",
+      "n_patients": 17,
+      "percent_patients": 4.7,
+      "is_serious": null,
+      "evidence": []
+    },
+    {
+      "term": "Increased lipase levels",
+      "arm_name": "oral semaglutide 14 mg",
+      "n_patients": 21,
+      "percent_patients": 5.8,
+      "is_serious": null,
+      "evidence": []
+    },
+    {
+      "term": "Increased lipase levels",
+      "arm_name": "sitagliptin 100 mg",
+      "n_patients": 12,
+      "percent_patients": 3.4,
+      "is_serious": null,
+      "evidence": []
+    },
+    {
+      "term": "Diabetic retinopathy",
+      "arm_name": "oral semaglutide 3 mg",
+      "n_patients": 13,
+      "percent_patients": 3.6,
+      "is_serious": null,
+      "evidence": []
+    },
+    {
+      "term": "Diabetic retinopathy",
+      "arm_name": "oral semaglutide 7 mg",
+      "n_patients": 11,
+      "percent_patients": 3.1,
+      "is_serious": null,
+      "evidence": []
+    },
+    {
+      "term": "Diabetic retinopathy",
+      "arm_name": "oral semaglutide 14 mg",
+      "n_patients": 12,
+      "percent_patients": 3.3,
+      "is_serious": null,
+      "evidence": []
+    },
+    {
+      "term": "Diabetic retinopathy",
+      "arm_name": "sitagliptin 100 mg",
+      "n_patients": 18,
+      "percent_patients": 5.0,
+      "is_serious": null,
+      "evidence": []
+    },
+    {
+      "term": "Dizziness",
+      "arm_name": "oral semaglutide 3 mg",
+      "n_patients": 12,
+      "percent_patients": 3.3,
+      "is_serious": null,
+      "evidence": []
+    },
+    {
+      "term": "Dizziness",
+      "arm_name": "oral semaglutide 7 mg",
+      "n_patients": 16,
+      "percent_patients": 4.5,
+      "is_serious": null,
+      "evidence": []
+    },
+    {
+      "term": "Dizziness",
+      "arm_name": "oral semaglutide 14 mg",
+      "n_patients": 13,
+      "percent_patients": 3.6,
+      "is_serious": null,
+      "evidence": []
+    },
+    {
+      "term": "Dizziness",
+      "arm_name": "sitagliptin 100 mg",
+      "n_patients": 5,
+      "percent_patients": 1.4,
+      "is_serious": null,
+      "evidence": []
     }
   ]
 }

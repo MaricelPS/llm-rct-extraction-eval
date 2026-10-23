@@ -1,0 +1,20 @@
+term;oral semaglutide 3 mg;oral semaglutide 7 mg;oral semaglutide 14 mg;sitagliptin 100 mg;is_serious
+Any AE;234 (64.8);257 (71.8);263 (72.9);237 (66.2);false
+AEs by severity: Mild;221 (61.2);240 (67.0);238 (65.9);219 (61.2);false
+AEs by severity: Moderate;44 (12.2);57 (15.9);73 (20.2);56 (15.6);false
+AEs by severity: Severe;8 (2.2);12 (3.4);8 (2.2);5 (1.4);false
+SAEs;16 (4.4);11 (3.1);11 (3.0);15 (4.2);true
+AEs leading to trial product discontinuation;17 (4.7);16 (4.5);35 (9.7);6 (1.7);false
+Hypoglycaemic events: Level 1;9 (2.5);12 (3.4);22 (6.1);8 (2.2);false
+Hypoglycaemic events: Level 2;5 (1.4);2 (0.6);2 (0.6);1(0.4);false
+Hypoglycaemic events: Level 3;0;0;0;0;false
+EAC-confirmed deaths;2 (0.6);2 (0.6);1 (0.3);0;true
+Nausea;36 (10.0);39 (10.9);44 (12.2);14 (3.9);false
+Diarrhoea;30 (8.3);32 (8.9);48 (13.3);16 (4.5);false
+Vomiting;16 (4.4);18 (5.0);29 (8.0);1 (0.3);false
+Abdominal distension;7 (1.9);16 (4.5);17 (4.7);4 (1.1);false
+Decreased apetite;22 (6.1);30 (8.4);34 (9.4);5 (1.4);false
+Upper respiratory tract infection;26 (7.2);26 (7.3);31 (8.6);28 (7.8);false
+Increased lipase levels;15 (4.2);17 (4.7);21 (5.8);12 (3.4);false
+Diabetic retinopathy;13 (3.6);11 (3.1);12 (3.3);18 (5.0);false
+Dizziness;12 (3.3);16 (4.5);13 (3.6);5 (1.4);false

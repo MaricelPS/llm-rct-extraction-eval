@@ -1,6 +1,6 @@
 {
   "pmcid": "PMC11296502",
-  "trial_registration": "TODO",
+  "trial_registration": null,
   "design_notes": null,
   "population": {
     "condition": "type 2 diabetes mellitus without established cardiovascular disease",
@@ -13,10 +13,7 @@
     ],
     "mean_age": 63,
     "percent_female": 34,
-    "evidence": [
-      "Key inclusion criteria were adulthood, T2D diagnosed at least 6 months before enrolment, and HbA1c ≤86 mmol/mol; participants could be drug-naïve or receiving oral glucose-lowering therapy for at least 12 weeks. :chatgpt-content-reference{index="0"}",
-      "The study population had a mean age of 63 years and 27 (66%) were male, corresponding to 34% female. :chatgpt-content-reference{index="1"}"
-    ]
+    "evidence": []
   },
   "arms": [
     {
@@ -24,14 +21,11 @@
       "role": "experimental",
       "drug": "liraglutide",
       "dose": "0.6 mg once-weekly, titrated to 1.2 mg once-weekly",
-      "route": "subcutaneous injection",
+      "route": "subcutaneous",
       "is_fixed_combination": false,
       "n_randomized": null,
       "n_analyzed": 32,
-      "evidence": [
-        "Participants received liraglutide initiated at 0.6 mg by subcutaneous injection once-weekly and titrated to 1.2 mg once-weekly, for 16 weeks. :chatgpt-content-reference{index="2"}",
-        "The primary and secondary endpoint analyses were performed in the per-protocol set with measurements available at pre-treatment and week 16; the reported treatment-change analyses used n=32 for liraglutide. :chatgpt-content-reference{index="3"}"
-      ]
+      "evidence": []
     },
     {
       "name": "pioglitazone",
@@ -42,10 +36,7 @@
       "is_fixed_combination": false,
       "n_randomized": null,
       "n_analyzed": 32,
-      "evidence": [
-        "Participants received pioglitazone initiated at 15 mg orally once daily, increased by 15 mg every other week to a target dose of 45 mg once-daily after 4 weeks. :chatgpt-content-reference{index="4"}",
-        "The primary and secondary endpoint analyses were performed in the per-protocol set with measurements available at pre-treatment and week 16; the reported treatment-change analyses used n=32 for pioglitazone. :chatgpt-content-reference{index="5"}"
-      ]
+      "evidence": []
     }
   ],
   "outcomes": [
@@ -54,34 +45,30 @@
       "timepoint": "16 weeks",
       "comparison": "liraglutide vs pioglitazone",
       "effect_measure": "mean_difference",
-      "effect_value": "0.46",
-      "ci_lower": "-0.24",
-      "ci_upper": "0.51",
+      "ci_lower": -0.24,
+      "ci_upper": 0.51,
       "ci_level": 0.95,
       "p_value": "0.01",
       "unit": "ml/g/min",
       "estimand": "not_reported",
-      "evidence": [
-        "The primary endpoint was change in myocardial perfusion measured by MPR and global stress-MBF after treatment with liraglutide and pioglitazone. :chatgpt-content-reference{index="6"}",
-        "The between-treatment difference in mean change in stress-MBF was 0.46 ml/g/min (−0.24 to 0.51; P=0.01). :chatgpt-content-reference{index="7"}"
-      ]
+      "evidence": [],
+      "value": 0.46,
+      "is_primary": true
     },
     {
       "name": "Change in myocardial perfusion reserve (MPR)",
       "timepoint": "16 weeks",
       "comparison": "liraglutide vs pioglitazone",
       "effect_measure": "mean_difference",
-      "effect_value": "0.43",
-      "ci_lower": "-0.8",
-      "ci_upper": "0.9",
+      "ci_lower": -0.8,
+      "ci_upper": 0.9,
       "ci_level": 0.95,
       "p_value": "0.04",
       "unit": null,
       "estimand": "not_reported",
-      "evidence": [
-        "The primary endpoint was change in myocardial perfusion measured by MPR and global stress-MBF after treatment with liraglutide and pioglitazone. :chatgpt-content-reference{index="8"}",
-        "The difference between mean change in MPR after liraglutide and pioglitazone use was 0.43 (−0.8 to 0.9; P=0.04). :chatgpt-content-reference{index="9"}"
-      ]
+      "evidence": [],
+      "value": 0.43,
+      "is_primary": true
     }
   ],
   "adverse_events": []

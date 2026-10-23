@@ -1,0 +1,43 @@
+{
+  "pmcid": "PMC11188287",
+  "trial_registration": "NCT03466021",
+  "design_notes": null,
+  "population": {
+    "condition": "COPD",
+    "key_inclusion_criteria": [
+      "COPD defined as forced expiratory volume in one second relative to forced vital capacity (FEV1/FVC) < 70% after maximal bronchodilation",
+      "Former smokers with 20 or more pack-years history of smoking",
+      "40–75 years of age",
+      "BMI above 27 kg/m2"
+    ],
+    "mean_age": null,
+    "percent_female": null,
+    "evidence": []
+  },
+  "arms": [
+    {
+      "name": "Liraglutide 3.0 mg",
+      "role": "experimental",
+      "drug": "Liraglutide",
+      "dose": "3.0 mg per day",
+      "route": "not_reported",
+      "is_fixed_combination": false,
+      "n_randomized": 20,
+      "n_analyzed": null,
+      "evidence": []
+    },
+    {
+      "name": "Placebo",
+      "role": "placebo",
+      "drug": null,
+      "dose": "Placebo",
+      "route": "not_reported",
+      "is_fixed_combination": false,
+      "n_randomized": 20,
+      "n_analyzed": null,
+      "evidence": []
+    }
+  ],
+  "outcomes": [],
+  "adverse_events": []
+}

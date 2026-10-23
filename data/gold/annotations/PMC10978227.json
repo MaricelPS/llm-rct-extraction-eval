@@ -1,6 +1,6 @@
 {
   "pmcid": "PMC10978227",
-  "trial_registration": "TODO",
+  "trial_registration": "NCT01794143",
   "design_notes": null,
   "population": {
     "condition": "type 2 diabetes mellitus",
@@ -13,63 +13,52 @@
     ],
     "mean_age": 57.2,
     "percent_female": 36.4,
-    "evidence": [
-      "Eligible participants had T2DM of less than 10 years' duration, diagnosed at age ≥30 years or ≥20 years if American Indian/Alaska Native, and HbA1c 6.8–8.5% on maximally tolerated metformin ≥1000 mg/day. :chatgpt-content-reference{index="0"}",
-      "The 5047 participants had a mean age of 57.2 ± 10.0 years and 36.4% were women. :chatgpt-content-reference{index="1"}"
-    ]
-   },
+    "evidence": []
+  },
   "arms": [
     {
       "name": "insulin glargine",
       "role": "active_comparator",
       "drug": "insulin glargine",
       "dose": null,
-      "route": null,
+      "route": "not_reported",
       "is_fixed_combination": false,
       "n_randomized": null,
       "n_analyzed": null,
-      "evidence": [
-        "Participants were randomly assigned to insulin glargine added to baseline metformin. :chatgpt-content-reference{index="2"}"
-      ]
+      "evidence": []
     },
     {
       "name": "glimepiride",
       "role": "active_comparator",
       "drug": "glimepiride",
       "dose": null,
-      "route": null,
+      "route": "not_reported",
       "is_fixed_combination": false,
       "n_randomized": null,
       "n_analyzed": null,
-      "evidence": [
-        "Participants were randomly assigned to glimepiride added to baseline metformin. :chatgpt-content-reference{index="3"}"
-      ]
+      "evidence": []
     },
     {
       "name": "liraglutide",
       "role": "experimental",
       "drug": "liraglutide",
       "dose": null,
-      "route": null,
+      "route": "not_reported",
       "is_fixed_combination": false,
       "n_randomized": null,
       "n_analyzed": null,
-      "evidence": [
-        "Participants were randomly assigned to liraglutide added to baseline metformin. :chatgpt-content-reference{index="4"}"
-      ]
+      "evidence": []
     },
     {
       "name": "sitagliptin",
       "role": "active_comparator",
       "drug": "sitagliptin",
       "dose": null,
-      "route": null,
+      "route": "not_reported",
       "is_fixed_combination": false,
       "n_randomized": null,
       "n_analyzed": null,
-      "evidence": [
-        "Participants were randomly assigned to sitagliptin added to baseline metformin. :chatgpt-content-reference{index="5"}"
-      ]
+      "evidence": []
     }
   ],
   "outcomes": [],

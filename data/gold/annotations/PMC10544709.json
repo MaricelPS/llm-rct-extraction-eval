@@ -1,6 +1,6 @@
 {
   "pmcid": "PMC10544709",
-  "trial_registration": "TODO",
+  "trial_registration": null,
   "design_notes": null,
   "population": {
     "condition": "obesity and prediabetes",
@@ -42,7 +42,7 @@
       "role": "active_comparator",
       "drug": null,
       "dose": null,
-      "route": null,
+      "route": "not_reported",
       "is_fixed_combination": false,
       "n_randomized": 22,
       "n_analyzed": 22,

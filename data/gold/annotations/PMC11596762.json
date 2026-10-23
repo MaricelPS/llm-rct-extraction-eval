@@ -12,10 +12,7 @@
     ],
     "mean_age": null,
     "percent_female": null,
-    "evidence": [
-      "The study included 52 patients with moderate-to-severe, SeHCAT-verified bile acid diarrhea. The article reports mean ages separately by treatment group, but not an overall mean age. fileciteturn22file0",
-      "Key eligibility criteria included a SeHCAT result ≤10%, no diabetes, and no other gastrointestinal diseases. The reported sex counts (32 women and 18 men) do not sum to the stated total of 52; therefore, the overall female percentage is not recorded. fileciteturn22file0"
-    ]
+    "evidence": []
   },
   "arms": [
     {
@@ -27,9 +24,7 @@
       "is_fixed_combination": false,
       "n_randomized": 26,
       "n_analyzed": 25,
-      "evidence": [
-        "Participants were randomized to 6 weeks of liraglutide treatment, starting at 0.6 mg daily and increasing by 0.6 mg weekly to 1.8 mg daily over 3 weeks. One participant withdrew because of gastrointestinal side effects. fileciteturn22file0"
-      ]
+      "evidence": []
     },
     {
       "name": "Colesevelam",
@@ -40,9 +35,7 @@
       "is_fixed_combination": false,
       "n_randomized": 26,
       "n_analyzed": 25,
-      "evidence": [
-        "Participants were randomized to 6 weeks of oral colesevelam treatment at 1,875 mg twice daily. One participant withdrew because of gastrointestinal side effects. fileciteturn22file0"
-      ]
+      "evidence": []
     }
   ],
   "outcomes": [],

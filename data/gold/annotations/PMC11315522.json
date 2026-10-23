@@ -1,6 +1,6 @@
 {
   "pmcid": "PMC11315522",
-  "trial_registration": "TODO",
+  "trial_registration": null,
   "design_notes": null,
   "population": {
     "condition": "type 2 diabetes mellitus in overweight or obese patients",
@@ -12,10 +12,7 @@
     ],
     "mean_age": null,
     "percent_female": null,
-    "evidence": [
-      "The inclusion criteria were type 2 diabetes according to ADA 2020 criteria, BMI ≥24 kg/m2, age 20–80 years, and ability to communicate verbally or in writing. fileciteturn17file0",
-      "The control group had a mean age of 54.57 ± 10.05 years and included 16 females; the experimental group had a mean age of 55.81 ± 10.91 years and included 14 females. An overall mean age and overall female percentage were not reported. fileciteturn17file0"
-    ]
+    "evidence": []
   },
   "arms": [
     {
@@ -23,70 +20,57 @@
       "role": "active_comparator",
       "drug": "metformin",
       "dose": null,
-      "route": null,
+      "route": "not_reported",
       "is_fixed_combination": false,
       "n_randomized": 35,
       "n_analyzed": 35,
-      "evidence": [
-        "The control group was treated with metformin. A total of 70 cases were included, with 35 patients in each group; 35 control-group patients were included in the statistical analysis. fileciteturn17file0"
-      ]
+      "evidence": []
     },
     {
       "name": "Experimental group",
       "role": "experimental",
       "drug": "metformin + dulaglutide or semaglutide",
       "dose": "Dulaglutide: 1.5 mg once a week; or semaglutide: 0.5 mg once a week, with a maximum dose of 1 mg per week. Metformin dose not reported.",
-      "route": null,
+      "route": "not_reported",
       "is_fixed_combination": false,
       "n_randomized": 35,
       "n_analyzed": 32,
-      "evidence": [
-        "The experimental group received metformin plus dulaglutide 1.5 mg once a week or semaglutide 0.5 mg once a week, with a maximum semaglutide dose of 1 mg per week. fileciteturn17file0",
-        "There were 35 patients in the experimental group at enrollment; 3 withdrew within 6 months for economic reasons, leaving 32 patients in the statistical analysis. The numbers assigned to each GLP-1 receptor agonist were not reported. fileciteturn17file0"
-      ]
+      "evidence": []
     }
   ],
   "outcomes": [],
   "adverse_events": [
     {
-      "event": "Gastrointestinal reactions",
-      "arm": "Control group",
+      "term": "Gastrointestinal reactions",
+      "arm_name": "Control group",
       "n_patients": 3,
-      "percentage": "8.57%",
       "is_serious": null,
-      "evidence": [
-        "After 12 months of treatment, 3 cases of gastrointestinal reactions were reported in the control group; the reported incidence of adverse reactions was 8.57%. fileciteturn17file0"
-      ]
+      "evidence": [],
+      "percent_patients": 8.57
     },
     {
-      "event": "Gastrointestinal reactions",
-      "arm": "Experimental group",
+      "term": "Gastrointestinal reactions",
+      "arm_name": "Experimental group",
       "n_patients": 4,
-      "percentage": "12.5%",
       "is_serious": null,
-      "evidence": [
-        "After 12 months of treatment, 4 cases of gastrointestinal reactions were reported in the experimental group; the reported incidence of adverse reactions was 12.5%. fileciteturn17file0"
-      ]
+      "evidence": [],
+      "percent_patients": 12.5
     },
     {
-      "event": "Hypoglycemia",
-      "arm": "Control group",
+      "term": "Hypoglycemia",
+      "arm_name": "Control group",
       "n_patients": 0,
-      "percentage": null,
       "is_serious": null,
-      "evidence": [
-        "The article states that no hypoglycemia occurred in either group after 12 months of treatment. fileciteturn17file0"
-      ]
+      "evidence": [],
+      "percent_patients": null
     },
     {
-      "event": "Hypoglycemia",
-      "arm": "Experimental group",
+      "term": "Hypoglycemia",
+      "arm_name": "Experimental group",
       "n_patients": 0,
-      "percentage": null,
       "is_serious": null,
-      "evidence": [
-        "The article states that no hypoglycemia occurred in either group after 12 months of treatment. fileciteturn17file0"
-      ]
+      "evidence": [],
+      "percent_patients": null
     }
   ]
 }

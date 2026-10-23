@@ -1,6 +1,6 @@
 {
   "pmcid": "PMC10709975",
-  "trial_registration": "TODO",
+  "trial_registration": "NCT02621489",
   "design_notes": null,
   "population": {
     "condition": "type 2 diabetes mellitus and coronary artery disease requiring PCI with drug-eluting stent implantation",
@@ -13,10 +13,7 @@
     ],
     "mean_age": 66.6,
     "percent_female": 42,
-    "evidence": [
-      "The study aimed to include female and male subjects aged 18 to 80 years with known or newly diagnosed T2D, HbA1c between 47–110 mmol/mol, who were eligible for PCI with implantation of a DES. :chatgpt-content-reference{index="0"}",
-      "The mean age was 66.6 years and 58% of subjects were men, corresponding to 42% women. :chatgpt-content-reference{index="1"}"
-    ]
+    "evidence": []
   },
   "arms": [
     {
@@ -28,24 +25,18 @@
       "is_fixed_combination": false,
       "n_randomized": 20,
       "n_analyzed": 16,
-      "evidence": [
-        "Participants were randomized to Bydureon 2 mg once weekly by subcutaneous injection plus standard treatment. :chatgpt-content-reference{index="2"}",
-        "The randomized population included 20 participants in the exenatide group; the follow-up table reports 16 participants for the exenatide group. :chatgpt-content-reference{index="3"} :chatgpt-content-reference{index="4"}"
-      ]
+      "evidence": []
     },
     {
       "name": "Control",
       "role": "active_comparator",
       "drug": null,
       "dose": null,
-      "route": null,
+      "route": "not_reported",
       "is_fixed_combination": false,
       "n_randomized": 18,
       "n_analyzed": 17,
-      "evidence": [
-        "Participants were randomized to standard treatment alone; standard treatment was defined as metformin and NPH insulin. :chatgpt-content-reference{index="5"}",
-        "The randomized population included 18 participants in the control group; the follow-up table reports 17 participants for the control group. :chatgpt-content-reference{index="6"} :chatgpt-content-reference{index="7"}"
-      ]
+      "evidence": []
     }
   ],
   "outcomes": [
@@ -54,7 +45,7 @@
       "is_primary": true,
       "timepoint": "12 weeks",
       "comparison": "Exenatide vs Control",
-      "effect_measure": null,
+      "effect_measure": "other",
       "value": null,
       "ci_lower": null,
       "ci_upper": null,
@@ -62,10 +53,7 @@
       "p_value": "0.692",
       "unit": "%",
       "estimand": "not_reported",
-      "evidence": [
-        "The primary outcome was the percentage of stent strut coverage assessed by OCT. :chatgpt-content-reference{index="8"}",
-        "At 12 weeks, median strut coverage was 95.0% (88.7–98.5%) in the exenatide group versus 91.4% (88.8–98.5%) in the control group, with p = 0.692. :chatgpt-content-reference{index="9"}"
-      ]
+      "evidence": []
     }
   ],
   "adverse_events": []

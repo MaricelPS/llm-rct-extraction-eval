@@ -1,6 +1,6 @@
 {
   "pmcid": "PMC10663148",
-  "trial_registration": "TODO",
+  "trial_registration": "NCT03347890",
   "design_notes": null,
   "population": {
     "condition": "obesity",
@@ -13,10 +13,7 @@
     ],
     "mean_age": null,
     "percent_female": null,
-    "evidence": [
-      "The inclusion criteria were age 18–75 years, stable body weight, right-handedness, and currently being a non-smoker. Participants with BMI ≥30 and <45 kg/m2 were recruited. :chatgpt-content-reference{index="0"} :chatgpt-content-reference{index="1"}",
-      "The randomized population included 32 participants in the liraglutide group and 34 in the placebo group. :chatgpt-content-reference{index="2"}"
-    ]
+    "evidence": []
   },
   "arms": [
     {
@@ -28,10 +25,7 @@
       "is_fixed_combination": false,
       "n_randomized": 32,
       "n_analyzed": 20,
-      "evidence": [
-        "32 participants received liraglutide 3.0 mg combined with lifestyle counseling. :chatgpt-content-reference{index="3"}",
-        "After exclusions, 20 participants remained in the liraglutide group for analysis. :chatgpt-content-reference{index="4"}"
-      ]
+      "evidence": []
     },
     {
       "name": "placebo",
@@ -42,10 +36,7 @@
       "is_fixed_combination": false,
       "n_randomized": 34,
       "n_analyzed": 24,
-      "evidence": [
-        "34 participants received placebo combined with lifestyle counseling. :chatgpt-content-reference{index="5"}",
-        "After exclusions, 24 participants remained in the placebo group for analysis. :chatgpt-content-reference{index="6"}"
-      ]
+      "evidence": []
     }
   ],
   "outcomes": [
@@ -54,7 +45,7 @@
       "is_primary": true,
       "timepoint": "16 weeks",
       "comparison": "liraglutide 3.0 mg vs placebo",
-      "effect_measure": null,
+      "effect_measure": "other",
       "value": null,
       "ci_lower": null,
       "ci_upper": null,
@@ -62,10 +53,7 @@
       "p_value": "0.617",
       "unit": null,
       "estimand": "not_reported",
-      "evidence": [
-        "The study investigated the effect of liraglutide on self-reported liking, with pre- and post-intervention sessions. :chatgpt-content-reference{index="7"}",
-        "The interaction between taste stimulus, session and intervention was not statistically significant (β = 0.017, p = 0.617), and the authors concluded that the intervention did not impact self-reported liking. :chatgpt-content-reference{index="8"}"
-      ]
+      "evidence": []
     }
   ],
   "adverse_events": []

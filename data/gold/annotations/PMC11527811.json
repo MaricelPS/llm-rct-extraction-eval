@@ -13,10 +13,7 @@
     ],
     "mean_age": null,
     "percent_female": null,
-    "evidence": [
-      "Inclusion criteria were confirmed type 2 diabetes, age over 18 years, recent HbA1c above 7.0%, strong self-management ability, smartphone ownership, and ability to learn to use the internet. fileciteturn20file0",
-      "Baseline age and sex were reported separately for Group A and Group B, but overall values for the randomized population were not reported. fileciteturn20file0"
-    ]
+    "evidence": []
   },
   "arms": [
     {
@@ -28,9 +25,7 @@
       "is_fixed_combination": false,
       "n_randomized": 90,
       "n_analyzed": 75,
-      "evidence": [
-        "Group A received routine standard diabetes care, with hospital visits at week 12. Ninety participants were randomized to this group, and 75 were included in the final analysis. fileciteturn20file0"
-      ]
+      "evidence": []
     },
     {
       "name": "Group B",
@@ -41,32 +36,28 @@
       "is_fixed_combination": false,
       "n_randomized": 90,
       "n_analyzed": 73,
-      "evidence": [
-        "Group B received access to the integrated cloud-hospital data platform, personalized diabetes education videos, glucose-monitoring programs, dietary management, and follow-up support. Ninety participants were randomized, and 73 were included in the final analysis. fileciteturn20file0"
-      ]
+      "evidence": []
     }
   ],
   "outcomes": [],
   "adverse_events": [
     {
+      "term": null,
+      "arm_name": "Group A",
       "event": "Hypoglycemia",
-      "arm": "Group A",
       "n_patients": null,
-      "percentage": "24%",
       "is_serious": null,
-      "evidence": [
-        "At week 12, the incidence of hypoglycemia was 24% in Group A. The comparison with Group B was statistically significant (P < 0.05; Table 2 reports P = 0.037). fileciteturn20file0"
-      ]
+      "evidence": [],
+      "percent_patients": 24
     },
     {
+      "term": null,
+      "arm_name": "Group B",
       "event": "Hypoglycemia",
-      "arm": "Group B",
       "n_patients": null,
-      "percentage": "11%",
       "is_serious": null,
-      "evidence": [
-        "At week 12, the incidence of hypoglycemia was 11% in Group B. The comparison with Group A was statistically significant (P < 0.05; Table 2 reports P = 0.037). fileciteturn20file0"
-      ]
+      "evidence": [],
+      "percent_patients": 11
     }
   ]
 }

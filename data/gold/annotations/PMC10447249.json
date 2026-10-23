@@ -1,6 +1,6 @@
 {
   "pmcid": "PMC10447249",
-  "trial_registration": "TODO",
+  "trial_registration": null,
   "design_notes": null,
   "population": {
     "condition": "obesity and impaired insulin sensitivity",
@@ -44,7 +44,7 @@
       "is_primary": true,
       "timepoint": "during the associative learning task",
       "comparison": "liraglutide vs placebo",
-      "effect_measure": null,
+      "effect_measure": "other",
       "value": null,
       "ci_lower": null,
       "ci_upper": null,

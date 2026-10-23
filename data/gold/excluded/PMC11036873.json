@@ -1,0 +1,182 @@
+{
+  "pmcid": "PMC11036873",
+  "trial_registration": "NCT05459285",
+  "design_notes": null,
+  "population": {
+    "condition": "healthy Chinese adults",
+    "key_inclusion_criteria": [
+      "healthy male Chinese adults",
+      "age 18–45 years",
+      "body weight ≥50 kg",
+      "BMI 19.0–28.0 kg/m2",
+      "normal or clinically non-significant findings on screening examinations"
+    ],
+    "mean_age": 27.5,
+    "percent_female": 0,
+    "evidence": []
+  },
+  "arms": [
+    {
+      "name": "HEC14028",
+      "role": "experimental",
+      "drug": "HEC14028",
+      "dose": "0.75 mg",
+      "route": "subcutaneous",
+      "is_fixed_combination": false,
+      "n_randomized": 35,
+      "n_analyzed": 35,
+      "evidence": []
+    },
+    {
+      "name": "dulaglutide",
+      "role": "active_comparator",
+      "drug": "dulaglutide",
+      "dose": "0.75 mg",
+      "route": "subcutaneous",
+      "is_fixed_combination": false,
+      "n_randomized": 33,
+      "n_analyzed": 33,
+      "evidence": []
+    }
+  ],
+  "outcomes": [
+    {
+      "name": "Maximum plasma concentration (Cmax)",
+      "timepoint": "single dose",
+      "comparison": "HEC14028 vs dulaglutide",
+      "effect_measure": "geometric_mean_ratio",
+      "effect_value": "112.0%",
+      "ci_lower": "102.9%",
+      "ci_upper": "122.0%",
+      "ci_level": 0.9,
+      "p_value": null,
+      "unit": "ng/mL",
+      "estimand": "treatment_policy",
+      "evidence": []
+    },
+    {
+      "name": "Area under the blood concentration-time curve from zero time to the estimated infinite time (AUC0–∞)",
+      "timepoint": "single dose",
+      "comparison": "HEC14028 vs dulaglutide",
+      "effect_measure": "geometric_mean_ratio",
+      "effect_value": "106.5%",
+      "ci_lower": "97.1%",
+      "ci_upper": "116.9%",
+      "ci_level": 0.9,
+      "p_value": null,
+      "unit": "h*ng/mL",
+      "estimand": "treatment_policy",
+      "evidence": []
+    }
+  ],
+  "adverse_events": [
+    {
+      "term": "At least 1 TEAE occurred",
+      "arm_name": "TODO",
+      "arm": "dulaglutide",
+      "n_patients": 20,
+      "percentage": "60.6%",
+      "is_serious": false,
+      "evidence": []
+    },
+    {
+      "term": "At least 1 TEAE occurred",
+      "arm_name": "TODO",
+      "arm": "HEC14028",
+      "n_patients": 15,
+      "percentage": "42.9%",
+      "is_serious": false,
+      "evidence": []
+    },
+    {
+      "term": "At least 1 treatment-related TEAE occurred",
+      "arm_name": "TODO",
+      "arm": "dulaglutide",
+      "n_patients": 16,
+      "percentage": "48.5%",
+      "is_serious": false,
+      "evidence": []
+    },
+    {
+      "term": "At least 1 treatment-related TEAE occurred",
+      "arm_name": "TODO",
+      "arm": "HEC14028",
+      "n_patients": 14,
+      "percentage": "40.0%",
+      "is_serious": false,
+      "evidence": []
+    },
+    {
+      "term": "Grade ≥3 TEAE",
+      "arm_name": "TODO",
+      "arm": "dulaglutide",
+      "n_patients": 0,
+      "percentage": "0%",
+      "is_serious": false,
+      "evidence": []
+    },
+    {
+      "term": "Grade ≥3 TEAE",
+      "arm_name": "TODO",
+      "arm": "HEC14028",
+      "n_patients": 0,
+      "percentage": "0%",
+      "is_serious": false,
+      "evidence": []
+    },
+    {
+      "term": "Serious adverse event",
+      "arm_name": "TODO",
+      "arm": "dulaglutide",
+      "n_patients": 0,
+      "percentage": "0%",
+      "is_serious": true,
+      "evidence": []
+    },
+    {
+      "term": "Serious adverse event",
+      "arm_name": "TODO",
+      "arm": "HEC14028",
+      "n_patients": 0,
+      "percentage": "0%",
+      "is_serious": true,
+      "evidence": []
+    },
+    {
+      "term": "TEAE leading to withdrawal",
+      "arm_name": "TODO",
+      "arm": "dulaglutide",
+      "n_patients": 0,
+      "percentage": "0%",
+      "is_serious": false,
+      "evidence": []
+    },
+    {
+      "term": "TEAE leading to withdrawal",
+      "arm_name": "TODO",
+      "arm": "HEC14028",
+      "n_patients": 0,
+      "percentage": "0%",
+      "is_serious": false,
+      "evidence": []
+    },
+    {
+      "term": "TEAE leading to death",
+      "arm_name": "TODO",
+      "arm": "dulaglutide",
+      "n_patients": 0,
+      "percentage": "0%",
+      "is_serious": false,
+      "evidence": []
+    },
+    {
+      "term": "TEAE leading to death",
+      "arm_name": "TODO",
+      "arm": "HEC14028",
+      "n_patients": 0,
+      "percentage": "0%",
+      "is_serious": false,
+      "evidence": []
+    }
+  ]
+}

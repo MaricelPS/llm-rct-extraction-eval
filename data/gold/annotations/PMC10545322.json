@@ -1,9 +1,9 @@
 {
   "pmcid": "PMC10545322",
-  "trial_registration": "TODO",
+  "trial_registration": null,
   "design_notes": null,
   "population": {
-      "condition": "type 2 diabetes mellitus in spontaneous postmenopausal women",
+    "condition": "type 2 diabetes mellitus in spontaneous postmenopausal women",
     "key_inclusion_criteria": [
       "spontaneous postmenopausal female patients with type 2 diabetes mellitus",
       "hemoglobin A1c of 7% to 10% despite using only metformin",
@@ -13,10 +13,7 @@
     ],
     "mean_age": null,
     "percent_female": 100,
-    "evidence": [
-      "The study included spontaneous postmenopausal female patients with T2DM, HbA1c of 7% to 10%, age 45 to 65 years, and BMI >30. :chatgpt-content-reference{index="0"}",
-      "Thirty-five patients were randomized; 18 were allocated to insulin glargine and 17 to exenatide. :chatgpt-content-reference{index="1"}"
-    ]
+    "evidence": []
   },
   "arms": [
     {
@@ -28,10 +25,7 @@
       "is_fixed_combination": false,
       "n_randomized": 17,
       "n_analyzed": 15,
-      "evidence": [
-        "Exenatide was started at 5 mcg 2 × 1/day and after 1 month revised to 10 mcg 2 × 1/day; it was applied 1 hour before the morning and evening meals. :chatgpt-content-reference{index="2"}",
-        "17 patients were randomized to exenatide and 15 completed the study. :chatgpt-content-reference{index="3"}"
-      ]
+      "evidence": []
     },
     {
       "name": "glargine group",
@@ -42,10 +36,7 @@
       "is_fixed_combination": false,
       "n_randomized": 18,
       "n_analyzed": 15,
-      "evidence": [
-        "Insulin glargine was started at 0.2 IU/kg at 10.00 PM, with titration according to the average 3-day morning fasting blood glucose value. :chatgpt-content-reference{index="4"}",
-        "18 patients were randomized to insulin glargine and 15 completed the study. :chatgpt-content-reference{index="5"}"
-      ]
+      "evidence": []
     }
   ],
   "outcomes": [],

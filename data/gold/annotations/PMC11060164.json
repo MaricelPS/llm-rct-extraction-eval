@@ -1,6 +1,6 @@
 {
   "pmcid": "PMC11060164",
-  "trial_registration": "TODO",
+  "trial_registration": null,
   "design_notes": null,
   "population": {
     "condition": "type 2 diabetes mellitus",
@@ -12,10 +12,7 @@
     ],
     "mean_age": 62.1,
     "percent_female": 33.3,
-    "evidence": [
-      "The study enrolled 36 outpatients with type 2 diabetes mellitus who were receiving dietary and exercise therapy plus oral hypoglycemic agents but had not achieved their diabetes management goals and required treatment intensification. :chatgpt-content-reference{index="0"}",
-      "Overall mean age was 62.1 ± 12.7 years; 24 of 36 participants were men (66.7%), corresponding to 33.3% women. :chatgpt-content-reference{index="1"} :chatgpt-content-reference{index="2"}"
-    ]
+    "evidence": []
   },
   "arms": [
     {
@@ -27,10 +24,7 @@
       "is_fixed_combination": true,
       "n_randomized": 18,
       "n_analyzed": 18,
-      "evidence": [
-        "Participants were randomized 1:1 to the IGlarLixi group or IDegLira group, with 18 participants in each group. Injection therapy was started after the baseline monitoring period. :chatgpt-content-reference{index="3"}",
-        "The article identifies IGlarLixi as a fixed-ratio combination of basal insulin and a GLP-1 receptor agonist. :chatgpt-content-reference{index="4"}"
-      ]
+      "evidence": []
     },
     {
       "name": "IDegLira group",
@@ -41,10 +35,7 @@
       "is_fixed_combination": true,
       "n_randomized": 18,
       "n_analyzed": 18,
-      "evidence": [
-        "Participants were randomized 1:1 to the IGlarLixi group or IDegLira group, with 18 participants in each group. :chatgpt-content-reference{index="5"}",
-        "The article identifies IDegLira as a fixed-ratio combination of basal insulin and a GLP-1 receptor agonist. :chatgpt-content-reference{index="6"}"
-      ]
+      "evidence": []
     }
   ],
   "outcomes": [
@@ -52,47 +43,41 @@
       "name": "Time in range (TIR)",
       "timepoint": "18 weeks",
       "comparison": "IGlarLixi group vs IDegLira group",
-      "effect_measure": null,
-      "effect_value": null,
+      "effect_measure": "other",
       "ci_lower": null,
       "ci_upper": null,
       "ci_level": null,
       "p_value": "0.431",
       "unit": "% of time in target glucose range (70–180 mg/dL)",
       "estimand": "not_reported",
-      "evidence": [
-        "TIR was explicitly defined as the primary efficacy endpoint. :chatgpt-content-reference{index="7"}",
-        "At 18 weeks, TIR was 78.3 ± 15.3% in the IGlarLixi group and 75.7 ± 19.0% in the IDegLira group, with between-group P = 0.431. :chatgpt-content-reference{index="8"} :chatgpt-content-reference{index="9"}"
-      ]
+      "evidence": [],
+      "value": null,
+      "is_primary": true
     },
     {
       "name": "Time below range (TBR) level 1",
       "timepoint": "18 weeks",
       "comparison": "IGlarLixi group vs IDegLira group",
-      "effect_measure": null,
-      "effect_value": null,
+      "effect_measure": "other",
       "ci_lower": null,
       "ci_upper": null,
       "ci_level": null,
       "p_value": "0.207",
       "unit": "% of time below target glucose range (<70 mg/dL)",
       "estimand": "not_reported",
-      "evidence": [
-        "TBR level 1 was explicitly defined as the primary safety endpoint. :chatgpt-content-reference{index="10"}",
-        "At 18 weeks, TBR level 1 was 1.8 ± 3.2% in the IGlarLixi group and 2.7 ± 4.5% in the IDegLira group, with between-group P = 0.207. :chatgpt-content-reference{index="11"} :chatgpt-content-reference{index="12"}"
-      ]
+      "evidence": [],
+      "value": null,
+      "is_primary": true
     }
   ],
   "adverse_events": [
     {
-      "name": "Mild nausea",
-      "arm": "IDegLira group",
+      "term": "Mild nausea",
+      "arm_name": "IDegLira group",
       "n_patients": 1,
-      "percentage": null,
       "is_serious": false,
-      "evidence": [
-        "One participant in the IDegLira group had an adverse event of mild nausea, and all participants completed the study without dropping out. :chatgpt-content-reference{index="13"}"
-      ]
+      "evidence": [],
+      "percent_patients": null
     }
   ]
 }

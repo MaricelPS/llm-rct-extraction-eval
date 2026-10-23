@@ -12,6 +12,16 @@ criteria.
   only as images are out of scope, because the model does not receive them.
 - Annotate blind: never look at model outputs for test-set articles before annotation is final.
 
+## Eligible trials
+
+- The experimental arm must contain a GLP-1 receptor agonist (semaglutide, liraglutide,
+  dulaglutide, exenatide or lixisenatide), alone or as part of a fixed-ratio combination.
+- Trials where a GLP-1 RA appears only as an active comparator for a different drug class
+  (e.g. dual or triple incretin agonists such as survodutide, tirzepatide or retatrutide)
+  are out of scope. Excluded articles are listed in data/gold/exclusions.csv.
+- The primary outcome must be a clinical efficacy outcome. Pharmacokinetic and
+  bioequivalence studies (e.g. Cmax, AUC, geometric mean ratios) are out of scope.
+-
 ## General rules
 
 - Record values as written. Do not convert units, recompute values or derive one value from
@@ -69,4 +79,5 @@ criteria.
 - Include summary rows (e.g. any adverse event, serious adverse events, adverse events leading
   to discontinuation) as written.
 - n_patients and percent_patients: as written; null if the table reports only one of them.
-- is_serious: true for events reported under serious adverse events; null otherwise.
+- is_serious: true for events reported under serious adverse events and for deaths (fatal
+  events meet the serious adverse event definition per ICH E2A); null otherwise.
