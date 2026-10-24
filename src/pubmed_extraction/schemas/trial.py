@@ -81,12 +81,18 @@ class EffectMeasure(CaseInsensitiveEnum):
     RISK_RATIO = "risk_ratio"
     OTHER = "other"
 
+class Estimand(CaseInsensitiveEnum):
+    TREATMENT_POLICY = "treatment_policy"
+    HYPOTHETICAL = "hypothetical"  # includes "trial product" estimands (as if all adhered)
+    OTHER = "other"
+    NOT_REPORTED = "not_reported"
 
 class Outcome(BaseModel):
     name: str = Field(description="Outcome as written, e.g. 'change in HbA1c from baseline'.")
     is_primary: bool
     timepoint: str | None = Field(description="As written, e.g. 'week 26'.")
-    comparison: str = Field(description="Arms compared, using exact arm names.")
+    comparison: str = Field(description="Format: '<arm name> vs <arm name>', exact arm names.")
+    estimand: Estimand = Field(description="Estimand the value refers to, if the article names one.")
     effect_measure: EffectMeasure
     value: float | None
     ci_lower: float | None

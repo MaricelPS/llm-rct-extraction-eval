@@ -21,15 +21,21 @@ Rules:
   Never use ellipses or join separate fragments; use several evidence items instead.
 - If a value is not reported, return null. Do not estimate it.
 - Report numbers exactly as written. Do not convert units or recompute values.
-- When referring to trial arms, use the exact arm names provided."""
+- When referring to trial arms, use the exact arm names provided.
+- Provide a single evidence item per extracted object, unless a second one is strictly needed."""
 
-DESIGN_INSTRUCTIONS = "Extract the trial registration, design notes, study population and all arms."
+DESIGN_INSTRUCTIONS = """Extract the trial registration, design notes, study population and all arms.
+For placebo arms, drug and dose are null."""
 
 OUTCOMES_INSTRUCTIONS = """Extract all efficacy outcomes reported as between-arm comparisons.
+Write each comparison as '<arm name> vs <arm name>' using the exact arm names below.
+If an outcome is reported under more than one estimand (e.g. treatment policy and trial product),
+report each estimand as a separate outcome.
 Trial arms: {arms}"""
 
 AE_INSTRUCTIONS = """Extract all adverse events reported per arm, including from safety tables.
-Trial arms (arm_name must match one exactly): {arms}"""
+Set is_serious to true for events reported as serious adverse events and for deaths; otherwise null.
+Trial arms (arm_name must match one exactly): {arms}."""
 
 
 class TrialExtractor:
@@ -46,6 +52,7 @@ class TrialExtractor:
             user_content=f"{instructions}\n\n<article>\n{context}\n</article>",
             output_model=output_model,
             usage=usage,
+            effort=settings.extraction_effort,
         )
 
     def extract(self, article: ParsedArticle) -> tuple[TrialExtraction, UsageTracker]:

@@ -21,7 +21,9 @@ criteria.
   are out of scope. Excluded articles are listed in data/gold/exclusions.csv.
 - The primary outcome must be a clinical efficacy outcome. Pharmacokinetic and
   bioequivalence studies (e.g. Cmax, AUC, geometric mean ratios) are out of scope.
--
+- The article must report at least one between-arm comparison of the primary outcome.
+  Articles reporting only within-arm changes are out of scope.
+
 ## General rules
 
 - Record values as written. Do not convert units, recompute values or derive one value from

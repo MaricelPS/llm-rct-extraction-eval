@@ -37,8 +37,19 @@ def structured_call(
     user_content: str,
     output_model: type[T],
     usage: UsageTracker,
+    effort: str | None = None,
 ) -> T:
-    """Run a structured-output request and return the parsed Pydantic object."""
+    """Run a structured-output request and return the parsed Pydantic object.
+
+    effort: None sends no thinking configuration (model default); "disabled" turns
+    thinking off; any other value is sent as output_config.effort.
+    """
+    extra: dict = {}
+    if effort == "disabled":
+        extra["thinking"] = {"type": "disabled"}
+    elif effort:
+        extra["output_config"] = {"effort": effort}
+
     try:
         response = client.messages.parse(
             model=model,
@@ -46,9 +57,13 @@ def structured_call(
             system=system,
             messages=[{"role": "user", "content": user_content}],
             output_format=output_model,
+            **extra,
         )
     except ValidationError as exc:
-        raise LLMError(f"{output_model.__name__}: invalid output: {exc}") from exc
+        raise LLMError(
+            f"{output_model.__name__}: invalid output (often truncated by max_tokens, "
+            f"thinking included): {exc}"
+        ) from exc
 
     usage.input_tokens += response.usage.input_tokens
     usage.output_tokens += response.usage.output_tokens

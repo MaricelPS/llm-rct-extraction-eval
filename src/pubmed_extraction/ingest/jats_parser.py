@@ -101,8 +101,15 @@ def parse_jats(pmcid: str, xml: bytes) -> ParsedArticle:
 
     license_type = _extract_license(article)
 
-    related = article.xpath(".//related-article/@related-article-type")
-    is_retracted = any(r in ("retracted-article", "retraction-forward") for r in related)
+    # PMC adds related-article links (retraction-forward, expression-of-concern) when an
+    # article cites retracted or flagged works, so those links say nothing about this
+    # article. Retractions are excluded upstream by the PubMed "Retracted Publication"[pt]
+    # filter; here we only catch explicit markers on the article itself.
+    title_text = _text(article.find(".//article-meta/title-group/article-title"))
+    is_retracted = (
+        title_text.upper().startswith("RETRACTED")
+        or article.get("article-type") == "retraction"
+    )
 
     body = article.find("body")
     sections = []
