@@ -1,0 +1,44 @@
+{
+  "pmcid": "PMC12250273",
+  "trial_registration": null,
+  "design_notes": null,
+  "population": {
+    "condition": "Diabetes mellitus tipo 2 y obesidad",
+    "key_inclusion_criteria": [
+      "Edad superior a 45 años",
+      "Diabetes mellitus tipo 2 durante al menos 5 años",
+      "Control glucémico inadecuado con metformina en monoterapia; HbA1c entre 6,5% y 10%",
+      "Índice de masa corporal (IMC) superior a 25 kg/m²",
+      "Tasa de filtración glomerular estimada (eGFR) superior a 60 mL/min/1,73 m²"
+    ],
+    "mean_age": null,
+    "percent_female": null,
+    "evidence": []
+  },
+  "arms": [
+    {
+      "name": "Semaglutide",
+      "role": "experimental",
+      "drug": "Semaglutida añadida a metformina",
+      "dose": "0,25 mg/semana por vía subcutánea al inicio; 0,5 mg/semana desde la semana 4; 1 mg/semana desde la semana 8",
+      "route": "subcutaneous",
+      "is_fixed_combination": false,
+      "n_randomized": 18,
+      "n_analyzed": null,
+      "evidence": []
+    },
+    {
+      "name": "Sitagliptin",
+      "role": "active_comparator",
+      "drug": "Sitagliptina añadida a metformina",
+      "dose": "100 mg diarios",
+      "route": "oral",
+      "is_fixed_combination": false,
+      "n_randomized": 16,
+      "n_analyzed": null,
+      "evidence": []
+    }
+  ],
+  "outcomes": [],
+  "adverse_events": []
+}

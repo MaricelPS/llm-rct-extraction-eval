@@ -1,8 +1,7 @@
-
 {
   "pmcid": "PMC12094194",
   "trial_registration": "NCT05486065",
-  "study_design": "Randomized, multicenter, double-blind, placebo-controlled, parallel-group phase 2 trial",
+  "design_notes": "Randomized, multicenter, double-blind, placebo-controlled, parallel-group phase 2 trial",
   "population": {
     "condition": "type 2 diabetes and overweight or obesity",
     "key_inclusion_criteria": [
@@ -224,7 +223,7 @@
       "evidence": []
     },
     {
-      "term": "Mild",
+      "term": "Severity: Mild",
       "arm_name": "Semaglutide 2 mg",
       "n_patients": 38,
       "percent_patients": 63,
@@ -232,7 +231,7 @@
       "evidence": []
     },
     {
-      "term": "Mild",
+      "term": "Severity: Mild",
       "arm_name": "Semaglutide 8 mg",
       "n_patients": 47,
       "percent_patients": 78,
@@ -240,7 +239,7 @@
       "evidence": []
     },
     {
-      "term": "Mild",
+      "term": "Severity: Mild",
       "arm_name": "Semaglutide 16 mg",
       "n_patients": 46,
       "percent_patients": 74,
@@ -248,7 +247,7 @@
       "evidence": []
     },
     {
-      "term": "Mild",
+      "term": "Severity: Mild",
       "arm_name": "Placebo",
       "n_patients": 33,
       "percent_patients": 56,
@@ -256,7 +255,7 @@
       "evidence": []
     },
     {
-      "term": "Moderate",
+      "term": "Severity: Moderate",
       "arm_name": "Semaglutide 2 mg",
       "n_patients": 16,
       "percent_patients": 27,
@@ -264,7 +263,7 @@
       "evidence": []
     },
     {
-      "term": "Moderate",
+      "term": "Severity: Moderate",
       "arm_name": "Semaglutide 8 mg",
       "n_patients": 25,
       "percent_patients": 42,
@@ -272,7 +271,7 @@
       "evidence": []
     },
     {
-      "term": "Moderate",
+      "term": "Severity: Moderate",
       "arm_name": "Semaglutide 16 mg",
       "n_patients": 26,
       "percent_patients": 42,
@@ -280,7 +279,7 @@
       "evidence": []
     },
     {
-      "term": "Moderate",
+      "term": "Severity: Moderate",
       "arm_name": "Placebo",
       "n_patients": 14,
       "percent_patients": 24,
@@ -288,7 +287,7 @@
       "evidence": []
     },
     {
-      "term": "Severe",
+      "term": "Severity: Severe",
       "arm_name": "Semaglutide 2 mg",
       "n_patients": 4,
       "percent_patients": 7,
@@ -296,7 +295,7 @@
       "evidence": []
     },
     {
-      "term": "Severe",
+      "term": "Severity: Severe",
       "arm_name": "Semaglutide 8 mg",
       "n_patients": 5,
       "percent_patients": 8,
@@ -304,7 +303,7 @@
       "evidence": []
     },
     {
-      "term": "Severe",
+      "term": "Severity: Severe",
       "arm_name": "Semaglutide 16 mg",
       "n_patients": 3,
       "percent_patients": 5,
@@ -312,7 +311,7 @@
       "evidence": []
     },
     {
-      "term": "Severe",
+      "term": "Severity: Severe",
       "arm_name": "Placebo",
       "n_patients": 1,
       "percent_patients": 2,

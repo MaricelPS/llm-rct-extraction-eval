@@ -3,12 +3,11 @@
   "trial_registration": null,
   "design_notes": null,
   "population": {
-    "condition": "obesity and type 2 diabetes mellitus",
+    "condition": "obesity and type 2 diabetes",
     "key_inclusion_criteria": [
-      "age 18–70 years",
-      "body mass index (BMI) of 30–50 kg/m2",
-      "type 2 diabetes mellitus with HbA1c ≥ 48 mmol/mol and <97 mmol/mol at or before screening",
-      "undergoing laparoscopic adjustable gastric banding (LAGB)"
+      "Adults (age 18–70)",
+      "Body mass index (BMI) of 30–50 kg/m2",
+      "T2DM (HbA1c ≥ 48 mmol/mol and <97 mmol/mol at or before screening)"
     ],
     "mean_age": 52.3,
     "percent_female": 77.8,
@@ -19,7 +18,7 @@
       "name": "Liraglutide",
       "role": "experimental",
       "drug": "liraglutide",
-      "dose": "1.8 mg once daily",
+      "dose": "1.8 mg once daily; titrated as recommended to a maximum tolerated dose of 1.8 mg",
       "route": "subcutaneous",
       "is_fixed_combination": false,
       "n_randomized": 13,
@@ -30,7 +29,7 @@
       "name": "Placebo",
       "role": "placebo",
       "drug": null,
-      "dose": null,
+      "dose": "Placebo once daily",
       "route": "subcutaneous",
       "is_fixed_combination": false,
       "n_randomized": 14,
@@ -40,7 +39,7 @@
   ],
   "outcomes": [
     {
-      "name": "change in HbA1c",
+      "name": "Change in HbA1c from randomisation to 6 months",
       "is_primary": true,
       "timepoint": "6 months",
       "comparison": "Liraglutide vs Placebo",
@@ -57,19 +56,35 @@
   ],
   "adverse_events": [
     {
+      "term": "Number of patients with adverse events",
+      "arm_name": "Liraglutide",
+      "n_patients": 8,
+      "percent_patients": 61.5,
+      "is_serious": null,
+      "evidence": []
+    },
+    {
+      "term": "Number of patients with adverse events",
+      "arm_name": "Placebo",
+      "n_patients": 4,
+      "percent_patients": 28.6,
+      "is_serious": null,
+      "evidence": []
+    },
+    {
       "term": "Nausea",
       "arm_name": "Liraglutide",
       "n_patients": 6,
       "percent_patients": 46.2,
-      "is_serious": false,
+      "is_serious": null,
       "evidence": []
     },
     {
       "term": "Nausea",
       "arm_name": "Placebo",
       "n_patients": 0,
-      "percent_patients": 0,
-      "is_serious": false,
+      "percent_patients": null,
+      "is_serious": null,
       "evidence": []
     },
     {
@@ -77,7 +92,7 @@
       "arm_name": "Liraglutide",
       "n_patients": 1,
       "percent_patients": 7.7,
-      "is_serious": false,
+      "is_serious": null,
       "evidence": []
     },
     {
@@ -85,7 +100,7 @@
       "arm_name": "Placebo",
       "n_patients": 2,
       "percent_patients": 14.3,
-      "is_serious": false,
+      "is_serious": null,
       "evidence": []
     },
     {
@@ -93,15 +108,15 @@
       "arm_name": "Liraglutide",
       "n_patients": 1,
       "percent_patients": 7.7,
-      "is_serious": false,
+      "is_serious": null,
       "evidence": []
     },
     {
       "term": "Constipation",
       "arm_name": "Placebo",
       "n_patients": 0,
-      "percent_patients": 0,
-      "is_serious": false,
+      "percent_patients": null,
+      "is_serious": null,
       "evidence": []
     },
     {
@@ -109,7 +124,7 @@
       "arm_name": "Liraglutide",
       "n_patients": 2,
       "percent_patients": 15.4,
-      "is_serious": false,
+      "is_serious": null,
       "evidence": []
     },
     {
@@ -117,7 +132,7 @@
       "arm_name": "Placebo",
       "n_patients": 1,
       "percent_patients": 7.1,
-      "is_serious": false,
+      "is_serious": null,
       "evidence": []
     },
     {
@@ -125,7 +140,7 @@
       "arm_name": "Liraglutide",
       "n_patients": 2,
       "percent_patients": 15.4,
-      "is_serious": false,
+      "is_serious": null,
       "evidence": []
     },
     {
@@ -133,15 +148,15 @@
       "arm_name": "Placebo",
       "n_patients": 1,
       "percent_patients": 7.1,
-      "is_serious": false,
+      "is_serious": null,
       "evidence": []
     },
     {
       "term": "Gastro-oesophageal reflux",
       "arm_name": "Liraglutide",
       "n_patients": 0,
-      "percent_patients": 0,
-      "is_serious": false,
+      "percent_patients": null,
+      "is_serious": null,
       "evidence": []
     },
     {
@@ -149,7 +164,7 @@
       "arm_name": "Placebo",
       "n_patients": 2,
       "percent_patients": 14.3,
-      "is_serious": false,
+      "is_serious": null,
       "evidence": []
     },
     {
@@ -157,15 +172,15 @@
       "arm_name": "Liraglutide",
       "n_patients": 2,
       "percent_patients": 15.4,
-      "is_serious": false,
+      "is_serious": null,
       "evidence": []
     },
     {
       "term": "Loss of appetite",
       "arm_name": "Placebo",
       "n_patients": 0,
-      "percent_patients": 0,
-      "is_serious": false,
+      "percent_patients": null,
+      "is_serious": null,
       "evidence": []
     },
     {
@@ -173,15 +188,15 @@
       "arm_name": "Liraglutide",
       "n_patients": 1,
       "percent_patients": 7.7,
-      "is_serious": false,
+      "is_serious": null,
       "evidence": []
     },
     {
       "term": "Bloating",
       "arm_name": "Placebo",
       "n_patients": 0,
-      "percent_patients": 0,
-      "is_serious": false,
+      "percent_patients": null,
+      "is_serious": null,
       "evidence": []
     },
     {
@@ -189,15 +204,15 @@
       "arm_name": "Liraglutide",
       "n_patients": 1,
       "percent_patients": 7.7,
-      "is_serious": false,
+      "is_serious": null,
       "evidence": []
     },
     {
       "term": "Dry mouth",
       "arm_name": "Placebo",
       "n_patients": 0,
-      "percent_patients": 0,
-      "is_serious": false,
+      "percent_patients": null,
+      "is_serious": null,
       "evidence": []
     },
     {
@@ -205,15 +220,15 @@
       "arm_name": "Liraglutide",
       "n_patients": 1,
       "percent_patients": 7.7,
-      "is_serious": false,
+      "is_serious": null,
       "evidence": []
     },
     {
       "term": "Cramps (not GI)",
       "arm_name": "Placebo",
       "n_patients": 0,
-      "percent_patients": 0,
-      "is_serious": false,
+      "percent_patients": null,
+      "is_serious": null,
       "evidence": []
     },
     {
@@ -221,15 +236,15 @@
       "arm_name": "Liraglutide",
       "n_patients": 1,
       "percent_patients": 7.7,
-      "is_serious": false,
+      "is_serious": null,
       "evidence": []
     },
     {
       "term": "Irritable legs",
       "arm_name": "Placebo",
       "n_patients": 0,
-      "percent_patients": 0,
-      "is_serious": false,
+      "percent_patients": null,
+      "is_serious": null,
       "evidence": []
     },
     {
@@ -237,15 +252,15 @@
       "arm_name": "Liraglutide",
       "n_patients": 1,
       "percent_patients": 7.7,
-      "is_serious": false,
+      "is_serious": null,
       "evidence": []
     },
     {
       "term": "Sweating",
       "arm_name": "Placebo",
       "n_patients": 0,
-      "percent_patients": 0,
-      "is_serious": false,
+      "percent_patients": null,
+      "is_serious": null,
       "evidence": []
     },
     {
@@ -253,23 +268,23 @@
       "arm_name": "Liraglutide",
       "n_patients": 1,
       "percent_patients": 7.7,
-      "is_serious": false,
+      "is_serious": null,
       "evidence": []
     },
     {
       "term": "Itching",
       "arm_name": "Placebo",
       "n_patients": 0,
-      "percent_patients": 0,
-      "is_serious": false,
+      "percent_patients": null,
+      "is_serious": null,
       "evidence": []
     },
     {
       "term": "Cough",
       "arm_name": "Liraglutide",
       "n_patients": 0,
-      "percent_patients": 0,
-      "is_serious": false,
+      "percent_patients": null,
+      "is_serious": null,
       "evidence": []
     },
     {
@@ -277,7 +292,7 @@
       "arm_name": "Placebo",
       "n_patients": 1,
       "percent_patients": 7.1,
-      "is_serious": false,
+      "is_serious": null,
       "evidence": []
     },
     {
@@ -285,15 +300,15 @@
       "arm_name": "Liraglutide",
       "n_patients": 2,
       "percent_patients": 15.4,
-      "is_serious": false,
+      "is_serious": null,
       "evidence": []
     },
     {
       "term": "Numbness/cold to extremities",
       "arm_name": "Placebo",
       "n_patients": 0,
-      "percent_patients": 0,
-      "is_serious": false,
+      "percent_patients": null,
+      "is_serious": null,
       "evidence": []
     },
     {
@@ -301,15 +316,15 @@
       "arm_name": "Liraglutide",
       "n_patients": 1,
       "percent_patients": 7.7,
-      "is_serious": false,
+      "is_serious": null,
       "evidence": []
     },
     {
       "term": "Chest pain",
       "arm_name": "Placebo",
       "n_patients": 0,
-      "percent_patients": 0,
-      "is_serious": false,
+      "percent_patients": null,
+      "is_serious": null,
       "evidence": []
     },
     {
@@ -317,39 +332,39 @@
       "arm_name": "Liraglutide",
       "n_patients": 1,
       "percent_patients": 7.7,
-      "is_serious": false,
+      "is_serious": null,
       "evidence": []
     },
     {
       "term": "Migraine",
       "arm_name": "Placebo",
       "n_patients": 0,
-      "percent_patients": 0,
-      "is_serious": false,
+      "percent_patients": null,
+      "is_serious": null,
       "evidence": []
     },
     {
-      "term": "Sciatic pain",
+      "term": "Sciatic Pain",
       "arm_name": "Liraglutide",
       "n_patients": 1,
       "percent_patients": 7.7,
-      "is_serious": false,
+      "is_serious": null,
       "evidence": []
     },
     {
-      "term": "Sciatic pain",
+      "term": "Sciatic Pain",
       "arm_name": "Placebo",
       "n_patients": 0,
-      "percent_patients": 0,
-      "is_serious": false,
+      "percent_patients": null,
+      "is_serious": null,
       "evidence": []
     },
     {
       "term": "Pain of right side flank",
       "arm_name": "Liraglutide",
       "n_patients": 0,
-      "percent_patients": 0,
-      "is_serious": false,
+      "percent_patients": null,
+      "is_serious": null,
       "evidence": []
     },
     {
@@ -357,7 +372,7 @@
       "arm_name": "Placebo",
       "n_patients": 1,
       "percent_patients": 7.1,
-      "is_serious": false,
+      "is_serious": null,
       "evidence": []
     },
     {
@@ -365,15 +380,15 @@
       "arm_name": "Liraglutide",
       "n_patients": 1,
       "percent_patients": 7.7,
-      "is_serious": false,
+      "is_serious": null,
       "evidence": []
     },
     {
       "term": "Dizziness",
       "arm_name": "Placebo",
       "n_patients": 0,
-      "percent_patients": 0,
-      "is_serious": false,
+      "percent_patients": null,
+      "is_serious": null,
       "evidence": []
     },
     {
@@ -381,7 +396,7 @@
       "arm_name": "Liraglutide",
       "n_patients": 1,
       "percent_patients": 7.7,
-      "is_serious": false,
+      "is_serious": null,
       "evidence": []
     },
     {
@@ -389,30 +404,30 @@
       "arm_name": "Placebo",
       "n_patients": 1,
       "percent_patients": 7.1,
-      "is_serious": false,
+      "is_serious": null,
       "evidence": []
     },
     {
-      "term": "Urinary tract infection",
+      "term": "Urinary Tract Infection",
       "arm_name": "Liraglutide",
       "n_patients": 1,
       "percent_patients": 7.7,
-      "is_serious": false,
+      "is_serious": null,
       "evidence": []
     },
     {
-      "term": "Urinary tract infection",
+      "term": "Urinary Tract Infection",
       "arm_name": "Placebo",
       "n_patients": 0,
-      "percent_patients": 0,
-      "is_serious": false,
+      "percent_patients": null,
+      "is_serious": null,
       "evidence": []
     },
     {
       "term": "Cholecystitis",
       "arm_name": "Liraglutide",
       "n_patients": 0,
-      "percent_patients": 0,
+      "percent_patients": null,
       "is_serious": true,
       "evidence": []
     },
@@ -436,12 +451,12 @@
       "term": "Pain of left upper quadrant",
       "arm_name": "Placebo",
       "n_patients": 0,
-      "percent_patients": 0,
+      "percent_patients": null,
       "is_serious": true,
       "evidence": []
     },
     {
-      "term": "Abdominal pain",
+      "term": "Abdominal Pain",
       "arm_name": "Liraglutide",
       "n_patients": 1,
       "percent_patients": 7.7,
@@ -449,11 +464,43 @@
       "evidence": []
     },
     {
-      "term": "Abdominal pain",
+      "term": "Abdominal Pain",
       "arm_name": "Placebo",
       "n_patients": 0,
-      "percent_patients": 0,
+      "percent_patients": null,
       "is_serious": true,
+      "evidence": []
+    },
+    {
+      "term": "Patient with surgery-related AEs",
+      "arm_name": "Liraglutide",
+      "n_patients": 2,
+      "percent_patients": 25.0,
+      "is_serious": null,
+      "evidence": []
+    },
+    {
+      "term": "Patient with surgery-related AEs",
+      "arm_name": "Placebo",
+      "n_patients": 0,
+      "percent_patients": 0.0,
+      "is_serious": null,
+      "evidence": []
+    },
+    {
+      "term": "Patient with gastric band related AEs",
+      "arm_name": "Liraglutide",
+      "n_patients": 6,
+      "percent_patients": 75.0,
+      "is_serious": null,
+      "evidence": []
+    },
+    {
+      "term": "Patient with gastric band related AEs",
+      "arm_name": "Placebo",
+      "n_patients": 2,
+      "percent_patients": 50.0,
+      "is_serious": null,
       "evidence": []
     }
   ]

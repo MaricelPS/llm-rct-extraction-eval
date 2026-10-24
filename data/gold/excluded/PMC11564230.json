@@ -1,6 +1,6 @@
 {
   "pmcid": "PMC11564230",
-  "trial_registration": "TODO",
+  "trial_registration": "NCT03789578",
   "design_notes": null,
   "population": {
     "condition": "type 2 diabetes mellitus (T2DM)",
@@ -11,7 +11,7 @@
       "Body weight of 80–120 kg",
       "HbA1c of 6.0–8.5% (42–69 mmol/mol)"
     ],
-    "mean_age": "57.4 ± 6.2 years",
+    "mean_age": 57.4,
     "percent_female": 25.8,
     "evidence": []
   },
@@ -21,7 +21,7 @@
       "role": "experimental",
       "drug": "insulin icodec and semaglutide",
       "dose": "175 U icodec and 0.5 mg semaglutide",
-      "route": "subcutaneous injection",
+      "route": "subcutaneous",
       "is_fixed_combination": true,
       "n_randomized": 31,
       "n_analyzed": 30,
@@ -32,7 +32,7 @@
       "role": "active_comparator",
       "drug": "insulin icodec",
       "dose": "175 U",
-      "route": "subcutaneous injection",
+      "route": "subcutaneous",
       "is_fixed_combination": false,
       "n_randomized": 31,
       "n_analyzed": 28,
@@ -43,7 +43,7 @@
       "role": "active_comparator",
       "drug": "semaglutide",
       "dose": "0.5 mg",
-      "route": "subcutaneous injection",
+      "route": "subcutaneous",
       "is_fixed_combination": false,
       "n_randomized": 31,
       "n_analyzed": 28,
@@ -82,135 +82,120 @@
   ],
   "adverse_events": [
     {
-      "term": null,
+      "term":  "Treatment emergent AEs",
       "arm_name": "IcoSema",
-      "event": "Treatment emergent AEs",
       "n_patients": 27,
       "is_serious": null,
       "evidence": [],
       "percent_patients": 90.0
     },
     {
-      "term": null,
+      "term":  "Treatment emergent AEs",
       "arm_name": "Icodec",
-      "event": "Treatment emergent AEs",
       "n_patients": 15,
       "is_serious": null,
       "evidence": [],
       "percent_patients": 53.6
     },
     {
-      "term": null,
+      "term":  "Treatment emergent AEs",
       "arm_name": "Semaglutide",
-      "event": "Treatment emergent AEs",
       "n_patients": 17,
       "is_serious": null,
       "evidence": [],
       "percent_patients": 60.7
     },
     {
-      "term": null,
+      "term": "Serious AEs",
       "arm_name": "IcoSema",
-      "event": "Serious AEs",
       "n_patients": 0,
       "is_serious": true,
       "evidence": [],
       "percent_patients": 0.0
     },
     {
-      "term": null,
+      "term": "Serious AEs",
       "arm_name": "Icodec",
-      "event": "Serious AEs",
       "n_patients": 1,
       "is_serious": true,
       "evidence": [],
       "percent_patients": 3.6
     },
     {
-      "term": null,
+      "term": "Serious AEs",
       "arm_name": "Semaglutide",
-      "event": "Serious AEs",
       "n_patients": 0,
       "is_serious": true,
       "evidence": [],
       "percent_patients": 0.0
     },
     {
-      "term": null,
+      "term": "Gastrointestinal disorders",
       "arm_name": "IcoSema",
-      "event": "Gastrointestinal disorders",
       "n_patients": 22,
       "is_serious": null,
       "evidence": [],
       "percent_patients": 73.3
     },
     {
-      "term": null,
+      "term": "Gastrointestinal disorders",
       "arm_name": "Icodec",
-      "event": "Gastrointestinal disorders",
       "n_patients": 4,
       "is_serious": null,
       "evidence": [],
       "percent_patients": 14.3
     },
     {
-      "term": null,
+      "term": "Gastrointestinal disorders",
       "arm_name": "Semaglutide",
-      "event": "Gastrointestinal disorders",
       "n_patients": 12,
       "is_serious": null,
       "evidence": [],
       "percent_patients": 42.9
     },
     {
-      "term": null,
+      "term": "Nausea",
       "arm_name": "IcoSema",
-      "event": "Nausea",
       "n_patients": 14,
       "is_serious": null,
       "evidence": [],
       "percent_patients": 46.7
     },
     {
-      "term": null,
+      "term": "Nausea",
       "arm_name": "Icodec",
-      "event": "Nausea",
       "n_patients": 0,
       "is_serious": null,
       "evidence": [],
       "percent_patients": 0.0
     },
     {
-      "term": null,
+      "term": "Nausea",
       "arm_name": "Semaglutide",
-      "event": "Nausea",
       "n_patients": 6,
       "is_serious": null,
       "evidence": [],
       "percent_patients": 21.4
     },
     {
-      "term": null,
+      "term": "Vomiting",
       "arm_name": "IcoSema",
-      "event": "Vomiting",
       "n_patients": 11,
       "is_serious": null,
       "evidence": [],
       "percent_patients": 36.7
     },
     {
-      "term": null,
+      "term": "Vomiting",
       "arm_name": "Icodec",
-      "event": "Vomiting",
       "n_patients": 0,
       "is_serious": null,
       "evidence": [],
       "percent_patients": 0.0
     },
     {
-      "term": null,
+      "term": "Vomiting",
       "arm_name": "Semaglutide",
-      "event": "Vomiting",
       "n_patients": 2,
       "is_serious": null,
       "evidence": [],

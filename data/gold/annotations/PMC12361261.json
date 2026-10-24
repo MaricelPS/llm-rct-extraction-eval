@@ -1,0 +1,125 @@
+{
+  "pmcid": "PMC12361261",
+  "trial_registration": "NCT05767255",
+  "design_notes": null,
+  "population": {
+    "condition": "Type 2 diabetes with suboptimal glycaemic control during transition from hospital to outpatient care",
+    "key_inclusion_criteria": [
+      "Age over 18 years",
+      "Diagnosis of type 2 diabetes",
+      "HbA1c ≥64 mmol/mol (≥8.0%) and ≤140 mmol/mol (≤15%)",
+      "Hospitalised in a general ward",
+      "Required multiple daily insulin injections during hospitalisation and were eligible for MDI therapy at transition to outpatient care"
+    ],
+    "mean_age": 58,
+    "percent_female": null,
+    "evidence": []
+  },
+  "arms": [
+    {
+      "name": "IDegLira",
+      "role": "experimental",
+      "drug": "insulin degludec/liraglutide",
+      "dose": "Starting at 10 IU if no insulin was used before hospitalisation, or 16 IU if insulin had previously been used at any dose; titrated during follow-up",
+      "route": "subcutaneous",
+      "is_fixed_combination": true,
+      "n_randomized": 32,
+      "n_analyzed": 32,
+      "evidence": []
+    },
+    {
+      "name": "MDI",
+      "role": "active_comparator",
+      "drug": "multiple daily insulin injections",
+      "dose": "Outpatient insulin dose calculated by reducing the total daily dose required at the end of hospitalisation by 20%",
+      "route": "subcutaneous",
+      "is_fixed_combination": false,
+      "n_randomized": 33,
+      "n_analyzed": 32,
+      "evidence": []
+    }
+  ],
+  "outcomes": [
+    {
+      "name": "Patients with at least one hypoglycaemic episode documented by continuous glucose monitoring, with glucose <3.0 mmol/L for more than 15 minutes",
+      "is_primary": true,
+      "timepoint": "First 4 weeks after hospital discharge",
+      "comparison": "IDegLira vs MDI",
+      "effect_measure": "other",
+      "value": null,
+      "ci_lower": null,
+      "ci_upper": null,
+      "ci_level": null,
+      "p_value": "0.010",
+      "unit": "% of patients",
+      "estimand": "not_reported",
+      "evidence": []
+    }
+  ],
+  "adverse_events": [
+    {
+      "term": "Number of patients with ≥1 event of severe hypoglycaemia",
+      "arm_name": "IDegLira",
+      "n_patients": 0,
+      "percent_patients": 0,
+      "is_serious": null,
+      "evidence": []
+    },
+    {
+      "term": "Number of patients with ≥1 event of severe hypoglycaemia",
+      "arm_name": "MDI",
+      "n_patients": 10,
+      "percent_patients": 31.3,
+      "is_serious": null,
+      "evidence": []
+    },
+    {
+      "term": "Number of patients with gastrointestinal events",
+      "arm_name": "IDegLira",
+      "n_patients": 2,
+      "percent_patients": 6.3,
+      "is_serious": null,
+      "evidence": []
+    },
+    {
+      "term": "Number of patients with gastrointestinal events",
+      "arm_name": "MDI",
+      "n_patients": 1,
+      "percent_patients": 3.1,
+      "is_serious": null,
+      "evidence": []
+    },
+    {
+      "term": "Number of patients with asthenia and adynamia",
+      "arm_name": "IDegLira",
+      "n_patients": 1,
+      "percent_patients": 3.1,
+      "is_serious": null,
+      "evidence": []
+    },
+    {
+      "term": "Number of patients with asthenia and adynamia",
+      "arm_name": "MDI",
+      "n_patients": 0,
+      "percent_patients": 0,
+      "is_serious": null,
+      "evidence": []
+    },
+    {
+      "term": "Acute renal injury event",
+      "arm_name": "IDegLira",
+      "n_patients": 1,
+      "percent_patients": 3.1,
+      "is_serious": null,
+      "evidence": []
+    },
+    {
+      "term": "Acute renal injury event",
+      "arm_name": "MDI",
+      "n_patients": 0,
+      "percent_patients": 0,
+      "is_serious": null,
+      "evidence": []
+    }
+  ]
+}

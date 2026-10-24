@@ -1,6 +1,6 @@
 {
   "pmcid": "PMC11950020",
-  "trial_registration": "TODO",
+  "trial_registration": "NCT05259033",
   "design_notes": null,
   "population": {
     "condition": "type 2 diabetes mellitus inadequately managed with GLP-1 receptor agonist therapy, with or without additional oral glucose-lowering medications",
@@ -45,14 +45,14 @@
       "is_primary": true,
       "timepoint": "Week 52",
       "comparison": "IcoSema vs Semaglutide 1.0 mg",
-      "effect_measure": "estimated treatment difference",
+      "effect_measure": "other",
       "value": -4.85,
       "ci_lower": -6.13,
       "ci_upper": -3.57,
       "ci_level": 95,
       "p_value": "<0.0001",
       "unit": "mmol/mol",
-      "estimand": "treatment policy strategy",
+      "estimand": "other",
       "evidence": []
     }
   ],
@@ -62,7 +62,7 @@
       "arm_name": "IcoSema",
       "n_patients": 270,
       "percent_patients": 79.2,
-      "is_serious": false,
+      "is_serious": null,
       "evidence": []
     },
     {
@@ -70,7 +70,7 @@
       "arm_name": "Semaglutide 1.0 mg",
       "n_patients": 252,
       "percent_patients": 74.1,
-      "is_serious": false,
+      "is_serious": null,
       "evidence": []
     },
     {
@@ -94,7 +94,7 @@
       "arm_name": "IcoSema",
       "n_patients": 40,
       "percent_patients": 11.7,
-      "is_serious": false,
+      "is_serious": null,
       "evidence": []
     },
     {
@@ -102,7 +102,7 @@
       "arm_name": "Semaglutide 1.0 mg",
       "n_patients": 39,
       "percent_patients": 11.5,
-      "is_serious": false,
+      "is_serious": null,
       "evidence": []
     },
     {
@@ -110,7 +110,7 @@
       "arm_name": "IcoSema",
       "n_patients": 38,
       "percent_patients": 11.1,
-      "is_serious": false,
+      "is_serious": null,
       "evidence": []
     },
     {
@@ -118,7 +118,7 @@
       "arm_name": "Semaglutide 1.0 mg",
       "n_patients": 42,
       "percent_patients": 12.4,
-      "is_serious": false,
+      "is_serious": null,
       "evidence": []
     },
     {
@@ -126,7 +126,7 @@
       "arm_name": "IcoSema",
       "n_patients": 18,
       "percent_patients": 5.3,
-      "is_serious": false,
+      "is_serious": null,
       "evidence": []
     },
     {
@@ -134,7 +134,7 @@
       "arm_name": "Semaglutide 1.0 mg",
       "n_patients": 22,
       "percent_patients": 6.5,
-      "is_serious": false,
+      "is_serious": null,
       "evidence": []
     },
     {
@@ -142,7 +142,7 @@
       "arm_name": "IcoSema",
       "n_patients": 51,
       "percent_patients": 15.0,
-      "is_serious": false,
+      "is_serious": null,
       "evidence": []
     },
     {
@@ -150,7 +150,7 @@
       "arm_name": "Semaglutide 1.0 mg",
       "n_patients": 49,
       "percent_patients": 14.4,
-      "is_serious": false,
+      "is_serious": null,
       "evidence": []
     },
     {
@@ -158,7 +158,7 @@
       "arm_name": "IcoSema",
       "n_patients": 33,
       "percent_patients": 9.7,
-      "is_serious": false,
+      "is_serious": null,
       "evidence": []
     },
     {
@@ -166,7 +166,7 @@
       "arm_name": "Semaglutide 1.0 mg",
       "n_patients": 33,
       "percent_patients": 9.7,
-      "is_serious": false,
+      "is_serious": null,
       "evidence": []
     },
     {
@@ -174,7 +174,7 @@
       "arm_name": "IcoSema",
       "n_patients": 22,
       "percent_patients": 6.5,
-      "is_serious": false,
+      "is_serious": null,
       "evidence": []
     },
     {
@@ -182,7 +182,7 @@
       "arm_name": "Semaglutide 1.0 mg",
       "n_patients": 29,
       "percent_patients": 8.5,
-      "is_serious": false,
+      "is_serious": null,
       "evidence": []
     },
     {
@@ -190,7 +190,7 @@
       "arm_name": "IcoSema",
       "n_patients": 20,
       "percent_patients": 5.9,
-      "is_serious": false,
+      "is_serious": null,
       "evidence": []
     },
     {
@@ -198,7 +198,7 @@
       "arm_name": "Semaglutide 1.0 mg",
       "n_patients": 6,
       "percent_patients": 1.8,
-      "is_serious": false,
+      "is_serious": null,
       "evidence": []
     },
     {
@@ -206,7 +206,7 @@
       "arm_name": "IcoSema",
       "n_patients": 19,
       "percent_patients": 5.6,
-      "is_serious": false,
+      "is_serious": null,
       "evidence": []
     },
     {
@@ -214,7 +214,7 @@
       "arm_name": "Semaglutide 1.0 mg",
       "n_patients": 10,
       "percent_patients": 2.9,
-      "is_serious": false,
+      "is_serious": null,
       "evidence": []
     }
   ]

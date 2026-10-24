@@ -1,10 +1,15 @@
 {
   "pmcid": "PMC11987204",
-  "trial_registration": "TODO",
+  "trial_registration": "CTR20221721",
   "design_notes": null,
   "population": {
     "condition": "Type 2 diabetes mellitus (T2DM) with inadequate glycemic control despite a stable dose of metformin",
-    "key_inclusion_criteria": "Age 18–75 years; diagnosed with T2DM for at least 6 months; inadequate blood glucose control after taking a stable metformin dose of 1.5–2.0 g daily for at least 8 weeks before screening; BMI 18.5–35 kg/m²; HbA1c 7%–11% at screening and baseline.",
+    "key_inclusion_criteria": [
+      "Age 18–75 years", 
+      "Diagnosed with T2DM for at least 6 months", 
+      "Inadequate blood glucose control after taking a stable metformin dose of 1.5–2.0 g daily for at least 8 weeks before screening",
+      "BMI 18.5–35 kg/m²; HbA1c 7%–11% at screening and baseline"
+    ],
     "mean_age": 52.4,
     "percent_female": 40.9,
     "evidence": []
@@ -39,12 +44,12 @@
       "is_primary": true,
       "timepoint": "Week 24",
       "comparison": "LY05008 vs Dulaglutide",
-      "effect_measure": "Least squares mean difference",
+      "effect_measure": "other",
       "value": 0.06,
       "ci_lower": -0.08,
       "ci_upper": 0.19,
       "ci_level": 95,
-      "p_value": 0.421,
+      "p_value": "0.421",
       "unit": "%",
       "estimand": "not_reported",
       "evidence": []

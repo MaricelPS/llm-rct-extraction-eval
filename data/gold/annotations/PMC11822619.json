@@ -1,6 +1,6 @@
 {
   "pmcid": "PMC11822619",
-  "trial_registration": "TODO",
+  "trial_registration": "NCT05520775",
   "design_notes": null,
   "population": {
     "condition": "alcohol use disorder (AUD)",
@@ -29,7 +29,7 @@
     },
     {
       "name": "Placebo",
-      "role": "placebo_comparator",
+      "role": "placebo",
       "drug": "placebo",
       "dose": "Administered weekly; matching dose details not reported",
       "route": "subcutaneous",
@@ -45,7 +45,7 @@
       "is_primary": true,
       "timepoint": "Posttreatment, between weeks 8 and 9",
       "comparison": "Semaglutide vs Placebo",
-      "effect_measure": "beta",
+      "effect_measure": "other",
       "value": -0.48,
       "ci_lower": -0.85,
       "ci_upper": -0.11,
@@ -60,7 +60,7 @@
       "is_primary": true,
       "timepoint": "Posttreatment, between weeks 8 and 9",
       "comparison": "Semaglutide vs Placebo",
-      "effect_measure": "beta",
+      "effect_measure": "other",
       "value": -0.46,
       "ci_lower": -0.87,
       "ci_upper": -0.06,

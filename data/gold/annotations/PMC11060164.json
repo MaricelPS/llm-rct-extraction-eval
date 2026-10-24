@@ -75,7 +75,7 @@
       "term": "Mild nausea",
       "arm_name": "IDegLira group",
       "n_patients": 1,
-      "is_serious": false,
+      "is_serious": null,
       "evidence": [],
       "percent_patients": null
     }

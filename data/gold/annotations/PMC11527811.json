@@ -1,6 +1,6 @@
 {
   "pmcid": "PMC11527811",
-  "trial_registration": "TODO",
+  "trial_registration": null,
   "design_notes": null,
   "population": {
     "condition": "type 2 diabetes mellitus",
@@ -21,7 +21,7 @@
       "role": "active_comparator",
       "drug": null,
       "dose": null,
-      "route": null,
+      "route": "not_reported",
       "is_fixed_combination": false,
       "n_randomized": 90,
       "n_analyzed": 75,
@@ -32,7 +32,7 @@
       "role": "experimental",
       "drug": null,
       "dose": null,
-      "route": null,
+      "route": "not_reported",
       "is_fixed_combination": false,
       "n_randomized": 90,
       "n_analyzed": 73,
@@ -42,18 +42,16 @@
   "outcomes": [],
   "adverse_events": [
     {
-      "term": null,
+      "term": "Hypoglycemia",
       "arm_name": "Group A",
-      "event": "Hypoglycemia",
       "n_patients": null,
       "is_serious": null,
       "evidence": [],
       "percent_patients": 24
     },
     {
-      "term": null,
+      "term": "Hypoglycemia",
       "arm_name": "Group B",
-      "event": "Hypoglycemia",
       "n_patients": null,
       "is_serious": null,
       "evidence": [],
