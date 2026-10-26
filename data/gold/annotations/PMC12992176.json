@@ -5,11 +5,11 @@
   "population": {
     "condition": "Type 2 diabetes mellitus and chronic kidney disease",
     "key_inclusion_criteria": [
-        "Age over 35 years",
-        "Type 2 diabetes",
-        "Clinical diagnosis of chronic kidney disease",
-        "Stable maximum tolerated dose of an ACE inhibitor or angiotensin receptor blocker during the preceding 3 months",
-        "Estimated glomerular filtration rate greater than 30 mL/min"
+      "Age over 35 years",
+      "Type 2 diabetes",
+      "Clinical diagnosis of chronic kidney disease",
+      "Stable maximum tolerated dose of an ACE inhibitor or angiotensin receptor blocker during the preceding 3 months",
+      "Estimated glomerular filtration rate greater than 30 mL/min"
     ],
     "mean_age": 61.8,
     "percent_female": 35.6,
@@ -30,7 +30,7 @@
     {
       "name": "Placebo",
       "role": "placebo",
-      "drug": "placebo",
+      "drug": null,
       "dose": null,
       "route": "not_reported",
       "is_fixed_combination": false,
@@ -39,7 +39,7 @@
       "evidence": []
     }
   ],
-    "outcomes": [
+  "outcomes": [
     {
       "name": "Ao-PWV",
       "is_primary": true,

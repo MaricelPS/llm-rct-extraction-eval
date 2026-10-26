@@ -28,7 +28,7 @@
       "name": "Conventional basal-bolus insulin therapy",
       "role": "active_comparator",
       "drug": "insulin degludec and insulin aspart",
-      "dose": "Insulin degludec adjusted according to previous weeks' fasting blood glucose readings; insulin aspart titrated weekly according to the insulin-carbohydrate ratio and post-meal 2 h continuous glucose monitoring readings. Mean total daily insulin dose: 0.4 ± 0.31 U kg−1 day−1.",
+      "dose": null,
       "route": "subcutaneous",
       "is_fixed_combination": false,
       "n_randomized": 40,
@@ -59,7 +59,7 @@
       "arm_name": "Dulaglutide",
       "n_patients": 10,
       "percent_patients": 25.0,
-      "is_serious": false,
+      "is_serious": null,
       "evidence": []
     },
     {
@@ -67,7 +67,7 @@
       "arm_name": "Conventional basal-bolus insulin therapy",
       "n_patients": 4,
       "percent_patients": 10.0,
-      "is_serious": false,
+      "is_serious": null,
       "evidence": []
     },
     {
@@ -75,24 +75,40 @@
       "arm_name": "Conventional basal-bolus insulin therapy",
       "n_patients": 16,
       "percent_patients": 40.0,
-      "is_serious": false,
+      "is_serious": null,
       "evidence": []
     },
     {
-      "term": "Serious adverse events",
-      "arm_name": "Dulaglutide",
-      "n_patients": 0,
-      "percent_patients": 0.0,
-      "is_serious": true,
-      "evidence": []
+    "term": "Clinically important hypoglycaemia",
+    "arm_name": "Conventional basal-bolus insulin therapy",
+    "n_patients": 0,
+    "percent_patients": null,
+    "is_serious": null,
+    "evidence": []
     },
     {
-      "term": "Serious adverse events",
-      "arm_name": "Conventional basal-bolus insulin therapy",
-      "n_patients": 0,
-      "percent_patients": 0.0,
-      "is_serious": true,
-      "evidence": []
+    "term": "Severe hypoglycaemia",
+    "arm_name": "Conventional basal-bolus insulin therapy",
+    "n_patients": 0,
+    "percent_patients": null,
+    "is_serious": null,
+    "evidence": []
+    },
+    {
+    "term": "Serious adverse events",
+    "arm_name": "Dulaglutide",
+    "n_patients": 0,
+    "percent_patients": null,
+    "is_serious": true,
+    "evidence": []
+    },
+    {
+    "term": "Serious adverse events",
+    "arm_name": "Conventional basal-bolus insulin therapy",
+    "n_patients": 0,
+    "percent_patients": null,
+    "is_serious": true,
+    "evidence": []
     }
   ]
 }

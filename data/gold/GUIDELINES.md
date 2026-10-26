@@ -62,8 +62,9 @@ criteria.
 
 - Arms are defined by the randomized intervention. Strata or subgroups (e.g. by insulin
   sensitivity) are not separate arms.
-- In crossover trials, arms are the treatment conditions; n_randomized and n_analyzed are null
-  unless the article reports them per condition.
+- In crossover trials, arms are the treatment conditions; n_randomized is null (participants are
+  randomized to sequences, not conditions) and n_analyzed is the size of the efficacy analysis
+  set per condition when the article reports it (often the same number for both conditions).
 - name: the arm label used in the column headers of the article's tables; otherwise as written
   in the text. Outcomes and adverse events must reuse these names exactly.
 - role: experimental, placebo or active_comparator.
@@ -126,3 +127,7 @@ criteria.
 - is_serious: true for events reported under serious adverse events and for deaths (fatal
   events meet the serious adverse event definition per ICH E2A); null otherwise. "Severe" does
   not imply "serious".
+- A statement that no participant had an event (e.g. "No serious adverse event was reported")
+  counts as 0 in every arm the statement covers: n_patients 0, percent_patients null. If the
+  statement refers to the whole trial, add an entry for every arm; if it refers to one group,
+  only for that arm.

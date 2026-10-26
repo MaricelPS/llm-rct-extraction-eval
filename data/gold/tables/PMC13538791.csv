@@ -1,0 +1,32 @@
+term;Sema+IGlarreduced;IGlartitrated;is_serious
+Total;173 (60.1);152 (53.5);
+Serious;17 (5.9);15 (5.3);true
+Fatal;1 (0.3);1 (0.4);true
+Severity: Mild;135 (46.9);121 (42.6);
+Severity: Moderate;75 (26.0);60 (21.1);
+Severity: Severe;13 (4.5);11 (3.9);
+Outcome: Recovered;154 (53.5);125 (44.0);
+Outcome: Recovering;14 (4.9);12 (4.2);
+Outcome: Recovered with sequelae;0;0;
+Outcome: Not recovered;61(21.2);56(19.7);
+Outcome: Unknown;5(1.7);3(1.1);
+Leading to treatment discontinuation:10(3.5);1(0.4);
+Gastrointestinal adverse events;4(1.4);0;
+Overall; 106(36.8);19(6.7);
+Recovered;95(33.0);17(6.0);
+Recovering;7(2.4);1(0.4);
+Mild;85(29.5);12(4.2);
+Moderate;40(13.9);10(3.5);
+Severe;4(1.4);1(0.4);	
+Nausea;53(18.4);2(0.7);	
+Vomiting;28(9.7);1(0.4);
+Diarrhoea;39(13.5);12(4.2);
+Pancreatitis;1(0.3);0;
+Acute pancreatitis;1(0.3);1(0.4);
+Hypoglycaemia alert value (Level 1);48(16.7);93(32.7);	
+Clinically significant hypoglycaemia (level 2);14(4.9);21(7.4);
+Severe hypoglycaemia (level 3);4(1.4);11(3.9);
+Cardiac adverse events; 7(2.4);6(2.1);	
+Gallbladder‐related adverse events;5(1.7);2(0.7);
+Neoplasms; 5(1.7);3(1.1);	
+Diabetic retinopathy; 5(1.7);11(3.9);

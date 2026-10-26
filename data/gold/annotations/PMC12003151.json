@@ -20,22 +20,22 @@
       "name": "Semaglutide",
       "role": "experimental",
       "drug": "semaglutide",
-      "dose": "titrated up to 1 mg or the maximum tolerated dose",
+      "dose": "1 mg once weekly",
       "route": "subcutaneous",
       "is_fixed_combination": false,
-      "n_randomized": 28,
-      "n_analyzed": 28,
+      "n_randomized": null,
+      "n_analyzed": 24,
       "evidence": []
     },
     {
       "name": "Placebo",
       "role": "placebo",
-      "drug": "placebo",
+      "drug": null,
       "dose": null,
       "route": "not_reported",
       "is_fixed_combination": false,
-      "n_randomized": 28,
-      "n_analyzed": 27,
+      "n_randomized": null,
+      "n_analyzed": 24,
       "evidence": []
     }
   ],
@@ -62,7 +62,7 @@
       "arm_name": "Semaglutide",
       "n_patients": 27,
       "percent_patients": 96,
-      "is_serious": false,
+      "is_serious": null,
       "evidence": []
     },
     {
@@ -70,7 +70,7 @@
       "arm_name": "Placebo",
       "n_patients": 17,
       "percent_patients": 63,
-      "is_serious": false,
+      "is_serious": null,
       "evidence": []
     },
     {
@@ -94,7 +94,7 @@
       "arm_name": "Semaglutide",
       "n_patients": 23,
       "percent_patients": 82,
-      "is_serious": false,
+      "is_serious": null,
       "evidence": []
     },
     {
@@ -102,7 +102,7 @@
       "arm_name": "Placebo",
       "n_patients": 7,
       "percent_patients": 26,
-      "is_serious": false,
+      "is_serious": null,
       "evidence": []
     },
     {
@@ -110,7 +110,7 @@
       "arm_name": "Semaglutide",
       "n_patients": 25,
       "percent_patients": 89,
-      "is_serious": false,
+      "is_serious": null,
       "evidence": []
     },
     {
@@ -118,7 +118,7 @@
       "arm_name": "Placebo",
       "n_patients": 2,
       "percent_patients": 7,
-      "is_serious": false,
+      "is_serious": null,
       "evidence": []
     },
     {
@@ -126,7 +126,7 @@
       "arm_name": "Semaglutide",
       "n_patients": 10,
       "percent_patients": 36,
-      "is_serious": false,
+      "is_serious": null,
       "evidence": []
     },
     {
@@ -134,7 +134,7 @@
       "arm_name": "Placebo",
       "n_patients": 1,
       "percent_patients": 4,
-      "is_serious": false,
+      "is_serious": null,
       "evidence": []
     },
     {
@@ -142,7 +142,7 @@
       "arm_name": "Semaglutide",
       "n_patients": 8,
       "percent_patients": 29,
-      "is_serious": false,
+      "is_serious": null,
       "evidence": []
     },
     {
@@ -150,7 +150,7 @@
       "arm_name": "Placebo",
       "n_patients": 2,
       "percent_patients": 7,
-      "is_serious": false,
+      "is_serious": null,
       "evidence": []
     },
     {
@@ -158,7 +158,7 @@
       "arm_name": "Semaglutide",
       "n_patients": 6,
       "percent_patients": 21,
-      "is_serious": false,
+      "is_serious": null,
       "evidence": []
     },
     {
@@ -166,7 +166,7 @@
       "arm_name": "Placebo",
       "n_patients": 0,
       "percent_patients": 0,
-      "is_serious": false,
+      "is_serious": null,
       "evidence": []
     },
     {
@@ -174,7 +174,7 @@
       "arm_name": "Semaglutide",
       "n_patients": 5,
       "percent_patients": 18,
-      "is_serious": false,
+      "is_serious": null,
       "evidence": []
     },
     {
@@ -182,7 +182,7 @@
       "arm_name": "Placebo",
       "n_patients": 0,
       "percent_patients": 0,
-      "is_serious": false,
+      "is_serious": null,
       "evidence": []
     },
     {
@@ -190,7 +190,7 @@
       "arm_name": "Semaglutide",
       "n_patients": 5,
       "percent_patients": 18,
-      "is_serious": false,
+      "is_serious": null,
       "evidence": []
     },
     {
@@ -198,7 +198,7 @@
       "arm_name": "Placebo",
       "n_patients": 0,
       "percent_patients": 0,
-      "is_serious": false,
+      "is_serious": null,
       "evidence": []
     },
     {
@@ -206,7 +206,7 @@
       "arm_name": "Semaglutide",
       "n_patients": 6,
       "percent_patients": 21,
-      "is_serious": false,
+      "is_serious": null,
       "evidence": []
     },
     {
@@ -214,7 +214,7 @@
       "arm_name": "Placebo",
       "n_patients": 6,
       "percent_patients": 22,
-      "is_serious": false,
+      "is_serious": null,
       "evidence": []
     },
     {
@@ -222,7 +222,7 @@
       "arm_name": "Semaglutide",
       "n_patients": 4,
       "percent_patients": 14,
-      "is_serious": false,
+      "is_serious": null,
       "evidence": []
     },
     {
@@ -230,7 +230,7 @@
       "arm_name": "Placebo",
       "n_patients": 1,
       "percent_patients": 4,
-      "is_serious": false,
+      "is_serious": null,
       "evidence": []
     },
     {
@@ -238,7 +238,7 @@
       "arm_name": "Semaglutide",
       "n_patients": 4,
       "percent_patients": 14,
-      "is_serious": false,
+      "is_serious": null,
       "evidence": []
     },
     {
@@ -246,7 +246,7 @@
       "arm_name": "Placebo",
       "n_patients": 0,
       "percent_patients": 0,
-      "is_serious": false,
+      "is_serious": null,
       "evidence": []
     },
     {
@@ -254,7 +254,7 @@
       "arm_name": "Semaglutide",
       "n_patients": 0,
       "percent_patients": 0,
-      "is_serious": false,
+      "is_serious": null,
       "evidence": []
     },
     {
@@ -262,7 +262,7 @@
       "arm_name": "Placebo",
       "n_patients": 1,
       "percent_patients": 4,
-      "is_serious": false,
+      "is_serious": null,
       "evidence": []
     },
     {
@@ -270,7 +270,7 @@
       "arm_name": "Semaglutide",
       "n_patients": 2,
       "percent_patients": 7,
-      "is_serious": false,
+      "is_serious": null,
       "evidence": []
     },
     {
@@ -278,7 +278,7 @@
       "arm_name": "Placebo",
       "n_patients": 0,
       "percent_patients": 0,
-      "is_serious": false,
+      "is_serious": null,
       "evidence": []
     },
     {
@@ -286,7 +286,7 @@
       "arm_name": "Semaglutide",
       "n_patients": 0,
       "percent_patients": 0,
-      "is_serious": false,
+      "is_serious": null,
       "evidence": []
     },
     {
@@ -294,7 +294,7 @@
       "arm_name": "Placebo",
       "n_patients": 0,
       "percent_patients": 0,
-      "is_serious": false,
+      "is_serious": null,
       "evidence": []
     }
   ]

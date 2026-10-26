@@ -31,7 +31,7 @@
       "name": "placebo",
       "role": "placebo",
       "drug": null,
-      "dose": "visually matching placebo once weekly",
+      "dose": null,
       "route": "subcutaneous",
       "is_fixed_combination": false,
       "n_randomized": 24,
@@ -62,7 +62,7 @@
       "arm_name": "semaglutide",
       "n_patients": 42,
       "percent_patients": 89,
-      "is_serious": false,
+      "is_serious": null,
       "evidence": []
     },
     {
@@ -70,7 +70,7 @@
       "arm_name": "placebo",
       "n_patients": 19,
       "percent_patients": 79,
-      "is_serious": false,
+      "is_serious": null,
       "evidence": []
     },
     {
@@ -94,7 +94,7 @@
       "arm_name": "semaglutide",
       "n_patients": 21,
       "percent_patients": 45,
-      "is_serious": false,
+      "is_serious": null,
       "evidence": []
     },
     {
@@ -102,7 +102,7 @@
       "arm_name": "placebo",
       "n_patients": 4,
       "percent_patients": 17,
-      "is_serious": false,
+      "is_serious": null,
       "evidence": []
     },
     {
@@ -110,7 +110,7 @@
       "arm_name": "semaglutide",
       "n_patients": 9,
       "percent_patients": 19,
-      "is_serious": false,
+      "is_serious": null,
       "evidence": []
     },
     {
@@ -118,7 +118,7 @@
       "arm_name": "placebo",
       "n_patients": 2,
       "percent_patients": 8,
-      "is_serious": false,
+      "is_serious": null,
       "evidence": []
     },
     {
@@ -126,7 +126,7 @@
       "arm_name": "semaglutide",
       "n_patients": 8,
       "percent_patients": 17,
-      "is_serious": false,
+      "is_serious": null,
       "evidence": []
     },
     {
@@ -134,7 +134,7 @@
       "arm_name": "placebo",
       "n_patients": 0,
       "percent_patients": 0,
-      "is_serious": false,
+      "is_serious": null,
       "evidence": []
     }
   ]

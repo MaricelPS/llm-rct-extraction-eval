@@ -3,7 +3,7 @@
   "trial_registration": "NCT04017832",
   "design_notes": "randomised, double-blind, double-dummy, active-controlled, parallel-group Phase IIIa trial",
   "population": {
-    "condition": "type 2 diabetes mellitus inadequately controlled with metformin",
+    "condition": "type 2 diabetes",
     "key_inclusion_criteria": [
       "Adults aged ≥18 years, or ≥20 years in Taiwan",
       "Diagnosis of type 2 diabetes mellitus ≥60 days before screening",
@@ -359,8 +359,8 @@
     {
       "term": "Hypoglycaemic events: Level 2",
       "arm_name": "sitagliptin 100 mg",
-      "n_patients": 1,
-      "percent_patients": 0.4,
+      "n_patients": 0,
+      "percent_patients": null,
       "is_serious": null,
       "evidence": []
     },

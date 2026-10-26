@@ -156,7 +156,7 @@
       "term": "Abdominal bloating",
       "arm_name": "placebo",
       "n_patients": 0,
-      "percent_patients": 0,
+      "percent_patients": null,
       "is_serious": null,
       "evidence": []
     },
@@ -172,7 +172,7 @@
       "term": "Dyspepsia",
       "arm_name": "placebo",
       "n_patients": 0,
-      "percent_patients": 0,
+      "percent_patients": null,
       "is_serious": null,
       "evidence": []
     },
@@ -220,7 +220,7 @@
       "term": "Urticaria",
       "arm_name": "placebo",
       "n_patients": 0,
-      "percent_patients": 0,
+      "percent_patients": null,
       "is_serious": null,
       "evidence": []
     },
@@ -260,7 +260,7 @@
       "term": "Insomnia",
       "arm_name": "Liraglutide, 3.0 mg",
       "n_patients": 0,
-      "percent_patients": 0,
+      "percent_patients": null,
       "is_serious": null,
       "evidence": []
     },
@@ -364,7 +364,7 @@
       "term": "Back pain",
       "arm_name": "placebo",
       "n_patients": 0,
-      "percent_patients": 0,
+      "percent_patients": null,
       "is_serious": null,
       "evidence": []
     },
@@ -396,7 +396,7 @@
       "term": "Serious AEs",
       "arm_name": "placebo",
       "n_patients": 0,
-      "percent_patients": 0,
+      "percent_patients": null,
       "is_serious": true,
       "evidence": []
     },
@@ -404,7 +404,7 @@
       "term": "Serious AEs",
       "arm_name": "Liraglutide, 3.0 mg",
       "n_patients": 0,
-      "percent_patients": 0,
+      "percent_patients": null,
       "is_serious": true,
       "evidence": []
     }

@@ -1,4 +1,3 @@
-
 {
   "pmcid": "PMC13538791",
   "trial_registration": "NCT05514535",
@@ -20,8 +19,8 @@
     {
       "name": "Sema+IGlarreduced",
       "role": "experimental",
-      "drug": "semaglutide 2.0 mg as add-on to dose-reduced insulin glargine",
-      "dose": "semaglutide once weekly, escalated from 0.25 mg to 0.5, 1.0, and 2.0 mg/week; insulin glargine dose reduced by 10 U every 4 weeks according to the fixed-dose de-escalation regimen",
+      "drug": "semaglutide",
+      "dose": "2.0 mg once weekly",
       "route": "subcutaneous",
       "is_fixed_combination": false,
       "n_randomized": 288,
@@ -31,8 +30,8 @@
     {
       "name": "IGlartitrated",
       "role": "active_comparator",
-      "drug": "insulin glargine U100",
-      "dose": "once daily, titrated according to the fixed insulin titration plan",
+      "drug": "insulin glargine",
+      "dose": null,
       "route": "subcutaneous",
       "is_fixed_combination": false,
       "n_randomized": 285,
@@ -48,7 +47,7 @@
       "comparison": "Sema+IGlarreduced vs IGlartitrated",
       "effect_measure": "estimated_treatment_difference",
       "value": -0.74,
-      "ci_lower": -0.90,
+      "ci_lower": -0.9,
       "ci_upper": -0.59,
       "ci_level": 0.95,
       "p_value": "< 0.0001",
@@ -59,23 +58,23 @@
   ],
   "adverse_events": [
     {
-      "term": "Total adverse events",
+      "term": "Total",
       "arm_name": "Sema+IGlarreduced",
       "n_patients": 173,
       "percent_patients": 60.1,
-      "is_serious": false,
+      "is_serious": null,
       "evidence": []
     },
     {
-      "term": "Total adverse events",
+      "term": "Total",
       "arm_name": "IGlartitrated",
       "n_patients": 152,
       "percent_patients": 53.5,
-      "is_serious": false,
+      "is_serious": null,
       "evidence": []
     },
     {
-      "term": "Serious adverse events",
+      "term": "Serious",
       "arm_name": "Sema+IGlarreduced",
       "n_patients": 17,
       "percent_patients": 5.9,
@@ -83,7 +82,7 @@
       "evidence": []
     },
     {
-      "term": "Serious adverse events",
+      "term": "Serious",
       "arm_name": "IGlartitrated",
       "n_patients": 15,
       "percent_patients": 5.3,
@@ -91,7 +90,7 @@
       "evidence": []
     },
     {
-      "term": "Fatal adverse events",
+      "term": "Fatal",
       "arm_name": "Sema+IGlarreduced",
       "n_patients": 1,
       "percent_patients": 0.3,
@@ -99,7 +98,7 @@
       "evidence": []
     },
     {
-      "term": "Fatal adverse events",
+      "term": "Fatal",
       "arm_name": "IGlartitrated",
       "n_patients": 1,
       "percent_patients": 0.4,
@@ -107,19 +106,251 @@
       "evidence": []
     },
     {
+      "term": "Severity: Mild",
+      "arm_name": "Sema+IGlarreduced",
+      "n_patients": 135,
+      "percent_patients": 46.9,
+      "is_serious": null,
+      "evidence": []
+    },
+    {
+      "term": "Severity: Mild",
+      "arm_name": "IGlartitrated",
+      "n_patients": 121,
+      "percent_patients": 42.6,
+      "is_serious": null,
+      "evidence": []
+    },
+    {
+      "term": "Severity: Moderate",
+      "arm_name": "Sema+IGlarreduced",
+      "n_patients": 75,
+      "percent_patients": 26.0,
+      "is_serious": null,
+      "evidence": []
+    },
+    {
+      "term": "Severity: Moderate",
+      "arm_name": "IGlartitrated",
+      "n_patients": 60,
+      "percent_patients": 21.1,
+      "is_serious": null,
+      "evidence": []
+    },
+    {
+      "term": "Severity: Severe",
+      "arm_name": "Sema+IGlarreduced",
+      "n_patients": 13,
+      "percent_patients": 4.5,
+      "is_serious": null,
+      "evidence": []
+    },
+    {
+      "term": "Severity: Severe",
+      "arm_name": "IGlartitrated",
+      "n_patients": 11,
+      "percent_patients": 3.9,
+      "is_serious": null,
+      "evidence": []
+    },
+    {
+      "term": "Outcome: Recovered",
+      "arm_name": "Sema+IGlarreduced",
+      "n_patients": 154,
+      "percent_patients": 53.5,
+      "is_serious": null,
+      "evidence": []
+    },
+    {
+      "term": "Outcome: Recovered",
+      "arm_name": "IGlartitrated",
+      "n_patients": 125,
+      "percent_patients": 44.0,
+      "is_serious": null,
+      "evidence": []
+    },
+    {
+      "term": "Outcome: Recovering",
+      "arm_name": "Sema+IGlarreduced",
+      "n_patients": 14,
+      "percent_patients": 4.9,
+      "is_serious": null,
+      "evidence": []
+    },
+    {
+      "term": "Outcome: Recovering",
+      "arm_name": "IGlartitrated",
+      "n_patients": 12,
+      "percent_patients": 4.2,
+      "is_serious": null,
+      "evidence": []
+    },
+    {
+      "term": "Outcome: Recovered with sequelae",
+      "arm_name": "Sema+IGlarreduced",
+      "n_patients": 0,
+      "percent_patients": null,
+      "is_serious": null,
+      "evidence": []
+    },
+    {
+      "term": "Outcome: Recovered with sequelae",
+      "arm_name": "IGlartitrated",
+      "n_patients": 0,
+      "percent_patients": null,
+      "is_serious": null,
+      "evidence": []
+    },
+    {
+      "term": "Outcome: Not recovered",
+      "arm_name": "Sema+IGlarreduced",
+      "n_patients": 61,
+      "percent_patients": 21.2,
+      "is_serious": null,
+      "evidence": []
+    },
+    {
+      "term": "Outcome: Not recovered",
+      "arm_name": "IGlartitrated",
+      "n_patients": 56,
+      "percent_patients": 19.7,
+      "is_serious": null,
+      "evidence": []
+    },
+    {
+      "term": "Outcome: Unknown",
+      "arm_name": "Sema+IGlarreduced",
+      "n_patients": 5,
+      "percent_patients": 1.7,
+      "is_serious": null,
+      "evidence": []
+    },
+    {
+      "term": "Outcome: Unknown",
+      "arm_name": "IGlartitrated",
+      "n_patients": 3,
+      "percent_patients": 1.1,
+      "is_serious": null,
+      "evidence": []
+    },
+    {
+      "term": "Leading to treatment discontinuation:10(3.5)",
+      "arm_name": "Sema+IGlarreduced",
+      "n_patients": 1,
+      "percent_patients": 0.4,
+      "is_serious": null,
+      "evidence": []
+    },
+    {
       "term": "Gastrointestinal adverse events",
       "arm_name": "Sema+IGlarreduced",
-      "n_patients": 106,
-      "percent_patients": 36.8,
-      "is_serious": false,
+      "n_patients": 4,
+      "percent_patients": 1.4,
+      "is_serious": null,
       "evidence": []
     },
     {
       "term": "Gastrointestinal adverse events",
       "arm_name": "IGlartitrated",
+      "n_patients": 0,
+      "percent_patients": null,
+      "is_serious": null,
+      "evidence": []
+    },
+    {
+      "term": "Overall",
+      "arm_name": "Sema+IGlarreduced",
+      "n_patients": 106,
+      "percent_patients": 36.8,
+      "is_serious": null,
+      "evidence": []
+    },
+    {
+      "term": "Overall",
+      "arm_name": "IGlartitrated",
       "n_patients": 19,
       "percent_patients": 6.7,
-      "is_serious": false,
+      "is_serious": null,
+      "evidence": []
+    },
+    {
+      "term": "Recovered",
+      "arm_name": "Sema+IGlarreduced",
+      "n_patients": 95,
+      "percent_patients": 33.0,
+      "is_serious": null,
+      "evidence": []
+    },
+    {
+      "term": "Recovered",
+      "arm_name": "IGlartitrated",
+      "n_patients": 17,
+      "percent_patients": 6.0,
+      "is_serious": null,
+      "evidence": []
+    },
+    {
+      "term": "Recovering",
+      "arm_name": "Sema+IGlarreduced",
+      "n_patients": 7,
+      "percent_patients": 2.4,
+      "is_serious": null,
+      "evidence": []
+    },
+    {
+      "term": "Recovering",
+      "arm_name": "IGlartitrated",
+      "n_patients": 1,
+      "percent_patients": 0.4,
+      "is_serious": null,
+      "evidence": []
+    },
+    {
+      "term": "Mild",
+      "arm_name": "Sema+IGlarreduced",
+      "n_patients": 85,
+      "percent_patients": 29.5,
+      "is_serious": null,
+      "evidence": []
+    },
+    {
+      "term": "Mild",
+      "arm_name": "IGlartitrated",
+      "n_patients": 12,
+      "percent_patients": 4.2,
+      "is_serious": null,
+      "evidence": []
+    },
+    {
+      "term": "Moderate",
+      "arm_name": "Sema+IGlarreduced",
+      "n_patients": 40,
+      "percent_patients": 13.9,
+      "is_serious": null,
+      "evidence": []
+    },
+    {
+      "term": "Moderate",
+      "arm_name": "IGlartitrated",
+      "n_patients": 10,
+      "percent_patients": 3.5,
+      "is_serious": null,
+      "evidence": []
+    },
+    {
+      "term": "Severe",
+      "arm_name": "Sema+IGlarreduced",
+      "n_patients": 4,
+      "percent_patients": 1.4,
+      "is_serious": null,
+      "evidence": []
+    },
+    {
+      "term": "Severe",
+      "arm_name": "IGlartitrated",
+      "n_patients": 1,
+      "percent_patients": 0.4,
+      "is_serious": null,
       "evidence": []
     },
     {
@@ -127,7 +358,7 @@
       "arm_name": "Sema+IGlarreduced",
       "n_patients": 53,
       "percent_patients": 18.4,
-      "is_serious": false,
+      "is_serious": null,
       "evidence": []
     },
     {
@@ -135,7 +366,7 @@
       "arm_name": "IGlartitrated",
       "n_patients": 2,
       "percent_patients": 0.7,
-      "is_serious": false,
+      "is_serious": null,
       "evidence": []
     },
     {
@@ -143,7 +374,7 @@
       "arm_name": "Sema+IGlarreduced",
       "n_patients": 28,
       "percent_patients": 9.7,
-      "is_serious": false,
+      "is_serious": null,
       "evidence": []
     },
     {
@@ -151,7 +382,7 @@
       "arm_name": "IGlartitrated",
       "n_patients": 1,
       "percent_patients": 0.4,
-      "is_serious": false,
+      "is_serious": null,
       "evidence": []
     },
     {
@@ -159,7 +390,7 @@
       "arm_name": "Sema+IGlarreduced",
       "n_patients": 39,
       "percent_patients": 13.5,
-      "is_serious": false,
+      "is_serious": null,
       "evidence": []
     },
     {
@@ -167,7 +398,7 @@
       "arm_name": "IGlartitrated",
       "n_patients": 12,
       "percent_patients": 4.2,
-      "is_serious": false,
+      "is_serious": null,
       "evidence": []
     },
     {
@@ -182,7 +413,7 @@
       "term": "Pancreatitis",
       "arm_name": "IGlartitrated",
       "n_patients": 0,
-      "percent_patients": 0,
+      "percent_patients": null,
       "is_serious": null,
       "evidence": []
     },
@@ -207,7 +438,7 @@
       "arm_name": "Sema+IGlarreduced",
       "n_patients": 48,
       "percent_patients": 16.7,
-      "is_serious": false,
+      "is_serious": null,
       "evidence": []
     },
     {
@@ -215,7 +446,7 @@
       "arm_name": "IGlartitrated",
       "n_patients": 93,
       "percent_patients": 32.7,
-      "is_serious": false,
+      "is_serious": null,
       "evidence": []
     },
     {
@@ -223,7 +454,7 @@
       "arm_name": "Sema+IGlarreduced",
       "n_patients": 14,
       "percent_patients": 4.9,
-      "is_serious": false,
+      "is_serious": null,
       "evidence": []
     },
     {
@@ -231,7 +462,7 @@
       "arm_name": "IGlartitrated",
       "n_patients": 21,
       "percent_patients": 7.4,
-      "is_serious": false,
+      "is_serious": null,
       "evidence": []
     },
     {
@@ -239,7 +470,7 @@
       "arm_name": "Sema+IGlarreduced",
       "n_patients": 4,
       "percent_patients": 1.4,
-      "is_serious": false,
+      "is_serious": null,
       "evidence": []
     },
     {
@@ -247,7 +478,7 @@
       "arm_name": "IGlartitrated",
       "n_patients": 11,
       "percent_patients": 3.9,
-      "is_serious": false,
+      "is_serious": null,
       "evidence": []
     },
     {
@@ -267,7 +498,7 @@
       "evidence": []
     },
     {
-      "term": "Gallbladder-related adverse events",
+      "term": "Gallbladder‐related adverse events",
       "arm_name": "Sema+IGlarreduced",
       "n_patients": 5,
       "percent_patients": 1.7,
@@ -275,7 +506,7 @@
       "evidence": []
     },
     {
-      "term": "Gallbladder-related adverse events",
+      "term": "Gallbladder‐related adverse events",
       "arm_name": "IGlartitrated",
       "n_patients": 2,
       "percent_patients": 0.7,

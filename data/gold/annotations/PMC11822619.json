@@ -30,8 +30,8 @@
     {
       "name": "Placebo",
       "role": "placebo",
-      "drug": "placebo",
-      "dose": "Administered weekly; matching dose details not reported",
+      "drug": null,
+      "dose": null,
       "route": "subcutaneous",
       "is_fixed_combination": false,
       "n_randomized": 24,
