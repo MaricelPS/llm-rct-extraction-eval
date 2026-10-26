@@ -1,9 +1,9 @@
 {
   "pmcid": "PMC11188287",
   "trial_registration": "NCT03466021",
-  "design_notes": null,
+  "design_notes": "prospective, randomized, placebo-controlled, double blinded, two-center, parallel-group trial",
   "population": {
-    "condition": "COPD",
+    "condition": "Chronic obstructive pulmonary diseases (COPD)",
     "key_inclusion_criteria": [
       "COPD defined as forced expiratory volume in one second relative to forced vital capacity (FEV1/FVC) < 70% after maximal bronchodilation",
       "Former smokers with 20 or more pack-years history of smoking",

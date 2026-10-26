@@ -1,7 +1,7 @@
 {
   "pmcid": "PMC10663148",
   "trial_registration": "NCT03347890",
-  "design_notes": null,
+  "design_notes": "randomized, single-center, double-blind, placebo-controlled, parallel group, prospective clinical trial",
   "population": {
     "condition": "obesity",
     "key_inclusion_criteria": [
@@ -39,22 +39,6 @@
       "evidence": []
     }
   ],
-  "outcomes": [
-    {
-      "name": "self-reported liking during food reward consumption",
-      "is_primary": true,
-      "timepoint": "16 weeks",
-      "comparison": "liraglutide 3.0 mg vs placebo",
-      "effect_measure": "other",
-      "value": null,
-      "ci_lower": null,
-      "ci_upper": null,
-      "ci_level": null,
-      "p_value": "0.617",
-      "unit": null,
-      "estimand": "not_reported",
-      "evidence": []
-    }
-  ],
+  "outcomes": [],
   "adverse_events": []
 }

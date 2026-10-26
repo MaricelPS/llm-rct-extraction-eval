@@ -1,50 +1,56 @@
 {
   "pmcid": "PMC12003151",
-  "trial_registration": "TODO",
-  "design_notes": null,
+  "trial_registration": "NCT05205928",
+  "design_notes": "Randomized, double-blind, crossover trial. Each intervention lasted 15 weeks, with 2 weeks of washout, for a total study duration of 32 weeks. Each intervention included an 11-week drug titration period followed by 4 weeks of automated insulin delivery (AID) use for primary outcome assessment.",
   "population": {
-    "condition": "Type 1 diabetes mellitus (T1D) in adults using insulin pump therapy and automated insulin delivery",
-    "key_inclusion_criteria": "Age 18 years or older; diagnosis of T1D for at least 1 year; insulin pump use for at least 3 months; HbA1c ≤11%; participants with child-bearing potential agreed to use a highly effective method of birth control or actively avoid pregnancy during the trial.",
-    "mean_age": 45,
-    "percent_female": 61,
+    "condition": "type 1 diabetes (T1D)",
+    "key_inclusion_criteria": [
+      "aged 18 years old and older",
+      "diagnosis of T1D for 1 year or longer",
+      "use of an insulin pump for 3 months or longer",
+      "HbA1c of 11% or less",
+      "if applicable, agreement to use a highly effective method of birth control in persons of child-bearing potential or active avoidance of pregnancy during the trial"
+    ],
+    "mean_age": null,
+    "percent_female": null,
     "evidence": []
   },
   "arms": [
     {
       "name": "Semaglutide",
       "role": "experimental",
-      "drug": "Semaglutide",
-      "dose": "0.25 mg once weekly for 4 weeks, then 0.5 mg once weekly for 4 weeks, then 1 mg weekly; dose could be reduced according to tolerability. Participants were titrated to 1 mg or their maximum tolerated dose over 11 weeks, followed by 4 weeks of automated insulin delivery.",
+      "drug": "semaglutide",
+      "dose": "titrated up to 1 mg or the maximum tolerated dose",
       "route": "subcutaneous",
       "is_fixed_combination": false,
       "n_randomized": 28,
-      "n_analyzed": 24,
+      "n_analyzed": 28,
       "evidence": []
     },
     {
       "name": "Placebo",
-      "role": "placebo_comparator",
-      "drug": "Placebo (saline)",
-      "dose": "Matching placebo administered during an 11-week intervention period, followed by 4 weeks of automated insulin delivery.",
-      "route": "subcutaneous",
+      "role": "placebo",
+      "drug": "placebo",
+      "dose": null,
+      "route": "not_reported",
       "is_fixed_combination": false,
       "n_randomized": 28,
-      "n_analyzed": 24,
+      "n_analyzed": 27,
       "evidence": []
     }
   ],
   "outcomes": [
     {
-      "name": "Percentage of time in target glucose range of 3.9–10.0 mmol/L",
+      "name": "percentage of time spent in the target glucose range of 3.9–10.0 mmol l−1",
       "is_primary": true,
-      "timepoint": "Last 4 weeks of each intervention during automated insulin delivery",
+      "timepoint": "during the last 4 weeks of each intervention",
       "comparison": "Semaglutide vs Placebo",
-      "effect_measure": "Paired difference in percentage points",
+      "effect_measure": "mean_difference",
       "value": 4.8,
       "ci_lower": null,
       "ci_upper": null,
       "ci_level": null,
-      "p_value": 0.006,
+      "p_value": "0.006",
       "unit": "percentage points",
       "estimand": "not_reported",
       "evidence": []
@@ -52,31 +58,23 @@
   ],
   "adverse_events": [
     {
-      "term": "Any adverse event",
-      "arm_name": "Placebo",
-      "n_patients": 17,
-      "percent_patients": 63,
-      "is_serious": null,
-      "evidence": []
-    },
-    {
-      "term": "Any adverse event",
+      "term": "Any AE",
       "arm_name": "Semaglutide",
       "n_patients": 27,
       "percent_patients": 96,
-      "is_serious": null,
+      "is_serious": false,
       "evidence": []
     },
     {
-      "term": "Serious adverse event",
+      "term": "Any AE",
       "arm_name": "Placebo",
-      "n_patients": 0,
-      "percent_patients": 0,
-      "is_serious": true,
+      "n_patients": 17,
+      "percent_patients": 63,
+      "is_serious": false,
       "evidence": []
     },
     {
-      "term": "Serious adverse event",
+      "term": "Serious AE",
       "arm_name": "Semaglutide",
       "n_patients": 1,
       "percent_patients": 4,
@@ -84,27 +82,27 @@
       "evidence": []
     },
     {
-      "term": "Gastrointestinal adverse event",
+      "term": "Serious AE",
       "arm_name": "Placebo",
-      "n_patients": 7,
-      "percent_patients": 26,
-      "is_serious": null,
+      "n_patients": 0,
+      "percent_patients": 0,
+      "is_serious": true,
       "evidence": []
     },
     {
-      "term": "Gastrointestinal adverse event",
+      "term": "Gastrointestinal AE",
       "arm_name": "Semaglutide",
       "n_patients": 23,
       "percent_patients": 82,
-      "is_serious": null,
+      "is_serious": false,
       "evidence": []
     },
     {
-      "term": "Nausea",
+      "term": "Gastrointestinal AE",
       "arm_name": "Placebo",
-      "n_patients": 2,
-      "percent_patients": 7,
-      "is_serious": null,
+      "n_patients": 7,
+      "percent_patients": 26,
+      "is_serious": false,
       "evidence": []
     },
     {
@@ -112,15 +110,15 @@
       "arm_name": "Semaglutide",
       "n_patients": 25,
       "percent_patients": 89,
-      "is_serious": null,
+      "is_serious": false,
       "evidence": []
     },
     {
-      "term": "Loss or decrease in appetite",
+      "term": "Nausea",
       "arm_name": "Placebo",
-      "n_patients": 1,
-      "percent_patients": 4,
-      "is_serious": null,
+      "n_patients": 2,
+      "percent_patients": 7,
+      "is_serious": false,
       "evidence": []
     },
     {
@@ -128,15 +126,15 @@
       "arm_name": "Semaglutide",
       "n_patients": 10,
       "percent_patients": 36,
-      "is_serious": null,
+      "is_serious": false,
       "evidence": []
     },
     {
-      "term": "Constipation",
+      "term": "Loss or decrease in appetite",
       "arm_name": "Placebo",
-      "n_patients": 2,
-      "percent_patients": 7,
-      "is_serious": null,
+      "n_patients": 1,
+      "percent_patients": 4,
+      "is_serious": false,
       "evidence": []
     },
     {
@@ -144,15 +142,15 @@
       "arm_name": "Semaglutide",
       "n_patients": 8,
       "percent_patients": 29,
-      "is_serious": null,
+      "is_serious": false,
       "evidence": []
     },
     {
-      "term": "Fatigue",
+      "term": "Constipation",
       "arm_name": "Placebo",
-      "n_patients": 0,
-      "percent_patients": 0,
-      "is_serious": null,
+      "n_patients": 2,
+      "percent_patients": 7,
+      "is_serious": false,
       "evidence": []
     },
     {
@@ -160,15 +158,15 @@
       "arm_name": "Semaglutide",
       "n_patients": 6,
       "percent_patients": 21,
-      "is_serious": null,
+      "is_serious": false,
       "evidence": []
     },
     {
-      "term": "Emesis",
+      "term": "Fatigue",
       "arm_name": "Placebo",
       "n_patients": 0,
       "percent_patients": 0,
-      "is_serious": null,
+      "is_serious": false,
       "evidence": []
     },
     {
@@ -176,15 +174,15 @@
       "arm_name": "Semaglutide",
       "n_patients": 5,
       "percent_patients": 18,
-      "is_serious": null,
+      "is_serious": false,
       "evidence": []
     },
     {
-      "term": "Diarrhea",
+      "term": "Emesis",
       "arm_name": "Placebo",
       "n_patients": 0,
       "percent_patients": 0,
-      "is_serious": null,
+      "is_serious": false,
       "evidence": []
     },
     {
@@ -192,7 +190,23 @@
       "arm_name": "Semaglutide",
       "n_patients": 5,
       "percent_patients": 18,
-      "is_serious": null,
+      "is_serious": false,
+      "evidence": []
+    },
+    {
+      "term": "Diarrhea",
+      "arm_name": "Placebo",
+      "n_patients": 0,
+      "percent_patients": 0,
+      "is_serious": false,
+      "evidence": []
+    },
+    {
+      "term": "Upper respiratory tract infection",
+      "arm_name": "Semaglutide",
+      "n_patients": 6,
+      "percent_patients": 21,
+      "is_serious": false,
       "evidence": []
     },
     {
@@ -200,23 +214,7 @@
       "arm_name": "Placebo",
       "n_patients": 6,
       "percent_patients": 22,
-      "is_serious": null,
-      "evidence": []
-    },
-    {
-      "term": "Upper respiratory tract infection",
-      "arm_name": "Semaglutide",
-      "n_patients": 6,
-      "percent_patients": 21,
-      "is_serious": null,
-      "evidence": []
-    },
-    {
-      "term": "Gastroesophageal reflux",
-      "arm_name": "Placebo",
-      "n_patients": 1,
-      "percent_patients": 4,
-      "is_serious": null,
+      "is_serious": false,
       "evidence": []
     },
     {
@@ -224,15 +222,15 @@
       "arm_name": "Semaglutide",
       "n_patients": 4,
       "percent_patients": 14,
-      "is_serious": null,
+      "is_serious": false,
       "evidence": []
     },
     {
-      "term": "Light-headedness",
+      "term": "Gastroesophageal reflux",
       "arm_name": "Placebo",
-      "n_patients": 0,
-      "percent_patients": 0,
-      "is_serious": null,
+      "n_patients": 1,
+      "percent_patients": 4,
+      "is_serious": false,
       "evidence": []
     },
     {
@@ -240,15 +238,15 @@
       "arm_name": "Semaglutide",
       "n_patients": 4,
       "percent_patients": 14,
-      "is_serious": null,
+      "is_serious": false,
       "evidence": []
     },
     {
-      "term": "Severe hypoglycemic event",
+      "term": "Light-headedness",
       "arm_name": "Placebo",
-      "n_patients": 1,
-      "percent_patients": 4,
-      "is_serious": null,
+      "n_patients": 0,
+      "percent_patients": 0,
+      "is_serious": false,
       "evidence": []
     },
     {
@@ -256,15 +254,15 @@
       "arm_name": "Semaglutide",
       "n_patients": 0,
       "percent_patients": 0,
-      "is_serious": null,
+      "is_serious": false,
       "evidence": []
     },
     {
-      "term": "Euglycemic ketosis",
+      "term": "Severe hypoglycemic event",
       "arm_name": "Placebo",
-      "n_patients": 0,
-      "percent_patients": 0,
-      "is_serious": null,
+      "n_patients": 1,
+      "percent_patients": 4,
+      "is_serious": false,
       "evidence": []
     },
     {
@@ -272,7 +270,23 @@
       "arm_name": "Semaglutide",
       "n_patients": 2,
       "percent_patients": 7,
-      "is_serious": null,
+      "is_serious": false,
+      "evidence": []
+    },
+    {
+      "term": "Euglycemic ketosis",
+      "arm_name": "Placebo",
+      "n_patients": 0,
+      "percent_patients": 0,
+      "is_serious": false,
+      "evidence": []
+    },
+    {
+      "term": "Diabetic ketoacidosis",
+      "arm_name": "Semaglutide",
+      "n_patients": 0,
+      "percent_patients": 0,
+      "is_serious": false,
       "evidence": []
     },
     {
@@ -280,47 +294,7 @@
       "arm_name": "Placebo",
       "n_patients": 0,
       "percent_patients": 0,
-      "is_serious": null,
-      "evidence": []
-    },
-    {
-      "term": "Diabetic ketoacidosis",
-      "arm_name": "Semaglutide",
-      "n_patients": 0,
-      "percent_patients": 0,
-      "is_serious": null,
-      "evidence": []
-    },
-    {
-      "term": "Proliferative diabetic retinopathy",
-      "arm_name": "Placebo",
-      "n_patients": 1,
-      "percent_patients": 4,
-      "is_serious": null,
-      "evidence": []
-    },
-    {
-      "term": "Proliferative diabetic retinopathy",
-      "arm_name": "Semaglutide",
-      "n_patients": 0,
-      "percent_patients": 0,
-      "is_serious": null,
-      "evidence": []
-    },
-    {
-      "term": "Nonproliferative diabetic retinopathy",
-      "arm_name": "Placebo",
-      "n_patients": 0,
-      "percent_patients": 0,
-      "is_serious": null,
-      "evidence": []
-    },
-    {
-      "term": "Nonproliferative diabetic retinopathy",
-      "arm_name": "Semaglutide",
-      "n_patients": 1,
-      "percent_patients": 4,
-      "is_serious": null,
+      "is_serious": false,
       "evidence": []
     }
   ]

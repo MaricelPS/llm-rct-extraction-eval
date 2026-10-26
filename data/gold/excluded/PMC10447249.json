@@ -1,9 +1,9 @@
 {
   "pmcid": "PMC10447249",
   "trial_registration": null,
-  "design_notes": null,
+  "design_notes": "single-blinded, placebo-controlled, randomized crossover design; two testing days separated by a minimum of 1 week washout; order of intervention counterbalanced",
   "population": {
-    "condition": "obesity and impaired insulin sensitivity",
+    "condition": "the disease or condition defining the trial population, without qualifiers such as glycaemic control, ethnicity or care setting. If participants are not selected for a disease (e.g. healthy volunteers), use the article’s own short description of the population.",
     "key_inclusion_criteria": [
       "healthy volunteers with a large variance in body weight",
       "medication-free non-smokers",

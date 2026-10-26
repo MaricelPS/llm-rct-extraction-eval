@@ -92,7 +92,10 @@ class Outcome(BaseModel):
     is_primary: bool
     timepoint: str | None = Field(description="As written, e.g. 'week 26'.")
     comparison: str = Field(description="Format: '<arm name> vs <arm name>', exact arm names.")
-    estimand: Estimand = Field(description="Estimand the value refers to, if the article names one.")
+    estimand: Estimand = Field(
+        description="Estimand the value refers to, if the article names one. Use 'hypothetical' "
+                    "for trial product estimands (effect as if all participants adhered to treatment)."
+    )
     effect_measure: EffectMeasure
     value: float | None
     ci_lower: float | None

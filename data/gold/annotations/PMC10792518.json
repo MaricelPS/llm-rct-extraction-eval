@@ -1,0 +1,141 @@
+{
+  "pmcid": "PMC10792518",
+  "trial_registration": "NCT03987451",
+  "design_notes": "Multinational, multicentre, randomised, double-blind, placebo-controlled, phase 2 trial conducted in 38 centres in Europe and the USA. Patients were randomised in a 2:1 ratio. Treatment duration was 48 weeks, with a 7-week follow-up. The primary endpoint was assessed by liver biopsy in the intention-to-treat population.",
+  "population": {
+    "condition": "non-alcoholic steatohepatitis (NASH)-related cirrhosis",
+    "key_inclusion_criteria": [
+      "male or female, aged 18–75 years (both inclusive) at the time of signing informed consent",
+      "histological evidence of NASH and Kleiner F4 according to the NASH Clinical Research Network (CRN) classification",
+      "liver biopsy obtained within 360 days before screening",
+      "a histological non-alcoholic fatty liver disease (NAFLD) activity score (NAS) of 3 or more with a score of 1 or more for both lobular inflammation and hepatocyte ballooning",
+      "body-mass index (BMI) of 27 kg/m2 or greater"
+    ],
+    "mean_age": 59.5,
+    "percent_female": 69,
+    "evidence": []
+  },
+  "arms": [
+    {
+      "name": "semaglutide",
+      "role": "experimental",
+      "drug": "semaglutide",
+      "dose": "2·4 mg once weekly",
+      "route": "subcutaneous",
+      "is_fixed_combination": false,
+      "n_randomized": 47,
+      "n_analyzed": 47,
+      "evidence": []
+    },
+    {
+      "name": "placebo",
+      "role": "placebo",
+      "drug": null,
+      "dose": "visually matching placebo once weekly",
+      "route": "subcutaneous",
+      "is_fixed_combination": false,
+      "n_randomized": 24,
+      "n_analyzed": 24,
+      "evidence": []
+    }
+  ],
+  "outcomes": [
+    {
+      "name": "proportion of patients with an improvement in liver fibrosis of one stage or more on biopsy without worsening of NASH",
+      "is_primary": true,
+      "timepoint": "48 weeks",
+      "comparison": "semaglutide vs placebo",
+      "effect_measure": "odds_ratio",
+      "value": 0.28,
+      "ci_lower": 0.06,
+      "ci_upper": 1.24,
+      "ci_level": 0.95,
+      "p_value": "0·087",
+      "unit": null,
+      "estimand": "not_reported",
+      "evidence": []
+    }
+  ],
+  "adverse_events": [
+    {
+      "term": "Any adverse event",
+      "arm_name": "semaglutide",
+      "n_patients": 42,
+      "percent_patients": 89,
+      "is_serious": false,
+      "evidence": []
+    },
+    {
+      "term": "Any adverse event",
+      "arm_name": "placebo",
+      "n_patients": 19,
+      "percent_patients": 79,
+      "is_serious": false,
+      "evidence": []
+    },
+    {
+      "term": "Serious adverse event",
+      "arm_name": "semaglutide",
+      "n_patients": 6,
+      "percent_patients": 13,
+      "is_serious": true,
+      "evidence": []
+    },
+    {
+      "term": "Serious adverse event",
+      "arm_name": "placebo",
+      "n_patients": 2,
+      "percent_patients": 8,
+      "is_serious": true,
+      "evidence": []
+    },
+    {
+      "term": "Nausea",
+      "arm_name": "semaglutide",
+      "n_patients": 21,
+      "percent_patients": 45,
+      "is_serious": false,
+      "evidence": []
+    },
+    {
+      "term": "Nausea",
+      "arm_name": "placebo",
+      "n_patients": 4,
+      "percent_patients": 17,
+      "is_serious": false,
+      "evidence": []
+    },
+    {
+      "term": "Diarrhoea",
+      "arm_name": "semaglutide",
+      "n_patients": 9,
+      "percent_patients": 19,
+      "is_serious": false,
+      "evidence": []
+    },
+    {
+      "term": "Diarrhoea",
+      "arm_name": "placebo",
+      "n_patients": 2,
+      "percent_patients": 8,
+      "is_serious": false,
+      "evidence": []
+    },
+    {
+      "term": "Vomiting",
+      "arm_name": "semaglutide",
+      "n_patients": 8,
+      "percent_patients": 17,
+      "is_serious": false,
+      "evidence": []
+    },
+    {
+      "term": "Vomiting",
+      "arm_name": "placebo",
+      "n_patients": 0,
+      "percent_patients": 0,
+      "is_serious": false,
+      "evidence": []
+    }
+  ]
+}

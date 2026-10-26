@@ -61,7 +61,7 @@ def validate(extraction: TrialExtraction, context: str) -> list[ValidationIssue]
     ):
         issues.append(ValidationIssue("population.percent_female", "error", "Out of 0-100 range."))
 
-    arm_names = {arm.name for arm in extraction.arms}
+    arm_names = {_normalize(arm.name) for arm in extraction.arms}
     for i, arm in enumerate(extraction.arms):
         path = f"arms[{i}]"
         issues += _check_evidence(arm.evidence, source, path)
@@ -85,10 +85,12 @@ def validate(extraction: TrialExtraction, context: str) -> list[ValidationIssue]
     for i, ae in enumerate(extraction.adverse_events):
         path = f"adverse_events[{i}]"
         issues += _check_evidence(ae.evidence, source, path)
-        if ae.arm_name not in arm_names:
+        if _normalize(ae.arm_name) not in arm_names:
             issues.append(ValidationIssue(path, "error", f"Unknown arm '{ae.arm_name}'."))
         if ae.percent_patients is not None and not (0 <= ae.percent_patients <= 100):
             issues.append(ValidationIssue(path, "error", "Out of 0-100 range."))
+        if ae.n_patients is None and ae.percent_patients is None:
+            issues.append(ValidationIssue(path, "warning", "No patient count or percentage."))
 
     return issues
 

@@ -1,7 +1,7 @@
 {
   "pmcid": "PMC11950020",
   "trial_registration": "NCT05259033",
-  "design_notes": null,
+  "design_notes": "randomised, multicentre, open-label, parallel group, Phase IIIa trial",
   "population": {
     "condition": "type 2 diabetes mellitus inadequately managed with GLP-1 receptor agonist therapy, with or without additional oral glucose-lowering medications",
     "key_inclusion_criteria": [

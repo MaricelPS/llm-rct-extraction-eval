@@ -4,6 +4,7 @@ import csv
 import json
 from pathlib import Path
 from typing import Any
+from pubmed_extraction.extract.validation import _normalize
 
 from pydantic import ValidationError
 
@@ -127,14 +128,14 @@ def validate_annotation(path: Path) -> list[str]:
     if annotation.pmcid != path.stem:
         problems.append(f"pmcid '{annotation.pmcid}' does not match file name")
 
-    arm_names = {arm.name for arm in annotation.arms}
+    arm_names = {_normalize(arm.name) for arm in annotation.arms}
     for i, outcome in enumerate(annotation.outcomes):
         if not outcome.is_primary:
             problems.append(f"outcomes[{i}]: gold set only covers primary outcomes")
-        sides = [side.strip() for side in outcome.comparison.split(" vs ")]
+        sides = [_normalize(side) for side in outcome.comparison.split(" vs ")]
         if len(sides) != 2 or not set(sides) <= arm_names:
             problems.append(f"outcomes[{i}]: comparison must be '<arm> vs <arm>' with arm names")
     for i, ae in enumerate(annotation.adverse_events):
-        if ae.arm_name not in arm_names:
+        if _normalize(ae.arm_name) not in arm_names:
             problems.append(f"adverse_events[{i}]: unknown arm '{ae.arm_name}'")
     return problems

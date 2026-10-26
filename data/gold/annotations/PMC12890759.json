@@ -1,0 +1,110 @@
+{
+  "pmcid": "PMC12890759",
+  "trial_registration": "NCT04945070",
+  "design_notes": "IDEAL was a five-centre, open-label, parallel-group, active comparator, phase IV RCT that compared the efficacy and safety of MDI regimen simplification (de-intensification) with once-daily, FRC iGlarLixi versus continuation with the MDI regimen. 24-week open-label treatment period.",
+  "population": {
+    "condition": "people with type 2 diabetes (PwT2D)",
+    "key_inclusion_criteria": [
+      "adults diagnosed with T2D (18–80 years)",
+      "treated with an MDI regimen (≥3 insulin injections/day) and with metformin (unless not tolerated) ± SGT2i on stable doses ≥3 months prior to screening",
+      "TDD ≤0.8 IU/kg of body weight",
+      "HbA1c (measured in local laboratory) ≤9% (≤ 75 mmol/mol) or 9.1%–10% (76-86 mmol/mol) in case of non-compliance with the MDI regimen",
+      "fasting C-peptide levels above the lower limit of the normal range (0.37–1.47 nmol/L)"
+    ],
+    "mean_age": 66.2,
+    "percent_female": 21,
+    "evidence": []
+  },
+  "arms": [
+    {
+      "name": "iGlarLixi",
+      "role": "experimental",
+      "drug": "fixed-ratio combination of basal insulin analog glargine 100 U/mL and a glucagon-like peptide 1 receptor agonist lixisenatide",
+      "dose": null,
+      "route": "subcutaneous",
+      "is_fixed_combination": true,
+      "n_randomized": 45,
+      "n_analyzed": 45,
+      "evidence": []
+    },
+    {
+      "name": "MDI",
+      "role": "active_comparator",
+      "drug": null,
+      "dose": null,
+      "route": "not_reported",
+      "is_fixed_combination": false,
+      "n_randomized": 46,
+      "n_analyzed": 45,
+      "evidence": []
+    }
+  ],
+  "outcomes": [
+    {
+      "name": "mean change in HbA1c from baseline to 24 weeks after randomisation",
+      "is_primary": true,
+      "timepoint": "24 weeks after randomisation",
+      "comparison": "iGlarLixi vs MDI",
+      "effect_measure": "mean_difference",
+      "estimand": "not_reported",
+      "value": -0.12,
+      "ci_lower": -0.48,
+      "ci_upper": 0.23,
+      "ci_level": 0.95,
+      "p_value": null,
+      "unit": "%",
+      "evidence": []
+    }
+  ],
+  "adverse_events": [
+    {
+      "term": "hypoglycaemia",
+      "arm_name": "iGlarLixi",
+      "n_patients": null,
+      "percent_patients": 31,
+      "is_serious": null,
+      "evidence": []
+    },
+    {
+      "term": "hypoglycaemia",
+      "arm_name": "MDI",
+      "n_patients": null,
+      "percent_patients": 40,
+      "is_serious": null,
+      "evidence": []
+    },
+    {
+      "term": "upper respiratory tract infection",
+      "arm_name": "iGlarLixi",
+      "n_patients": 11,
+      "percent_patients": null,
+      "is_serious": null,
+      "evidence": []
+    },
+    {
+      "term": "upper respiratory tract infection",
+      "arm_name": "MDI",
+      "n_patients": 11,
+      "percent_patients": null,
+      "is_serious": null,
+      "evidence": []
+    },
+    {
+      "term": "Covid-19 infection",
+      "arm_name": "iGlarLixi",
+      "n_patients": 2,
+      "percent_patients": null,
+      "is_serious": null,
+      "evidence": []
+    },
+    {
+      "term": "Covid-19 infection",
+      "arm_name": "MDI",
+      "n_patients": 3,
+      "percent_patients": null,
+      "is_serious": null,
+      "evidence": []
+    }
+  ]
+}
+

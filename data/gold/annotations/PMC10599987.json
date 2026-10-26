@@ -1,7 +1,7 @@
 {
   "pmcid": "PMC10599987",
   "trial_registration": null,
-  "design_notes": null,
+  "design_notes": "randomised, double-blind, placebo-controlled trial",
   "population": {
     "condition": "obesity and type 2 diabetes",
     "key_inclusion_criteria": [

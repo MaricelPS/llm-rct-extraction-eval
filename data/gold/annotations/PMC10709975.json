@@ -1,7 +1,7 @@
 {
   "pmcid": "PMC10709975",
   "trial_registration": "NCT02621489",
-  "design_notes": null,
+  "design_notes": "Randomized, comparator-controlled, open label, assessor-blinded multicentric trial",
   "population": {
     "condition": "type 2 diabetes mellitus and coronary artery disease requiring PCI with drug-eluting stent implantation",
     "key_inclusion_criteria": [

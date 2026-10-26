@@ -1,7 +1,7 @@
 {
   "pmcid": "PMC11296502",
   "trial_registration": null,
-  "design_notes": null,
+  "design_notes": "single-center, randomized, open-label, cross-over phase-2 trial",
   "population": {
     "condition": "type 2 diabetes mellitus without established cardiovascular disease",
     "key_inclusion_criteria": [
@@ -42,33 +42,33 @@
   "outcomes": [
     {
       "name": "Change in myocardial perfusion — global stress myocardial blood flow (stress-MBF)",
+      "is_primary": true,
       "timepoint": "16 weeks",
       "comparison": "liraglutide vs pioglitazone",
       "effect_measure": "mean_difference",
+      "value": 0.46,
       "ci_lower": -0.24,
       "ci_upper": 0.51,
       "ci_level": 0.95,
       "p_value": "0.01",
       "unit": "ml/g/min",
       "estimand": "not_reported",
-      "evidence": [],
-      "value": 0.46,
-      "is_primary": true
+      "evidence": []
     },
     {
       "name": "Change in myocardial perfusion reserve (MPR)",
+      "is_primary": true,
       "timepoint": "16 weeks",
       "comparison": "liraglutide vs pioglitazone",
       "effect_measure": "mean_difference",
+      "value": 0.43,
       "ci_lower": -0.8,
       "ci_upper": 0.9,
       "ci_level": 0.95,
       "p_value": "0.04",
       "unit": null,
       "estimand": "not_reported",
-      "evidence": [],
-      "value": 0.43,
-      "is_primary": true
+      "evidence": []
     }
   ],
   "adverse_events": []

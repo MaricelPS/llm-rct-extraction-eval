@@ -1,7 +1,7 @@
 {
   "pmcid": "PMC11822619",
   "trial_registration": "NCT05520775",
-  "design_notes": null,
+  "design_notes": "randomized clinical trial",
   "population": {
     "condition": "alcohol use disorder (AUD)",
     "key_inclusion_criteria": [

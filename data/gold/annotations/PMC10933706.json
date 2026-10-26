@@ -1,7 +1,7 @@
 {
   "pmcid": "PMC10933706",
   "trial_registration": "NCT04881110",
-  "design_notes": null,
+  "design_notes": "single-center, open-label randomized clinical trial",
   "population": {
     "condition": "type 2 diabetes mellitus and peripheral artery disease",
     "key_inclusion_criteria": [

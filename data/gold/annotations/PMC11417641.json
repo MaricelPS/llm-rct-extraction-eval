@@ -1,0 +1,160 @@
+{
+  "pmcid": "PMC11417641",
+  "trial_registration": "NCT04019197",
+  "design_notes": "Randomised, double-blind, placebo-controlled phase IIb clinical trial conducted at a single US site. Participants were randomised 1:1 to receive 32 weeks of once-weekly subcutaneous semaglutide or matching placebo. The intervention included an 8-week dose titration phase and 24 weeks at 1.0 mg. Analyses were performed using intention-to-treat principles.",
+  "population": {
+    "condition": "HIV-associated lipohypertrophy",
+    "key_inclusion_criteria": [
+      "≥18 years old with documented HIV-1 infection",
+      "cumulative ART duration ≥1 year",
+      "receiving a stable ART regimen for ≥12 weeks",
+      "HIV-1 RNA <400 copies/mL for ≥6 months prior to entry",
+      "subjective observation of increased abdominal girth occurring after ART initiation",
+      "waist circumference (WC) and waist-to-hip ratio (WHR) of >95 cm and >0.94 cm, respectively, for men, and >94 cm and >0.88 cm, respectively, for women",
+      "body mass index (BMI) of ≥25 kg/m2",
+      "Known history of diabetes was exclusionary"
+    ],
+    "mean_age": null,
+    "percent_female": 39.8,
+    "evidence": []
+  },
+  "arms": [
+    {
+      "name": "Semaglutide",
+      "role": "experimental",
+      "drug": "semaglutide",
+      "dose": "0.25 mg weekly for 4 weeks, followed by 0.5 mg weekly for another 4 weeks, then 1.0 mg weekly for 24 weeks",
+      "route": "subcutaneous",
+      "is_fixed_combination": false,
+      "n_randomized": 54,
+      "n_analyzed": 54,
+      "evidence": []
+    },
+    {
+      "name": "Placebo",
+      "role": "placebo",
+      "drug": "matching placebo (saline)",
+      "dose": "matching placebo",
+      "route": "subcutaneous",
+      "is_fixed_combination": false,
+      "n_randomized": 54,
+      "n_analyzed": 54,
+      "evidence": []
+    }
+  ],
+  "outcomes": [
+    {
+      "name": "Abdominal visceral adipose tissue (VAT) quantity",
+      "is_primary": true,
+      "timepoint": "32 weeks",
+      "comparison": "Semaglutide vs Placebo",
+      "effect_measure": "other",
+      "estimand": "not_reported",
+      "value": -30.82,
+      "ci_lower": -50.13,
+      "ci_upper": -11.51,
+      "ci_level": 0.95,
+      "p_value": "0.0017",
+      "unit": "cm2",
+      "evidence": []
+    }
+  ],
+  "adverse_events": [
+    {
+      "term": "≥1 adverse event",
+      "arm_name": "Semaglutide",
+      "n_patients": 54,
+      "percent_patients": 100.0,
+      "is_serious": false,
+      "evidence": []
+    },
+    {
+      "term": "≥1 adverse event",
+      "arm_name": "Placebo",
+      "n_patients": 53,
+      "percent_patients": 98.14,
+      "is_serious": false,
+      "evidence": []
+    },
+    {
+      "term": "Serious study-related adverse events",
+      "arm_name": "Semaglutide",
+      "n_patients": 1,
+      "percent_patients": 1.85,
+      "is_serious": true,
+      "evidence": []
+    },
+    {
+      "term": "Serious study-related adverse events",
+      "arm_name": "Placebo",
+      "n_patients": 0,
+      "percent_patients": 0.0,
+      "is_serious": true,
+      "evidence": []
+    },
+    {
+      "term": "≥1 possibly- or study-related adverse event",
+      "arm_name": "Semaglutide",
+      "n_patients": 24,
+      "percent_patients": 44.44,
+      "is_serious": null,
+      "evidence": []
+    },
+    {
+      "term": "≥1 possibly- or study-related adverse event",
+      "arm_name": "Placebo",
+      "n_patients": 18,
+      "percent_patients": 33.33,
+      "is_serious": null,
+      "evidence": []
+    },
+    {
+      "term": "Grade 4 elevated lipase",
+      "arm_name": "Semaglutide",
+      "n_patients": 1,
+      "percent_patients": 1.85,
+      "is_serious": true,
+      "evidence": []
+    },
+    {
+      "term": "Grade 4 elevated lipase",
+      "arm_name": "Placebo",
+      "n_patients": 0,
+      "percent_patients": 0.0,
+      "is_serious": null,
+      "evidence": []
+    },
+    {
+      "term": "Cholelithiasis",
+      "arm_name": "Semaglutide",
+      "n_patients": 2,
+      "percent_patients": 3.7,
+      "is_serious": null,
+      "evidence": []
+    },
+    {
+      "term": "Cholelithiasis",
+      "arm_name": "Placebo",
+      "n_patients": 0,
+      "percent_patients": 0.0,
+      "is_serious": null,
+      "evidence": []
+    },
+    {
+      "term": "Any gastrointestinal disorder",
+      "arm_name": "Semaglutide",
+      "n_patients": 18,
+      "percent_patients": 33.33,
+      "is_serious": false,
+      "evidence": []
+    },
+    {
+      "term": "Any gastrointestinal disorder",
+      "arm_name": "Placebo",
+      "n_patients": 15,
+      "percent_patients": 27.78,
+      "is_serious": false,
+      "evidence": []
+    }
+  ]
+}

@@ -12,7 +12,7 @@
       "Stable dose of metformin for ≥90 days before screening"
     ],
     "mean_age": 52.8,
-    "percent_female": 49.0,
+    "percent_female": null,
     "evidence": []
   },
   "arms": [
@@ -53,7 +53,7 @@
       "name": "Placebo",
       "role": "placebo",
       "drug": null,
-      "dose": "Matching placebo once weekly",
+      "dose": null,
       "route": "subcutaneous",
       "is_fixed_combination": false,
       "n_randomized": 60,
@@ -195,7 +195,7 @@
       "arm_name": "Semaglutide 2 mg",
       "n_patients": 0,
       "percent_patients": null,
-      "is_serious": null,
+      "is_serious": true,
       "evidence": []
     },
     {
@@ -203,7 +203,7 @@
       "arm_name": "Semaglutide 8 mg",
       "n_patients": 0,
       "percent_patients": null,
-      "is_serious": null,
+      "is_serious": true,
       "evidence": []
     },
     {
@@ -211,7 +211,7 @@
       "arm_name": "Semaglutide 16 mg",
       "n_patients": 0,
       "percent_patients": null,
-      "is_serious": null,
+      "is_serious": true,
       "evidence": []
     },
     {
@@ -219,7 +219,7 @@
       "arm_name": "Placebo",
       "n_patients": 0,
       "percent_patients": null,
-      "is_serious": null,
+      "is_serious": true,
       "evidence": []
     },
     {

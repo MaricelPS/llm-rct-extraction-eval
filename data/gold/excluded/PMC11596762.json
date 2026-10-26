@@ -1,7 +1,7 @@
 {
   "pmcid": "PMC11596762",
   "trial_registration": null,
-  "design_notes": null,
+  "design_notes": "randomized, double-blind, double-dummy trial",
   "population": {
     "condition": "Bile acid diarrhea (BAD), idiopathic or postcholecystectomy, SeHCAT-verified moderate-to-severe",
     "key_inclusion_criteria": [

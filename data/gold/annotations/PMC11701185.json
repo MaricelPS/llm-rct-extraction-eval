@@ -1,7 +1,7 @@
 {
   "pmcid": "PMC11701185",
   "trial_registration": "NCT06489457",
-  "design_notes": null,
+  "design_notes": "randomized, controlled open‐label trial",
   "population": {
     "condition": "type 2 diabetes mellitus, obesity and functional hypogonadism",
     "key_inclusion_criteria": [
@@ -50,7 +50,7 @@
       "ci_lower": null,
       "ci_upper": null,
       "ci_level": null,
-      "p_value": null,
+      "p_value": "0.44",
       "unit": "mL",
       "estimand": "not_reported",
       "evidence": []
@@ -95,7 +95,7 @@
       "ci_lower": null,
       "ci_upper": null,
       "ci_level": null,
-      "p_value": null,
+      "p_value": "0.69",
       "unit": "%",
       "estimand": "not_reported",
       "evidence": []

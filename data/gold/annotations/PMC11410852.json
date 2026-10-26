@@ -1,24 +1,24 @@
 {
   "pmcid": "PMC11410852",
   "trial_registration": "NCT04017832",
-  "design_notes": null,
+  "design_notes": "randomised, double-blind, double-dummy, active-controlled, parallel-group Phase IIIa trial",
   "population": {
-    "condition": "type 2 diabetes mellitus inadequately controlled with metformin in a predominantly Chinese population",
+    "condition": "type 2 diabetes mellitus inadequately controlled with metformin",
     "key_inclusion_criteria": [
       "Adults aged ≥18 years, or ≥20 years in Taiwan",
       "Diagnosis of type 2 diabetes mellitus ≥60 days before screening",
       "HbA1c 53–91 mmol/mol (7.0–10.5%), inclusive",
       "Stable metformin dose of ≥1500 mg or the maximum tolerated dose for ≥60 days before screening"
     ],
-    "mean_age": 53,
+    "mean_age": 53.0,
     "percent_female": null,
     "evidence": []
   },
   "arms": [
     {
-      "name": "oral semaglutide 3 mg",
+      "name": "semaglutide 3 mg",
       "role": "experimental",
-      "drug": "oral semaglutide",
+      "drug": "semaglutide",
       "dose": "3 mg once daily",
       "route": "oral",
       "is_fixed_combination": false,
@@ -27,9 +27,9 @@
       "evidence": []
     },
     {
-      "name": "oral semaglutide 7 mg",
+      "name": "semaglutide 7 mg",
       "role": "experimental",
-      "drug": "oral semaglutide",
+      "drug": "semaglutide",
       "dose": "7 mg once daily",
       "route": "oral",
       "is_fixed_combination": false,
@@ -38,9 +38,9 @@
       "evidence": []
     },
     {
-      "name": "oral semaglutide 14 mg",
+      "name": "semaglutide 14 mg",
       "role": "experimental",
-      "drug": "oral semaglutide",
+      "drug": "semaglutide",
       "dose": "14 mg once daily",
       "route": "oral",
       "is_fixed_combination": false,
@@ -64,14 +64,14 @@
     {
       "name": "Change in HbA1c from baseline to week 26",
       "timepoint": "26 weeks",
-      "comparison": "oral semaglutide 3 mg vs sitagliptin 100 mg",
-      "effect_measure": "mean_difference",
+      "comparison": "semaglutide 3 mg vs sitagliptin 100 mg",
+      "effect_measure": "estimated_treatment_difference",
       "ci_lower": -4,
       "ci_upper": -1,
       "ci_level": 0.95,
-      "p_value": "p<0.01",
+      "p_value": "<0.01",
       "unit": "mmol/mol",
-      "estimand": "other",
+      "estimand": "hypothetical",
       "evidence": [],
       "value": -2,
       "is_primary": true
@@ -79,14 +79,14 @@
     {
       "name": "Change in HbA1c from baseline to week 26",
       "timepoint": "26 weeks",
-      "comparison": "oral semaglutide 7 mg vs sitagliptin 100 mg",
-      "effect_measure": "mean_difference",
+      "comparison": "semaglutide 7 mg vs sitagliptin 100 mg",
+      "effect_measure": "estimated_treatment_difference",
       "ci_lower": -9,
       "ci_upper": -6,
       "ci_level": 0.95,
-      "p_value": "p<0.001",
+      "p_value": "<0.001",
       "unit": "mmol/mol",
-      "estimand": "other",
+      "estimand": "hypothetical",
       "evidence": [],
       "value": -8,
       "is_primary": true
@@ -94,14 +94,14 @@
     {
       "name": "Change in HbA1c from baseline to week 26",
       "timepoint": "26 weeks",
-      "comparison": "oral semaglutide 14 mg vs sitagliptin 100 mg",
-      "effect_measure": "mean_difference",
+      "comparison": "semaglutide 14 mg vs sitagliptin 100 mg",
+      "effect_measure": "estimated_treatment_difference",
       "ci_lower": -12,
       "ci_upper": -9,
       "ci_level": 0.95,
-      "p_value": "p<0.001",
+      "p_value": "<0.001",
       "unit": "mmol/mol",
-      "estimand": "other",
+      "estimand": "hypothetical",
       "evidence": [],
       "value": -11,
       "is_primary": true
@@ -110,7 +110,7 @@
   "adverse_events": [
     {
       "term": "Any AE",
-      "arm_name": "oral semaglutide 3 mg",
+      "arm_name": "semaglutide 3 mg",
       "n_patients": 234,
       "percent_patients": 64.8,
       "is_serious": null,
@@ -118,7 +118,7 @@
     },
     {
       "term": "Any AE",
-      "arm_name": "oral semaglutide 7 mg",
+      "arm_name": "semaglutide 7 mg",
       "n_patients": 257,
       "percent_patients": 71.8,
       "is_serious": null,
@@ -126,7 +126,7 @@
     },
     {
       "term": "Any AE",
-      "arm_name": "oral semaglutide 14 mg",
+      "arm_name": "semaglutide 14 mg",
       "n_patients": 263,
       "percent_patients": 72.9,
       "is_serious": null,
@@ -142,7 +142,7 @@
     },
     {
       "term": "AEs by severity: Mild",
-      "arm_name": "oral semaglutide 3 mg",
+      "arm_name": "semaglutide 3 mg",
       "n_patients": 221,
       "percent_patients": 61.2,
       "is_serious": null,
@@ -150,7 +150,7 @@
     },
     {
       "term": "AEs by severity: Mild",
-      "arm_name": "oral semaglutide 7 mg",
+      "arm_name": "semaglutide 7 mg",
       "n_patients": 240,
       "percent_patients": 67.0,
       "is_serious": null,
@@ -158,7 +158,7 @@
     },
     {
       "term": "AEs by severity: Mild",
-      "arm_name": "oral semaglutide 14 mg",
+      "arm_name": "semaglutide 14 mg",
       "n_patients": 238,
       "percent_patients": 65.9,
       "is_serious": null,
@@ -174,7 +174,7 @@
     },
     {
       "term": "AEs by severity: Moderate",
-      "arm_name": "oral semaglutide 3 mg",
+      "arm_name": "semaglutide 3 mg",
       "n_patients": 44,
       "percent_patients": 12.2,
       "is_serious": null,
@@ -182,7 +182,7 @@
     },
     {
       "term": "AEs by severity: Moderate",
-      "arm_name": "oral semaglutide 7 mg",
+      "arm_name": "semaglutide 7 mg",
       "n_patients": 57,
       "percent_patients": 15.9,
       "is_serious": null,
@@ -190,7 +190,7 @@
     },
     {
       "term": "AEs by severity: Moderate",
-      "arm_name": "oral semaglutide 14 mg",
+      "arm_name": "semaglutide 14 mg",
       "n_patients": 73,
       "percent_patients": 20.2,
       "is_serious": null,
@@ -206,7 +206,7 @@
     },
     {
       "term": "AEs by severity: Severe",
-      "arm_name": "oral semaglutide 3 mg",
+      "arm_name": "semaglutide 3 mg",
       "n_patients": 8,
       "percent_patients": 2.2,
       "is_serious": null,
@@ -214,7 +214,7 @@
     },
     {
       "term": "AEs by severity: Severe",
-      "arm_name": "oral semaglutide 7 mg",
+      "arm_name": "semaglutide 7 mg",
       "n_patients": 12,
       "percent_patients": 3.4,
       "is_serious": null,
@@ -222,7 +222,7 @@
     },
     {
       "term": "AEs by severity: Severe",
-      "arm_name": "oral semaglutide 14 mg",
+      "arm_name": "semaglutide 14 mg",
       "n_patients": 8,
       "percent_patients": 2.2,
       "is_serious": null,
@@ -238,7 +238,7 @@
     },
     {
       "term": "SAEs",
-      "arm_name": "oral semaglutide 3 mg",
+      "arm_name": "semaglutide 3 mg",
       "n_patients": 16,
       "percent_patients": 4.4,
       "is_serious": true,
@@ -246,7 +246,7 @@
     },
     {
       "term": "SAEs",
-      "arm_name": "oral semaglutide 7 mg",
+      "arm_name": "semaglutide 7 mg",
       "n_patients": 11,
       "percent_patients": 3.1,
       "is_serious": true,
@@ -254,7 +254,7 @@
     },
     {
       "term": "SAEs",
-      "arm_name": "oral semaglutide 14 mg",
+      "arm_name": "semaglutide 14 mg",
       "n_patients": 11,
       "percent_patients": 3.0,
       "is_serious": true,
@@ -270,7 +270,7 @@
     },
     {
       "term": "AEs leading to trial product discontinuation",
-      "arm_name": "oral semaglutide 3 mg",
+      "arm_name": "semaglutide 3 mg",
       "n_patients": 17,
       "percent_patients": 4.7,
       "is_serious": null,
@@ -278,7 +278,7 @@
     },
     {
       "term": "AEs leading to trial product discontinuation",
-      "arm_name": "oral semaglutide 7 mg",
+      "arm_name": "semaglutide 7 mg",
       "n_patients": 16,
       "percent_patients": 4.5,
       "is_serious": null,
@@ -286,7 +286,7 @@
     },
     {
       "term": "AEs leading to trial product discontinuation",
-      "arm_name": "oral semaglutide 14 mg",
+      "arm_name": "semaglutide 14 mg",
       "n_patients": 35,
       "percent_patients": 9.7,
       "is_serious": null,
@@ -302,7 +302,7 @@
     },
     {
       "term": "Hypoglycaemic events: Level 1",
-      "arm_name": "oral semaglutide 3 mg",
+      "arm_name": "semaglutide 3 mg",
       "n_patients": 9,
       "percent_patients": 2.5,
       "is_serious": null,
@@ -310,7 +310,7 @@
     },
     {
       "term": "Hypoglycaemic events: Level 1",
-      "arm_name": "oral semaglutide 7 mg",
+      "arm_name": "semaglutide 7 mg",
       "n_patients": 12,
       "percent_patients": 3.4,
       "is_serious": null,
@@ -318,7 +318,7 @@
     },
     {
       "term": "Hypoglycaemic events: Level 1",
-      "arm_name": "oral semaglutide 14 mg",
+      "arm_name": "semaglutide 14 mg",
       "n_patients": 22,
       "percent_patients": 6.1,
       "is_serious": null,
@@ -334,7 +334,7 @@
     },
     {
       "term": "Hypoglycaemic events: Level 2",
-      "arm_name": "oral semaglutide 3 mg",
+      "arm_name": "semaglutide 3 mg",
       "n_patients": 5,
       "percent_patients": 1.4,
       "is_serious": null,
@@ -342,7 +342,7 @@
     },
     {
       "term": "Hypoglycaemic events: Level 2",
-      "arm_name": "oral semaglutide 7 mg",
+      "arm_name": "semaglutide 7 mg",
       "n_patients": 2,
       "percent_patients": 0.6,
       "is_serious": null,
@@ -350,7 +350,7 @@
     },
     {
       "term": "Hypoglycaemic events: Level 2",
-      "arm_name": "oral semaglutide 14 mg",
+      "arm_name": "semaglutide 14 mg",
       "n_patients": 2,
       "percent_patients": 0.6,
       "is_serious": null,
@@ -366,7 +366,7 @@
     },
     {
       "term": "Hypoglycaemic events: Level 3",
-      "arm_name": "oral semaglutide 3 mg",
+      "arm_name": "semaglutide 3 mg",
       "n_patients": 0,
       "percent_patients": null,
       "is_serious": null,
@@ -374,7 +374,7 @@
     },
     {
       "term": "Hypoglycaemic events: Level 3",
-      "arm_name": "oral semaglutide 7 mg",
+      "arm_name": "semaglutide 7 mg",
       "n_patients": 0,
       "percent_patients": null,
       "is_serious": null,
@@ -382,7 +382,7 @@
     },
     {
       "term": "Hypoglycaemic events: Level 3",
-      "arm_name": "oral semaglutide 14 mg",
+      "arm_name": "semaglutide 14 mg",
       "n_patients": 0,
       "percent_patients": null,
       "is_serious": null,
@@ -398,7 +398,7 @@
     },
     {
       "term": "EAC-confirmed deaths",
-      "arm_name": "oral semaglutide 3 mg",
+      "arm_name": "semaglutide 3 mg",
       "n_patients": 2,
       "percent_patients": 0.6,
       "is_serious": true,
@@ -406,7 +406,7 @@
     },
     {
       "term": "EAC-confirmed deaths",
-      "arm_name": "oral semaglutide 7 mg",
+      "arm_name": "semaglutide 7 mg",
       "n_patients": 2,
       "percent_patients": 0.6,
       "is_serious": true,
@@ -414,7 +414,7 @@
     },
     {
       "term": "EAC-confirmed deaths",
-      "arm_name": "oral semaglutide 14 mg",
+      "arm_name": "semaglutide 14 mg",
       "n_patients": 1,
       "percent_patients": 0.3,
       "is_serious": true,
@@ -430,7 +430,7 @@
     },
     {
       "term": "Nausea",
-      "arm_name": "oral semaglutide 3 mg",
+      "arm_name": "semaglutide 3 mg",
       "n_patients": 36,
       "percent_patients": 10.0,
       "is_serious": null,
@@ -438,7 +438,7 @@
     },
     {
       "term": "Nausea",
-      "arm_name": "oral semaglutide 7 mg",
+      "arm_name": "semaglutide 7 mg",
       "n_patients": 39,
       "percent_patients": 10.9,
       "is_serious": null,
@@ -446,7 +446,7 @@
     },
     {
       "term": "Nausea",
-      "arm_name": "oral semaglutide 14 mg",
+      "arm_name": "semaglutide 14 mg",
       "n_patients": 44,
       "percent_patients": 12.2,
       "is_serious": null,
@@ -462,7 +462,7 @@
     },
     {
       "term": "Diarrhoea",
-      "arm_name": "oral semaglutide 3 mg",
+      "arm_name": "semaglutide 3 mg",
       "n_patients": 30,
       "percent_patients": 8.3,
       "is_serious": null,
@@ -470,7 +470,7 @@
     },
     {
       "term": "Diarrhoea",
-      "arm_name": "oral semaglutide 7 mg",
+      "arm_name": "semaglutide 7 mg",
       "n_patients": 32,
       "percent_patients": 8.9,
       "is_serious": null,
@@ -478,7 +478,7 @@
     },
     {
       "term": "Diarrhoea",
-      "arm_name": "oral semaglutide 14 mg",
+      "arm_name": "semaglutide 14 mg",
       "n_patients": 48,
       "percent_patients": 13.3,
       "is_serious": null,
@@ -494,7 +494,7 @@
     },
     {
       "term": "Vomiting",
-      "arm_name": "oral semaglutide 3 mg",
+      "arm_name": "semaglutide 3 mg",
       "n_patients": 16,
       "percent_patients": 4.4,
       "is_serious": null,
@@ -502,7 +502,7 @@
     },
     {
       "term": "Vomiting",
-      "arm_name": "oral semaglutide 7 mg",
+      "arm_name": "semaglutide 7 mg",
       "n_patients": 18,
       "percent_patients": 5.0,
       "is_serious": null,
@@ -510,7 +510,7 @@
     },
     {
       "term": "Vomiting",
-      "arm_name": "oral semaglutide 14 mg",
+      "arm_name": "semaglutide 14 mg",
       "n_patients": 29,
       "percent_patients": 8.0,
       "is_serious": null,
@@ -526,7 +526,7 @@
     },
     {
       "term": "Abdominal distension",
-      "arm_name": "oral semaglutide 3 mg",
+      "arm_name": "semaglutide 3 mg",
       "n_patients": 7,
       "percent_patients": 1.9,
       "is_serious": null,
@@ -534,7 +534,7 @@
     },
     {
       "term": "Abdominal distension",
-      "arm_name": "oral semaglutide 7 mg",
+      "arm_name": "semaglutide 7 mg",
       "n_patients": 16,
       "percent_patients": 4.5,
       "is_serious": null,
@@ -542,7 +542,7 @@
     },
     {
       "term": "Abdominal distension",
-      "arm_name": "oral semaglutide 14 mg",
+      "arm_name": "semaglutide 14 mg",
       "n_patients": 17,
       "percent_patients": 4.7,
       "is_serious": null,
@@ -558,7 +558,7 @@
     },
     {
       "term": "Decreased apetite",
-      "arm_name": "oral semaglutide 3 mg",
+      "arm_name": "semaglutide 3 mg",
       "n_patients": 22,
       "percent_patients": 6.1,
       "is_serious": null,
@@ -566,7 +566,7 @@
     },
     {
       "term": "Decreased apetite",
-      "arm_name": "oral semaglutide 7 mg",
+      "arm_name": "semaglutide 7 mg",
       "n_patients": 30,
       "percent_patients": 8.4,
       "is_serious": null,
@@ -574,7 +574,7 @@
     },
     {
       "term": "Decreased apetite",
-      "arm_name": "oral semaglutide 14 mg",
+      "arm_name": "semaglutide 14 mg",
       "n_patients": 34,
       "percent_patients": 9.4,
       "is_serious": null,
@@ -590,7 +590,7 @@
     },
     {
       "term": "Upper respiratory tract infection",
-      "arm_name": "oral semaglutide 3 mg",
+      "arm_name": "semaglutide 3 mg",
       "n_patients": 26,
       "percent_patients": 7.2,
       "is_serious": null,
@@ -598,7 +598,7 @@
     },
     {
       "term": "Upper respiratory tract infection",
-      "arm_name": "oral semaglutide 7 mg",
+      "arm_name": "semaglutide 7 mg",
       "n_patients": 26,
       "percent_patients": 7.3,
       "is_serious": null,
@@ -606,7 +606,7 @@
     },
     {
       "term": "Upper respiratory tract infection",
-      "arm_name": "oral semaglutide 14 mg",
+      "arm_name": "semaglutide 14 mg",
       "n_patients": 31,
       "percent_patients": 8.6,
       "is_serious": null,
@@ -622,7 +622,7 @@
     },
     {
       "term": "Increased lipase levels",
-      "arm_name": "oral semaglutide 3 mg",
+      "arm_name": "semaglutide 3 mg",
       "n_patients": 15,
       "percent_patients": 4.2,
       "is_serious": null,
@@ -630,7 +630,7 @@
     },
     {
       "term": "Increased lipase levels",
-      "arm_name": "oral semaglutide 7 mg",
+      "arm_name": "semaglutide 7 mg",
       "n_patients": 17,
       "percent_patients": 4.7,
       "is_serious": null,
@@ -638,7 +638,7 @@
     },
     {
       "term": "Increased lipase levels",
-      "arm_name": "oral semaglutide 14 mg",
+      "arm_name": "semaglutide 14 mg",
       "n_patients": 21,
       "percent_patients": 5.8,
       "is_serious": null,
@@ -654,7 +654,7 @@
     },
     {
       "term": "Diabetic retinopathy",
-      "arm_name": "oral semaglutide 3 mg",
+      "arm_name": "semaglutide 3 mg",
       "n_patients": 13,
       "percent_patients": 3.6,
       "is_serious": null,
@@ -662,7 +662,7 @@
     },
     {
       "term": "Diabetic retinopathy",
-      "arm_name": "oral semaglutide 7 mg",
+      "arm_name": "semaglutide 7 mg",
       "n_patients": 11,
       "percent_patients": 3.1,
       "is_serious": null,
@@ -670,7 +670,7 @@
     },
     {
       "term": "Diabetic retinopathy",
-      "arm_name": "oral semaglutide 14 mg",
+      "arm_name": "semaglutide 14 mg",
       "n_patients": 12,
       "percent_patients": 3.3,
       "is_serious": null,
@@ -686,7 +686,7 @@
     },
     {
       "term": "Dizziness",
-      "arm_name": "oral semaglutide 3 mg",
+      "arm_name": "semaglutide 3 mg",
       "n_patients": 12,
       "percent_patients": 3.3,
       "is_serious": null,
@@ -694,7 +694,7 @@
     },
     {
       "term": "Dizziness",
-      "arm_name": "oral semaglutide 7 mg",
+      "arm_name": "semaglutide 7 mg",
       "n_patients": 16,
       "percent_patients": 4.5,
       "is_serious": null,
@@ -702,7 +702,7 @@
     },
     {
       "term": "Dizziness",
-      "arm_name": "oral semaglutide 14 mg",
+      "arm_name": "semaglutide 14 mg",
       "n_patients": 13,
       "percent_patients": 3.6,
       "is_serious": null,

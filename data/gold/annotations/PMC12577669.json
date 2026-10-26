@@ -1,0 +1,317 @@
+{
+  "pmcid": "PMC12577669",
+  "trial_registration": "NCT04431713",
+  "design_notes": "Randomized, phase IIa, open label, parallel-group, single-center trial",
+  "population": {
+    "condition": "multiple system atrophy (MSA)",
+    "key_inclusion_criteria": [
+      "Eligible men and women were aged 30 to 80 years",
+      "had a diagnosis of possible or probable MSA of the parkinsonian (MSA-P) or cerebellar subtype (MSA-C) according to the Gilman Criteria.",
+      "Participants were less than 5 years from the time of documented MSA diagnosis, or from the time of previously documented parkinsonian/ataxic neurological condition, which was later re-diagnosed as MSA.",
+      "They were able to walk at least 10 meters (with or without assistance)",
+      "had an anticipated survival of at least 3 years in the opinion of the investigator."
+    ],
+    "mean_age": null,
+    "percent_female": null,
+    "evidence": []
+  },
+  "arms": [
+    {
+      "name": "Exenatide",
+      "role": "experimental",
+      "drug": "exenatide",
+      "dose": "2 mg once weekly",
+      "route": "subcutaneous",
+      "is_fixed_combination": false,
+      "n_randomized": 25,
+      "n_analyzed": 25,
+      "evidence": []
+    },
+    {
+      "name": "Standard Care",
+      "role": "active_comparator",
+      "drug": null,
+      "dose": null,
+      "route": "not_reported",
+      "is_fixed_combination": false,
+      "n_randomized": 25,
+      "n_analyzed": 25,
+      "evidence": []
+    }
+  ],
+  "outcomes": [
+    {
+      "name": "UMSARS (parts I and II combined score)",
+      "is_primary": true,
+      "timepoint": "48 weeks",
+      "comparison": "Exenatide vs Standard Care",
+      "effect_measure": "mean_difference",
+      "estimand": "not_reported",
+      "value": -7.44,
+      "ci_lower": -11.29,
+      "ci_upper": -3.58,
+      "ci_level": 0.95,
+      "p_value": "0.0003",
+      "unit": "points",
+      "evidence": []
+    }
+  ],
+  "adverse_events": [
+    {
+      "term": "Gastrointestinal disorders, for example, nausea, bloating, and constipation",
+      "arm_name": "Exenatide",
+      "n_patients": 14,
+      "percent_patients": null,
+      "is_serious": null,
+      "evidence": []
+    },
+    {
+      "term": "Gastrointestinal disorders, for example, nausea, bloating, and constipation",
+      "arm_name": "Standard Care",
+      "n_patients": 12,
+      "percent_patients": null,
+      "is_serious": null,
+      "evidence": []
+    },
+    {
+      "term": "Skin disorders, for example, nodules and rashes",
+      "arm_name": "Exenatide",
+      "n_patients": 12,
+      "percent_patients": null,
+      "is_serious": null,
+      "evidence": []
+    },
+    {
+      "term": "Skin disorders, for example, nodules and rashes",
+      "arm_name": "Standard Care",
+      "n_patients": 4,
+      "percent_patients": null,
+      "is_serious": null,
+      "evidence": []
+    },
+    {
+      "term": "Infections, for example, UTI and chest",
+      "arm_name": "Exenatide",
+      "n_patients": 16,
+      "percent_patients": null,
+      "is_serious": null,
+      "evidence": []
+    },
+    {
+      "term": "Infections, for example, UTI and chest",
+      "arm_name": "Standard Care",
+      "n_patients": 14,
+      "percent_patients": null,
+      "is_serious": null,
+      "evidence": []
+    },
+    {
+      "term": "Serum amylase increase",
+      "arm_name": "Exenatide",
+      "n_patients": null,
+      "percent_patients": null,
+      "is_serious": null,
+      "evidence": []
+    },
+    {
+      "term": "Serum amylase increase",
+      "arm_name": "Standard Care",
+      "n_patients": null,
+      "percent_patients": null,
+      "is_serious": null,
+      "evidence": []
+    },
+    {
+      "term": "Weight loss, anorexia",
+      "arm_name": "Exenatide",
+      "n_patients": 11,
+      "percent_patients": null,
+      "is_serious": null,
+      "evidence": []
+    },
+    {
+      "term": "Weight loss, anorexia",
+      "arm_name": "Standard Care",
+      "n_patients": 4,
+      "percent_patients": null,
+      "is_serious": null,
+      "evidence": []
+    },
+    {
+      "term": "General, for example, fatigue and pain",
+      "arm_name": "Exenatide",
+      "n_patients": 6,
+      "percent_patients": null,
+      "is_serious": null,
+      "evidence": []
+    },
+    {
+      "term": "General, for example, fatigue and pain",
+      "arm_name": "Standard Care",
+      "n_patients": 6,
+      "percent_patients": null,
+      "is_serious": null,
+      "evidence": []
+    },
+    {
+      "term": "Gait disturbance",
+      "arm_name": "Exenatide",
+      "n_patients": 17,
+      "percent_patients": null,
+      "is_serious": null,
+      "evidence": []
+    },
+    {
+      "term": "Gait disturbance",
+      "arm_name": "Standard Care",
+      "n_patients": 17,
+      "percent_patients": null,
+      "is_serious": null,
+      "evidence": []
+    },
+    {
+      "term": "Other miscellaneous",
+      "arm_name": "Exenatide",
+      "n_patients": 21,
+      "percent_patients": null,
+      "is_serious": null,
+      "evidence": []
+    },
+    {
+      "term": "Other miscellaneous",
+      "arm_name": "Standard Care",
+      "n_patients": 22,
+      "percent_patients": null,
+      "is_serious": null,
+      "evidence": []
+    },
+    {
+      "term": "Infections",
+      "arm_name": "Exenatide",
+      "n_patients": 6,
+      "percent_patients": null,
+      "is_serious": true,
+      "evidence": []
+    },
+    {
+      "term": "Infections",
+      "arm_name": "Standard Care",
+      "n_patients": 7,
+      "percent_patients": null,
+      "is_serious": true,
+      "evidence": []
+    },
+    {
+      "term": "Gastrointestinal",
+      "arm_name": "Exenatide",
+      "n_patients": 2,
+      "percent_patients": null,
+      "is_serious": true,
+      "evidence": []
+    },
+    {
+      "term": "Gastrointestinal",
+      "arm_name": "Standard Care",
+      "n_patients": 4,
+      "percent_patients": null,
+      "is_serious": true,
+      "evidence": []
+    },
+    {
+      "term": "Cardiac",
+      "arm_name": "Exenatide",
+      "n_patients": null,
+      "percent_patients": null,
+      "is_serious": true,
+      "evidence": []
+    },
+    {
+      "term": "Cardiac",
+      "arm_name": "Standard Care",
+      "n_patients": null,
+      "percent_patients": null,
+      "is_serious": true,
+      "evidence": []
+    },
+    {
+      "term": "Falls",
+      "arm_name": "Exenatide",
+      "n_patients": 2,
+      "percent_patients": null,
+      "is_serious": true,
+      "evidence": []
+    },
+    {
+      "term": "Falls",
+      "arm_name": "Standard Care",
+      "n_patients": null,
+      "percent_patients": null,
+      "is_serious": true,
+      "evidence": []
+    },
+    {
+      "term": "Worsening MSA",
+      "arm_name": "Exenatide",
+      "n_patients": 2,
+      "percent_patients": null,
+      "is_serious": true,
+      "evidence": []
+    },
+    {
+      "term": "Worsening MSA",
+      "arm_name": "Standard Care",
+      "n_patients": null,
+      "percent_patients": null,
+      "is_serious": true,
+      "evidence": []
+    },
+    {
+      "term": "Anxiety and depression",
+      "arm_name": "Exenatide",
+      "n_patients": 1,
+      "percent_patients": null,
+      "is_serious": true,
+      "evidence": []
+    },
+    {
+      "term": "Anxiety and depression",
+      "arm_name": "Standard Care",
+      "n_patients": null,
+      "percent_patients": null,
+      "is_serious": true,
+      "evidence": []
+    },
+    {
+      "term": "Other",
+      "arm_name": "Exenatide",
+      "n_patients": 3,
+      "percent_patients": null,
+      "is_serious": true,
+      "evidence": []
+    },
+    {
+      "term": "Other",
+      "arm_name": "Standard Care",
+      "n_patients": 4,
+      "percent_patients": null,
+      "is_serious": true,
+      "evidence": []
+    },
+    {
+      "term": "Serum amylase increase",
+      "arm_name": "Exenatide",
+      "n_patients": 1,
+      "percent_patients": null,
+      "is_serious": true,
+      "evidence": []
+    },
+    {
+      "term": "Serum amylase increase",
+      "arm_name": "Standard Care",
+      "n_patients": null,
+      "percent_patients": null,
+      "is_serious": true,
+      "evidence": []
+    }
+  ]
+}

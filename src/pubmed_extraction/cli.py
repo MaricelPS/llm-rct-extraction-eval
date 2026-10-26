@@ -278,7 +278,8 @@ def evaluate(
     """Compare extractions with gold annotations, field by field."""
     split = load_split()
     targets = sorted(p for p, s in split.items() if s == split_name)
-    pred_dir = EXTRACTIONS_DIR / settings.extraction_model
+    config = f"{settings.extraction_model}_{settings.extraction_effort}"
+    pred_dir = EXTRACTIONS_DIR / config
     reports = []
 
     for current in targets:
@@ -302,7 +303,7 @@ def evaluate(
                 typer.echo(f"  - {diff}")
 
     summary = summarize(reports)
-    typer.echo(f"\n=== Summary: {split_name} ({len(reports)} papers, {settings.extraction_model}) ===")
+    typer.echo(f"\n=== Summary: {split_name} ({len(reports)} papers, {config}) ===")
     typer.echo("\nSets (precision / recall):")
     for section, c in summary["sets"].items():
         p = f"{c['precision']:.0%}" if c["precision"] is not None else "-"

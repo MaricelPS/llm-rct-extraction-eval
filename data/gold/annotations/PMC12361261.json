@@ -1,7 +1,7 @@
 {
   "pmcid": "PMC12361261",
   "trial_registration": "NCT05767255",
-  "design_notes": null,
+  "design_notes": "open-label randomised clinical trial",
   "population": {
     "condition": "Type 2 diabetes with suboptimal glycaemic control during transition from hospital to outpatient care",
     "key_inclusion_criteria": [
