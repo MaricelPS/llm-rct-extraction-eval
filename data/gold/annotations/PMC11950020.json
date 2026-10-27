@@ -19,7 +19,7 @@
     {
       "name": "IcoSema",
       "role": "experimental",
-      "drug": "insulin icodec + semaglutide",
+      "drug": "insulin icodec/semaglutide",
       "dose": null,
       "route": "subcutaneous",
       "is_fixed_combination": true,

@@ -3,7 +3,7 @@
   "trial_registration": "NCT05514535",
   "design_notes": "SUSTAIN OPTIMIZE was a 40-week, phase 3b, open-label, parallel-group, randomised trial performed at 113 outpatient clinical trial sites in 9 countries across North America, Europe, and Africa. Participants were randomised in a 1:1 ratio. The study consisted of a 2-week screening period followed by a 40-week intervention period and a subsequent 5-week follow-up period.",
   "population": {
-    "condition": "type 2 diabetes (T2D) and overweight",
+    "condition": "type 2 diabetes and overweight",
     "key_inclusion_criteria": [
       "aged ≥ 18 years",
       "having T2D ≥ 180 days before screening",
@@ -19,7 +19,7 @@
     {
       "name": "Sema+IGlarreduced",
       "role": "experimental",
-      "drug": "semaglutide",
+      "drug": "semaglutide + insulin glargine",
       "dose": "2.0 mg once weekly",
       "route": "subcutaneous",
       "is_fixed_combination": false,
@@ -154,86 +154,6 @@
       "evidence": []
     },
     {
-      "term": "Outcome: Recovered",
-      "arm_name": "Sema+IGlarreduced",
-      "n_patients": 154,
-      "percent_patients": 53.5,
-      "is_serious": null,
-      "evidence": []
-    },
-    {
-      "term": "Outcome: Recovered",
-      "arm_name": "IGlartitrated",
-      "n_patients": 125,
-      "percent_patients": 44.0,
-      "is_serious": null,
-      "evidence": []
-    },
-    {
-      "term": "Outcome: Recovering",
-      "arm_name": "Sema+IGlarreduced",
-      "n_patients": 14,
-      "percent_patients": 4.9,
-      "is_serious": null,
-      "evidence": []
-    },
-    {
-      "term": "Outcome: Recovering",
-      "arm_name": "IGlartitrated",
-      "n_patients": 12,
-      "percent_patients": 4.2,
-      "is_serious": null,
-      "evidence": []
-    },
-    {
-      "term": "Outcome: Recovered with sequelae",
-      "arm_name": "Sema+IGlarreduced",
-      "n_patients": 0,
-      "percent_patients": null,
-      "is_serious": null,
-      "evidence": []
-    },
-    {
-      "term": "Outcome: Recovered with sequelae",
-      "arm_name": "IGlartitrated",
-      "n_patients": 0,
-      "percent_patients": null,
-      "is_serious": null,
-      "evidence": []
-    },
-    {
-      "term": "Outcome: Not recovered",
-      "arm_name": "Sema+IGlarreduced",
-      "n_patients": 61,
-      "percent_patients": 21.2,
-      "is_serious": null,
-      "evidence": []
-    },
-    {
-      "term": "Outcome: Not recovered",
-      "arm_name": "IGlartitrated",
-      "n_patients": 56,
-      "percent_patients": 19.7,
-      "is_serious": null,
-      "evidence": []
-    },
-    {
-      "term": "Outcome: Unknown",
-      "arm_name": "Sema+IGlarreduced",
-      "n_patients": 5,
-      "percent_patients": 1.7,
-      "is_serious": null,
-      "evidence": []
-    },
-    {
-      "term": "Outcome: Unknown",
-      "arm_name": "IGlartitrated",
-      "n_patients": 3,
-      "percent_patients": 1.1,
-      "is_serious": null,
-      "evidence": []
-    },
-    {
       "term": "Leading to treatment discontinuation",
       "arm_name": "Sema+IGlarreduced",
       "n_patients": 10,
@@ -278,38 +198,6 @@
       "arm_name": "IGlartitrated",
       "n_patients": 19,
       "percent_patients": 6.7,
-      "is_serious": null,
-      "evidence": []
-    },
-    {
-      "term": "Gastrointestinal adverse events: Recovered",
-      "arm_name": "Sema+IGlarreduced",
-      "n_patients": 95,
-      "percent_patients": 33.0,
-      "is_serious": null,
-      "evidence": []
-    },
-    {
-      "term": "Gastrointestinal adverse events: Recovered",
-      "arm_name": "IGlartitrated",
-      "n_patients": 17,
-      "percent_patients": 6.0,
-      "is_serious": null,
-      "evidence": []
-    },
-    {
-      "term": "Gastrointestinal adverse events: Recovering",
-      "arm_name": "Sema+IGlarreduced",
-      "n_patients": 7,
-      "percent_patients": 2.4,
-      "is_serious": null,
-      "evidence": []
-    },
-    {
-      "term": "Gastrointestinal adverse events: Recovering",
-      "arm_name": "IGlartitrated",
-      "n_patients": 1,
-      "percent_patients": 0.4,
       "is_serious": null,
       "evidence": []
     },

@@ -54,7 +54,7 @@
       "drug": "liraglutide + empagliflozin",
       "dose": "1.8 mg liraglutide daily + 25 mg empagliflozin daily",
       "route": "other",
-      "is_fixed_combination": true,
+      "is_fixed_combination": false,
       "n_randomized": 50,
       "n_analyzed": 50,
       "evidence": []

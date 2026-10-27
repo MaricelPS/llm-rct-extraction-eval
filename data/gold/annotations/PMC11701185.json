@@ -12,7 +12,7 @@
       "At least two symptoms of sexual dysfunction and low or inappropriately normal gonadotropin levels"
     ],
     "mean_age": null,
-    "percent_female": null,
+    "percent_female": 0.0,
     "evidence": []
   },
   "arms": [

@@ -31,11 +31,15 @@ DESIGN_INSTRUCTIONS = """Extract the trial registration, design notes, study pop
 
 Population:
 - condition: the disease or condition defining the population, without qualifiers such as
-  glycaemic control, ethnicity or care setting. If participants are not selected for a disease
-  (e.g. healthy volunteers), use the article's own short description of the population.
+  glycaemic control, ethnicity or care setting. If inclusion requires more than one condition,
+  keep all of them as the article states them, joined by "and" (e.g. "condition A and
+  condition B"). If participants are not selected for a disease (e.g. healthy volunteers), use
+  the article's own short description of the population.
 - mean_age and percent_female refer to the overall randomized population and may be stated in
   the Results text rather than in the baseline table. Use null if only per-arm values, only the
-  median age or only the percentage of men are reported.
+  median age or only the percentage of men are reported. Never derive percent_female by
+  subtracting the percentage of men from 100 or by combining per-arm values. If the trial enrolled
+  participants of only one sex by design, percent_female is 0 or 100.
 
 Arms:
 - Arms are defined by the randomized intervention. Strata or subgroups (e.g. by insulin
@@ -45,7 +49,11 @@ Arms:
   analysis set per condition when reported, and mention the crossover design in design_notes.
 - name: use the arm label from the column headers of the article's tables when available.
 - drug: the active substance only, without route or formulation (e.g. "semaglutide", not
-  "oral semaglutide").
+  "oral semaglutide"). If the arm is a regimen described only by drug class (e.g. multiple daily insulin
+  injections), use the class name (e.g. "insulin"). If the arm is a regimen described only by drug class, use the class as the article names it
+  (e.g. "insulin" for multiple daily insulin injections, "basal insulin"). For drugs given
+  separately in the same arm, join the substances with " + "; for fixed-ratio combination
+  products, join them with "/".
 - dose: maintenance dose and frequency only (e.g. "1.0 mg once weekly"), without escalation
   schedules or target-dose details.
 - For placebo arms, drug and dose are null.
@@ -56,12 +64,17 @@ PRIMARY_OUTCOMES_INSTRUCTIONS = """Extract only the outcomes the article explici
 primary (primary outcome or primary endpoint), reported as between-arm comparisons. Set
 is_primary to true. If the article designates no primary outcome, return an empty list.
 - Report an entry only if the text or tables give an effect estimate or a p-value for that
-  comparison and estimand. Ignore values shown only in figures.
+  comparison and estimand. Values shown only in figures or figure legends are out of scope.
+- Report each result once. If the article gives the same result in more than one unit
+  (e.g. a percentage and mmol/mol), use the unit in which the outcome is defined in the
+  Methods; if the Methods do not specify a unit, use the first unit reported in the Results.
 - Record between-arm comparisons only, never within-arm changes from baseline.
 - Write each comparison as '<arm name> vs <arm name>', experimental arm first, using the exact
   arm names below.
 - If an outcome is reported under more than one estimand, report each estimand as a separate
-  entry. Trial product estimands are 'hypothetical'.
+  entry. Map the article's estimand names: "treatment policy" or "treatment regimen" estimands are
+  'treatment_policy'; "trial product", "efficacy" or on-treatment estimands are 'hypothetical'.
+  Use 'not_reported' only when the article names no estimand.
 - effect_measure: 'estimated_treatment_difference' when the article uses that term; 'other'
   when only a between-group p-value is reported.
 - p_value: as written, without a leading "p" or "P =".
@@ -78,7 +91,8 @@ and adverse events mentioned elsewhere in the text are out of scope when a main 
   with its parent row label, separated by ": " (e.g. "AEs by severity: Mild"). Rows that name an
   event (e.g. Nausea, Acute kidney injury) keep their own label; never prefix them with section
   headings such as "Safety focus areas" or "Most frequent AEs". Skip heading rows without
-  values. Drop footnote markers.
+  values. Drop footnote markers. Skip rows that describe the outcome of adverse events rather
+  than an event (e.g. "Recovered", "Not recovered", "Unknown").
 - If the table reports both the overall population and subpopulations, use only the overall
   population columns.
 - Report numbers of patients only. Skip rows that count events instead of patients, and never
@@ -106,10 +120,14 @@ ALL_OUTCOMES_INSTRUCTIONS = """Extract all efficacy outcomes reported as between
 Write each comparison as '<arm name> vs <arm name>' using the exact arm names below.
 If an outcome is reported under more than one estimand (e.g. treatment policy and trial product),
 report each estimand as a separate outcome.
+Map the article's estimand names: "treatment policy" or "treatment regimen" estimands are
+'treatment_policy'; "trial product", "efficacy" or on-treatment estimands are 'hypothetical'.
+Use 'not_reported' only when the article names no estimand.
+Values shown only in figures or figure legends are out of scope.
+Report each result once. If the article gives the same result in more than one unit
+(e.g. a percentage and mmol/mol), use the unit in which the outcome is defined in the
+Methods; if the Methods do not specify a unit, use the first unit reported in the Results.
 Trial arms: {arms}"""
-
-
-
 
 class TrialExtractor:
     def __init__(self, model: str | None = None) -> None:

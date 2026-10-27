@@ -27,7 +27,7 @@
     {
       "name": "Conventional basal-bolus insulin therapy",
       "role": "active_comparator",
-      "drug": "insulin degludec and insulin aspart",
+      "drug": "insulin degludec + insulin aspart",
       "dose": null,
       "route": "subcutaneous",
       "is_fixed_combination": false,
@@ -79,36 +79,36 @@
       "evidence": []
     },
     {
-    "term": "Clinically important hypoglycaemia",
-    "arm_name": "Conventional basal-bolus insulin therapy",
-    "n_patients": 0,
-    "percent_patients": null,
-    "is_serious": null,
-    "evidence": []
+      "term": "Clinically important hypoglycaemia",
+      "arm_name": "Conventional basal-bolus insulin therapy",
+      "n_patients": 0,
+      "percent_patients": null,
+      "is_serious": null,
+      "evidence": []
     },
     {
-    "term": "Severe hypoglycaemia",
-    "arm_name": "Conventional basal-bolus insulin therapy",
-    "n_patients": 0,
-    "percent_patients": null,
-    "is_serious": null,
-    "evidence": []
+      "term": "Severe hypoglycaemia",
+      "arm_name": "Conventional basal-bolus insulin therapy",
+      "n_patients": 0,
+      "percent_patients": null,
+      "is_serious": null,
+      "evidence": []
     },
     {
-    "term": "Serious adverse events",
-    "arm_name": "Dulaglutide",
-    "n_patients": 0,
-    "percent_patients": null,
-    "is_serious": true,
-    "evidence": []
+      "term": "Serious adverse events",
+      "arm_name": "Dulaglutide",
+      "n_patients": 0,
+      "percent_patients": null,
+      "is_serious": true,
+      "evidence": []
     },
     {
-    "term": "Serious adverse events",
-    "arm_name": "Conventional basal-bolus insulin therapy",
-    "n_patients": 0,
-    "percent_patients": null,
-    "is_serious": true,
-    "evidence": []
+      "term": "Serious adverse events",
+      "arm_name": "Conventional basal-bolus insulin therapy",
+      "n_patients": 0,
+      "percent_patients": null,
+      "is_serious": true,
+      "evidence": []
     }
   ]
 }

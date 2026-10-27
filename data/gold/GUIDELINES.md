@@ -46,10 +46,11 @@ criteria.
 
 ## Population
 
-- condition: the disease or condition defining the trial population, without qualifiers such
-  as glycaemic control, ethnicity or care setting (e.g. "type 2 diabetes"). If participants
-  are not selected for a disease (e.g. healthy volunteers), use the article's own short
-  description of the population.
+- condition: the disease or condition defining the population, without qualifiers such as
+  glycaemic control, ethnicity or care setting. If inclusion requires more than one condition,
+  keep all of them as the article states them, joined by "and" (e.g. "condition A and
+  condition B"). If participants are not selected for a disease (e.g. healthy volunteers), use
+  the article's own short description of the population.
 - key_inclusion_criteria: 3 to 5 main criteria (diagnosis, age range, HbA1c or BMI thresholds,
   background therapy), worded as in the article.
 - mean_age and percent_female: overall randomized population, from the Results text or the
@@ -57,6 +58,9 @@ criteria.
     - Use null if only per-arm values are reported.
     - Use null if only the median age is reported.
     - Use null if only the percentage of men is reported.
+    - Never derive percent_female by subtracting the percentage of men from 100 or by
+      combining per-arm values.
+    - If the trial enrolled participants of only one sex by design, percent_female is 0 or 100.
 
 ## Arms
 
@@ -69,7 +73,10 @@ criteria.
   in the text. Outcomes and adverse events must reuse these names exactly.
 - role: experimental, placebo or active_comparator.
 - drug: the active substance only, without route or formulation (e.g. "semaglutide", not
-  "oral semaglutide"); the route goes in route.
+  "oral semaglutide"); the route goes in route. If the arm is a regimen described only by drug class, use the class as the article names it
+  (e.g. "insulin" for multiple daily insulin injections, "basal insulin"). For drugs given
+  separately in the same arm, join the substances with " + "; for fixed-ratio combination
+  products, join them with "/".
 - dose: maintenance dose and frequency (e.g. "1.0 mg once weekly"), without escalation
   schedules or target-dose details.
 - drug and dose are null for placebo arms.
@@ -86,7 +93,13 @@ criteria.
   co-primary outcomes.
 - One entry per outcome, per comparison, per estimand.
 - Annotate an entry only if the text or tables report an effect estimate or a p-value for
-  that comparison and estimand. Values shown only in figures are out of scope.
+  that comparison and estimand. Values shown only in figures or figure legends are out of scope.
+- Report each result once. If the article gives the same result in more than one unit
+  (e.g. a percentage and mmol/mol), use the unit in which the outcome is defined in the
+  Methods; if the Methods do not specify a unit, use the first unit reported in the Results.
+- Map the article's estimand names: "treatment policy" or "treatment regimen" estimands are
+  'treatment_policy'; "trial product", "efficacy" or on-treatment estimands are 'hypothetical'.
+  Use 'not_reported' only when the article names no estimand.
 - comparison: exactly "<arm name> vs <arm name>", experimental arm first.
 - Record the between-arm comparison only. Within-arm changes from baseline are not annotated.
 - effect_measure: estimated_treatment_difference when the article uses that term (ETD);
@@ -117,7 +130,9 @@ criteria.
   Grade 3), prefix it with its parent row label, separated by ": " (e.g. "AEs by severity:
   Mild", "Hypoglycaemic events: Level 1"). Rows that name an event (e.g. Nausea) keep their own
   label even when listed under a section heading. Heading rows without values of their own are
-  not annotated. Footnote markers are dropped from terms.
+  not annotated. Footnote markers are dropped from terms. Rows that describe the outcome of
+  adverse events rather than an event (e.g. "Recovered", "Not recovered", "Unknown") are not
+  annotated.
 - If the safety table reports both the overall population and subpopulations, annotate only
   the overall population columns.
 - n_patients: number of patients with the event. Rows that count events instead of patients
@@ -140,3 +155,4 @@ criteria.
   Example: in PMC11987204 Table 7, rows indented under "SAEs" ("TEAEs leading to treatment
   interruption", "TEAEs leading to death") are self-contained and keep their own labels; in
   PMC12577669 Table 4, "Cardiac" under "Serious adverse events" becomes "Serious adverse events: Cardiac".
+

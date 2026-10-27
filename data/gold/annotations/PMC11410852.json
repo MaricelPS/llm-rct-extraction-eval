@@ -557,7 +557,7 @@
       "evidence": []
     },
     {
-      "term": "Decreased apetite",
+      "term": "Decreased appetite",
       "arm_name": "semaglutide 3 mg",
       "n_patients": 22,
       "percent_patients": 6.1,
@@ -565,7 +565,7 @@
       "evidence": []
     },
     {
-      "term": "Decreased apetite",
+      "term": "Decreased appetite",
       "arm_name": "semaglutide 7 mg",
       "n_patients": 30,
       "percent_patients": 8.4,
@@ -573,7 +573,7 @@
       "evidence": []
     },
     {
-      "term": "Decreased apetite",
+      "term": "Decreased appetite",
       "arm_name": "semaglutide 14 mg",
       "n_patients": 34,
       "percent_patients": 9.4,
@@ -581,7 +581,7 @@
       "evidence": []
     },
     {
-      "term": "Decreased apetite",
+      "term": "Decreased appetite",
       "arm_name": "sitagliptin 100 mg",
       "n_patients": 5,
       "percent_patients": 1.4,

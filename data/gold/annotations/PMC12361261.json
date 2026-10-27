@@ -51,7 +51,7 @@
       "ci_upper": null,
       "ci_level": null,
       "p_value": "0.010",
-      "unit": "% of patients",
+      "unit": "%",
       "estimand": "not_reported",
       "evidence": []
     }
