@@ -2,6 +2,7 @@
 
 import csv
 import json
+import re
 from pathlib import Path
 from typing import Any
 from pubmed_extraction.extract.validation import _normalize
@@ -139,3 +140,83 @@ def validate_annotation(path: Path) -> list[str]:
         if _normalize(ae.arm_name) not in arm_names:
             problems.append(f"adverse_events[{i}]: unknown arm '{ae.arm_name}'")
     return problems
+
+QUALIFIER_WORDS = re.compile(
+    r"controlled|inadequate|suboptimal|population|chinese|japanese|hospital|outpatient|"
+    r"metformin|treated with|on insulin",
+    re.I,
+)
+ROUTE_WORDS = re.compile(r"\boral\b|subcutaneous|injection|tablet", re.I)
+DOSE_DETAIL_WORDS = re.compile(
+    r"titrat|escalat|target|starting|increment|reduced by|over the first", re.I
+)
+SECTION_PREFIX = re.compile(r"^(safety focus areas|most frequent|adverse events by)", re.I)
+FOOTNOTE_TAIL = re.compile(r"\s[a-f†‡§*]$")
+DEATH_WORDS = re.compile(r"death|fatal|died", re.I)
+
+
+def lint_annotation(annotation: TrialExtraction) -> list[str]:
+    """Heuristic checks against the annotation guidelines. Returns warnings to review."""
+    warnings: list[str] = []
+
+    condition = annotation.population.condition
+    if QUALIFIER_WORDS.search(condition):
+        warnings.append(f"population.condition may contain qualifiers: {condition!r}")
+
+    for arm in annotation.arms:
+        tag = f"arms[{arm.name}]"
+        if arm.role.value == "placebo" and (arm.drug or arm.dose):
+            warnings.append(f"{tag}: drug and dose must be null for placebo")
+        if arm.drug and ROUTE_WORDS.search(arm.drug):
+            warnings.append(f"{tag}: drug may include route or formulation: {arm.drug!r}")
+        if arm.drug and re.search(r"\d", arm.drug):
+            warnings.append(f"{tag}: drug contains numbers (dose?): {arm.drug!r}")
+        if arm.dose and DOSE_DETAIL_WORDS.search(arm.dose):
+            warnings.append(f"{tag}: dose may include escalation or titration details: {arm.dose!r}")
+        if arm.n_randomized is not None and arm.n_analyzed is not None:
+            if arm.n_analyzed > arm.n_randomized:
+                warnings.append(f"{tag}: n_analyzed exceeds n_randomized")
+
+    notes = annotation.design_notes or ""
+    if re.search(r"cross-?over", notes, re.I):
+        for arm in annotation.arms:
+            if arm.n_randomized is not None or arm.n_analyzed is not None:
+                warnings.append(f"arms[{arm.name}]: crossover design, n values should be null "
+                                "unless reported per condition")
+
+    roles = {_normalize(arm.name): arm.role.value for arm in annotation.arms}
+    for i, outcome in enumerate(annotation.outcomes):
+        tag = f"outcomes[{i}] ({outcome.name[:40]})"
+        if outcome.p_value and re.match(r"\s*p", outcome.p_value, re.I):
+            warnings.append(f"{tag}: p_value should not start with 'p': {outcome.p_value!r}")
+        if outcome.estimand.value == "other":
+            warnings.append(f"{tag}: estimand 'other' (trial product estimands are 'hypothetical')")
+        first = _normalize(outcome.comparison.split(" vs ")[0])
+        if roles.get(first) != "experimental":
+            warnings.append(f"{tag}: experimental arm should come first: {outcome.comparison!r}")
+        if outcome.value is None and outcome.p_value is None:
+            warnings.append(f"{tag}: no effect estimate and no p-value")
+
+    arms_per_term: dict[str, set[str]] = {}
+    for i, ae in enumerate(annotation.adverse_events):
+        tag = f"adverse_events[{i}] ({ae.term} / {ae.arm_name})"
+        arms_per_term.setdefault(ae.term, set()).add(_normalize(ae.arm_name))
+        if ae.is_serious is False:
+            warnings.append(f"{tag}: is_serious false (use null)")
+        if DEATH_WORDS.search(ae.term) and ae.is_serious is not True:
+            warnings.append(f"{tag}: deaths must have is_serious true")
+        if ae.n_patients is None and ae.percent_patients is None:
+            warnings.append(f"{tag}: no patient count or percentage")
+        if ae.n_patients == 0 and ae.percent_patients == 0:
+            warnings.append(f"{tag}: percent 0.0 is valid only if the cell reads '0 (0.0)'")
+        if SECTION_PREFIX.search(ae.term):
+            warnings.append(f"{tag}: term prefixed with a section heading")
+        if FOOTNOTE_TAIL.search(ae.term):
+            warnings.append(f"{tag}: term may end with a footnote marker")
+
+    n_arms = len(annotation.arms)
+    for term, arms in arms_per_term.items():
+        if len(arms) < n_arms:
+            warnings.append(f"adverse_events ({term}): present in {len(arms)} of {n_arms} arms")
+
+    return warnings

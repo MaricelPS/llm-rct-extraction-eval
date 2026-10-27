@@ -3,7 +3,7 @@
   "trial_registration": "NCT05767255",
   "design_notes": "open-label randomised clinical trial",
   "population": {
-    "condition": "Type 2 diabetes with suboptimal glycaemic control during transition from hospital to outpatient care",
+    "condition": "type 2 diabetes",
     "key_inclusion_criteria": [
       "Age over 18 years",
       "Diagnosis of type 2 diabetes",
@@ -30,7 +30,7 @@
     {
       "name": "MDI",
       "role": "active_comparator",
-      "drug": "multiple daily insulin injections",
+      "drug": "insulin",
       "dose": null,
       "route": "subcutaneous",
       "is_fixed_combination": false,

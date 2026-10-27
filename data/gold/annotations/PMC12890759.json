@@ -19,7 +19,7 @@
     {
       "name": "iGlarLixi",
       "role": "experimental",
-      "drug": "fixed-ratio combination of basal insulin analog glargine 100 U/mL and a glucagon-like peptide 1 receptor agonist lixisenatide",
+      "drug": "insulin glargine/lixisenatide",
       "dose": null,
       "route": "subcutaneous",
       "is_fixed_combination": true,
@@ -107,4 +107,3 @@
     }
   ]
 }
-

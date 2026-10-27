@@ -1,0 +1,16 @@
+term;Exenatide;Standard Care;is_serious
+Gastrointestinal disorders, for example, nausea, bloating, and constipation;14;12;
+Skin disorders, for example, nodules and rashes;12;4;
+Infections, for example, UTI and chest;16;14;
+Weight loss, anorexia;11;4;
+General, for example, fatigue and pain;6;6;
+Gait disturbance;17;17;
+Other miscellaneous;21;22;
+Serious adverse events: Infections;6;7;true
+Serious adverse events: Gastrointestinal;2;4;true
+Serious adverse events: Cardiac;0;;true
+Serious adverse events: Falls;2;0;true
+Serious adverse events: Worsening MSA;2;;true
+Serious adverse events: Anxiety and depression;1;0;true
+Serious adverse events: Other;3;4;true
+Serious adverse events: Serum amylase increase;1;0;true

@@ -1,0 +1,17 @@
+term;LY05008;Dulaglutide;is_serious
+AEs;207 (93.2);202 (92.7);
+TEAEs;202 (91.0);196 (89.9);
+Study drug-related TEAEs;128 (57.7);134 (61.5);
+Severe TEAEs;0;3 (1.4);
+Severe study drug-related TEAEs;0;0;
+AESIs;0;0;
+Patients who withdrew from the study due to TEAEs;4 (1.8);7 (3.2);
+Patients who withdrew l from the study due to study drug-related TEAEs;4 (1.8);6 (2.8);
+SAEs;9 (4.1);8 (3.7);true
+Study drug-related SAEs;1 (0.5);1 (0.5);true
+TEAEs leading to treatment interruption;4 (1.8);1 (0.5);
+Study drug-related TEAEs leading to treatment interruption;4 (1.8);1 (0.5);
+TEAEs leading to permanent discontinuation of the drug;4 (1.8);11 (5.0);
+Study drug-related TEAEs leading to permanent discontinuation of the drug;4 (1.8);10 (4.6);
+TEAEs leading to death;0;0;true
+Study drug-related TEAEs leading to death;0;0;true

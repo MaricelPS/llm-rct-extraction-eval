@@ -176,7 +176,7 @@ def compare(gold: TrialExtraction, pred: TrialExtraction) -> PaperReport:
     for g_out in gold.outcomes:
         g_sides = _sides(g_out.comparison)
         candidates = [o for o in remaining if _sides(o.comparison, arm_map) == g_sides]
-        label = f"{g_out.comparison} / {g_out.estimand.value}"
+        label = f"{g_out.name[:40]} | {g_out.comparison} / {g_out.estimand.value}"
         if not candidates:
             report.diffs.append(f"outcomes [{label}] missing in prediction")
             continue
@@ -198,7 +198,10 @@ def compare(gold: TrialExtraction, pred: TrialExtraction) -> PaperReport:
         ]:
             report.check("outcomes", label, name, ok, gv, pv)
     for p_out in remaining:
-        report.diffs.append(f"outcomes [{p_out.comparison} / {p_out.estimand.value}] extra primary in prediction")
+        report.diffs.append(
+            f"outcomes [{p_out.name[:40]} | {p_out.comparison} / {p_out.estimand.value}] "
+            "extra primary in prediction"
+        )
     report.sets["outcomes"] = {"gold": len(gold.outcomes), "pred": len(pred_primary), "matched": matched}
 
     # Adverse events: match on (term, arm), exact normalized term first, then fuzzy
@@ -216,7 +219,12 @@ def compare(gold: TrialExtraction, pred: TrialExtraction) -> PaperReport:
         ]
         exact = [x for x in same_arm if _normalize(x[1].term) == _normalize(g_ae.term)]
         fuzzy = [x for x in same_arm if similarity(x[1].term, g_ae.term) >= TEXT_THRESHOLD]
-        pool = exact or fuzzy
+
+        def _core(term: str) -> str:
+            return _normalize(term.split(": ")[-1])
+
+        by_core = [x for x in same_arm if _core(x[1].term) == _core(g_ae.term)]
+        pool = exact or fuzzy or by_core
         label = f"{g_ae.term} / {g_ae.arm_name}"
         if not pool:
             report.diffs.append(f"adverse_events [{label}] missing in prediction")
@@ -226,6 +234,7 @@ def compare(gold: TrialExtraction, pred: TrialExtraction) -> PaperReport:
         p_ae = pick[1]
         matched_aes += 1
         for name, ok, gv, pv in [
+            ("term", _normalize(p_ae.term) == _normalize(g_ae.term), g_ae.term, p_ae.term),
             ("n_patients", num_eq(g_ae.n_patients, p_ae.n_patients), g_ae.n_patients, p_ae.n_patients),
             ("percent_patients", num_eq(g_ae.percent_patients, p_ae.percent_patients),
              g_ae.percent_patients, p_ae.percent_patients),

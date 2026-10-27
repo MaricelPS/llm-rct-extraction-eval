@@ -20,7 +20,7 @@
       "name": "Semaglutide",
       "role": "experimental",
       "drug": "semaglutide",
-      "dose": "1 mg QW from the third month onwards; titrated at 0.25 mg QW over the first month and 0.5 mg QW over the second month",
+      "dose": "1 mg once weekly",
       "route": "subcutaneous",
       "is_fixed_combination": false,
       "n_randomized": 13,

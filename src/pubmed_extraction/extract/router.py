@@ -50,3 +50,21 @@ def build_design_context(article: ParsedArticle) -> str:
 def build_results_context(article: ParsedArticle) -> str:
     """Context for outcomes and adverse events: abstract, results and all tables."""
     return _assemble(article, "results")
+
+def build_context(article: ParsedArticle) -> str:
+    """Shared context for all extraction calls: abstract, methods, results and all tables."""
+    parts = [f"# TITLE\n{article.title}", f"# ABSTRACT\n{article.abstract}"]
+    for kind in ("methods", "results"):
+        for section in article.sections:
+            if classify_section(section) == kind:
+                parts.append(f"# {kind.upper()}: {section.title}\n{section.text}")
+    for table in article.tables:
+        if table.markdown:
+            parts.append(f"# {table.label}: {table.caption}\n{table.markdown}")
+        elif table.is_image_only:
+            parts.append(
+                f"# {table.label}: {table.caption}\n"
+                "[Table content is only available as an image and was not extracted. "
+                "Do not infer its values.]"
+            )
+    return "\n\n".join(parts)

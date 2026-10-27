@@ -46,7 +46,7 @@
       "timepoint": "week 24",
       "comparison": "Lixisenatide vs Placebo",
       "effect_measure": "mean_difference",
-      "estimand": "other",
+      "estimand": "not_reported",
       "value": null,
       "ci_lower": null,
       "ci_upper": null,

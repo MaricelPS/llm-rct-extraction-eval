@@ -3,7 +3,7 @@
   "trial_registration": "NCT05259033",
   "design_notes": "randomised, multicentre, open-label, parallel group, Phase IIIa trial",
   "population": {
-    "condition": "type 2 diabetes mellitus inadequately managed with GLP-1 receptor agonist therapy, with or without additional oral glucose-lowering medications",
+    "condition": "type 2 diabetes",
     "key_inclusion_criteria": [
       "Adults aged 18 years or older",
       "Type 2 diabetes with HbA1c 53.0–85.8 mmol/mol (7.0–10.0%)",
@@ -20,7 +20,7 @@
       "name": "IcoSema",
       "role": "experimental",
       "drug": "insulin icodec + semaglutide",
-      "dose": "Starting dose: 40 dose steps, equivalent to 40 U of insulin icodec and 0.114 mg of semaglutide, once weekly; adjusted in increments or decrements of 10 dose steps according to a treat-to-target approach. Mean dose during the last 2 weeks: 195.7 dose steps, equivalent to 195.7 U of insulin icodec and 0.56 mg of semaglutide weekly",
+      "dose": null,
       "route": "subcutaneous",
       "is_fixed_combination": true,
       "n_randomized": 342,
@@ -31,7 +31,7 @@
       "name": "Semaglutide 1.0 mg",
       "role": "active_comparator",
       "drug": "semaglutide",
-      "dose": "0.25 mg once weekly for 4 weeks, then 0.5 mg once weekly for 4 weeks, followed by 1.0 mg once weekly; dose escalation could be delayed and dose reductions to 0.5 mg were allowed for safety or tolerability",
+      "dose": "1.0 mg once weekly",
       "route": "subcutaneous",
       "is_fixed_combination": false,
       "n_randomized": 341,
@@ -52,7 +52,7 @@
       "ci_level": 95,
       "p_value": "<0.0001",
       "unit": "mmol/mol",
-      "estimand": "other",
+      "estimand": "treatment_policy",
       "evidence": []
     }
   ],

@@ -131,3 +131,12 @@ criteria.
   counts as 0 in every arm the statement covers: n_patients 0, percent_patients null. If the
   statement refers to the whole trial, add an entry for every arm; if it refers to one group,
   only for that arm.
+- When a parent row qualifies its rows (e.g. "Serious adverse events", "Leading to treatment
+  discontinuation") and a row label depends on it for its meaning (e.g. "Infections" under
+  "Serious adverse events"), prefix the row with the parent label (e.g. "Serious adverse events:
+  Infections"); such rows under "Serious adverse events" have is_serious true. Rows whose label
+  is self-contained (e.g. "TEAEs leading to permanent discontinuation of the drug") keep their
+  own label, even when indented: indentation alone does not make a row a subset of its parent.
+  Example: in PMC11987204 Table 7, rows indented under "SAEs" ("TEAEs leading to treatment
+  interruption", "TEAEs leading to death") are self-contained and keep their own labels; in
+  PMC12577669 Table 4, "Cardiac" under "Serious adverse events" becomes "Serious adverse events: Cardiac".

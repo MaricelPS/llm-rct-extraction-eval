@@ -7,3 +7,10 @@ PMC13627196,Clinically important hypoglycaemia,zero-event statement covers the i
 PMC13627196,Severe hypoglycaemia,zero-event statement covers the insulin arm only
 PMC10792518,Vomiting / placebo,cell reads "0 (0%)"
 PMC13627196,present in 1 of 2 arms,hypoglycaemia count reported only for the insulin arm; not reported for dulaglutide
+PMC12361261,percent 0.0 is valid only,zero cells read "0 (0)" in Table 4
+PMC11060164,Mild nausea,reported only for the IDegLira arm; not reported for IGlarLixi
+PMC11296502,crossover design,efficacy analysed in 32 completers of both periods (Table 3)
+PMC11417641,percent 0.0 is valid only,zero cells read "0 (0·00%)" in Table 3
+PMC12584062,percent 0.0 is valid only,Acute pancreatitis: Incidence % column reads 0
+PMC12577669,Serious adverse events: Cardiac,Standard of Care cell reports 1 event without patient count; not annotated per guidelines
+PMC12577669,Serious adverse events: Worsening MSA,Standard of Care cell reports 1 event without patient count; not annotated per guidelines

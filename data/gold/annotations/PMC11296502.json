@@ -20,7 +20,7 @@
       "name": "liraglutide",
       "role": "experimental",
       "drug": "liraglutide",
-      "dose": "0.6 mg once-weekly, titrated to 1.2 mg once-weekly",
+      "dose": "1.2 mg once weekly",
       "route": "subcutaneous",
       "is_fixed_combination": false,
       "n_randomized": null,

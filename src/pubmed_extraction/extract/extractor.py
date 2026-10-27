@@ -3,7 +3,7 @@
 import json
 
 from pubmed_extraction.extract.llm import UsageTracker, get_client, structured_call
-from pubmed_extraction.extract.router import build_design_context, build_results_context
+from pubmed_extraction.extract.router import build_context
 from pubmed_extraction.ingest.jats_parser import ParsedArticle
 from pubmed_extraction.schemas.trial import (
     AdverseEventsOutput,
@@ -40,8 +40,9 @@ Population:
 Arms:
 - Arms are defined by the randomized intervention. Strata or subgroups (e.g. by insulin
   sensitivity) are not separate arms.
-- In crossover trials, arms are the treatment conditions: set n_randomized and n_analyzed to null
-  unless they are reported per condition, and mention the crossover design in design_notes.
+- In crossover trials, arms are the treatment conditions: set n_randomized to null
+  (participants are randomized to sequences), set n_analyzed to the size of the efficacy
+  analysis set per condition when reported, and mention the crossover design in design_notes.
 - name: use the arm label from the column headers of the article's tables when available.
 - drug: the active substance only, without route or formulation (e.g. "semaglutide", not
   "oral semaglutide").
@@ -75,7 +76,9 @@ and adverse events mentioned elsewhere in the text are out of scope when a main 
   discontinuation) and category rows.
 - When a row label alone does not name an adverse event (e.g. Mild, Level 1, Grade 3), prefix it
   with its parent row label, separated by ": " (e.g. "AEs by severity: Mild"). Rows that name an
-  event keep their own label. Skip heading rows without values. Drop footnote markers.
+  event (e.g. Nausea, Acute kidney injury) keep their own label; never prefix them with section
+  headings such as "Safety focus areas" or "Most frequent AEs". Skip heading rows without
+  values. Drop footnote markers.
 - If the table reports both the overall population and subpopulations, use only the overall
   population columns.
 - Report numbers of patients only. Skip rows that count events instead of patients, and never
@@ -86,6 +89,17 @@ and adverse events mentioned elsewhere in the text are out of scope when a main 
 - If the article has no safety table, extract adverse events reported per arm in the Results
   text, only when the number or percentage of patients per arm is given. Otherwise return an
   empty list.
+- A statement that no participant had an event (e.g. "No serious adverse event was reported")
+  counts as 0 in every arm the statement covers: n_patients 0, percent_patients null. If the
+  statement refers to the whole trial, add an entry for every arm; if it refers to one group,
+  only for that arm.
+- When a parent row qualifies its rows (e.g. "Serious adverse events", "Leading to treatment
+  discontinuation") and a row label depends on it for its meaning (e.g. "Nervous system disorders"
+  under "Serious adverse events"), prefix the row with the parent label (e.g. "Serious adverse
+  events: Nervous system disorders"); such rows under "Serious adverse events" have is_serious
+  true. Rows whose label is self-contained (e.g. "Adverse events leading to discontinuation")
+  keep their own label, even when indented: indentation alone does not make a row a subset of
+  its parent.
 Trial arms (arm_name must match one exactly): {arms}"""
 
 ALL_OUTCOMES_INSTRUCTIONS = """Extract all efficacy outcomes reported as between-arm comparisons.
@@ -116,10 +130,9 @@ class TrialExtractor:
 
     def extract(self, article: ParsedArticle) -> tuple[TrialExtraction, UsageTracker]:
         usage = UsageTracker()
-        design_ctx = build_design_context(article)
-        results_ctx = build_results_context(article)
+        context = build_context(article)
 
-        design = self._call(DesignOutput, DESIGN_INSTRUCTIONS, design_ctx, usage)
+        design = self._call(DesignOutput, DESIGN_INSTRUCTIONS, context, usage)
         arms = json.dumps([arm.name for arm in design.arms])
 
         outcomes_template = (
@@ -128,11 +141,11 @@ class TrialExtractor:
             else PRIMARY_OUTCOMES_INSTRUCTIONS
         )
         outcomes = self._call(
-            OutcomesOutput, outcomes_template.format(arms=arms), results_ctx, usage
+            OutcomesOutput, outcomes_template.format(arms=arms), context, usage
         )
 
         adverse_events = self._call(
-            AdverseEventsOutput, AE_INSTRUCTIONS.format(arms=arms), results_ctx, usage
+            AdverseEventsOutput, AE_INSTRUCTIONS.format(arms=arms), context, usage
         )
 
         extraction = TrialExtraction(

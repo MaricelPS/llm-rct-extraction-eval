@@ -28,7 +28,7 @@
       "evidence": []
     },
     {
-      "name": "Standard Care",
+      "name": "Standard of Care",
       "role": "active_comparator",
       "drug": null,
       "dose": null,
@@ -44,7 +44,7 @@
       "name": "UMSARS (parts I and II combined score)",
       "is_primary": true,
       "timepoint": "48 weeks",
-      "comparison": "Exenatide vs Standard Care",
+      "comparison": "Exenatide vs Standard of Care",
       "effect_measure": "mean_difference",
       "estimand": "not_reported",
       "value": -7.44,
@@ -67,7 +67,7 @@
     },
     {
       "term": "Gastrointestinal disorders, for example, nausea, bloating, and constipation",
-      "arm_name": "Standard Care",
+      "arm_name": "Standard of Care",
       "n_patients": 12,
       "percent_patients": null,
       "is_serious": null,
@@ -83,7 +83,7 @@
     },
     {
       "term": "Skin disorders, for example, nodules and rashes",
-      "arm_name": "Standard Care",
+      "arm_name": "Standard of Care",
       "n_patients": 4,
       "percent_patients": null,
       "is_serious": null,
@@ -99,24 +99,8 @@
     },
     {
       "term": "Infections, for example, UTI and chest",
-      "arm_name": "Standard Care",
+      "arm_name": "Standard of Care",
       "n_patients": 14,
-      "percent_patients": null,
-      "is_serious": null,
-      "evidence": []
-    },
-    {
-      "term": "Serum amylase increase",
-      "arm_name": "Exenatide",
-      "n_patients": null,
-      "percent_patients": null,
-      "is_serious": null,
-      "evidence": []
-    },
-    {
-      "term": "Serum amylase increase",
-      "arm_name": "Standard Care",
-      "n_patients": null,
       "percent_patients": null,
       "is_serious": null,
       "evidence": []
@@ -131,7 +115,7 @@
     },
     {
       "term": "Weight loss, anorexia",
-      "arm_name": "Standard Care",
+      "arm_name": "Standard of Care",
       "n_patients": 4,
       "percent_patients": null,
       "is_serious": null,
@@ -147,7 +131,7 @@
     },
     {
       "term": "General, for example, fatigue and pain",
-      "arm_name": "Standard Care",
+      "arm_name": "Standard of Care",
       "n_patients": 6,
       "percent_patients": null,
       "is_serious": null,
@@ -163,7 +147,7 @@
     },
     {
       "term": "Gait disturbance",
-      "arm_name": "Standard Care",
+      "arm_name": "Standard of Care",
       "n_patients": 17,
       "percent_patients": null,
       "is_serious": null,
@@ -179,14 +163,14 @@
     },
     {
       "term": "Other miscellaneous",
-      "arm_name": "Standard Care",
+      "arm_name": "Standard of Care",
       "n_patients": 22,
       "percent_patients": null,
       "is_serious": null,
       "evidence": []
     },
     {
-      "term": "Infections",
+      "term": "Serious adverse events: Infections",
       "arm_name": "Exenatide",
       "n_patients": 6,
       "percent_patients": null,
@@ -194,15 +178,15 @@
       "evidence": []
     },
     {
-      "term": "Infections",
-      "arm_name": "Standard Care",
+      "term": "Serious adverse events: Infections",
+      "arm_name": "Standard of Care",
       "n_patients": 7,
       "percent_patients": null,
       "is_serious": true,
       "evidence": []
     },
     {
-      "term": "Gastrointestinal",
+      "term": "Serious adverse events: Gastrointestinal",
       "arm_name": "Exenatide",
       "n_patients": 2,
       "percent_patients": null,
@@ -210,31 +194,23 @@
       "evidence": []
     },
     {
-      "term": "Gastrointestinal",
-      "arm_name": "Standard Care",
+      "term": "Serious adverse events: Gastrointestinal",
+      "arm_name": "Standard of Care",
       "n_patients": 4,
       "percent_patients": null,
       "is_serious": true,
       "evidence": []
     },
     {
-      "term": "Cardiac",
+      "term": "Serious adverse events: Cardiac",
       "arm_name": "Exenatide",
-      "n_patients": null,
+      "n_patients": 0,
       "percent_patients": null,
       "is_serious": true,
       "evidence": []
     },
     {
-      "term": "Cardiac",
-      "arm_name": "Standard Care",
-      "n_patients": null,
-      "percent_patients": null,
-      "is_serious": true,
-      "evidence": []
-    },
-    {
-      "term": "Falls",
+      "term": "Serious adverse events: Falls",
       "arm_name": "Exenatide",
       "n_patients": 2,
       "percent_patients": null,
@@ -242,15 +218,15 @@
       "evidence": []
     },
     {
-      "term": "Falls",
-      "arm_name": "Standard Care",
-      "n_patients": null,
+      "term": "Serious adverse events: Falls",
+      "arm_name": "Standard of Care",
+      "n_patients": 0,
       "percent_patients": null,
       "is_serious": true,
       "evidence": []
     },
     {
-      "term": "Worsening MSA",
+      "term": "Serious adverse events: Worsening MSA",
       "arm_name": "Exenatide",
       "n_patients": 2,
       "percent_patients": null,
@@ -258,15 +234,7 @@
       "evidence": []
     },
     {
-      "term": "Worsening MSA",
-      "arm_name": "Standard Care",
-      "n_patients": null,
-      "percent_patients": null,
-      "is_serious": true,
-      "evidence": []
-    },
-    {
-      "term": "Anxiety and depression",
+      "term": "Serious adverse events: Anxiety and depression",
       "arm_name": "Exenatide",
       "n_patients": 1,
       "percent_patients": null,
@@ -274,15 +242,15 @@
       "evidence": []
     },
     {
-      "term": "Anxiety and depression",
-      "arm_name": "Standard Care",
-      "n_patients": null,
+      "term": "Serious adverse events: Anxiety and depression",
+      "arm_name": "Standard of Care",
+      "n_patients": 0,
       "percent_patients": null,
       "is_serious": true,
       "evidence": []
     },
     {
-      "term": "Other",
+      "term": "Serious adverse events: Other",
       "arm_name": "Exenatide",
       "n_patients": 3,
       "percent_patients": null,
@@ -290,15 +258,15 @@
       "evidence": []
     },
     {
-      "term": "Other",
-      "arm_name": "Standard Care",
+      "term": "Serious adverse events: Other",
+      "arm_name": "Standard of Care",
       "n_patients": 4,
       "percent_patients": null,
       "is_serious": true,
       "evidence": []
     },
     {
-      "term": "Serum amylase increase",
+      "term": "Serious adverse events: Serum amylase increase",
       "arm_name": "Exenatide",
       "n_patients": 1,
       "percent_patients": null,
@@ -306,9 +274,9 @@
       "evidence": []
     },
     {
-      "term": "Serum amylase increase",
-      "arm_name": "Standard Care",
-      "n_patients": null,
+      "term": "Serious adverse events: Serum amylase increase",
+      "arm_name": "Standard of Care",
+      "n_patients": 0,
       "percent_patients": null,
       "is_serious": true,
       "evidence": []

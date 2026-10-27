@@ -18,7 +18,7 @@
     {
       "name": "IGlarLixi group",
       "role": "experimental",
-      "drug": "insulin glargine U100/lixisenatide",
+      "drug": "insulin glargine/lixisenatide",
       "dose": null,
       "route": "subcutaneous",
       "is_fixed_combination": true,
@@ -52,7 +52,7 @@
       "p_value": "0.431",
       "unit": "% of time in target glucose range (70–180 mg/dL)",
       "estimand": "not_reported",
-      "evidence": [] 
+      "evidence": []
     },
     {
       "name": "Time below range (TBR) level 1",

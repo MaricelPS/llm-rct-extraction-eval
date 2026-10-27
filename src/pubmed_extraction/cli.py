@@ -11,6 +11,7 @@ from collections import Counter
 
 from pubmed_extraction.evaluate.gold import (
     ANNOTATIONS_DIR,
+    lint_annotation,
     load_split,
     template,
     validate_annotation,
@@ -19,7 +20,7 @@ from dataclasses import asdict
 
 from pubmed_extraction.evaluate.compare import compare, summarize
 from pubmed_extraction.extract.extractor import TrialExtractor
-from pubmed_extraction.extract.router import build_design_context, build_results_context
+from pubmed_extraction.extract.router import build_context
 from pubmed_extraction.extract.validation import validate
 from pubmed_extraction.schemas.trial import TrialExtraction
 from pubmed_extraction.extract.classifier import ArticleClassifier
@@ -249,7 +250,7 @@ def extract(
         except LLMError as exc:
             typer.echo(f"[error] {current}: {exc}", err=True)
             continue
-        context = build_design_context(article) + "\n\n" + build_results_context(article)
+        context = build_context(article)
         issues = validate(extraction, context)
         payload = {
             "extraction": extraction.model_dump(mode="json"),
@@ -317,6 +318,40 @@ def evaluate(
     out = EVAL_DIR / f"{settings.extraction_model}_{settings.extraction_effort}_{split_name}.json"
     out.write_text(json.dumps(summary, indent=2) + "\n", encoding="utf-8")
     typer.echo(f"\nSaved summary to {out}")
+
+@app.command("gold-lint")
+def gold_lint(
+    pmcid: str | None = typer.Option(None, help="Lint a single PMCID only."),
+) -> None:
+    """Heuristic guideline checks on gold annotations (warnings to review, not errors)."""
+    split = load_split()
+    targets = [pmcid] if pmcid else sorted(split)
+    exceptions: dict[str, list[str]] = {}
+    exceptions_path = Path("data/gold/lint_exceptions.csv")
+    if exceptions_path.exists():
+        with exceptions_path.open(encoding="utf-8") as f:
+            for row in csv.DictReader(f):
+                exceptions.setdefault(row["pmcid"].strip(), []).append(
+                    row["warning_contains"].strip()
+                )
+    total = 0
+    for current in targets:
+        path = ANNOTATIONS_DIR / f"{current}.json"
+        try:
+            annotation = TrialExtraction.model_validate_json(path.read_text(encoding="utf-8"))
+        except Exception:
+            typer.echo(f"[skip] {current}: run gold-validate first")
+            continue
+        warnings = [
+            w for w in lint_annotation(annotation)
+            if not any(fragment in w for fragment in exceptions.get(current, []))
+        ]
+        if warnings:
+            typer.echo(f"\n[{len(warnings)}] {current} ({split.get(current, '?')})")
+            for warning in warnings:
+                typer.echo(f"    - {warning}")
+        total += len(warnings)
+    typer.echo(f"\nTotal warnings: {total}")
 
 if __name__ == "__main__":
     app()

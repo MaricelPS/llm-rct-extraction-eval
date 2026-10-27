@@ -3,10 +3,10 @@
   "trial_registration": "CTR20221721",
   "design_notes": "randomized, open‐label, active‐controlled phase 3 study",
   "population": {
-    "condition": "Type 2 diabetes mellitus (T2DM) with inadequate glycemic control despite a stable dose of metformin",
+    "condition": "type 2 diabetes",
     "key_inclusion_criteria": [
-      "Age 18–75 years", 
-      "Diagnosed with T2DM for at least 6 months", 
+      "Age 18–75 years",
+      "Diagnosed with T2DM for at least 6 months",
       "Inadequate blood glucose control after taking a stable metformin dose of 1.5–2.0 g daily for at least 8 weeks before screening",
       "BMI 18.5–35 kg/m²; HbA1c 7%–11% at screening and baseline"
     ],
@@ -18,7 +18,7 @@
     {
       "name": "LY05008",
       "role": "experimental",
-      "drug": "Dulaglutide biosimilar LY05008",
+      "drug": "dulaglutide",
       "dose": "1.5 mg once weekly for 24 weeks, with metformin 1.5–2.0 g daily as background therapy",
       "route": "subcutaneous",
       "is_fixed_combination": false,
@@ -57,7 +57,7 @@
   ],
   "adverse_events": [
     {
-      "term": "Any adverse event",
+      "term": "AEs",
       "arm_name": "LY05008",
       "n_patients": 207,
       "percent_patients": 93.2,
@@ -65,7 +65,7 @@
       "evidence": []
     },
     {
-      "term": "Any adverse event",
+      "term": "AEs",
       "arm_name": "Dulaglutide",
       "n_patients": 202,
       "percent_patients": 92.7,
@@ -73,7 +73,7 @@
       "evidence": []
     },
     {
-      "term": "Treatment-emergent adverse event (TEAE)",
+      "term": "TEAEs",
       "arm_name": "LY05008",
       "n_patients": 202,
       "percent_patients": 91.0,
@@ -81,7 +81,7 @@
       "evidence": []
     },
     {
-      "term": "Treatment-emergent adverse event (TEAE)",
+      "term": "TEAEs",
       "arm_name": "Dulaglutide",
       "n_patients": 196,
       "percent_patients": 89.9,
@@ -89,7 +89,7 @@
       "evidence": []
     },
     {
-      "term": "Study drug-related TEAE",
+      "term": "Study drug-related TEAEs",
       "arm_name": "LY05008",
       "n_patients": 128,
       "percent_patients": 57.7,
@@ -97,7 +97,7 @@
       "evidence": []
     },
     {
-      "term": "Study drug-related TEAE",
+      "term": "Study drug-related TEAEs",
       "arm_name": "Dulaglutide",
       "n_patients": 134,
       "percent_patients": 61.5,
@@ -105,15 +105,15 @@
       "evidence": []
     },
     {
-      "term": "Severe TEAE",
+      "term": "Severe TEAEs",
       "arm_name": "LY05008",
       "n_patients": 0,
-      "percent_patients": 0,
+      "percent_patients": null,
       "is_serious": null,
       "evidence": []
     },
     {
-      "term": "Severe TEAE",
+      "term": "Severe TEAEs",
       "arm_name": "Dulaglutide",
       "n_patients": 3,
       "percent_patients": 1.4,
@@ -121,7 +121,71 @@
       "evidence": []
     },
     {
-      "term": "Serious adverse event (SAE)",
+      "term": "Severe study drug-related TEAEs",
+      "arm_name": "LY05008",
+      "n_patients": 0,
+      "percent_patients": null,
+      "is_serious": null,
+      "evidence": []
+    },
+    {
+      "term": "Severe study drug-related TEAEs",
+      "arm_name": "Dulaglutide",
+      "n_patients": 0,
+      "percent_patients": null,
+      "is_serious": null,
+      "evidence": []
+    },
+    {
+      "term": "AESIs",
+      "arm_name": "LY05008",
+      "n_patients": 0,
+      "percent_patients": null,
+      "is_serious": null,
+      "evidence": []
+    },
+    {
+      "term": "AESIs",
+      "arm_name": "Dulaglutide",
+      "n_patients": 0,
+      "percent_patients": null,
+      "is_serious": null,
+      "evidence": []
+    },
+    {
+      "term": "Patients who withdrew from the study due to TEAEs",
+      "arm_name": "LY05008",
+      "n_patients": 4,
+      "percent_patients": 1.8,
+      "is_serious": null,
+      "evidence": []
+    },
+    {
+      "term": "Patients who withdrew from the study due to TEAEs",
+      "arm_name": "Dulaglutide",
+      "n_patients": 7,
+      "percent_patients": 3.2,
+      "is_serious": null,
+      "evidence": []
+    },
+    {
+      "term": "Patients who withdrew l from the study due to study drug-related TEAEs",
+      "arm_name": "LY05008",
+      "n_patients": 4,
+      "percent_patients": 1.8,
+      "is_serious": null,
+      "evidence": []
+    },
+    {
+      "term": "Patients who withdrew l from the study due to study drug-related TEAEs",
+      "arm_name": "Dulaglutide",
+      "n_patients": 6,
+      "percent_patients": 2.8,
+      "is_serious": null,
+      "evidence": []
+    },
+    {
+      "term": "SAEs",
       "arm_name": "LY05008",
       "n_patients": 9,
       "percent_patients": 4.1,
@@ -129,7 +193,7 @@
       "evidence": []
     },
     {
-      "term": "Serious adverse event (SAE)",
+      "term": "SAEs",
       "arm_name": "Dulaglutide",
       "n_patients": 8,
       "percent_patients": 3.7,
@@ -137,7 +201,7 @@
       "evidence": []
     },
     {
-      "term": "Study drug-related SAE",
+      "term": "Study drug-related SAEs",
       "arm_name": "LY05008",
       "n_patients": 1,
       "percent_patients": 0.5,
@@ -145,7 +209,7 @@
       "evidence": []
     },
     {
-      "term": "Study drug-related SAE",
+      "term": "Study drug-related SAEs",
       "arm_name": "Dulaglutide",
       "n_patients": 1,
       "percent_patients": 0.5,
@@ -153,115 +217,99 @@
       "evidence": []
     },
     {
-      "term": "Decreased appetite",
+      "term": "TEAEs leading to treatment interruption",
       "arm_name": "LY05008",
-      "n_patients": 48,
-      "percent_patients": 21.6,
+      "n_patients": 4,
+      "percent_patients": 1.8,
       "is_serious": null,
       "evidence": []
     },
     {
-      "term": "Decreased appetite",
+      "term": "TEAEs leading to treatment interruption",
       "arm_name": "Dulaglutide",
-      "n_patients": 62,
-      "percent_patients": 28.4,
+      "n_patients": 1,
+      "percent_patients": 0.5,
       "is_serious": null,
       "evidence": []
     },
     {
-      "term": "Hyperuricemia",
+      "term": "Study drug-related TEAEs leading to treatment interruption",
       "arm_name": "LY05008",
-      "n_patients": 39,
-      "percent_patients": 17.6,
+      "n_patients": 4,
+      "percent_patients": 1.8,
       "is_serious": null,
       "evidence": []
     },
     {
-      "term": "Hyperuricemia",
+      "term": "Study drug-related TEAEs leading to treatment interruption",
       "arm_name": "Dulaglutide",
-      "n_patients": 42,
-      "percent_patients": 19.3,
+      "n_patients": 1,
+      "percent_patients": 0.5,
       "is_serious": null,
       "evidence": []
     },
     {
-      "term": "Diarrhea",
+      "term": "TEAEs leading to permanent discontinuation of the drug",
       "arm_name": "LY05008",
-      "n_patients": 43,
-      "percent_patients": 19.4,
+      "n_patients": 4,
+      "percent_patients": 1.8,
       "is_serious": null,
       "evidence": []
     },
     {
-      "term": "Diarrhea",
+      "term": "TEAEs leading to permanent discontinuation of the drug",
       "arm_name": "Dulaglutide",
-      "n_patients": 42,
-      "percent_patients": 19.3,
+      "n_patients": 11,
+      "percent_patients": 5.0,
       "is_serious": null,
       "evidence": []
     },
     {
-      "term": "Nausea",
+      "term": "Study drug-related TEAEs leading to permanent discontinuation of the drug",
       "arm_name": "LY05008",
-      "n_patients": 28,
-      "percent_patients": 12.6,
+      "n_patients": 4,
+      "percent_patients": 1.8,
       "is_serious": null,
       "evidence": []
     },
     {
-      "term": "Nausea",
+      "term": "Study drug-related TEAEs leading to permanent discontinuation of the drug",
       "arm_name": "Dulaglutide",
-      "n_patients": 34,
-      "percent_patients": 15.6,
+      "n_patients": 10,
+      "percent_patients": 4.6,
       "is_serious": null,
       "evidence": []
     },
     {
-      "term": "Vomiting",
+      "term": "TEAEs leading to death",
       "arm_name": "LY05008",
-      "n_patients": 23,
-      "percent_patients": 10.4,
-      "is_serious": null,
+      "n_patients": 0,
+      "percent_patients": null,
+      "is_serious": true,
       "evidence": []
     },
     {
-      "term": "Vomiting",
+      "term": "TEAEs leading to death",
       "arm_name": "Dulaglutide",
-      "n_patients": 19,
-      "percent_patients": 8.7,
-      "is_serious": null,
+      "n_patients": 0,
+      "percent_patients": null,
+      "is_serious": true,
       "evidence": []
     },
     {
-      "term": "Upper respiratory tract infection",
+      "term": "Study drug-related TEAEs leading to death",
       "arm_name": "LY05008",
-      "n_patients": 39,
-      "percent_patients": 17.6,
-      "is_serious": null,
+      "n_patients": 0,
+      "percent_patients": null,
+      "is_serious": true,
       "evidence": []
     },
     {
-      "term": "Upper respiratory tract infection",
+      "term": "Study drug-related TEAEs leading to death",
       "arm_name": "Dulaglutide",
-      "n_patients": 43,
-      "percent_patients": 19.7,
-      "is_serious": null,
-      "evidence": []
-    },
-    {
-      "term": "Urinary tract infection",
-      "arm_name": "LY05008",
-      "n_patients": 25,
-      "percent_patients": 11.3,
-      "is_serious": null,
-      "evidence": []
-    },
-    {
-      "term": "Urinary tract infection",
-      "arm_name": "Dulaglutide",
-      "n_patients": 31,
-      "percent_patients": 14.2,
-      "is_serious": null,
+      "n_patients": 0,
+      "percent_patients": null,
+      "is_serious": true,
       "evidence": []
     }
   ]

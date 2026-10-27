@@ -93,6 +93,22 @@
       "evidence": []
     },
     {
+      "term": "Possibly-related adverse events",
+      "arm_name": "Semaglutide",
+      "n_patients": 21,
+      "percent_patients": 38.89,
+      "is_serious": null,
+      "evidence": []
+    },
+    {
+      "term": "Possibly-related adverse events",
+      "arm_name": "Placebo",
+      "n_patients": 17,
+      "percent_patients": 31.48,
+      "is_serious": null,
+      "evidence": []
+    },
+    {
       "term": "≥1 possibly- or study-related adverse event",
       "arm_name": "Semaglutide",
       "n_patients": 24,
@@ -109,15 +125,31 @@
       "evidence": []
     },
     {
-      "term": "Grade 4 elevated lipase",
+      "term": "Adverse events or side effects leading to premature trial discontinuation (week of study withdrawal)",
       "arm_name": "Semaglutide",
-      "n_patients": 1,
-      "percent_patients": 1.85,
-      "is_serious": true,
+      "n_patients": 4,
+      "percent_patients": 7.41,
+      "is_serious": null,
       "evidence": []
     },
     {
-      "term": "Grade 4 elevated lipase",
+      "term": "Adverse events or side effects leading to premature trial discontinuation (week of study withdrawal)",
+      "arm_name": "Placebo",
+      "n_patients": 1,
+      "percent_patients": 1.85,
+      "is_serious": null,
+      "evidence": []
+    },
+    {
+      "term": "Adverse events or side effects leading to premature trial discontinuation (week of study withdrawal): Grade 4 elevated lipase (week 14)",
+      "arm_name": "Semaglutide",
+      "n_patients": 1,
+      "percent_patients": 1.85,
+      "is_serious": null,
+      "evidence": []
+    },
+    {
+      "term": "Adverse events or side effects leading to premature trial discontinuation (week of study withdrawal): Grade 4 elevated lipase (week 14)",
       "arm_name": "Placebo",
       "n_patients": 0,
       "percent_patients": 0.0,
@@ -125,7 +157,119 @@
       "evidence": []
     },
     {
-      "term": "Cholelithiasis",
+      "term": "Adverse events or side effects leading to premature trial discontinuation (week of study withdrawal): Grade 1 elevated lipase, gastrointestinal symptoms (week 10)",
+      "arm_name": "Semaglutide",
+      "n_patients": 1,
+      "percent_patients": 1.85,
+      "is_serious": null,
+      "evidence": []
+    },
+    {
+      "term": "Adverse events or side effects leading to premature trial discontinuation (week of study withdrawal): Grade 1 elevated lipase, gastrointestinal symptoms (week 10)",
+      "arm_name": "Placebo",
+      "n_patients": 0,
+      "percent_patients": 0.0,
+      "is_serious": null,
+      "evidence": []
+    },
+    {
+      "term": "Adverse events or side effects leading to premature trial discontinuation (week of study withdrawal): Grade 1 gastrointestinal and systemic symptoms (week 12)",
+      "arm_name": "Semaglutide",
+      "n_patients": 1,
+      "percent_patients": 1.85,
+      "is_serious": null,
+      "evidence": []
+    },
+    {
+      "term": "Adverse events or side effects leading to premature trial discontinuation (week of study withdrawal): Grade 1 gastrointestinal and systemic symptoms (week 12)",
+      "arm_name": "Placebo",
+      "n_patients": 0,
+      "percent_patients": 0.0,
+      "is_serious": null,
+      "evidence": []
+    },
+    {
+      "term": "Adverse events or side effects leading to premature trial discontinuation (week of study withdrawal): Grade 1 memory impairment (week 17)",
+      "arm_name": "Semaglutide",
+      "n_patients": 0,
+      "percent_patients": 0.0,
+      "is_serious": null,
+      "evidence": []
+    },
+    {
+      "term": "Adverse events or side effects leading to premature trial discontinuation (week of study withdrawal): Grade 1 memory impairment (week 17)",
+      "arm_name": "Placebo",
+      "n_patients": 1,
+      "percent_patients": 1.85,
+      "is_serious": null,
+      "evidence": []
+    },
+    {
+      "term": "Adverse events or side effects leading to premature trial discontinuation (week of study withdrawal): Weight loss (week 17)",
+      "arm_name": "Semaglutide",
+      "n_patients": 1,
+      "percent_patients": 1.85,
+      "is_serious": null,
+      "evidence": []
+    },
+    {
+      "term": "Adverse events or side effects leading to premature trial discontinuation (week of study withdrawal): Weight loss (week 17)",
+      "arm_name": "Placebo",
+      "n_patients": 0,
+      "percent_patients": 0.0,
+      "is_serious": null,
+      "evidence": []
+    },
+    {
+      "term": "Study-related adverse events: Elevated lipase",
+      "arm_name": "Semaglutide",
+      "n_patients": 1,
+      "percent_patients": 1.85,
+      "is_serious": null,
+      "evidence": []
+    },
+    {
+      "term": "Study-related adverse events: Elevated lipase",
+      "arm_name": "Placebo",
+      "n_patients": 0,
+      "percent_patients": 0.0,
+      "is_serious": null,
+      "evidence": []
+    },
+    {
+      "term": "Study-related adverse events: Injection site reactions (all grade 1)",
+      "arm_name": "Semaglutide",
+      "n_patients": 4,
+      "percent_patients": 7.41,
+      "is_serious": null,
+      "evidence": []
+    },
+    {
+      "term": "Study-related adverse events: Injection site reactions (all grade 1)",
+      "arm_name": "Placebo",
+      "n_patients": 2,
+      "percent_patients": 3.7,
+      "is_serious": null,
+      "evidence": []
+    },
+    {
+      "term": "Possibly-related adverse events: Elevated lipase",
+      "arm_name": "Semaglutide",
+      "n_patients": 4,
+      "percent_patients": 7.41,
+      "is_serious": null,
+      "evidence": []
+    },
+    {
+      "term": "Possibly-related adverse events: Elevated lipase",
+      "arm_name": "Placebo",
+      "n_patients": 2,
+      "percent_patients": 3.7,
+      "is_serious": null,
+      "evidence": []
+    },
+    {
+      "term": "Possibly-related adverse events: Elevated lipase: Grade 1",
       "arm_name": "Semaglutide",
       "n_patients": 2,
       "percent_patients": 3.7,
@@ -133,7 +277,23 @@
       "evidence": []
     },
     {
-      "term": "Cholelithiasis",
+      "term": "Possibly-related adverse events: Elevated lipase: Grade 1",
+      "arm_name": "Placebo",
+      "n_patients": 2,
+      "percent_patients": 3.7,
+      "is_serious": null,
+      "evidence": []
+    },
+    {
+      "term": "Possibly-related adverse events: Elevated lipase: Grade 2",
+      "arm_name": "Semaglutide",
+      "n_patients": 2,
+      "percent_patients": 3.7,
+      "is_serious": null,
+      "evidence": []
+    },
+    {
+      "term": "Possibly-related adverse events: Elevated lipase: Grade 2",
       "arm_name": "Placebo",
       "n_patients": 0,
       "percent_patients": 0.0,
@@ -141,7 +301,39 @@
       "evidence": []
     },
     {
-      "term": "Any gastrointestinal disorder",
+      "term": "Possibly-related adverse events: Elevated creatinine",
+      "arm_name": "Semaglutide",
+      "n_patients": 1,
+      "percent_patients": 1.85,
+      "is_serious": null,
+      "evidence": []
+    },
+    {
+      "term": "Possibly-related adverse events: Elevated creatinine",
+      "arm_name": "Placebo",
+      "n_patients": 1,
+      "percent_patients": 1.85,
+      "is_serious": null,
+      "evidence": []
+    },
+    {
+      "term": "Possibly-related adverse events: Cholelithiasis",
+      "arm_name": "Semaglutide",
+      "n_patients": 2,
+      "percent_patients": 3.7,
+      "is_serious": null,
+      "evidence": []
+    },
+    {
+      "term": "Possibly-related adverse events: Cholelithiasis",
+      "arm_name": "Placebo",
+      "n_patients": 0,
+      "percent_patients": 0.0,
+      "is_serious": null,
+      "evidence": []
+    },
+    {
+      "term": "Possibly-related adverse events: Any gastrointestinal disorder",
       "arm_name": "Semaglutide",
       "n_patients": 18,
       "percent_patients": 33.33,
@@ -149,10 +341,1050 @@
       "evidence": []
     },
     {
-      "term": "Any gastrointestinal disorder",
+      "term": "Possibly-related adverse events: Any gastrointestinal disorder",
       "arm_name": "Placebo",
       "n_patients": 15,
       "percent_patients": 27.78,
+      "is_serious": null,
+      "evidence": []
+    },
+    {
+      "term": "Possibly-related adverse events: Nausea",
+      "arm_name": "Semaglutide",
+      "n_patients": 6,
+      "percent_patients": 11.11,
+      "is_serious": null,
+      "evidence": []
+    },
+    {
+      "term": "Possibly-related adverse events: Nausea",
+      "arm_name": "Placebo",
+      "n_patients": 4,
+      "percent_patients": 7.41,
+      "is_serious": null,
+      "evidence": []
+    },
+    {
+      "term": "Possibly-related adverse events: Vomiting",
+      "arm_name": "Semaglutide",
+      "n_patients": 1,
+      "percent_patients": 1.85,
+      "is_serious": null,
+      "evidence": []
+    },
+    {
+      "term": "Possibly-related adverse events: Vomiting",
+      "arm_name": "Placebo",
+      "n_patients": 0,
+      "percent_patients": 0.0,
+      "is_serious": null,
+      "evidence": []
+    },
+    {
+      "term": "Possibly-related adverse events: Diarrhoea or loose stools",
+      "arm_name": "Semaglutide",
+      "n_patients": 0,
+      "percent_patients": 0.0,
+      "is_serious": null,
+      "evidence": []
+    },
+    {
+      "term": "Possibly-related adverse events: Diarrhoea or loose stools",
+      "arm_name": "Placebo",
+      "n_patients": 7,
+      "percent_patients": 12.96,
+      "is_serious": null,
+      "evidence": []
+    },
+    {
+      "term": "Possibly-related adverse events: Abdominal pain",
+      "arm_name": "Semaglutide",
+      "n_patients": 1,
+      "percent_patients": 1.85,
+      "is_serious": null,
+      "evidence": []
+    },
+    {
+      "term": "Possibly-related adverse events: Abdominal pain",
+      "arm_name": "Placebo",
+      "n_patients": 2,
+      "percent_patients": 3.7,
+      "is_serious": null,
+      "evidence": []
+    },
+    {
+      "term": "Possibly-related adverse events: Constipation or irregular bowel movements",
+      "arm_name": "Semaglutide",
+      "n_patients": 2,
+      "percent_patients": 3.7,
+      "is_serious": null,
+      "evidence": []
+    },
+    {
+      "term": "Possibly-related adverse events: Constipation or irregular bowel movements",
+      "arm_name": "Placebo",
+      "n_patients": 2,
+      "percent_patients": 3.7,
+      "is_serious": null,
+      "evidence": []
+    },
+    {
+      "term": "Possibly-related adverse events: Eructation or flatulence",
+      "arm_name": "Semaglutide",
+      "n_patients": 5,
+      "percent_patients": 9.26,
+      "is_serious": null,
+      "evidence": []
+    },
+    {
+      "term": "Possibly-related adverse events: Eructation or flatulence",
+      "arm_name": "Placebo",
+      "n_patients": 4,
+      "percent_patients": 7.41,
+      "is_serious": null,
+      "evidence": []
+    },
+    {
+      "term": "Possibly-related adverse events: Gastroesophageal reflux disease",
+      "arm_name": "Semaglutide",
+      "n_patients": 2,
+      "percent_patients": 3.7,
+      "is_serious": null,
+      "evidence": []
+    },
+    {
+      "term": "Possibly-related adverse events: Gastroesophageal reflux disease",
+      "arm_name": "Placebo",
+      "n_patients": 1,
+      "percent_patients": 1.85,
+      "is_serious": null,
+      "evidence": []
+    },
+    {
+      "term": "Possibly-related adverse events: Bloating or fullness",
+      "arm_name": "Semaglutide",
+      "n_patients": 1,
+      "percent_patients": 1.85,
+      "is_serious": null,
+      "evidence": []
+    },
+    {
+      "term": "Possibly-related adverse events: Bloating or fullness",
+      "arm_name": "Placebo",
+      "n_patients": 0,
+      "percent_patients": 0.0,
+      "is_serious": null,
+      "evidence": []
+    },
+    {
+      "term": "Possibly-related adverse events: Dyspepsia",
+      "arm_name": "Semaglutide",
+      "n_patients": 1,
+      "percent_patients": 1.85,
+      "is_serious": null,
+      "evidence": []
+    },
+    {
+      "term": "Possibly-related adverse events: Dyspepsia",
+      "arm_name": "Placebo",
+      "n_patients": 2,
+      "percent_patients": 3.7,
+      "is_serious": null,
+      "evidence": []
+    },
+    {
+      "term": "Possibly-related adverse events: Gastritis",
+      "arm_name": "Semaglutide",
+      "n_patients": 0,
+      "percent_patients": 0.0,
+      "is_serious": null,
+      "evidence": []
+    },
+    {
+      "term": "Possibly-related adverse events: Gastritis",
+      "arm_name": "Placebo",
+      "n_patients": 1,
+      "percent_patients": 1.85,
+      "is_serious": null,
+      "evidence": []
+    },
+    {
+      "term": "Possibly-related adverse events: Decreased appetite or changes in food cravings/tolerance",
+      "arm_name": "Semaglutide",
+      "n_patients": 7,
+      "percent_patients": 12.96,
+      "is_serious": null,
+      "evidence": []
+    },
+    {
+      "term": "Possibly-related adverse events: Decreased appetite or changes in food cravings/tolerance",
+      "arm_name": "Placebo",
+      "n_patients": 1,
+      "percent_patients": 1.85,
+      "is_serious": null,
+      "evidence": []
+    },
+    {
+      "term": "Possibly-related adverse events: Fatigue",
+      "arm_name": "Semaglutide",
+      "n_patients": 2,
+      "percent_patients": 3.7,
+      "is_serious": null,
+      "evidence": []
+    },
+    {
+      "term": "Possibly-related adverse events: Fatigue",
+      "arm_name": "Placebo",
+      "n_patients": 2,
+      "percent_patients": 3.7,
+      "is_serious": null,
+      "evidence": []
+    },
+    {
+      "term": "Possibly-related adverse events: Dysgeusia",
+      "arm_name": "Semaglutide",
+      "n_patients": 3,
+      "percent_patients": 5.56,
+      "is_serious": null,
+      "evidence": []
+    },
+    {
+      "term": "Possibly-related adverse events: Dysgeusia",
+      "arm_name": "Placebo",
+      "n_patients": 2,
+      "percent_patients": 3.7,
+      "is_serious": null,
+      "evidence": []
+    },
+    {
+      "term": "Possibly-related adverse events: Dizziness",
+      "arm_name": "Semaglutide",
+      "n_patients": 0,
+      "percent_patients": 0.0,
+      "is_serious": null,
+      "evidence": []
+    },
+    {
+      "term": "Possibly-related adverse events: Dizziness",
+      "arm_name": "Placebo",
+      "n_patients": 3,
+      "percent_patients": 5.56,
+      "is_serious": null,
+      "evidence": []
+    },
+    {
+      "term": "Possibly-related adverse events: Headache",
+      "arm_name": "Semaglutide",
+      "n_patients": 3,
+      "percent_patients": 5.56,
+      "is_serious": null,
+      "evidence": []
+    },
+    {
+      "term": "Possibly-related adverse events: Headache",
+      "arm_name": "Placebo",
+      "n_patients": 0,
+      "percent_patients": 0.0,
+      "is_serious": null,
+      "evidence": []
+    },
+    {
+      "term": "Possibly-related adverse events: Anxiety or nervousness",
+      "arm_name": "Semaglutide",
+      "n_patients": 0,
+      "percent_patients": 0.0,
+      "is_serious": null,
+      "evidence": []
+    },
+    {
+      "term": "Possibly-related adverse events: Anxiety or nervousness",
+      "arm_name": "Placebo",
+      "n_patients": 1,
+      "percent_patients": 1.85,
+      "is_serious": null,
+      "evidence": []
+    },
+    {
+      "term": "Possibly-related adverse events: Irritability or moodiness",
+      "arm_name": "Semaglutide",
+      "n_patients": 1,
+      "percent_patients": 1.85,
+      "is_serious": null,
+      "evidence": []
+    },
+    {
+      "term": "Possibly-related adverse events: Irritability or moodiness",
+      "arm_name": "Placebo",
+      "n_patients": 2,
+      "percent_patients": 3.7,
+      "is_serious": null,
+      "evidence": []
+    },
+    {
+      "term": "Possibly-related adverse events: Sweating",
+      "arm_name": "Semaglutide",
+      "n_patients": 2,
+      "percent_patients": 3.7,
+      "is_serious": null,
+      "evidence": []
+    },
+    {
+      "term": "Possibly-related adverse events: Sweating",
+      "arm_name": "Placebo",
+      "n_patients": 3,
+      "percent_patients": 5.56,
+      "is_serious": null,
+      "evidence": []
+    },
+    {
+      "term": "Possibly-related adverse events: Hunger",
+      "arm_name": "Semaglutide",
+      "n_patients": 0,
+      "percent_patients": 0.0,
+      "is_serious": null,
+      "evidence": []
+    },
+    {
+      "term": "Possibly-related adverse events: Hunger",
+      "arm_name": "Placebo",
+      "n_patients": 2,
+      "percent_patients": 3.7,
+      "is_serious": null,
+      "evidence": []
+    },
+    {
+      "term": "Possibly-related adverse events: Generalized myalgias",
+      "arm_name": "Semaglutide",
+      "n_patients": 0,
+      "percent_patients": 0.0,
+      "is_serious": null,
+      "evidence": []
+    },
+    {
+      "term": "Possibly-related adverse events: Generalized myalgias",
+      "arm_name": "Placebo",
+      "n_patients": 1,
+      "percent_patients": 1.85,
+      "is_serious": null,
+      "evidence": []
+    },
+    {
+      "term": "Possibly-related adverse events: Scalp alopecia",
+      "arm_name": "Semaglutide",
+      "n_patients": 1,
+      "percent_patients": 1.85,
+      "is_serious": null,
+      "evidence": []
+    },
+    {
+      "term": "Possibly-related adverse events: Scalp alopecia",
+      "arm_name": "Placebo",
+      "n_patients": 0,
+      "percent_patients": 0.0,
+      "is_serious": null,
+      "evidence": []
+    },
+    {
+      "term": "Not study-related adverse events: Elevated lipase",
+      "arm_name": "Semaglutide",
+      "n_patients": 8,
+      "percent_patients": 14.81,
+      "is_serious": null,
+      "evidence": []
+    },
+    {
+      "term": "Not study-related adverse events: Elevated lipase",
+      "arm_name": "Placebo",
+      "n_patients": 3,
+      "percent_patients": 5.56,
+      "is_serious": null,
+      "evidence": []
+    },
+    {
+      "term": "Not study-related adverse events: Elevated lipase: Grade 1",
+      "arm_name": "Semaglutide",
+      "n_patients": 7,
+      "percent_patients": 12.96,
+      "is_serious": null,
+      "evidence": []
+    },
+    {
+      "term": "Not study-related adverse events: Elevated lipase: Grade 1",
+      "arm_name": "Placebo",
+      "n_patients": 2,
+      "percent_patients": 3.7,
+      "is_serious": null,
+      "evidence": []
+    },
+    {
+      "term": "Not study-related adverse events: Elevated lipase: Grade 2",
+      "arm_name": "Semaglutide",
+      "n_patients": 1,
+      "percent_patients": 1.85,
+      "is_serious": null,
+      "evidence": []
+    },
+    {
+      "term": "Not study-related adverse events: Elevated lipase: Grade 2",
+      "arm_name": "Placebo",
+      "n_patients": 1,
+      "percent_patients": 1.85,
+      "is_serious": null,
+      "evidence": []
+    },
+    {
+      "term": "Not study-related adverse events: Elevated creatinine",
+      "arm_name": "Semaglutide",
+      "n_patients": 24,
+      "percent_patients": 44.44,
+      "is_serious": null,
+      "evidence": []
+    },
+    {
+      "term": "Not study-related adverse events: Elevated creatinine",
+      "arm_name": "Placebo",
+      "n_patients": 13,
+      "percent_patients": 24.07,
+      "is_serious": null,
+      "evidence": []
+    },
+    {
+      "term": "Not study-related adverse events: Elevated creatinine: Grade 1",
+      "arm_name": "Semaglutide",
+      "n_patients": 18,
+      "percent_patients": 33.33,
+      "is_serious": null,
+      "evidence": []
+    },
+    {
+      "term": "Not study-related adverse events: Elevated creatinine: Grade 1",
+      "arm_name": "Placebo",
+      "n_patients": 9,
+      "percent_patients": 16.67,
+      "is_serious": null,
+      "evidence": []
+    },
+    {
+      "term": "Not study-related adverse events: Elevated creatinine: Grade 2",
+      "arm_name": "Semaglutide",
+      "n_patients": 6,
+      "percent_patients": 11.11,
+      "is_serious": null,
+      "evidence": []
+    },
+    {
+      "term": "Not study-related adverse events: Elevated creatinine: Grade 2",
+      "arm_name": "Placebo",
+      "n_patients": 3,
+      "percent_patients": 5.56,
+      "is_serious": null,
+      "evidence": []
+    },
+    {
+      "term": "Not study-related adverse events: Elevated creatinine: Grade 3",
+      "arm_name": "Semaglutide",
+      "n_patients": 0,
+      "percent_patients": 0.0,
+      "is_serious": null,
+      "evidence": []
+    },
+    {
+      "term": "Not study-related adverse events: Elevated creatinine: Grade 3",
+      "arm_name": "Placebo",
+      "n_patients": 1,
+      "percent_patients": 1.85,
+      "is_serious": null,
+      "evidence": []
+    },
+    {
+      "term": "Not study-related adverse events: Elevated total bilirubin (all grade 1)",
+      "arm_name": "Semaglutide",
+      "n_patients": 6,
+      "percent_patients": 11.11,
+      "is_serious": null,
+      "evidence": []
+    },
+    {
+      "term": "Not study-related adverse events: Elevated total bilirubin (all grade 1)",
+      "arm_name": "Placebo",
+      "n_patients": 1,
+      "percent_patients": 1.85,
+      "is_serious": null,
+      "evidence": []
+    },
+    {
+      "term": "Not study-related adverse events: Elevated alanine transaminase",
+      "arm_name": "Semaglutide",
+      "n_patients": 5,
+      "percent_patients": 9.26,
+      "is_serious": null,
+      "evidence": []
+    },
+    {
+      "term": "Not study-related adverse events: Elevated alanine transaminase",
+      "arm_name": "Placebo",
+      "n_patients": 6,
+      "percent_patients": 11.11,
+      "is_serious": null,
+      "evidence": []
+    },
+    {
+      "term": "Not study-related adverse events: Elevated alanine transaminase: Grade 1",
+      "arm_name": "Semaglutide",
+      "n_patients": 3,
+      "percent_patients": 5.56,
+      "is_serious": null,
+      "evidence": []
+    },
+    {
+      "term": "Not study-related adverse events: Elevated alanine transaminase: Grade 1",
+      "arm_name": "Placebo",
+      "n_patients": 4,
+      "percent_patients": 7.41,
+      "is_serious": null,
+      "evidence": []
+    },
+    {
+      "term": "Not study-related adverse events: Elevated alanine transaminase: Grade 2",
+      "arm_name": "Semaglutide",
+      "n_patients": 2,
+      "percent_patients": 3.7,
+      "is_serious": null,
+      "evidence": []
+    },
+    {
+      "term": "Not study-related adverse events: Elevated alanine transaminase: Grade 2",
+      "arm_name": "Placebo",
+      "n_patients": 2,
+      "percent_patients": 3.7,
+      "is_serious": null,
+      "evidence": []
+    },
+    {
+      "term": "Not study-related adverse events: Elevated aspartate aminotransferase",
+      "arm_name": "Semaglutide",
+      "n_patients": 3,
+      "percent_patients": 5.56,
+      "is_serious": null,
+      "evidence": []
+    },
+    {
+      "term": "Not study-related adverse events: Elevated aspartate aminotransferase",
+      "arm_name": "Placebo",
+      "n_patients": 4,
+      "percent_patients": 7.41,
+      "is_serious": null,
+      "evidence": []
+    },
+    {
+      "term": "Not study-related adverse events: Elevated aspartate aminotransferase: Grade 1",
+      "arm_name": "Semaglutide",
+      "n_patients": 3,
+      "percent_patients": 5.56,
+      "is_serious": null,
+      "evidence": []
+    },
+    {
+      "term": "Not study-related adverse events: Elevated aspartate aminotransferase: Grade 1",
+      "arm_name": "Placebo",
+      "n_patients": 3,
+      "percent_patients": 5.56,
+      "is_serious": null,
+      "evidence": []
+    },
+    {
+      "term": "Not study-related adverse events: Elevated aspartate aminotransferase: Grade 2",
+      "arm_name": "Semaglutide",
+      "n_patients": 0,
+      "percent_patients": 0.0,
+      "is_serious": null,
+      "evidence": []
+    },
+    {
+      "term": "Not study-related adverse events: Elevated aspartate aminotransferase: Grade 2",
+      "arm_name": "Placebo",
+      "n_patients": 1,
+      "percent_patients": 1.85,
+      "is_serious": null,
+      "evidence": []
+    },
+    {
+      "term": "Not study-related adverse events: Elevated glucose",
+      "arm_name": "Semaglutide",
+      "n_patients": 25,
+      "percent_patients": 46.3,
+      "is_serious": null,
+      "evidence": []
+    },
+    {
+      "term": "Not study-related adverse events: Elevated glucose",
+      "arm_name": "Placebo",
+      "n_patients": 39,
+      "percent_patients": 72.22,
+      "is_serious": null,
+      "evidence": []
+    },
+    {
+      "term": "Not study-related adverse events: Elevated glucose: Grade 1",
+      "arm_name": "Semaglutide",
+      "n_patients": 24,
+      "percent_patients": 44.44,
+      "is_serious": null,
+      "evidence": []
+    },
+    {
+      "term": "Not study-related adverse events: Elevated glucose: Grade 1",
+      "arm_name": "Placebo",
+      "n_patients": 38,
+      "percent_patients": 70.37,
+      "is_serious": null,
+      "evidence": []
+    },
+    {
+      "term": "Not study-related adverse events: Elevated glucose: Grade 2",
+      "arm_name": "Semaglutide",
+      "n_patients": 0,
+      "percent_patients": 0.0,
+      "is_serious": null,
+      "evidence": []
+    },
+    {
+      "term": "Not study-related adverse events: Elevated glucose: Grade 2",
+      "arm_name": "Placebo",
+      "n_patients": 1,
+      "percent_patients": 1.85,
+      "is_serious": null,
+      "evidence": []
+    },
+    {
+      "term": "Not study-related adverse events: Any gastrointestinal disorder",
+      "arm_name": "Semaglutide",
+      "n_patients": 35,
+      "percent_patients": 64.81,
+      "is_serious": null,
+      "evidence": []
+    },
+    {
+      "term": "Not study-related adverse events: Any gastrointestinal disorder",
+      "arm_name": "Placebo",
+      "n_patients": 27,
+      "percent_patients": 50.0,
+      "is_serious": null,
+      "evidence": []
+    },
+    {
+      "term": "Not study-related adverse events: Nausea",
+      "arm_name": "Semaglutide",
+      "n_patients": 15,
+      "percent_patients": 27.78,
+      "is_serious": null,
+      "evidence": []
+    },
+    {
+      "term": "Not study-related adverse events: Nausea",
+      "arm_name": "Placebo",
+      "n_patients": 7,
+      "percent_patients": 12.96,
+      "is_serious": null,
+      "evidence": []
+    },
+    {
+      "term": "Not study-related adverse events: Vomiting",
+      "arm_name": "Semaglutide",
+      "n_patients": 8,
+      "percent_patients": 14.81,
+      "is_serious": null,
+      "evidence": []
+    },
+    {
+      "term": "Not study-related adverse events: Vomiting",
+      "arm_name": "Placebo",
+      "n_patients": 3,
+      "percent_patients": 5.56,
+      "is_serious": null,
+      "evidence": []
+    },
+    {
+      "term": "Not study-related adverse events: Diarrhoea or loose stools",
+      "arm_name": "Semaglutide",
+      "n_patients": 7,
+      "percent_patients": 12.96,
+      "is_serious": null,
+      "evidence": []
+    },
+    {
+      "term": "Not study-related adverse events: Diarrhoea or loose stools",
+      "arm_name": "Placebo",
+      "n_patients": 10,
+      "percent_patients": 18.52,
+      "is_serious": null,
+      "evidence": []
+    },
+    {
+      "term": "Not study-related adverse events: Abdominal pain",
+      "arm_name": "Semaglutide",
+      "n_patients": 4,
+      "percent_patients": 7.41,
+      "is_serious": null,
+      "evidence": []
+    },
+    {
+      "term": "Not study-related adverse events: Abdominal pain",
+      "arm_name": "Placebo",
+      "n_patients": 1,
+      "percent_patients": 1.85,
+      "is_serious": null,
+      "evidence": []
+    },
+    {
+      "term": "Not study-related adverse events: Constipation or irregular bowel movements",
+      "arm_name": "Semaglutide",
+      "n_patients": 16,
+      "percent_patients": 29.63,
+      "is_serious": null,
+      "evidence": []
+    },
+    {
+      "term": "Not study-related adverse events: Constipation or irregular bowel movements",
+      "arm_name": "Placebo",
+      "n_patients": 5,
+      "percent_patients": 9.26,
+      "is_serious": null,
+      "evidence": []
+    },
+    {
+      "term": "Not study-related adverse events: Bloating or fullness",
+      "arm_name": "Semaglutide",
+      "n_patients": 2,
+      "percent_patients": 3.7,
+      "is_serious": null,
+      "evidence": []
+    },
+    {
+      "term": "Not study-related adverse events: Bloating or fullness",
+      "arm_name": "Placebo",
+      "n_patients": 2,
+      "percent_patients": 3.7,
+      "is_serious": null,
+      "evidence": []
+    },
+    {
+      "term": "Not study-related adverse events: Dyspepsia",
+      "arm_name": "Semaglutide",
+      "n_patients": 11,
+      "percent_patients": 20.37,
+      "is_serious": null,
+      "evidence": []
+    },
+    {
+      "term": "Not study-related adverse events: Dyspepsia",
+      "arm_name": "Placebo",
+      "n_patients": 0,
+      "percent_patients": 0.0,
+      "is_serious": null,
+      "evidence": []
+    },
+    {
+      "term": "Not study-related adverse events: Eructation or flatulence",
+      "arm_name": "Semaglutide",
+      "n_patients": 10,
+      "percent_patients": 18.52,
+      "is_serious": null,
+      "evidence": []
+    },
+    {
+      "term": "Not study-related adverse events: Eructation or flatulence",
+      "arm_name": "Placebo",
+      "n_patients": 6,
+      "percent_patients": 11.11,
+      "is_serious": null,
+      "evidence": []
+    },
+    {
+      "term": "Not study-related adverse events: Gastritis",
+      "arm_name": "Semaglutide",
+      "n_patients": 3,
+      "percent_patients": 5.56,
+      "is_serious": null,
+      "evidence": []
+    },
+    {
+      "term": "Not study-related adverse events: Gastritis",
+      "arm_name": "Placebo",
+      "n_patients": 0,
+      "percent_patients": 0.0,
+      "is_serious": null,
+      "evidence": []
+    },
+    {
+      "term": "Not study-related adverse events: Gastroesophageal reflux disease",
+      "arm_name": "Semaglutide",
+      "n_patients": 14,
+      "percent_patients": 25.93,
+      "is_serious": null,
+      "evidence": []
+    },
+    {
+      "term": "Not study-related adverse events: Gastroesophageal reflux disease",
+      "arm_name": "Placebo",
+      "n_patients": 6,
+      "percent_patients": 11.11,
+      "is_serious": null,
+      "evidence": []
+    },
+    {
+      "term": "Not study-related adverse events: Decreased appetite or changes in food cravings/tolerance",
+      "arm_name": "Semaglutide",
+      "n_patients": 8,
+      "percent_patients": 14.81,
+      "is_serious": null,
+      "evidence": []
+    },
+    {
+      "term": "Not study-related adverse events: Decreased appetite or changes in food cravings/tolerance",
+      "arm_name": "Placebo",
+      "n_patients": 4,
+      "percent_patients": 7.41,
+      "is_serious": null,
+      "evidence": []
+    },
+    {
+      "term": "Not study-related adverse events: Fatigue",
+      "arm_name": "Semaglutide",
+      "n_patients": 14,
+      "percent_patients": 25.93,
+      "is_serious": null,
+      "evidence": []
+    },
+    {
+      "term": "Not study-related adverse events: Fatigue",
+      "arm_name": "Placebo",
+      "n_patients": 6,
+      "percent_patients": 11.11,
+      "is_serious": null,
+      "evidence": []
+    },
+    {
+      "term": "Not study-related adverse events: Dysgeusia",
+      "arm_name": "Semaglutide",
+      "n_patients": 4,
+      "percent_patients": 7.41,
+      "is_serious": null,
+      "evidence": []
+    },
+    {
+      "term": "Not study-related adverse events: Dysgeusia",
+      "arm_name": "Placebo",
+      "n_patients": 1,
+      "percent_patients": 1.85,
+      "is_serious": null,
+      "evidence": []
+    },
+    {
+      "term": "Not study-related adverse events: Dizziness",
+      "arm_name": "Semaglutide",
+      "n_patients": 6,
+      "percent_patients": 11.11,
+      "is_serious": null,
+      "evidence": []
+    },
+    {
+      "term": "Not study-related adverse events: Dizziness",
+      "arm_name": "Placebo",
+      "n_patients": 1,
+      "percent_patients": 1.85,
+      "is_serious": null,
+      "evidence": []
+    },
+    {
+      "term": "Not study-related adverse events: Headache",
+      "arm_name": "Semaglutide",
+      "n_patients": 12,
+      "percent_patients": 22.22,
+      "is_serious": null,
+      "evidence": []
+    },
+    {
+      "term": "Not study-related adverse events: Headache",
+      "arm_name": "Placebo",
+      "n_patients": 10,
+      "percent_patients": 18.52,
+      "is_serious": null,
+      "evidence": []
+    },
+    {
+      "term": "Not study-related adverse events: Anxiety or nervousness",
+      "arm_name": "Semaglutide",
+      "n_patients": 5,
+      "percent_patients": 9.26,
+      "is_serious": null,
+      "evidence": []
+    },
+    {
+      "term": "Not study-related adverse events: Anxiety or nervousness",
+      "arm_name": "Placebo",
+      "n_patients": 2,
+      "percent_patients": 3.7,
+      "is_serious": null,
+      "evidence": []
+    },
+    {
+      "term": "Not study-related adverse events: Irritability or moodiness",
+      "arm_name": "Semaglutide",
+      "n_patients": 5,
+      "percent_patients": 9.26,
+      "is_serious": null,
+      "evidence": []
+    },
+    {
+      "term": "Not study-related adverse events: Irritability or moodiness",
+      "arm_name": "Placebo",
+      "n_patients": 4,
+      "percent_patients": 7.41,
+      "is_serious": null,
+      "evidence": []
+    },
+    {
+      "term": "Not study-related adverse events: Sweating",
+      "arm_name": "Semaglutide",
+      "n_patients": 2,
+      "percent_patients": 3.7,
+      "is_serious": null,
+      "evidence": []
+    },
+    {
+      "term": "Not study-related adverse events: Sweating",
+      "arm_name": "Placebo",
+      "n_patients": 3,
+      "percent_patients": 5.56,
+      "is_serious": null,
+      "evidence": []
+    },
+    {
+      "term": "Not study-related adverse events: Hunger",
+      "arm_name": "Semaglutide",
+      "n_patients": 3,
+      "percent_patients": 5.56,
+      "is_serious": null,
+      "evidence": []
+    },
+    {
+      "term": "Not study-related adverse events: Hunger",
+      "arm_name": "Placebo",
+      "n_patients": 8,
+      "percent_patients": 14.81,
+      "is_serious": null,
+      "evidence": []
+    },
+    {
+      "term": "Not study-related adverse events: Generalized myalgias",
+      "arm_name": "Semaglutide",
+      "n_patients": 1,
+      "percent_patients": 1.85,
+      "is_serious": null,
+      "evidence": []
+    },
+    {
+      "term": "Not study-related adverse events: Generalized myalgias",
+      "arm_name": "Placebo",
+      "n_patients": 1,
+      "percent_patients": 1.85,
+      "is_serious": null,
+      "evidence": []
+    },
+    {
+      "term": "Not study-related adverse events: Shakiness",
+      "arm_name": "Semaglutide",
+      "n_patients": 2,
+      "percent_patients": 3.7,
+      "is_serious": null,
+      "evidence": []
+    },
+    {
+      "term": "Not study-related adverse events: Shakiness",
+      "arm_name": "Placebo",
+      "n_patients": 3,
+      "percent_patients": 5.56,
+      "is_serious": null,
+      "evidence": []
+    },
+    {
+      "term": "Not study-related adverse events: Weakness",
+      "arm_name": "Semaglutide",
+      "n_patients": 1,
+      "percent_patients": 1.85,
+      "is_serious": null,
+      "evidence": []
+    },
+    {
+      "term": "Not study-related adverse events: Weakness",
+      "arm_name": "Placebo",
+      "n_patients": 0,
+      "percent_patients": 0.0,
+      "is_serious": null,
+      "evidence": []
+    },
+    {
+      "term": "Not study-related adverse events: Lightheadedness",
+      "arm_name": "Semaglutide",
+      "n_patients": 0,
+      "percent_patients": 0.0,
+      "is_serious": null,
+      "evidence": []
+    },
+    {
+      "term": "Not study-related adverse events: Lightheadedness",
+      "arm_name": "Placebo",
+      "n_patients": 1,
+      "percent_patients": 1.85,
+      "is_serious": null,
+      "evidence": []
+    },
+    {
+      "term": "Not study-related adverse events: Temporary neurosensory alteration",
+      "arm_name": "Semaglutide",
+      "n_patients": 1,
+      "percent_patients": 1.85,
+      "is_serious": null,
+      "evidence": []
+    },
+    {
+      "term": "Not study-related adverse events: Temporary neurosensory alteration",
+      "arm_name": "Placebo",
+      "n_patients": 0,
+      "percent_patients": 0.0,
+      "is_serious": null,
+      "evidence": []
+    },
+    {
+      "term": "Not study-related adverse events: Hiccups",
+      "arm_name": "Semaglutide",
+      "n_patients": 1,
+      "percent_patients": 1.85,
+      "is_serious": null,
+      "evidence": []
+    },
+    {
+      "term": "Not study-related adverse events: Hiccups",
+      "arm_name": "Placebo",
+      "n_patients": 0,
+      "percent_patients": 0.0,
+      "is_serious": null,
+      "evidence": []
+    },
+    {
+      "term": "Not study-related adverse events: Diabetes mellitus",
+      "arm_name": "Semaglutide",
+      "n_patients": 1,
+      "percent_patients": 1.85,
+      "is_serious": null,
+      "evidence": []
+    },
+    {
+      "term": "Not study-related adverse events: Diabetes mellitus",
+      "arm_name": "Placebo",
+      "n_patients": 2,
+      "percent_patients": 3.7,
       "is_serious": null,
       "evidence": []
     }

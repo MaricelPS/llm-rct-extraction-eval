@@ -20,6 +20,7 @@ RESERVED = {"term", "is_serious"}
 
 def parse_cell(text: str) -> tuple[int, float | None] | None:
     text = text.strip()
+    text = text.replace("·", ".")
     if not text:
         return None
     match = CELL.match(text)
