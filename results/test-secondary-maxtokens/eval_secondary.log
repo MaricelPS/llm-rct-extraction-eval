@@ -1,0 +1,275 @@
+
+=== PMC10372755 ===
+  arms: gold 2 | pred 2 | matched 2
+  outcomes: gold 1 | pred 1 | matched 1
+  adverse_events: gold 44 | pred 44 | matched 44
+  - population [-] condition: gold='poor weight loss and a suboptimal GLP-1 response after metabolic surgery' pred='poor weight loss and suboptimal nutrient-stimulated GLP-1 response following metabolic surgery'
+  - outcomes [percentage change in body weight from ba | Liraglutide, 3.0 mg vs placebo / not_reported] effect_measure: gold=<EffectMeasure.MEAN_DIFFERENCE: 'mean_difference'> pred=<EffectMeasure.ESTIMATED_TREATMENT_DIFFERENCE: 'estimated_treatment_difference'>
+  - outcomes [percentage change in body weight from ba | Liraglutide, 3.0 mg vs placebo / not_reported] estimand: gold=<Estimand.NOT_REPORTED: 'not_reported'> pred=<Estimand.TREATMENT_POLICY: 'treatment_policy'>
+
+=== PMC10599987 ===
+  arms: gold 2 | pred 2 | matched 2
+  outcomes: gold 1 | pred 2 | matched 1
+  adverse_events: gold 56 | pred 56 | matched 56
+  - outcomes [change in HbA1c from randomisation | Liraglutide vs Placebo / not_reported] extra primary in prediction
+
+=== PMC10709975 ===
+  arms: gold 2 | pred 2 | matched 2
+  outcomes: gold 1 | pred 1 | matched 1
+  adverse_events: gold 0 | pred 2 | matched 0
+  - population [-] condition: gold='type 2 diabetes mellitus and coronary artery disease requiring PCI with drug-eluting stent implantation' pred='type 2 diabetes'
+  - population [-] percent_female: gold=42.0 pred=None
+  - arms [Exenatide] n_analyzed: gold=16 pred=19
+  - adverse_events [Serious adverse events / Exenatide] extra in prediction
+  - adverse_events [Serious adverse events / Control] extra in prediction
+
+=== PMC10792518 ===
+  arms: gold 2 | pred 2 | matched 2
+  outcomes: gold 1 | pred 1 | matched 1
+  adverse_events: gold 10 | pred 66 | matched 6
+  - adverse_events [Any adverse event / semaglutide] missing in prediction
+  - adverse_events [Any adverse event / placebo] missing in prediction
+  - adverse_events [Serious adverse event / semaglutide] missing in prediction
+  - adverse_events [Serious adverse event / placebo] missing in prediction
+  - adverse_events [All patients with adverse events / semaglutide] extra in prediction
+  - adverse_events [All patients with adverse events / placebo] extra in prediction
+  - adverse_events [Gastrointestinal disorders / semaglutide] extra in prediction
+  - adverse_events [Gastrointestinal disorders / placebo] extra in prediction
+  - adverse_events [Abdominal pain / semaglutide] extra in prediction
+  - adverse_events [Abdominal pain / placebo] extra in prediction
+  - adverse_events [Decreased appetite / semaglutide] extra in prediction
+  - adverse_events [Decreased appetite / placebo] extra in prediction
+  - adverse_events [Eructation / semaglutide] extra in prediction
+  - adverse_events [Eructation / placebo] extra in prediction
+  - adverse_events [Abdominal pain upper / semaglutide] extra in prediction
+  - adverse_events [Abdominal pain upper / placebo] extra in prediction
+  - adverse_events [Dyspepsia / semaglutide] extra in prediction
+  - adverse_events [Dyspepsia / placebo] extra in prediction
+  - adverse_events [Urinary tract infection / semaglutide] extra in prediction
+  - adverse_events [Urinary tract infection / placebo] extra in prediction
+  - adverse_events [Back pain / semaglutide] extra in prediction
+  - adverse_events [Back pain / placebo] extra in prediction
+  - adverse_events [Patients with serious adverse events: On-treatment / semaglutide] extra in prediction
+  - adverse_events [Patients with serious adverse events: On-treatment / placebo] extra in prediction
+  - adverse_events [Patients with serious adverse events: In-trial / semaglutide] extra in prediction
+  - adverse_events [Patients with serious adverse events: In-trial / placebo] extra in prediction
+  - adverse_events [Serious adverse events: Gastrointestinal disorders / semaglutide] extra in prediction
+  - adverse_events [Serious adverse events: Gastrointestinal disorders / placebo] extra in prediction
+  - adverse_events [Serious adverse events: Eye disorders / semaglutide] extra in prediction
+  - adverse_events [Serious adverse events: Eye disorders / placebo] extra in prediction
+  - adverse_events [Serious adverse events: Hepatobiliary disorders / semaglutide] extra in prediction
+  - adverse_events [Serious adverse events: Hepatobiliary disorders / placebo] extra in prediction
+  - adverse_events [Serious adverse events: Injury, poisoning, and procedural complications / semaglutide] extra in prediction
+  - adverse_events [Serious adverse events: Injury, poisoning, and procedural complications / placebo] extra in prediction
+  - adverse_events [Serious adverse events: Metabolism and nutrition disorders / semaglutide] extra in prediction
+  - adverse_events [Serious adverse events: Metabolism and nutrition disorders / placebo] extra in prediction
+  - adverse_events [Serious adverse events: Nervous system disorders / semaglutide] extra in prediction
+  - adverse_events [Serious adverse events: Nervous system disorders / placebo] extra in prediction
+  - adverse_events [Serious adverse events: Renal and urinary disorders / semaglutide] extra in prediction
+  - adverse_events [Serious adverse events: Renal and urinary disorders / placebo] extra in prediction
+  - adverse_events [Serious adverse events: Respiratory, thoracic, and mediastinal disorders / semaglutide] extra in prediction
+  - adverse_events [Serious adverse events: Respiratory, thoracic, and mediastinal disorders / placebo] extra in prediction
+  - adverse_events [Serious adverse events: Musculoskeletal and connective tissues disorders / semaglutide] extra in prediction
+  - adverse_events [Serious adverse events: Musculoskeletal and connective tissues disorders / placebo] extra in prediction
+  - adverse_events [Serious adverse events: Psychiatric disorders / semaglutide] extra in prediction
+  - adverse_events [Serious adverse events: Psychiatric disorders / placebo] extra in prediction
+  - adverse_events [Serious adverse events: Fatal events / semaglutide] extra in prediction
+  - adverse_events [Serious adverse events: Fatal events / placebo] extra in prediction
+  - adverse_events [Severity: Mild / semaglutide] extra in prediction
+  - adverse_events [Severity: Mild / placebo] extra in prediction
+  - adverse_events [Severity: Moderate / semaglutide] extra in prediction
+  - adverse_events [Severity: Moderate / placebo] extra in prediction
+  - adverse_events [Severity: Severe / semaglutide] extra in prediction
+  - adverse_events [Severity: Severe / placebo] extra in prediction
+  - adverse_events [Relationship to trial product: Probable / semaglutide] extra in prediction
+  - adverse_events [Relationship to trial product: Probable / placebo] extra in prediction
+  - adverse_events [Relationship to trial product: Possible / semaglutide] extra in prediction
+  - adverse_events [Relationship to trial product: Possible / placebo] extra in prediction
+  - adverse_events [Relationship to trial product: Unlikely / semaglutide] extra in prediction
+  - adverse_events [Relationship to trial product: Unlikely / placebo] extra in prediction
+  - adverse_events [Leading to withdrawal of trial product / semaglutide] extra in prediction
+  - adverse_events [Leading to withdrawal of trial product / placebo] extra in prediction
+  - adverse_events [Leading to withdrawal from trial / semaglutide] extra in prediction
+  - adverse_events [Leading to withdrawal from trial / placebo] extra in prediction
+
+=== PMC10933706 ===
+  arms: gold 2 | pred 2 | matched 2
+  outcomes: gold 2 | pred 2 | matched 2
+  adverse_events: gold 0 | pred 2 | matched 0
+  - arms [liraglutide group] n_randomized: gold=27 pred=30
+  - arms [control group] n_randomized: gold=28 pred=30
+  - outcomes [change from baseline in peripheral perfu | liraglutide group vs control group / not_reported] effect_measure: gold=<EffectMeasure.MEAN_DIFFERENCE: 'mean_difference'> pred=<EffectMeasure.ESTIMATED_TREATMENT_DIFFERENCE: 'estimated_treatment_difference'>
+  - adverse_events [No participants in either group reported adverse events to any medication administered / liraglutide group] extra in prediction
+  - adverse_events [No participants in either group reported adverse events to any medication administered / control group] extra in prediction
+
+=== PMC10971983 ===
+  arms: gold 4 | pred 4 | matched 4
+  outcomes: gold 3 | pred 3 | matched 3
+  adverse_events: gold 0 | pred 4 | matched 0
+  - population [-] condition: gold='type 2 diabetes mellitus at high or exceptionally high cardiovascular risk' pred='type 2 diabetes mellitus treated with metformin'
+  - arms [Insulin] drug: gold='basal insulin' pred='insulin'
+  - arms [Insulin] route: gold=<Route.NOT_REPORTED: 'not_reported'> pred=<Route.SUBCUTANEOUS: 'subcutaneous'>
+  - arms [Insulin] n_randomized: gold=50 pred=None
+  - arms [GLP1 (Liraglutide)] n_randomized: gold=50 pred=None
+  - arms [SGLT2 (Empagliflozin)] n_randomized: gold=50 pred=None
+  - arms [GLP1 & SGLT2 (Liraglutide and Empagliflozin)] n_randomized: gold=50 pred=None
+  - adverse_events [gastrointestinal side effects / GLP1 (Liraglutide)] extra in prediction
+  - adverse_events [urinary tract infections / SGLT2 (Empagliflozin)] extra in prediction
+  - adverse_events [gastrointestinal symptoms / GLP1 & SGLT2 (Liraglutide and Empagliflozin)] extra in prediction
+  - adverse_events [urinary tract infection / GLP1 & SGLT2 (Liraglutide and Empagliflozin)] extra in prediction
+
+=== PMC11060164 ===
+  arms: gold 2 | pred 2 | matched 2
+  outcomes: gold 2 | pred 2 | matched 2
+  adverse_events: gold 1 | pred 1 | matched 1
+  - arms [IGlarLixi group] role: gold=<ArmRole.EXPERIMENTAL: 'experimental'> pred=<ArmRole.ACTIVE_COMPARATOR: 'active_comparator'>
+  - outcomes [Time in range (TIR) | IGlarLixi group vs IDegLira group / not_reported] unit: gold='% of time in target glucose range (70–180 mg/dL)' pred='%'
+  - outcomes [Time below range (TBR) level 1 | IGlarLixi group vs IDegLira group / not_reported] unit: gold='% of time below target glucose range (<70 mg/dL)' pred='%'
+  - adverse_events [Mild nausea / IDegLira group] is_serious: gold=None pred=False
+
+=== PMC11296502 ===
+  arms: gold 2 | pred 2 | matched 2
+  outcomes: gold 2 | pred 2 | matched 2
+  adverse_events: gold 0 | pred 5 | matched 0
+  - population [-] condition: gold='type 2 diabetes mellitus without established cardiovascular disease' pred='type 2 diabetes'
+  - arms [pioglitazone] dose: gold='15 mg once-daily, increased by 15 mg every other week to 45 mg once-daily' pred='45mg once-daily'
+  - arms [pioglitazone] n_analyzed: gold=32 pred=35
+  - adverse_events [weight gain / pioglitazone] extra in prediction
+  - adverse_events [ankle swelling / pioglitazone] extra in prediction
+  - adverse_events [nausea / liraglutide] extra in prediction
+  - adverse_events [abdominal discomfort / liraglutide] extra in prediction
+  - adverse_events [gastrointestinal side effects / liraglutide] extra in prediction
+
+=== PMC11417641 ===
+  arms: gold 2 | pred 2 | matched 2
+  outcomes: gold 1 | pred 7 | matched 1
+  adverse_events: gold 166 | pred 166 | matched 164
+  - population [-] percent_female: gold=39.8 pred=None
+  - arms [Semaglutide] dose: gold='0.25 mg weekly for 4 weeks, followed by 0.5 mg weekly for another 4 weeks, then 1.0 mg weekly for 24 weeks' pred='1·0 mg once weekly'
+  - outcomes [total body fat | Semaglutide vs Placebo / not_reported] extra primary in prediction
+  - outcomes [limb fat | Semaglutide vs Placebo / not_reported] extra primary in prediction
+  - outcomes [trunk fat | Semaglutide vs Placebo / not_reported] extra primary in prediction
+  - outcomes [abdominal total adipose tissue (TAT) | Semaglutide vs Placebo / not_reported] extra primary in prediction
+  - outcomes [abdominal subcutaneous adipose tissue (S | Semaglutide vs Placebo / not_reported] extra primary in prediction
+  - outcomes [pericardial fat | Semaglutide vs Placebo / not_reported] extra primary in prediction
+  - adverse_events [Adverse events or side effects leading to premature trial discontinuation (week of study withdrawal): Grade 4 elevated lipase (week 14) / Semaglutide] term: gold='Adverse events or side effects leading to premature trial discontinuation (week of study withdrawal): Grade 4 elevated lipase (week 14)' pred='Grade 4 elevated lipase (week 14)'
+  - adverse_events [Adverse events or side effects leading to premature trial discontinuation (week of study withdrawal): Grade 4 elevated lipase (week 14) / Placebo] term: gold='Adverse events or side effects leading to premature trial discontinuation (week of study withdrawal): Grade 4 elevated lipase (week 14)' pred='Grade 4 elevated lipase (week 14)'
+  - adverse_events [Adverse events or side effects leading to premature trial discontinuation (week of study withdrawal): Grade 1 elevated lipase, gastrointestinal symptoms (week 10) / Semaglutide] term: gold='Adverse events or side effects leading to premature trial discontinuation (week of study withdrawal): Grade 1 elevated lipase, gastrointestinal symptoms (week 10)' pred='Grade 1 elevated lipase, gastrointestinal symptoms (week 10)'
+  - adverse_events [Adverse events or side effects leading to premature trial discontinuation (week of study withdrawal): Grade 1 elevated lipase, gastrointestinal symptoms (week 10) / Placebo] term: gold='Adverse events or side effects leading to premature trial discontinuation (week of study withdrawal): Grade 1 elevated lipase, gastrointestinal symptoms (week 10)' pred='Grade 1 elevated lipase, gastrointestinal symptoms (week 10)'
+  - adverse_events [Adverse events or side effects leading to premature trial discontinuation (week of study withdrawal): Grade 1 gastrointestinal and systemic symptoms (week 12) / Semaglutide] term: gold='Adverse events or side effects leading to premature trial discontinuation (week of study withdrawal): Grade 1 gastrointestinal and systemic symptoms (week 12)' pred='Grade 1 gastrointestinal and systemic symptoms (week 12)'
+  - adverse_events [Adverse events or side effects leading to premature trial discontinuation (week of study withdrawal): Grade 1 gastrointestinal and systemic symptoms (week 12) / Placebo] term: gold='Adverse events or side effects leading to premature trial discontinuation (week of study withdrawal): Grade 1 gastrointestinal and systemic symptoms (week 12)' pred='Grade 1 gastrointestinal and systemic symptoms (week 12)'
+  - adverse_events [Adverse events or side effects leading to premature trial discontinuation (week of study withdrawal): Grade 1 memory impairment (week 17) / Semaglutide] term: gold='Adverse events or side effects leading to premature trial discontinuation (week of study withdrawal): Grade 1 memory impairment (week 17)' pred='Grade 1 memory impairment (week 17)'
+  - adverse_events [Adverse events or side effects leading to premature trial discontinuation (week of study withdrawal): Grade 1 memory impairment (week 17) / Placebo] term: gold='Adverse events or side effects leading to premature trial discontinuation (week of study withdrawal): Grade 1 memory impairment (week 17)' pred='Grade 1 memory impairment (week 17)'
+  - adverse_events [Adverse events or side effects leading to premature trial discontinuation (week of study withdrawal): Weight loss (week 17) / Semaglutide] term: gold='Adverse events or side effects leading to premature trial discontinuation (week of study withdrawal): Weight loss (week 17)' pred='Weight loss (week 17)'
+  - adverse_events [Adverse events or side effects leading to premature trial discontinuation (week of study withdrawal): Weight loss (week 17) / Placebo] term: gold='Adverse events or side effects leading to premature trial discontinuation (week of study withdrawal): Weight loss (week 17)' pred='Weight loss (week 17)'
+  - adverse_events [Study-related adverse events: Elevated lipase / Semaglutide] term: gold='Study-related adverse events: Elevated lipase' pred='Elevated lipase'
+  - adverse_events [Study-related adverse events: Elevated lipase / Placebo] term: gold='Study-related adverse events: Elevated lipase' pred='Elevated lipase'
+  - adverse_events [Study-related adverse events: Injection site reactions (all grade 1) / Semaglutide] term: gold='Study-related adverse events: Injection site reactions (all grade 1)' pred='Injection site reactions (all grade 1)'
+  - adverse_events [Study-related adverse events: Injection site reactions (all grade 1) / Placebo] term: gold='Study-related adverse events: Injection site reactions (all grade 1)' pred='Injection site reactions (all grade 1)'
+  - adverse_events [Possibly-related adverse events: Elevated lipase / Semaglutide] term: gold='Possibly-related adverse events: Elevated lipase' pred='Elevated lipase'
+  - adverse_events [Possibly-related adverse events: Elevated lipase / Placebo] term: gold='Possibly-related adverse events: Elevated lipase' pred='Elevated lipase'
+  - adverse_events [Possibly-related adverse events: Elevated lipase: Grade 1 / Semaglutide] term: gold='Possibly-related adverse events: Elevated lipase: Grade 1' pred='Elevated lipase: Grade 1'
+  - adverse_events [Possibly-related adverse events: Elevated lipase: Grade 1 / Placebo] term: gold='Possibly-related adverse events: Elevated lipase: Grade 1' pred='Elevated lipase: Grade 1'
+  - adverse_events [Possibly-related adverse events: Elevated lipase: Grade 2 / Semaglutide] term: gold='Possibly-related adverse events: Elevated lipase: Grade 2' pred='Elevated lipase: Grade 2'
+  - adverse_events [Possibly-related adverse events: Elevated lipase: Grade 2 / Placebo] term: gold='Possibly-related adverse events: Elevated lipase: Grade 2' pred='Elevated lipase: Grade 2'
+  - adverse_events [Possibly-related adverse events: Elevated creatinine / Semaglutide] term: gold='Possibly-related adverse events: Elevated creatinine' pred='Elevated creatinine'
+  - adverse_events [Possibly-related adverse events: Elevated creatinine / Placebo] term: gold='Possibly-related adverse events: Elevated creatinine' pred='Elevated creatinine'
+  - adverse_events [Possibly-related adverse events: Cholelithiasis / Semaglutide] term: gold='Possibly-related adverse events: Cholelithiasis' pred='Cholelithiasis'
+  - adverse_events [Possibly-related adverse events: Cholelithiasis / Placebo] term: gold='Possibly-related adverse events: Cholelithiasis' pred='Cholelithiasis'
+  - adverse_events [Possibly-related adverse events: Any gastrointestinal disorder / Semaglutide] term: gold='Possibly-related adverse events: Any gastrointestinal disorder' pred='Any gastrointestinal disorder'
+  - adverse_events [Possibly-related adverse events: Any gastrointestinal disorder / Placebo] term: gold='Possibly-related adverse events: Any gastrointestinal disorder' pred='Any gastrointestinal disorder'
+  - adverse_events [Possibly-related adverse events: Nausea / Semaglutide] term: gold='Possibly-related adverse events: Nausea' pred='Nausea'
+  - adverse_events [Possibly-related adverse events: Nausea / Placebo] term: gold='Possibly-related adverse events: Nausea' pred='Nausea'
+  - adverse_events [Possibly-related adverse events: Vomiting / Semaglutide] term: gold='Possibly-related adverse events: Vomiting' pred='Vomiting'
+  - adverse_events [Possibly-related adverse events: Vomiting / Placebo] term: gold='Possibly-related adverse events: Vomiting' pred='Vomiting'
+  - adverse_events [Possibly-related adverse events: Diarrhoea or loose stools / Semaglutide] term: gold='Possibly-related adverse events: Diarrhoea or loose stools' pred='Diarrhoea or loose stools'
+  - adverse_events [Possibly-related adverse events: Diarrhoea or loose stools / Placebo] term: gold='Possibly-related adverse events: Diarrhoea or loose stools' pred='Diarrhoea or loose stools'
+  - adverse_events [Possibly-related adverse events: Abdominal pain / Semaglutide] term: gold='Possibly-related adverse events: Abdominal pain' pred='Abdominal pain'
+  - adverse_events [Possibly-related adverse events: Abdominal pain / Placebo] term: gold='Possibly-related adverse events: Abdominal pain' pred='Abdominal pain'
+  - adverse_events [Possibly-related adverse events: Constipation or irregular bowel movements / Semaglutide] term: gold='Possibly-related adverse events: Constipation or irregular bowel movements' pred='Constipation or irregular bowel movements'
+  - adverse_events [Possibly-related adverse events: Constipation or irregular bowel movements / Placebo] term: gold='Possibly-related adverse events: Constipation or irregular bowel movements' pred='Constipation or irregular bowel movements'
+  - adverse_events [Possibly-related adverse events: Eructation or flatulence / Semaglutide] term: gold='Possibly-related adverse events: Eructation or flatulence' pred='Eructation or flatulence'
+  - adverse_events [Possibly-related adverse events: Eructation or flatulence / Placebo] term: gold='Possibly-related adverse events: Eructation or flatulence' pred='Eructation or flatulence'
+  - adverse_events [Possibly-related adverse events: Gastroesophageal reflux disease / Semaglutide] term: gold='Possibly-related adverse events: Gastroesophageal reflux disease' pred='Gastroesophageal reflux disease'
+  - adverse_events [Possibly-related adverse events: Gastroesophageal reflux disease / Placebo] term: gold='Possibly-related adverse events: Gastroesophageal reflux disease' pred='Gastroesophageal reflux disease'
+  - adverse_events [Possibly-related adverse events: Bloating or fullness / Semaglutide] term: gold='Possibly-related adverse events: Bloating or fullness' pred='Bloating or fullness'
+  - adverse_events [Possibly-related adverse events: Bloating or fullness / Placebo] term: gold='Possibly-related adverse events: Bloating or fullness' pred='Bloating or fullness'
+  - adverse_events [Possibly-related adverse events: Dyspepsia / Semaglutide] term: gold='Possibly-related adverse events: Dyspepsia' pred='Dyspepsia'
+  - adverse_events [Possibly-related adverse events: Dyspepsia / Placebo] term: gold='Possibly-related adverse events: Dyspepsia' pred='Dyspepsia'
+  - adverse_events [Possibly-related adverse events: Gastritis / Semaglutide] term: gold='Possibly-related adverse events: Gastritis' pred='Gastritis'
+  - adverse_events [Possibly-related adverse events: Gastritis / Placebo] term: gold='Possibly-related adverse events: Gastritis' pred='Gastritis'
+  - adverse_events [Possibly-related adverse events: Decreased appetite or changes in food cravings/tolerance / Semaglutide] term: gold='Possibly-related adverse events: Decreased appetite or changes in food cravings/tolerance' pred='Decreased appetite or changes in food cravings/tolerance'
+  - adverse_events [Possibly-related adverse events: Decreased appetite or changes in food cravings/tolerance / Placebo] term: gold='Possibly-related adverse events: Decreased appetite or changes in food cravings/tolerance' pred='Decreased appetite or changes in food cravings/tolerance'
+  - adverse_events [Possibly-related adverse events: Fatigue / Semaglutide] term: gold='Possibly-related adverse events: Fatigue' pred='Fatigue'
+  - adverse_events [Possibly-related adverse events: Fatigue / Placebo] term: gold='Possibly-related adverse events: Fatigue' pred='Fatigue'
+  - adverse_events [Possibly-related adverse events: Dysgeusia / Semaglutide] term: gold='Possibly-related adverse events: Dysgeusia' pred='Dysgeusia'
+  - adverse_events [Possibly-related adverse events: Dysgeusia / Placebo] term: gold='Possibly-related adverse events: Dysgeusia' pred='Dysgeusia'
+  - adverse_events [Possibly-related adverse events: Dizziness / Semaglutide] term: gold='Possibly-related adverse events: Dizziness' pred='Dizziness'
+  - adverse_events [Possibly-related adverse events: Dizziness / Placebo] term: gold='Possibly-related adverse events: Dizziness' pred='Dizziness'
+  - adverse_events [Possibly-related adverse events: Headache / Semaglutide] term: gold='Possibly-related adverse events: Headache' pred='Headache'
+  - adverse_events [Possibly-related adverse events: Headache / Placebo] term: gold='Possibly-related adverse events: Headache' pred='Headache'
+  - adverse_events [Possibly-related adverse events: Anxiety or nervousness / Semaglutide] term: gold='Possibly-related adverse events: Anxiety or nervousness' pred='Anxiety or nervousness'
+  - adverse_events [Possibly-related adverse events: Anxiety or nervousness / Placebo] term: gold='Possibly-related adverse events: Anxiety or nervousness' pred='Anxiety or nervousness'
+  - adverse_events [Possibly-related adverse events: Irritability or moodiness / Semaglutide] term: gold='Possibly-related adverse events: Irritability or moodiness' pred='Irritability or moodiness'
+  - adverse_events [Possibly-related adverse events: Irritability or moodiness / Placebo] term: gold='Possibly-related adverse events: Irritability or moodiness' pred='Irritability or moodiness'
+  - adverse_events [Possibly-related adverse events: Sweating / Semaglutide] term: gold='Possibly-related adverse events: Sweating' pred='Sweating'
+  - adverse_events [Possibly-related adverse events: Sweating / Placebo] term: gold='Possibly-related adverse events: Sweating' pred='Sweating'
+  - adverse_events [Possibly-related adverse events: Hunger / Semaglutide] term: gold='Possibly-related adverse events: Hunger' pred='Hunger'
+  - adverse_events [Possibly-related adverse events: Hunger / Placebo] term: gold='Possibly-related adverse events: Hunger' pred='Hunger'
+  - adverse_events [Possibly-related adverse events: Generalized myalgias / Semaglutide] term: gold='Possibly-related adverse events: Generalized myalgias' pred='Generalized myalgias'
+  - adverse_events [Possibly-related adverse events: Generalized myalgias / Placebo] term: gold='Possibly-related adverse events: Generalized myalgias' pred='Generalized myalgias'
+  - adverse_events [Possibly-related adverse events: Scalp alopecia / Semaglutide] term: gold='Possibly-related adverse events: Scalp alopecia' pred='Scalp alopecia'
+  - adverse_events [Possibly-related adverse events: Scalp alopecia / Placebo] term: gold='Possibly-related adverse events: Scalp alopecia' pred='Scalp alopecia'
+  - adverse_events [Not study-related adverse events: Elevated lipase / Semaglutide] term: gold='Not study-related adverse events: Elevated lipase' pred='Elevated lipase'
+  - adverse_events [Not study-related adverse events: Elevated lipase / Placebo] term: gold='Not study-related adverse events: Elevated lipase' pred='Elevated lipase'
+  - adverse_events [Not study-related adverse events: Elevated lipase: Grade 1 / Semaglutide] term: gold='Not study-related adverse events: Elevated lipase: Grade 1' pred='Elevated lipase: Grade 1'
+  - adverse_events [Not study-related adverse events: Elevated lipase: Grade 1 / Placebo] term: gold='Not study-related adverse events: Elevated lipase: Grade 1' pred='Elevated lipase: Grade 1'
+  - adverse_events [Not study-related adverse events: Elevated lipase: Grade 2 / Semaglutide] term: gold='Not study-related adverse events: Elevated lipase: Grade 2' pred='Elevated lipase: Grade 2'
+  - adverse_events [Not study-related adverse events: Elevated lipase: Grade 2 / Placebo] term: gold='Not study-related adverse events: Elevated lipase: Grade 2' pred='Elevated lipase: Grade 2'
+  - adverse_events [Not study-related adverse events: Elevated creatinine / Semaglutide] term: gold='Not study-related adverse events: Elevated creatinine' pred='Elevated creatinine'
+  - adverse_events [Not study-related adverse events: Elevated creatinine / Placebo] term: gold='Not study-related adverse events: Elevated creatinine' pred='Elevated creatinine'
+  - adverse_events [Not study-related adverse events: Elevated creatinine: Grade 1 / Semaglutide] term: gold='Not study-related adverse events: Elevated creatinine: Grade 1' pred='Elevated creatinine: Grade 1'
+  - adverse_events [Not study-related adverse events: Elevated creatinine: Grade 1 / Placebo] term: gold='Not study-related adverse events: Elevated creatinine: Grade 1' pred='Elevated creatinine: Grade 1'
+  - adverse_events [Not study-related adverse events: Elevated creatinine: Grade 2 / Semaglutide] term: gold='Not study-related adverse events: Elevated creatinine: Grade 2' pred='Elevated creatinine: Grade 2'
+  - adverse_events [Not study-related adverse events: Elevated creatinine: Grade 2 / Placebo] term: gold='Not study-related adverse events: Elevated creatinine: Grade 2' pred='Elevated creatinine: Grade 2'
+  - adverse_events [Not study-related adverse events: Elevated creatinine: Grade 3 / Semaglutide] term: gold='Not study-related adverse events: Elevated creatinine: Grade 3' pred='Elevated creatinine: Grade 3'
+  - adverse_events [Not study-related adverse events: Elevated creatinine: Grade 3 / Placebo] term: gold='Not study-related adverse events: Elevated creatinine: Grade 3' pred='Elevated creatinine: Grade 3'
+  - adverse_events [Not study-related adverse events: Elevated total bilirubin (all grade 1) / Semaglutide] term: gold='Not study-related adverse events: Elevated total bilirubin (all grade 1)' pred='Elevated total bilirubin (all grade 1)'
+  - adverse_events [Not study-related adverse events: Elevated total bilirubin (all grade 1) / Placebo] term: gold='Not study-related adverse events: Elevated total bilirubin (all grade 1)' pred='Elevated total bilirubin (all grade 1)'
+  - adverse_events [Not study-related adverse events: Elevated alanine transaminase / Semaglutide] term: gold='Not study-related adverse events: Elevated alanine transaminase' pred='Elevated alanine transaminase'
+  - adverse_events [Not study-related adverse events: Elevated alanine transaminase / Placebo] term: gold='Not study-related adverse events: Elevated alanine transaminase' pred='Elevated alanine transaminase'
+  - adverse_events [Not study-related adverse events: Elevated alanine transaminase: Grade 1 / Semaglutide] term: gold='Not study-related adverse events: Elevated alanine transaminase: Grade 1' pred='Elevated alanine transaminase: Grade 1'
+  - adverse_events [Not study-related adverse events: Elevated alanine transaminase: Grade 1 / Placebo] term: gold='Not study-related adverse events: Elevated alanine transaminase: Grade 1' pred='Elevated alanine transaminase: Grade 1'
+  - adverse_events [Not study-related adverse events: Elevated alanine transaminase: Grade 2 / Semaglutide] term: gold='Not study-related adverse events: Elevated alanine transaminase: Grade 2' pred='Elevated alanine transaminase: Grade 2'
+  - adverse_events [Not study-related adverse events: Elevated alanine transaminase: Grade 2 / Placebo] term: gold='Not study-related adverse events: Elevated alanine transaminase: Grade 2' pred='Elevated alanine transaminase: Grade 2'
++--------------------- Traceback (most recent call last) ---------------------+
+| C:\Users\maric\proyectos\pubmed-extraction\src\pubmed_extraction\cli.py:304 |
+| in evaluate                                                                 |
+|                                                                             |
+|   301             for section, c in report.sets.items():                    |
+|   302                 typer.echo(f"  {section}: gold {c['gold']} | pred     |
+|       {c['pred']} | matched {c['matched']}")                                |
+|   303             for diff in report.diffs:                                 |
+| > 304                 typer.echo(f"  - {diff}")                             |
+|   305                                                                       |
+|   306     summary = summarize(reports)                                      |
+|   307     typer.echo(f"\n=== Summary: {split_name} ({len(reports)} papers,  |
+|       {config}) ===")                                                       |
+|                                                                             |
+| C:\Users\maric\proyectos\pubmed-extraction\.venv\Lib\site-packages\typer\_c |
+| lick\utils.py:268 in echo                                                   |
+|                                                                             |
+| C:\Users\maric\AppData\Local\Programs\Python\Python311\Lib\encodings\cp1252 |
+| .py:19 in encode                                                            |
+|                                                                             |
+|    16                                                                       |
+|    17 class IncrementalEncoder(codecs.IncrementalEncoder):                  |
+|    18     def encode(self, input, final=False):                             |
+| >  19         return                                                        |
+|       codecs.charmap_encode(input,self.errors,encoding_table)[0]            |
+|    20                                                                       |
+|    21 class IncrementalDecoder(codecs.IncrementalDecoder):                  |
+|    22     def decode(self, input, final=False):                             |
++-----------------------------------------------------------------------------+
+UnicodeEncodeError: 'charmap' codec can't encode character '\u2003' in position
+53: character maps to <undefined>

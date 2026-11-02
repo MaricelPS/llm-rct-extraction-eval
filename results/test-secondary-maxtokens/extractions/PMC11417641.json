@@ -1,0 +1,2541 @@
+{
+  "extraction": {
+    "pmcid": "PMC11417641",
+    "trial_registration": "NCT04019197",
+    "design_notes": "Randomised, double-blind, placebo-controlled phase IIb clinical trial, single-centred, 32-week treatment period (8-week dose titration+24 weeks at 1·0 mg).",
+    "population": {
+      "condition": "HIV-associated lipohypertrophy",
+      "key_inclusion_criteria": [
+        "PWH ≥18 years old with controlled HIV-1",
+        "body mass index ≥25 kg/m2",
+        "lipohypertrophy but without diabetes"
+      ],
+      "mean_age": null,
+      "percent_female": null,
+      "evidence": [
+        {
+          "quote": "Key inclusion criteria included PWH ≥18 years old with controlled HIV-1, body mass index ≥25 kg/m2, and lipohypertrophy but without diabetes.",
+          "location": "abstract",
+          "table_label": null
+        }
+      ]
+    },
+    "arms": [
+      {
+        "name": "Semaglutide",
+        "role": "experimental",
+        "drug": "semaglutide",
+        "dose": "1·0 mg once weekly",
+        "route": "subcutaneous",
+        "is_fixed_combination": false,
+        "n_randomized": 54,
+        "n_analyzed": 54,
+        "evidence": [
+          {
+            "quote": "108 participants were randomised to receive semaglutide (n=54) or placebo (n=54)",
+            "location": "abstract",
+            "table_label": null
+          }
+        ]
+      },
+      {
+        "name": "Placebo",
+        "role": "placebo",
+        "drug": null,
+        "dose": null,
+        "route": "subcutaneous",
+        "is_fixed_combination": false,
+        "n_randomized": 54,
+        "n_analyzed": 54,
+        "evidence": [
+          {
+            "quote": "108 participants were randomised to receive semaglutide (n=54) or placebo (n=54)",
+            "location": "abstract",
+            "table_label": null
+          }
+        ]
+      }
+    ],
+    "outcomes": [
+      {
+        "name": "total body fat",
+        "is_primary": true,
+        "timepoint": "32 weeks",
+        "comparison": "Semaglutide vs Placebo",
+        "estimand": "not_reported",
+        "effect_measure": "other",
+        "value": -0.21,
+        "ci_lower": -0.33,
+        "ci_upper": -0.08,
+        "ci_level": 0.95,
+        "p_value": "0.0009",
+        "unit": "kg",
+        "evidence": [
+          {
+            "quote": "ln(Total body fat, kg)",
+            "location": "table",
+            "table_label": "Table 2"
+          }
+        ]
+      },
+      {
+        "name": "limb fat",
+        "is_primary": true,
+        "timepoint": "32 weeks",
+        "comparison": "Semaglutide vs Placebo",
+        "estimand": "not_reported",
+        "effect_measure": "other",
+        "value": -0.19,
+        "ci_lower": -0.32,
+        "ci_upper": -0.05,
+        "ci_level": 0.95,
+        "p_value": "0.0065",
+        "unit": "kg",
+        "evidence": [
+          {
+            "quote": "ln(Total limb fat, kg)",
+            "location": "table",
+            "table_label": "Table 2"
+          }
+        ]
+      },
+      {
+        "name": "trunk fat",
+        "is_primary": true,
+        "timepoint": "32 weeks",
+        "comparison": "Semaglutide vs Placebo",
+        "estimand": "not_reported",
+        "effect_measure": "other",
+        "value": -0.24,
+        "ci_lower": -0.37,
+        "ci_upper": -0.11,
+        "ci_level": 0.95,
+        "p_value": "<0·0001",
+        "unit": "kg",
+        "evidence": [
+          {
+            "quote": "ln(Trunk fat, kg)",
+            "location": "table",
+            "table_label": "Table 2"
+          }
+        ]
+      },
+      {
+        "name": "abdominal total adipose tissue (TAT)",
+        "is_primary": true,
+        "timepoint": "32 weeks",
+        "comparison": "Semaglutide vs Placebo",
+        "estimand": "not_reported",
+        "effect_measure": "other",
+        "value": -72.07,
+        "ci_lower": -109.88,
+        "ci_upper": -34.26,
+        "ci_level": 0.95,
+        "p_value": "<0·0001",
+        "unit": "cm2",
+        "evidence": [
+          {
+            "quote": "Abdominal TAT, cm2",
+            "location": "table",
+            "table_label": "Table 2"
+          }
+        ]
+      },
+      {
+        "name": "abdominal subcutaneous adipose tissue (SAT)",
+        "is_primary": true,
+        "timepoint": "32 weeks",
+        "comparison": "Semaglutide vs Placebo",
+        "estimand": "not_reported",
+        "effect_measure": "other",
+        "value": -42.01,
+        "ci_lower": -75.49,
+        "ci_upper": -8.52,
+        "ci_level": 0.95,
+        "p_value": "0.0138",
+        "unit": "cm2",
+        "evidence": [
+          {
+            "quote": "Abdominal SAT, cm2",
+            "location": "table",
+            "table_label": "Table 2"
+          }
+        ]
+      },
+      {
+        "name": "abdominal visceral adipose tissue (VAT)",
+        "is_primary": true,
+        "timepoint": "32 weeks",
+        "comparison": "Semaglutide vs Placebo",
+        "estimand": "not_reported",
+        "effect_measure": "other",
+        "value": -30.82,
+        "ci_lower": -50.13,
+        "ci_upper": -11.51,
+        "ci_level": 0.95,
+        "p_value": "0.0017",
+        "unit": "cm2",
+        "evidence": [
+          {
+            "quote": "Abdominal VAT, cm2",
+            "location": "table",
+            "table_label": "Table 2"
+          }
+        ]
+      },
+      {
+        "name": "pericardial fat",
+        "is_primary": true,
+        "timepoint": "32 weeks",
+        "comparison": "Semaglutide vs Placebo",
+        "estimand": "not_reported",
+        "effect_measure": "other",
+        "value": -0.18,
+        "ci_lower": -0.41,
+        "ci_upper": 0.05,
+        "ci_level": 0.95,
+        "p_value": "0.13",
+        "unit": "mL",
+        "evidence": [
+          {
+            "quote": "ln(Pericardial fat, mL)",
+            "location": "table",
+            "table_label": "Table 2"
+          }
+        ]
+      }
+    ],
+    "adverse_events": [
+      {
+        "term": "≥1 adverse event",
+        "arm_name": "Semaglutide",
+        "n_patients": 54,
+        "percent_patients": 100.0,
+        "is_serious": null,
+        "evidence": [
+          {
+            "quote": "≥1 adverse event",
+            "location": "table",
+            "table_label": "Table 3"
+          }
+        ]
+      },
+      {
+        "term": "≥1 adverse event",
+        "arm_name": "Placebo",
+        "n_patients": 53,
+        "percent_patients": 98.14,
+        "is_serious": null,
+        "evidence": [
+          {
+            "quote": "≥1 adverse event",
+            "location": "table",
+            "table_label": "Table 3"
+          }
+        ]
+      },
+      {
+        "term": "Serious study-related adverse events",
+        "arm_name": "Semaglutide",
+        "n_patients": 1,
+        "percent_patients": 1.85,
+        "is_serious": true,
+        "evidence": [
+          {
+            "quote": "Serious study-related adverse eventsa",
+            "location": "table",
+            "table_label": "Table 3"
+          }
+        ]
+      },
+      {
+        "term": "Serious study-related adverse events",
+        "arm_name": "Placebo",
+        "n_patients": 0,
+        "percent_patients": 0.0,
+        "is_serious": true,
+        "evidence": [
+          {
+            "quote": "Serious study-related adverse eventsa",
+            "location": "table",
+            "table_label": "Table 3"
+          }
+        ]
+      },
+      {
+        "term": "Possibly-related adverse events",
+        "arm_name": "Semaglutide",
+        "n_patients": 21,
+        "percent_patients": 38.89,
+        "is_serious": null,
+        "evidence": [
+          {
+            "quote": "Possibly-related adverse events",
+            "location": "table",
+            "table_label": "Table 3"
+          }
+        ]
+      },
+      {
+        "term": "Possibly-related adverse events",
+        "arm_name": "Placebo",
+        "n_patients": 17,
+        "percent_patients": 31.48,
+        "is_serious": null,
+        "evidence": [
+          {
+            "quote": "Possibly-related adverse events",
+            "location": "table",
+            "table_label": "Table 3"
+          }
+        ]
+      },
+      {
+        "term": "≥1 possibly- or study-related adverse event",
+        "arm_name": "Semaglutide",
+        "n_patients": 24,
+        "percent_patients": 44.44,
+        "is_serious": null,
+        "evidence": [
+          {
+            "quote": "≥1 possibly- or study-related adverse event",
+            "location": "table",
+            "table_label": "Table 3"
+          }
+        ]
+      },
+      {
+        "term": "≥1 possibly- or study-related adverse event",
+        "arm_name": "Placebo",
+        "n_patients": 18,
+        "percent_patients": 33.33,
+        "is_serious": null,
+        "evidence": [
+          {
+            "quote": "≥1 possibly- or study-related adverse event",
+            "location": "table",
+            "table_label": "Table 3"
+          }
+        ]
+      },
+      {
+        "term": "Adverse events or side effects leading to premature trial discontinuation (week of study withdrawal)",
+        "arm_name": "Semaglutide",
+        "n_patients": 4,
+        "percent_patients": 7.41,
+        "is_serious": null,
+        "evidence": [
+          {
+            "quote": "Adverse events or side effects leading to premature trial discontinuation (week of study withdrawal)",
+            "location": "table",
+            "table_label": "Table 3"
+          }
+        ]
+      },
+      {
+        "term": "Adverse events or side effects leading to premature trial discontinuation (week of study withdrawal)",
+        "arm_name": "Placebo",
+        "n_patients": 1,
+        "percent_patients": 1.85,
+        "is_serious": null,
+        "evidence": [
+          {
+            "quote": "Adverse events or side effects leading to premature trial discontinuation (week of study withdrawal)",
+            "location": "table",
+            "table_label": "Table 3"
+          }
+        ]
+      },
+      {
+        "term": "Grade 4 elevated lipase (week 14)",
+        "arm_name": "Semaglutide",
+        "n_patients": 1,
+        "percent_patients": 1.85,
+        "is_serious": null,
+        "evidence": [
+          {
+            "quote": "Grade 4 elevated lipase (week 14)a",
+            "location": "table",
+            "table_label": "Table 3"
+          }
+        ]
+      },
+      {
+        "term": "Grade 4 elevated lipase (week 14)",
+        "arm_name": "Placebo",
+        "n_patients": 0,
+        "percent_patients": 0.0,
+        "is_serious": null,
+        "evidence": [
+          {
+            "quote": "Grade 4 elevated lipase (week 14)a",
+            "location": "table",
+            "table_label": "Table 3"
+          }
+        ]
+      },
+      {
+        "term": "Grade 1 elevated lipase, gastrointestinal symptoms (week 10)",
+        "arm_name": "Semaglutide",
+        "n_patients": 1,
+        "percent_patients": 1.85,
+        "is_serious": null,
+        "evidence": [
+          {
+            "quote": "Grade 1 elevated lipase, gastrointestinal symptoms (week 10)",
+            "location": "table",
+            "table_label": "Table 3"
+          }
+        ]
+      },
+      {
+        "term": "Grade 1 elevated lipase, gastrointestinal symptoms (week 10)",
+        "arm_name": "Placebo",
+        "n_patients": 0,
+        "percent_patients": 0.0,
+        "is_serious": null,
+        "evidence": [
+          {
+            "quote": "Grade 1 elevated lipase, gastrointestinal symptoms (week 10)",
+            "location": "table",
+            "table_label": "Table 3"
+          }
+        ]
+      },
+      {
+        "term": "Grade 1 gastrointestinal and systemic symptoms (week 12)",
+        "arm_name": "Semaglutide",
+        "n_patients": 1,
+        "percent_patients": 1.85,
+        "is_serious": null,
+        "evidence": [
+          {
+            "quote": "Grade 1 gastrointestinal and systemic symptoms (week 12)b",
+            "location": "table",
+            "table_label": "Table 3"
+          }
+        ]
+      },
+      {
+        "term": "Grade 1 gastrointestinal and systemic symptoms (week 12)",
+        "arm_name": "Placebo",
+        "n_patients": 0,
+        "percent_patients": 0.0,
+        "is_serious": null,
+        "evidence": [
+          {
+            "quote": "Grade 1 gastrointestinal and systemic symptoms (week 12)b",
+            "location": "table",
+            "table_label": "Table 3"
+          }
+        ]
+      },
+      {
+        "term": "Grade 1 memory impairment (week 17)",
+        "arm_name": "Semaglutide",
+        "n_patients": 0,
+        "percent_patients": 0.0,
+        "is_serious": null,
+        "evidence": [
+          {
+            "quote": "Grade 1 memory impairment (week 17)",
+            "location": "table",
+            "table_label": "Table 3"
+          }
+        ]
+      },
+      {
+        "term": "Grade 1 memory impairment (week 17)",
+        "arm_name": "Placebo",
+        "n_patients": 1,
+        "percent_patients": 1.85,
+        "is_serious": null,
+        "evidence": [
+          {
+            "quote": "Grade 1 memory impairment (week 17)",
+            "location": "table",
+            "table_label": "Table 3"
+          }
+        ]
+      },
+      {
+        "term": "Weight loss (week 17)",
+        "arm_name": "Semaglutide",
+        "n_patients": 1,
+        "percent_patients": 1.85,
+        "is_serious": null,
+        "evidence": [
+          {
+            "quote": "Weight loss (week 17)",
+            "location": "table",
+            "table_label": "Table 3"
+          }
+        ]
+      },
+      {
+        "term": "Weight loss (week 17)",
+        "arm_name": "Placebo",
+        "n_patients": 0,
+        "percent_patients": 0.0,
+        "is_serious": null,
+        "evidence": [
+          {
+            "quote": "Weight loss (week 17)",
+            "location": "table",
+            "table_label": "Table 3"
+          }
+        ]
+      },
+      {
+        "term": "Elevated lipase",
+        "arm_name": "Semaglutide",
+        "n_patients": 1,
+        "percent_patients": 1.85,
+        "is_serious": null,
+        "evidence": [
+          {
+            "quote": "Elevated lipasea,d",
+            "location": "table",
+            "table_label": "Table 3"
+          }
+        ]
+      },
+      {
+        "term": "Elevated lipase",
+        "arm_name": "Placebo",
+        "n_patients": 0,
+        "percent_patients": 0.0,
+        "is_serious": null,
+        "evidence": [
+          {
+            "quote": "Elevated lipasea,d",
+            "location": "table",
+            "table_label": "Table 3"
+          }
+        ]
+      },
+      {
+        "term": "Injection site reactions (all grade 1)",
+        "arm_name": "Semaglutide",
+        "n_patients": 4,
+        "percent_patients": 7.41,
+        "is_serious": null,
+        "evidence": [
+          {
+            "quote": "Injection site reactions (all grade 1)",
+            "location": "table",
+            "table_label": "Table 3"
+          }
+        ]
+      },
+      {
+        "term": "Injection site reactions (all grade 1)",
+        "arm_name": "Placebo",
+        "n_patients": 2,
+        "percent_patients": 3.7,
+        "is_serious": null,
+        "evidence": [
+          {
+            "quote": "Injection site reactions (all grade 1)",
+            "location": "table",
+            "table_label": "Table 3"
+          }
+        ]
+      },
+      {
+        "term": "Elevated lipase",
+        "arm_name": "Semaglutide",
+        "n_patients": 4,
+        "percent_patients": 7.41,
+        "is_serious": null,
+        "evidence": [
+          {
+            "quote": "Elevated lipased",
+            "location": "table",
+            "table_label": "Table 3"
+          }
+        ]
+      },
+      {
+        "term": "Elevated lipase",
+        "arm_name": "Placebo",
+        "n_patients": 2,
+        "percent_patients": 3.7,
+        "is_serious": null,
+        "evidence": [
+          {
+            "quote": "Elevated lipased",
+            "location": "table",
+            "table_label": "Table 3"
+          }
+        ]
+      },
+      {
+        "term": "Elevated lipase: Grade 1",
+        "arm_name": "Semaglutide",
+        "n_patients": 2,
+        "percent_patients": 3.7,
+        "is_serious": null,
+        "evidence": [
+          {
+            "quote": "Grade 1",
+            "location": "table",
+            "table_label": "Table 3"
+          }
+        ]
+      },
+      {
+        "term": "Elevated lipase: Grade 1",
+        "arm_name": "Placebo",
+        "n_patients": 2,
+        "percent_patients": 3.7,
+        "is_serious": null,
+        "evidence": [
+          {
+            "quote": "Grade 1",
+            "location": "table",
+            "table_label": "Table 3"
+          }
+        ]
+      },
+      {
+        "term": "Elevated lipase: Grade 2",
+        "arm_name": "Semaglutide",
+        "n_patients": 2,
+        "percent_patients": 3.7,
+        "is_serious": null,
+        "evidence": [
+          {
+            "quote": "Grade 2",
+            "location": "table",
+            "table_label": "Table 3"
+          }
+        ]
+      },
+      {
+        "term": "Elevated lipase: Grade 2",
+        "arm_name": "Placebo",
+        "n_patients": 0,
+        "percent_patients": 0.0,
+        "is_serious": null,
+        "evidence": [
+          {
+            "quote": "Grade 2",
+            "location": "table",
+            "table_label": "Table 3"
+          }
+        ]
+      },
+      {
+        "term": "Elevated creatinine",
+        "arm_name": "Semaglutide",
+        "n_patients": 1,
+        "percent_patients": 1.85,
+        "is_serious": null,
+        "evidence": [
+          {
+            "quote": "Elevated creatininee",
+            "location": "table",
+            "table_label": "Table 3"
+          }
+        ]
+      },
+      {
+        "term": "Elevated creatinine",
+        "arm_name": "Placebo",
+        "n_patients": 1,
+        "percent_patients": 1.85,
+        "is_serious": null,
+        "evidence": [
+          {
+            "quote": "Elevated creatininee",
+            "location": "table",
+            "table_label": "Table 3"
+          }
+        ]
+      },
+      {
+        "term": "Cholelithiasis",
+        "arm_name": "Semaglutide",
+        "n_patients": 2,
+        "percent_patients": 3.7,
+        "is_serious": null,
+        "evidence": [
+          {
+            "quote": "Cholelithiasis",
+            "location": "table",
+            "table_label": "Table 3"
+          }
+        ]
+      },
+      {
+        "term": "Cholelithiasis",
+        "arm_name": "Placebo",
+        "n_patients": 0,
+        "percent_patients": 0.0,
+        "is_serious": null,
+        "evidence": [
+          {
+            "quote": "Cholelithiasis",
+            "location": "table",
+            "table_label": "Table 3"
+          }
+        ]
+      },
+      {
+        "term": "Any gastrointestinal disorder",
+        "arm_name": "Semaglutide",
+        "n_patients": 18,
+        "percent_patients": 33.33,
+        "is_serious": null,
+        "evidence": [
+          {
+            "quote": "Any gastrointestinal disorder",
+            "location": "table",
+            "table_label": "Table 3"
+          }
+        ]
+      },
+      {
+        "term": "Any gastrointestinal disorder",
+        "arm_name": "Placebo",
+        "n_patients": 15,
+        "percent_patients": 27.78,
+        "is_serious": null,
+        "evidence": [
+          {
+            "quote": "Any gastrointestinal disorder",
+            "location": "table",
+            "table_label": "Table 3"
+          }
+        ]
+      },
+      {
+        "term": "Nausea",
+        "arm_name": "Semaglutide",
+        "n_patients": 6,
+        "percent_patients": 11.11,
+        "is_serious": null,
+        "evidence": [
+          {
+            "quote": "Nausea",
+            "location": "table",
+            "table_label": "Table 3"
+          }
+        ]
+      },
+      {
+        "term": "Nausea",
+        "arm_name": "Placebo",
+        "n_patients": 4,
+        "percent_patients": 7.41,
+        "is_serious": null,
+        "evidence": [
+          {
+            "quote": "Nausea",
+            "location": "table",
+            "table_label": "Table 3"
+          }
+        ]
+      },
+      {
+        "term": "Vomiting",
+        "arm_name": "Semaglutide",
+        "n_patients": 1,
+        "percent_patients": 1.85,
+        "is_serious": null,
+        "evidence": [
+          {
+            "quote": "Vomiting",
+            "location": "table",
+            "table_label": "Table 3"
+          }
+        ]
+      },
+      {
+        "term": "Vomiting",
+        "arm_name": "Placebo",
+        "n_patients": 0,
+        "percent_patients": 0.0,
+        "is_serious": null,
+        "evidence": [
+          {
+            "quote": "Vomiting",
+            "location": "table",
+            "table_label": "Table 3"
+          }
+        ]
+      },
+      {
+        "term": "Diarrhoea or loose stools",
+        "arm_name": "Semaglutide",
+        "n_patients": 0,
+        "percent_patients": 0.0,
+        "is_serious": null,
+        "evidence": [
+          {
+            "quote": "Diarrhoea or loose stools",
+            "location": "table",
+            "table_label": "Table 3"
+          }
+        ]
+      },
+      {
+        "term": "Diarrhoea or loose stools",
+        "arm_name": "Placebo",
+        "n_patients": 7,
+        "percent_patients": 12.96,
+        "is_serious": null,
+        "evidence": [
+          {
+            "quote": "Diarrhoea or loose stools",
+            "location": "table",
+            "table_label": "Table 3"
+          }
+        ]
+      },
+      {
+        "term": "Abdominal pain",
+        "arm_name": "Semaglutide",
+        "n_patients": 1,
+        "percent_patients": 1.85,
+        "is_serious": null,
+        "evidence": [
+          {
+            "quote": "Abdominal pain",
+            "location": "table",
+            "table_label": "Table 3"
+          }
+        ]
+      },
+      {
+        "term": "Abdominal pain",
+        "arm_name": "Placebo",
+        "n_patients": 2,
+        "percent_patients": 3.7,
+        "is_serious": null,
+        "evidence": [
+          {
+            "quote": "Abdominal pain",
+            "location": "table",
+            "table_label": "Table 3"
+          }
+        ]
+      },
+      {
+        "term": "Constipation or irregular bowel movements",
+        "arm_name": "Semaglutide",
+        "n_patients": 2,
+        "percent_patients": 3.7,
+        "is_serious": null,
+        "evidence": [
+          {
+            "quote": "Constipation or irregular bowel movements",
+            "location": "table",
+            "table_label": "Table 3"
+          }
+        ]
+      },
+      {
+        "term": "Constipation or irregular bowel movements",
+        "arm_name": "Placebo",
+        "n_patients": 2,
+        "percent_patients": 3.7,
+        "is_serious": null,
+        "evidence": [
+          {
+            "quote": "Constipation or irregular bowel movements",
+            "location": "table",
+            "table_label": "Table 3"
+          }
+        ]
+      },
+      {
+        "term": "Eructation or flatulence",
+        "arm_name": "Semaglutide",
+        "n_patients": 5,
+        "percent_patients": 9.26,
+        "is_serious": null,
+        "evidence": [
+          {
+            "quote": "Eructation or flatulence",
+            "location": "table",
+            "table_label": "Table 3"
+          }
+        ]
+      },
+      {
+        "term": "Eructation or flatulence",
+        "arm_name": "Placebo",
+        "n_patients": 4,
+        "percent_patients": 7.41,
+        "is_serious": null,
+        "evidence": [
+          {
+            "quote": "Eructation or flatulence",
+            "location": "table",
+            "table_label": "Table 3"
+          }
+        ]
+      },
+      {
+        "term": "Gastroesophageal reflux disease",
+        "arm_name": "Semaglutide",
+        "n_patients": 2,
+        "percent_patients": 3.7,
+        "is_serious": null,
+        "evidence": [
+          {
+            "quote": "Gastroesophageal reflux disease",
+            "location": "table",
+            "table_label": "Table 3"
+          }
+        ]
+      },
+      {
+        "term": "Gastroesophageal reflux disease",
+        "arm_name": "Placebo",
+        "n_patients": 1,
+        "percent_patients": 1.85,
+        "is_serious": null,
+        "evidence": [
+          {
+            "quote": "Gastroesophageal reflux disease",
+            "location": "table",
+            "table_label": "Table 3"
+          }
+        ]
+      },
+      {
+        "term": "Bloating or fullness",
+        "arm_name": "Semaglutide",
+        "n_patients": 1,
+        "percent_patients": 1.85,
+        "is_serious": null,
+        "evidence": [
+          {
+            "quote": "Bloating or fullness",
+            "location": "table",
+            "table_label": "Table 3"
+          }
+        ]
+      },
+      {
+        "term": "Bloating or fullness",
+        "arm_name": "Placebo",
+        "n_patients": 0,
+        "percent_patients": 0.0,
+        "is_serious": null,
+        "evidence": [
+          {
+            "quote": "Bloating or fullness",
+            "location": "table",
+            "table_label": "Table 3"
+          }
+        ]
+      },
+      {
+        "term": "Dyspepsia",
+        "arm_name": "Semaglutide",
+        "n_patients": 1,
+        "percent_patients": 1.85,
+        "is_serious": null,
+        "evidence": [
+          {
+            "quote": "Dyspepsia",
+            "location": "table",
+            "table_label": "Table 3"
+          }
+        ]
+      },
+      {
+        "term": "Dyspepsia",
+        "arm_name": "Placebo",
+        "n_patients": 2,
+        "percent_patients": 3.7,
+        "is_serious": null,
+        "evidence": [
+          {
+            "quote": "Dyspepsia",
+            "location": "table",
+            "table_label": "Table 3"
+          }
+        ]
+      },
+      {
+        "term": "Gastritis",
+        "arm_name": "Semaglutide",
+        "n_patients": 0,
+        "percent_patients": 0.0,
+        "is_serious": null,
+        "evidence": [
+          {
+            "quote": "Gastritis",
+            "location": "table",
+            "table_label": "Table 3"
+          }
+        ]
+      },
+      {
+        "term": "Gastritis",
+        "arm_name": "Placebo",
+        "n_patients": 1,
+        "percent_patients": 1.85,
+        "is_serious": null,
+        "evidence": [
+          {
+            "quote": "Gastritis",
+            "location": "table",
+            "table_label": "Table 3"
+          }
+        ]
+      },
+      {
+        "term": "Decreased appetite or changes in food cravings/tolerance",
+        "arm_name": "Semaglutide",
+        "n_patients": 7,
+        "percent_patients": 12.96,
+        "is_serious": null,
+        "evidence": [
+          {
+            "quote": "Decreased appetite or changes in food cravings/tolerance",
+            "location": "table",
+            "table_label": "Table 3"
+          }
+        ]
+      },
+      {
+        "term": "Decreased appetite or changes in food cravings/tolerance",
+        "arm_name": "Placebo",
+        "n_patients": 1,
+        "percent_patients": 1.85,
+        "is_serious": null,
+        "evidence": [
+          {
+            "quote": "Decreased appetite or changes in food cravings/tolerance",
+            "location": "table",
+            "table_label": "Table 3"
+          }
+        ]
+      },
+      {
+        "term": "Fatigue",
+        "arm_name": "Semaglutide",
+        "n_patients": 2,
+        "percent_patients": 3.7,
+        "is_serious": null,
+        "evidence": [
+          {
+            "quote": "Fatigue",
+            "location": "table",
+            "table_label": "Table 3"
+          }
+        ]
+      },
+      {
+        "term": "Fatigue",
+        "arm_name": "Placebo",
+        "n_patients": 2,
+        "percent_patients": 3.7,
+        "is_serious": null,
+        "evidence": [
+          {
+            "quote": "Fatigue",
+            "location": "table",
+            "table_label": "Table 3"
+          }
+        ]
+      },
+      {
+        "term": "Dysgeusia",
+        "arm_name": "Semaglutide",
+        "n_patients": 3,
+        "percent_patients": 5.56,
+        "is_serious": null,
+        "evidence": [
+          {
+            "quote": "Dysgeusia",
+            "location": "table",
+            "table_label": "Table 3"
+          }
+        ]
+      },
+      {
+        "term": "Dysgeusia",
+        "arm_name": "Placebo",
+        "n_patients": 2,
+        "percent_patients": 3.7,
+        "is_serious": null,
+        "evidence": [
+          {
+            "quote": "Dysgeusia",
+            "location": "table",
+            "table_label": "Table 3"
+          }
+        ]
+      },
+      {
+        "term": "Dizziness",
+        "arm_name": "Semaglutide",
+        "n_patients": 0,
+        "percent_patients": 0.0,
+        "is_serious": null,
+        "evidence": [
+          {
+            "quote": "Dizziness",
+            "location": "table",
+            "table_label": "Table 3"
+          }
+        ]
+      },
+      {
+        "term": "Dizziness",
+        "arm_name": "Placebo",
+        "n_patients": 3,
+        "percent_patients": 5.56,
+        "is_serious": null,
+        "evidence": [
+          {
+            "quote": "Dizziness",
+            "location": "table",
+            "table_label": "Table 3"
+          }
+        ]
+      },
+      {
+        "term": "Headache",
+        "arm_name": "Semaglutide",
+        "n_patients": 3,
+        "percent_patients": 5.56,
+        "is_serious": null,
+        "evidence": [
+          {
+            "quote": "Headache",
+            "location": "table",
+            "table_label": "Table 3"
+          }
+        ]
+      },
+      {
+        "term": "Headache",
+        "arm_name": "Placebo",
+        "n_patients": 0,
+        "percent_patients": 0.0,
+        "is_serious": null,
+        "evidence": [
+          {
+            "quote": "Headache",
+            "location": "table",
+            "table_label": "Table 3"
+          }
+        ]
+      },
+      {
+        "term": "Anxiety or nervousness",
+        "arm_name": "Semaglutide",
+        "n_patients": 0,
+        "percent_patients": 0.0,
+        "is_serious": null,
+        "evidence": [
+          {
+            "quote": "Anxiety or nervousness",
+            "location": "table",
+            "table_label": "Table 3"
+          }
+        ]
+      },
+      {
+        "term": "Anxiety or nervousness",
+        "arm_name": "Placebo",
+        "n_patients": 1,
+        "percent_patients": 1.85,
+        "is_serious": null,
+        "evidence": [
+          {
+            "quote": "Anxiety or nervousness",
+            "location": "table",
+            "table_label": "Table 3"
+          }
+        ]
+      },
+      {
+        "term": "Irritability or moodiness",
+        "arm_name": "Semaglutide",
+        "n_patients": 1,
+        "percent_patients": 1.85,
+        "is_serious": null,
+        "evidence": [
+          {
+            "quote": "Irritability or moodiness",
+            "location": "table",
+            "table_label": "Table 3"
+          }
+        ]
+      },
+      {
+        "term": "Irritability or moodiness",
+        "arm_name": "Placebo",
+        "n_patients": 2,
+        "percent_patients": 3.7,
+        "is_serious": null,
+        "evidence": [
+          {
+            "quote": "Irritability or moodiness",
+            "location": "table",
+            "table_label": "Table 3"
+          }
+        ]
+      },
+      {
+        "term": "Sweating",
+        "arm_name": "Semaglutide",
+        "n_patients": 2,
+        "percent_patients": 3.7,
+        "is_serious": null,
+        "evidence": [
+          {
+            "quote": "Sweating",
+            "location": "table",
+            "table_label": "Table 3"
+          }
+        ]
+      },
+      {
+        "term": "Sweating",
+        "arm_name": "Placebo",
+        "n_patients": 3,
+        "percent_patients": 5.56,
+        "is_serious": null,
+        "evidence": [
+          {
+            "quote": "Sweating",
+            "location": "table",
+            "table_label": "Table 3"
+          }
+        ]
+      },
+      {
+        "term": "Hunger",
+        "arm_name": "Semaglutide",
+        "n_patients": 0,
+        "percent_patients": 0.0,
+        "is_serious": null,
+        "evidence": [
+          {
+            "quote": "Hunger",
+            "location": "table",
+            "table_label": "Table 3"
+          }
+        ]
+      },
+      {
+        "term": "Hunger",
+        "arm_name": "Placebo",
+        "n_patients": 2,
+        "percent_patients": 3.7,
+        "is_serious": null,
+        "evidence": [
+          {
+            "quote": "Hunger",
+            "location": "table",
+            "table_label": "Table 3"
+          }
+        ]
+      },
+      {
+        "term": "Generalized myalgias",
+        "arm_name": "Semaglutide",
+        "n_patients": 0,
+        "percent_patients": 0.0,
+        "is_serious": null,
+        "evidence": [
+          {
+            "quote": "Generalized myalgias",
+            "location": "table",
+            "table_label": "Table 3"
+          }
+        ]
+      },
+      {
+        "term": "Generalized myalgias",
+        "arm_name": "Placebo",
+        "n_patients": 1,
+        "percent_patients": 1.85,
+        "is_serious": null,
+        "evidence": [
+          {
+            "quote": "Generalized myalgias",
+            "location": "table",
+            "table_label": "Table 3"
+          }
+        ]
+      },
+      {
+        "term": "Scalp alopecia",
+        "arm_name": "Semaglutide",
+        "n_patients": 1,
+        "percent_patients": 1.85,
+        "is_serious": null,
+        "evidence": [
+          {
+            "quote": "Scalp alopecia",
+            "location": "table",
+            "table_label": "Table 3"
+          }
+        ]
+      },
+      {
+        "term": "Scalp alopecia",
+        "arm_name": "Placebo",
+        "n_patients": 0,
+        "percent_patients": 0.0,
+        "is_serious": null,
+        "evidence": [
+          {
+            "quote": "Scalp alopecia",
+            "location": "table",
+            "table_label": "Table 3"
+          }
+        ]
+      },
+      {
+        "term": "Elevated lipase",
+        "arm_name": "Semaglutide",
+        "n_patients": 8,
+        "percent_patients": 14.81,
+        "is_serious": null,
+        "evidence": [
+          {
+            "quote": "Elevated lipased",
+            "location": "table",
+            "table_label": "Table 3"
+          }
+        ]
+      },
+      {
+        "term": "Elevated lipase",
+        "arm_name": "Placebo",
+        "n_patients": 3,
+        "percent_patients": 5.56,
+        "is_serious": null,
+        "evidence": [
+          {
+            "quote": "Elevated lipased",
+            "location": "table",
+            "table_label": "Table 3"
+          }
+        ]
+      },
+      {
+        "term": "Elevated lipase: Grade 1",
+        "arm_name": "Semaglutide",
+        "n_patients": 7,
+        "percent_patients": 12.96,
+        "is_serious": null,
+        "evidence": [
+          {
+            "quote": "Grade 1",
+            "location": "table",
+            "table_label": "Table 3"
+          }
+        ]
+      },
+      {
+        "term": "Elevated lipase: Grade 1",
+        "arm_name": "Placebo",
+        "n_patients": 2,
+        "percent_patients": 3.7,
+        "is_serious": null,
+        "evidence": [
+          {
+            "quote": "Grade 1",
+            "location": "table",
+            "table_label": "Table 3"
+          }
+        ]
+      },
+      {
+        "term": "Elevated lipase: Grade 2",
+        "arm_name": "Semaglutide",
+        "n_patients": 1,
+        "percent_patients": 1.85,
+        "is_serious": null,
+        "evidence": [
+          {
+            "quote": "Grade 2",
+            "location": "table",
+            "table_label": "Table 3"
+          }
+        ]
+      },
+      {
+        "term": "Elevated lipase: Grade 2",
+        "arm_name": "Placebo",
+        "n_patients": 1,
+        "percent_patients": 1.85,
+        "is_serious": null,
+        "evidence": [
+          {
+            "quote": "Grade 2",
+            "location": "table",
+            "table_label": "Table 3"
+          }
+        ]
+      },
+      {
+        "term": "Elevated creatinine",
+        "arm_name": "Semaglutide",
+        "n_patients": 24,
+        "percent_patients": 44.44,
+        "is_serious": null,
+        "evidence": [
+          {
+            "quote": "Elevated creatininee",
+            "location": "table",
+            "table_label": "Table 3"
+          }
+        ]
+      },
+      {
+        "term": "Elevated creatinine",
+        "arm_name": "Placebo",
+        "n_patients": 13,
+        "percent_patients": 24.07,
+        "is_serious": null,
+        "evidence": [
+          {
+            "quote": "Elevated creatininee",
+            "location": "table",
+            "table_label": "Table 3"
+          }
+        ]
+      },
+      {
+        "term": "Elevated creatinine: Grade 1",
+        "arm_name": "Semaglutide",
+        "n_patients": 18,
+        "percent_patients": 33.33,
+        "is_serious": null,
+        "evidence": [
+          {
+            "quote": "Grade 1",
+            "location": "table",
+            "table_label": "Table 3"
+          }
+        ]
+      },
+      {
+        "term": "Elevated creatinine: Grade 1",
+        "arm_name": "Placebo",
+        "n_patients": 9,
+        "percent_patients": 16.67,
+        "is_serious": null,
+        "evidence": [
+          {
+            "quote": "Grade 1",
+            "location": "table",
+            "table_label": "Table 3"
+          }
+        ]
+      },
+      {
+        "term": "Elevated creatinine: Grade 2",
+        "arm_name": "Semaglutide",
+        "n_patients": 6,
+        "percent_patients": 11.11,
+        "is_serious": null,
+        "evidence": [
+          {
+            "quote": "Grade 2",
+            "location": "table",
+            "table_label": "Table 3"
+          }
+        ]
+      },
+      {
+        "term": "Elevated creatinine: Grade 2",
+        "arm_name": "Placebo",
+        "n_patients": 3,
+        "percent_patients": 5.56,
+        "is_serious": null,
+        "evidence": [
+          {
+            "quote": "Grade 2",
+            "location": "table",
+            "table_label": "Table 3"
+          }
+        ]
+      },
+      {
+        "term": "Elevated creatinine: Grade 3",
+        "arm_name": "Semaglutide",
+        "n_patients": 0,
+        "percent_patients": 0.0,
+        "is_serious": null,
+        "evidence": [
+          {
+            "quote": "Grade 3",
+            "location": "table",
+            "table_label": "Table 3"
+          }
+        ]
+      },
+      {
+        "term": "Elevated creatinine: Grade 3",
+        "arm_name": "Placebo",
+        "n_patients": 1,
+        "percent_patients": 1.85,
+        "is_serious": null,
+        "evidence": [
+          {
+            "quote": "Grade 3",
+            "location": "table",
+            "table_label": "Table 3"
+          }
+        ]
+      },
+      {
+        "term": "Elevated total bilirubin (all grade 1)",
+        "arm_name": "Semaglutide",
+        "n_patients": 6,
+        "percent_patients": 11.11,
+        "is_serious": null,
+        "evidence": [
+          {
+            "quote": "Elevated total bilirubin (all grade 1)g",
+            "location": "table",
+            "table_label": "Table 3"
+          }
+        ]
+      },
+      {
+        "term": "Elevated total bilirubin (all grade 1)",
+        "arm_name": "Placebo",
+        "n_patients": 1,
+        "percent_patients": 1.85,
+        "is_serious": null,
+        "evidence": [
+          {
+            "quote": "Elevated total bilirubin (all grade 1)g",
+            "location": "table",
+            "table_label": "Table 3"
+          }
+        ]
+      },
+      {
+        "term": "Elevated alanine transaminase",
+        "arm_name": "Semaglutide",
+        "n_patients": 5,
+        "percent_patients": 9.26,
+        "is_serious": null,
+        "evidence": [
+          {
+            "quote": "Elevated alanine transaminaseh",
+            "location": "table",
+            "table_label": "Table 3"
+          }
+        ]
+      },
+      {
+        "term": "Elevated alanine transaminase",
+        "arm_name": "Placebo",
+        "n_patients": 6,
+        "percent_patients": 11.11,
+        "is_serious": null,
+        "evidence": [
+          {
+            "quote": "Elevated alanine transaminaseh",
+            "location": "table",
+            "table_label": "Table 3"
+          }
+        ]
+      },
+      {
+        "term": "Elevated alanine transaminase: Grade 1",
+        "arm_name": "Semaglutide",
+        "n_patients": 3,
+        "percent_patients": 5.56,
+        "is_serious": null,
+        "evidence": [
+          {
+            "quote": "Grade 1",
+            "location": "table",
+            "table_label": "Table 3"
+          }
+        ]
+      },
+      {
+        "term": "Elevated alanine transaminase: Grade 1",
+        "arm_name": "Placebo",
+        "n_patients": 4,
+        "percent_patients": 7.41,
+        "is_serious": null,
+        "evidence": [
+          {
+            "quote": "Grade 1",
+            "location": "table",
+            "table_label": "Table 3"
+          }
+        ]
+      },
+      {
+        "term": "Elevated alanine transaminase: Grade 2",
+        "arm_name": "Semaglutide",
+        "n_patients": 2,
+        "percent_patients": 3.7,
+        "is_serious": null,
+        "evidence": [
+          {
+            "quote": "Grade 2",
+            "location": "table",
+            "table_label": "Table 3"
+          }
+        ]
+      },
+      {
+        "term": "Elevated alanine transaminase: Grade 2",
+        "arm_name": "Placebo",
+        "n_patients": 2,
+        "percent_patients": 3.7,
+        "is_serious": null,
+        "evidence": [
+          {
+            "quote": "Grade 2",
+            "location": "table",
+            "table_label": "Table 3"
+          }
+        ]
+      },
+      {
+        "term": "Elevated aspartate aminotransferase",
+        "arm_name": "Semaglutide",
+        "n_patients": 3,
+        "percent_patients": 5.56,
+        "is_serious": null,
+        "evidence": [
+          {
+            "quote": "Elevated aspartate aminotransferasei",
+            "location": "table",
+            "table_label": "Table 3"
+          }
+        ]
+      },
+      {
+        "term": "Elevated aspartate aminotransferase",
+        "arm_name": "Placebo",
+        "n_patients": 4,
+        "percent_patients": 7.41,
+        "is_serious": null,
+        "evidence": [
+          {
+            "quote": "Elevated aspartate aminotransferasei",
+            "location": "table",
+            "table_label": "Table 3"
+          }
+        ]
+      },
+      {
+        "term": "Elevated aspartate aminotransferase: Grade 1",
+        "arm_name": "Semaglutide",
+        "n_patients": 3,
+        "percent_patients": 5.56,
+        "is_serious": null,
+        "evidence": [
+          {
+            "quote": "Grade 1",
+            "location": "table",
+            "table_label": "Table 3"
+          }
+        ]
+      },
+      {
+        "term": "Elevated aspartate aminotransferase: Grade 1",
+        "arm_name": "Placebo",
+        "n_patients": 3,
+        "percent_patients": 5.56,
+        "is_serious": null,
+        "evidence": [
+          {
+            "quote": "Grade 1",
+            "location": "table",
+            "table_label": "Table 3"
+          }
+        ]
+      },
+      {
+        "term": "Elevated aspartate aminotransferase: Grade 2",
+        "arm_name": "Semaglutide",
+        "n_patients": 0,
+        "percent_patients": 0.0,
+        "is_serious": null,
+        "evidence": [
+          {
+            "quote": "Grade 2",
+            "location": "table",
+            "table_label": "Table 3"
+          }
+        ]
+      },
+      {
+        "term": "Elevated aspartate aminotransferase: Grade 2",
+        "arm_name": "Placebo",
+        "n_patients": 1,
+        "percent_patients": 1.85,
+        "is_serious": null,
+        "evidence": [
+          {
+            "quote": "Grade 2",
+            "location": "table",
+            "table_label": "Table 3"
+          }
+        ]
+      },
+      {
+        "term": "Elevated glucose",
+        "arm_name": "Semaglutide",
+        "n_patients": 25,
+        "percent_patients": 46.3,
+        "is_serious": null,
+        "evidence": [
+          {
+            "quote": "Elevated glucosek",
+            "location": "table",
+            "table_label": "Table 3"
+          }
+        ]
+      },
+      {
+        "term": "Elevated glucose",
+        "arm_name": "Placebo",
+        "n_patients": 39,
+        "percent_patients": 72.22,
+        "is_serious": null,
+        "evidence": [
+          {
+            "quote": "Elevated glucosek",
+            "location": "table",
+            "table_label": "Table 3"
+          }
+        ]
+      },
+      {
+        "term": "Elevated glucose: Grade 1",
+        "arm_name": "Semaglutide",
+        "n_patients": 24,
+        "percent_patients": 44.44,
+        "is_serious": null,
+        "evidence": [
+          {
+            "quote": "Grade 1",
+            "location": "table",
+            "table_label": "Table 3"
+          }
+        ]
+      },
+      {
+        "term": "Elevated glucose: Grade 1",
+        "arm_name": "Placebo",
+        "n_patients": 38,
+        "percent_patients": 70.37,
+        "is_serious": null,
+        "evidence": [
+          {
+            "quote": "Grade 1",
+            "location": "table",
+            "table_label": "Table 3"
+          }
+        ]
+      },
+      {
+        "term": "Elevated glucose: Grade 2",
+        "arm_name": "Semaglutide",
+        "n_patients": 0,
+        "percent_patients": 0.0,
+        "is_serious": null,
+        "evidence": [
+          {
+            "quote": "Grade 2",
+            "location": "table",
+            "table_label": "Table 3"
+          }
+        ]
+      },
+      {
+        "term": "Elevated glucose: Grade 2",
+        "arm_name": "Placebo",
+        "n_patients": 1,
+        "percent_patients": 1.85,
+        "is_serious": null,
+        "evidence": [
+          {
+            "quote": "Grade 2",
+            "location": "table",
+            "table_label": "Table 3"
+          }
+        ]
+      },
+      {
+        "term": "Any gastrointestinal disorder",
+        "arm_name": "Semaglutide",
+        "n_patients": 35,
+        "percent_patients": 64.81,
+        "is_serious": null,
+        "evidence": [
+          {
+            "quote": "Any gastrointestinal disorder",
+            "location": "table",
+            "table_label": "Table 3"
+          }
+        ]
+      },
+      {
+        "term": "Any gastrointestinal disorder",
+        "arm_name": "Placebo",
+        "n_patients": 27,
+        "percent_patients": 50.0,
+        "is_serious": null,
+        "evidence": [
+          {
+            "quote": "Any gastrointestinal disorder",
+            "location": "table",
+            "table_label": "Table 3"
+          }
+        ]
+      },
+      {
+        "term": "Nausea",
+        "arm_name": "Semaglutide",
+        "n_patients": 15,
+        "percent_patients": 27.78,
+        "is_serious": null,
+        "evidence": [
+          {
+            "quote": "Nausea",
+            "location": "table",
+            "table_label": "Table 3"
+          }
+        ]
+      },
+      {
+        "term": "Nausea",
+        "arm_name": "Placebo",
+        "n_patients": 7,
+        "percent_patients": 12.96,
+        "is_serious": null,
+        "evidence": [
+          {
+            "quote": "Nausea",
+            "location": "table",
+            "table_label": "Table 3"
+          }
+        ]
+      },
+      {
+        "term": "Vomiting",
+        "arm_name": "Semaglutide",
+        "n_patients": 8,
+        "percent_patients": 14.81,
+        "is_serious": null,
+        "evidence": [
+          {
+            "quote": "Vomiting",
+            "location": "table",
+            "table_label": "Table 3"
+          }
+        ]
+      },
+      {
+        "term": "Vomiting",
+        "arm_name": "Placebo",
+        "n_patients": 3,
+        "percent_patients": 5.56,
+        "is_serious": null,
+        "evidence": [
+          {
+            "quote": "Vomiting",
+            "location": "table",
+            "table_label": "Table 3"
+          }
+        ]
+      },
+      {
+        "term": "Diarrhoea or loose stools",
+        "arm_name": "Semaglutide",
+        "n_patients": 7,
+        "percent_patients": 12.96,
+        "is_serious": null,
+        "evidence": [
+          {
+            "quote": "Diarrhoea or loose stools",
+            "location": "table",
+            "table_label": "Table 3"
+          }
+        ]
+      },
+      {
+        "term": "Diarrhoea or loose stools",
+        "arm_name": "Placebo",
+        "n_patients": 10,
+        "percent_patients": 18.52,
+        "is_serious": null,
+        "evidence": [
+          {
+            "quote": "Diarrhoea or loose stools",
+            "location": "table",
+            "table_label": "Table 3"
+          }
+        ]
+      },
+      {
+        "term": "Abdominal pain",
+        "arm_name": "Semaglutide",
+        "n_patients": 4,
+        "percent_patients": 7.41,
+        "is_serious": null,
+        "evidence": [
+          {
+            "quote": "Abdominal pain",
+            "location": "table",
+            "table_label": "Table 3"
+          }
+        ]
+      },
+      {
+        "term": "Abdominal pain",
+        "arm_name": "Placebo",
+        "n_patients": 1,
+        "percent_patients": 1.85,
+        "is_serious": null,
+        "evidence": [
+          {
+            "quote": "Abdominal pain",
+            "location": "table",
+            "table_label": "Table 3"
+          }
+        ]
+      },
+      {
+        "term": "Constipation or irregular bowel movements",
+        "arm_name": "Semaglutide",
+        "n_patients": 16,
+        "percent_patients": 29.63,
+        "is_serious": null,
+        "evidence": [
+          {
+            "quote": "Constipation or irregular bowel movements",
+            "location": "table",
+            "table_label": "Table 3"
+          }
+        ]
+      },
+      {
+        "term": "Constipation or irregular bowel movements",
+        "arm_name": "Placebo",
+        "n_patients": 5,
+        "percent_patients": 9.26,
+        "is_serious": null,
+        "evidence": [
+          {
+            "quote": "Constipation or irregular bowel movements",
+            "location": "table",
+            "table_label": "Table 3"
+          }
+        ]
+      },
+      {
+        "term": "Bloating or fullness",
+        "arm_name": "Semaglutide",
+        "n_patients": 2,
+        "percent_patients": 3.7,
+        "is_serious": null,
+        "evidence": [
+          {
+            "quote": "Bloating or fullness",
+            "location": "table",
+            "table_label": "Table 3"
+          }
+        ]
+      },
+      {
+        "term": "Bloating or fullness",
+        "arm_name": "Placebo",
+        "n_patients": 2,
+        "percent_patients": 3.7,
+        "is_serious": null,
+        "evidence": [
+          {
+            "quote": "Bloating or fullness",
+            "location": "table",
+            "table_label": "Table 3"
+          }
+        ]
+      },
+      {
+        "term": "Dyspepsia",
+        "arm_name": "Semaglutide",
+        "n_patients": 11,
+        "percent_patients": 20.37,
+        "is_serious": null,
+        "evidence": [
+          {
+            "quote": "Dyspepsia",
+            "location": "table",
+            "table_label": "Table 3"
+          }
+        ]
+      },
+      {
+        "term": "Dyspepsia",
+        "arm_name": "Placebo",
+        "n_patients": 0,
+        "percent_patients": 0.0,
+        "is_serious": null,
+        "evidence": [
+          {
+            "quote": "Dyspepsia",
+            "location": "table",
+            "table_label": "Table 3"
+          }
+        ]
+      },
+      {
+        "term": "Eructation or flatulence",
+        "arm_name": "Semaglutide",
+        "n_patients": 10,
+        "percent_patients": 18.52,
+        "is_serious": null,
+        "evidence": [
+          {
+            "quote": "Eructation or flatulence",
+            "location": "table",
+            "table_label": "Table 3"
+          }
+        ]
+      },
+      {
+        "term": "Eructation or flatulence",
+        "arm_name": "Placebo",
+        "n_patients": 6,
+        "percent_patients": 11.11,
+        "is_serious": null,
+        "evidence": [
+          {
+            "quote": "Eructation or flatulence",
+            "location": "table",
+            "table_label": "Table 3"
+          }
+        ]
+      },
+      {
+        "term": "Gastritis",
+        "arm_name": "Semaglutide",
+        "n_patients": 3,
+        "percent_patients": 5.56,
+        "is_serious": null,
+        "evidence": [
+          {
+            "quote": "Gastritis",
+            "location": "table",
+            "table_label": "Table 3"
+          }
+        ]
+      },
+      {
+        "term": "Gastritis",
+        "arm_name": "Placebo",
+        "n_patients": 0,
+        "percent_patients": 0.0,
+        "is_serious": null,
+        "evidence": [
+          {
+            "quote": "Gastritis",
+            "location": "table",
+            "table_label": "Table 3"
+          }
+        ]
+      },
+      {
+        "term": "Gastroesophageal reflux disease",
+        "arm_name": "Semaglutide",
+        "n_patients": 14,
+        "percent_patients": 25.93,
+        "is_serious": null,
+        "evidence": [
+          {
+            "quote": "Gastroesophageal reflux disease",
+            "location": "table",
+            "table_label": "Table 3"
+          }
+        ]
+      },
+      {
+        "term": "Gastroesophageal reflux disease",
+        "arm_name": "Placebo",
+        "n_patients": 6,
+        "percent_patients": 11.11,
+        "is_serious": null,
+        "evidence": [
+          {
+            "quote": "Gastroesophageal reflux disease",
+            "location": "table",
+            "table_label": "Table 3"
+          }
+        ]
+      },
+      {
+        "term": "Decreased appetite or changes in food cravings/tolerance",
+        "arm_name": "Semaglutide",
+        "n_patients": 8,
+        "percent_patients": 14.81,
+        "is_serious": null,
+        "evidence": [
+          {
+            "quote": "Decreased appetite or changes in food cravings/tolerance",
+            "location": "table",
+            "table_label": "Table 3"
+          }
+        ]
+      },
+      {
+        "term": "Decreased appetite or changes in food cravings/tolerance",
+        "arm_name": "Placebo",
+        "n_patients": 4,
+        "percent_patients": 7.41,
+        "is_serious": null,
+        "evidence": [
+          {
+            "quote": "Decreased appetite or changes in food cravings/tolerance",
+            "location": "table",
+            "table_label": "Table 3"
+          }
+        ]
+      },
+      {
+        "term": "Fatigue",
+        "arm_name": "Semaglutide",
+        "n_patients": 14,
+        "percent_patients": 25.93,
+        "is_serious": null,
+        "evidence": [
+          {
+            "quote": "Fatigue",
+            "location": "table",
+            "table_label": "Table 3"
+          }
+        ]
+      },
+      {
+        "term": "Fatigue",
+        "arm_name": "Placebo",
+        "n_patients": 6,
+        "percent_patients": 11.11,
+        "is_serious": null,
+        "evidence": [
+          {
+            "quote": "Fatigue",
+            "location": "table",
+            "table_label": "Table 3"
+          }
+        ]
+      },
+      {
+        "term": "Dysgeusia",
+        "arm_name": "Semaglutide",
+        "n_patients": 4,
+        "percent_patients": 7.41,
+        "is_serious": null,
+        "evidence": [
+          {
+            "quote": "Dysgeusia",
+            "location": "table",
+            "table_label": "Table 3"
+          }
+        ]
+      },
+      {
+        "term": "Dysgeusia",
+        "arm_name": "Placebo",
+        "n_patients": 1,
+        "percent_patients": 1.85,
+        "is_serious": null,
+        "evidence": [
+          {
+            "quote": "Dysgeusia",
+            "location": "table",
+            "table_label": "Table 3"
+          }
+        ]
+      },
+      {
+        "term": "Dizziness",
+        "arm_name": "Semaglutide",
+        "n_patients": 6,
+        "percent_patients": 11.11,
+        "is_serious": null,
+        "evidence": [
+          {
+            "quote": "Dizziness",
+            "location": "table",
+            "table_label": "Table 3"
+          }
+        ]
+      },
+      {
+        "term": "Dizziness",
+        "arm_name": "Placebo",
+        "n_patients": 1,
+        "percent_patients": 1.85,
+        "is_serious": null,
+        "evidence": [
+          {
+            "quote": "Dizziness",
+            "location": "table",
+            "table_label": "Table 3"
+          }
+        ]
+      },
+      {
+        "term": "Headache",
+        "arm_name": "Semaglutide",
+        "n_patients": 12,
+        "percent_patients": 22.22,
+        "is_serious": null,
+        "evidence": [
+          {
+            "quote": "Headache",
+            "location": "table",
+            "table_label": "Table 3"
+          }
+        ]
+      },
+      {
+        "term": "Headache",
+        "arm_name": "Placebo",
+        "n_patients": 10,
+        "percent_patients": 18.52,
+        "is_serious": null,
+        "evidence": [
+          {
+            "quote": "Headache",
+            "location": "table",
+            "table_label": "Table 3"
+          }
+        ]
+      },
+      {
+        "term": "Anxiety or nervousness",
+        "arm_name": "Semaglutide",
+        "n_patients": 5,
+        "percent_patients": 9.26,
+        "is_serious": null,
+        "evidence": [
+          {
+            "quote": "Anxiety or nervousness",
+            "location": "table",
+            "table_label": "Table 3"
+          }
+        ]
+      },
+      {
+        "term": "Anxiety or nervousness",
+        "arm_name": "Placebo",
+        "n_patients": 2,
+        "percent_patients": 3.7,
+        "is_serious": null,
+        "evidence": [
+          {
+            "quote": "Anxiety or nervousness",
+            "location": "table",
+            "table_label": "Table 3"
+          }
+        ]
+      },
+      {
+        "term": "Irritability or moodiness",
+        "arm_name": "Semaglutide",
+        "n_patients": 5,
+        "percent_patients": 9.26,
+        "is_serious": null,
+        "evidence": [
+          {
+            "quote": "Irritability or moodiness",
+            "location": "table",
+            "table_label": "Table 3"
+          }
+        ]
+      },
+      {
+        "term": "Irritability or moodiness",
+        "arm_name": "Placebo",
+        "n_patients": 4,
+        "percent_patients": 7.41,
+        "is_serious": null,
+        "evidence": [
+          {
+            "quote": "Irritability or moodiness",
+            "location": "table",
+            "table_label": "Table 3"
+          }
+        ]
+      },
+      {
+        "term": "Sweating",
+        "arm_name": "Semaglutide",
+        "n_patients": 2,
+        "percent_patients": 3.7,
+        "is_serious": null,
+        "evidence": [
+          {
+            "quote": "Sweating",
+            "location": "table",
+            "table_label": "Table 3"
+          }
+        ]
+      },
+      {
+        "term": "Sweating",
+        "arm_name": "Placebo",
+        "n_patients": 3,
+        "percent_patients": 5.56,
+        "is_serious": null,
+        "evidence": [
+          {
+            "quote": "Sweating",
+            "location": "table",
+            "table_label": "Table 3"
+          }
+        ]
+      },
+      {
+        "term": "Hunger",
+        "arm_name": "Semaglutide",
+        "n_patients": 3,
+        "percent_patients": 5.56,
+        "is_serious": null,
+        "evidence": [
+          {
+            "quote": "Hunger",
+            "location": "table",
+            "table_label": "Table 3"
+          }
+        ]
+      },
+      {
+        "term": "Hunger",
+        "arm_name": "Placebo",
+        "n_patients": 8,
+        "percent_patients": 14.81,
+        "is_serious": null,
+        "evidence": [
+          {
+            "quote": "Hunger",
+            "location": "table",
+            "table_label": "Table 3"
+          }
+        ]
+      },
+      {
+        "term": "Generalized myalgias",
+        "arm_name": "Semaglutide",
+        "n_patients": 1,
+        "percent_patients": 1.85,
+        "is_serious": null,
+        "evidence": [
+          {
+            "quote": "Generalized myalgias",
+            "location": "table",
+            "table_label": "Table 3"
+          }
+        ]
+      },
+      {
+        "term": "Generalized myalgias",
+        "arm_name": "Placebo",
+        "n_patients": 1,
+        "percent_patients": 1.85,
+        "is_serious": null,
+        "evidence": [
+          {
+            "quote": "Generalized myalgias",
+            "location": "table",
+            "table_label": "Table 3"
+          }
+        ]
+      },
+      {
+        "term": "Shakiness",
+        "arm_name": "Semaglutide",
+        "n_patients": 2,
+        "percent_patients": 3.7,
+        "is_serious": null,
+        "evidence": [
+          {
+            "quote": "Shakiness",
+            "location": "table",
+            "table_label": "Table 3"
+          }
+        ]
+      },
+      {
+        "term": "Shakiness",
+        "arm_name": "Placebo",
+        "n_patients": 3,
+        "percent_patients": 5.56,
+        "is_serious": null,
+        "evidence": [
+          {
+            "quote": "Shakiness",
+            "location": "table",
+            "table_label": "Table 3"
+          }
+        ]
+      },
+      {
+        "term": "Weakness",
+        "arm_name": "Semaglutide",
+        "n_patients": 1,
+        "percent_patients": 1.85,
+        "is_serious": null,
+        "evidence": [
+          {
+            "quote": "Weakness",
+            "location": "table",
+            "table_label": "Table 3"
+          }
+        ]
+      },
+      {
+        "term": "Weakness",
+        "arm_name": "Placebo",
+        "n_patients": 0,
+        "percent_patients": 0.0,
+        "is_serious": null,
+        "evidence": [
+          {
+            "quote": "Weakness",
+            "location": "table",
+            "table_label": "Table 3"
+          }
+        ]
+      },
+      {
+        "term": "Lightheadedness",
+        "arm_name": "Semaglutide",
+        "n_patients": 0,
+        "percent_patients": 0.0,
+        "is_serious": null,
+        "evidence": [
+          {
+            "quote": "Lightheadedness",
+            "location": "table",
+            "table_label": "Table 3"
+          }
+        ]
+      },
+      {
+        "term": "Lightheadedness",
+        "arm_name": "Placebo",
+        "n_patients": 1,
+        "percent_patients": 1.85,
+        "is_serious": null,
+        "evidence": [
+          {
+            "quote": "Lightheadedness",
+            "location": "table",
+            "table_label": "Table 3"
+          }
+        ]
+      },
+      {
+        "term": "Temporary neurosensory alteration",
+        "arm_name": "Semaglutide",
+        "n_patients": 1,
+        "percent_patients": 1.85,
+        "is_serious": null,
+        "evidence": [
+          {
+            "quote": "Temporary neurosensory alteration",
+            "location": "table",
+            "table_label": "Table 3"
+          }
+        ]
+      },
+      {
+        "term": "Temporary neurosensory alteration",
+        "arm_name": "Placebo",
+        "n_patients": 0,
+        "percent_patients": 0.0,
+        "is_serious": null,
+        "evidence": [
+          {
+            "quote": "Temporary neurosensory alteration",
+            "location": "table",
+            "table_label": "Table 3"
+          }
+        ]
+      },
+      {
+        "term": "Hiccups",
+        "arm_name": "Semaglutide",
+        "n_patients": 1,
+        "percent_patients": 1.85,
+        "is_serious": null,
+        "evidence": [
+          {
+            "quote": "Hiccups",
+            "location": "table",
+            "table_label": "Table 3"
+          }
+        ]
+      },
+      {
+        "term": "Hiccups",
+        "arm_name": "Placebo",
+        "n_patients": 0,
+        "percent_patients": 0.0,
+        "is_serious": null,
+        "evidence": [
+          {
+            "quote": "Hiccups",
+            "location": "table",
+            "table_label": "Table 3"
+          }
+        ]
+      },
+      {
+        "term": "Diabetes mellitus",
+        "arm_name": "Semaglutide",
+        "n_patients": 1,
+        "percent_patients": 1.85,
+        "is_serious": null,
+        "evidence": [
+          {
+            "quote": "Diabetes mellitus",
+            "location": "table",
+            "table_label": "Table 3"
+          }
+        ]
+      },
+      {
+        "term": "Diabetes mellitus",
+        "arm_name": "Placebo",
+        "n_patients": 2,
+        "percent_patients": 3.7,
+        "is_serious": null,
+        "evidence": [
+          {
+            "quote": "Diabetes mellitus",
+            "location": "table",
+            "table_label": "Table 3"
+          }
+        ]
+      }
+    ]
+  },
+  "model": "claude-sonnet-5",
+  "usage": {
+    "input_tokens": 61702,
+    "output_tokens": 26974
+  },
+  "validation_issues": []
+}
