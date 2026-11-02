@@ -38,6 +38,7 @@ def structured_call(
     output_model: type[T],
     usage: UsageTracker,
     effort: str | None = None,
+    timeout: float | None = None,
 ) -> T:
     """Run a structured-output request and return the parsed Pydantic object.
 
@@ -50,8 +51,9 @@ def structured_call(
     elif effort:
         extra["output_config"] = {"effort": effort}
 
+    api = client.with_options(timeout=timeout) if timeout else client
     try:
-        response = client.messages.parse(
+        response = api.messages.parse(
             model=model,
             max_tokens=max_tokens,
             system=system,

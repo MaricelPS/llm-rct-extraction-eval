@@ -144,6 +144,7 @@ class TrialExtractor:
             output_model=output_model,
             usage=usage,
             effort=settings.extraction_effort,
+            timeout=settings.extraction_timeout,
         )
 
     def extract(self, article: ParsedArticle) -> tuple[TrialExtraction, UsageTracker]:

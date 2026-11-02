@@ -15,6 +15,7 @@ class Settings(BaseSettings):
     extraction_model: str = "claude-sonnet-5"
     extraction_max_tokens: int = 8192
     extraction_effort: str = "medium"  # low | medium | high | xhigh | max | disabled
+    extraction_timeout: float| None = None  # segundos; None = timeout por defecto del SDK
     extract_secondary_outcomes: bool = False
     classification_model: str = "claude-haiku-4-5-20251001"
     classification_max_tokens: int = 1024
