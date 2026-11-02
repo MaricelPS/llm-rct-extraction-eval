@@ -1,0 +1,202 @@
+{
+  "extraction": {
+    "pmcid": "PMC11822619",
+    "trial_registration": null,
+    "design_notes": "Phase 2 clinical trial; hybrid design combining clinical outpatient and human laboratory components; participants, investigators, and outcome assessors were blind to condition; 9 weeks of medication or placebo treatment plus a final assessment visit (week 10)",
+    "population": {
+      "condition": "alcohol use disorder",
+      "key_inclusion_criteria": [
+        "age 21 to 65 years",
+        "reporting past-year DSM-5 criteria for AUD",
+        "past-month endorsement of more than 7 (women) or more than 14 (men) standard drinks in a week with 2 or more heavy drinking episodes (4 or more drinks for women and 5 or more for men)",
+        "ability to attend weekly clinic visits and pretreatment and posttreatment laboratory sessions"
+      ],
+      "mean_age": 39.9,
+      "percent_female": 71.0,
+      "evidence": [
+        {
+          "quote": "Primary inclusion criteria included age 21 to 65 years, reporting past-year DSM-5 criteria for AUD, past-month endorsement of more than 7 (women) or more than 14 (men) standard drinks in a week with 2 or more heavy drinking episodes (4 or more drinks for women and 5 or more for men), and ability to attend weekly clinic visits and pretreatment and posttreatment laboratory sessions.",
+          "location": "methods",
+          "table_label": null
+        },
+        {
+          "quote": "Of the 48 participants randomized, 34 (71%) were female and 14 (29%) were male. The mean (SD) age was 39.9 (10.6) years.",
+          "location": "results",
+          "table_label": null
+        }
+      ]
+    },
+    "arms": [
+      {
+        "name": "Placebo",
+        "role": "placebo",
+        "drug": null,
+        "dose": null,
+        "route": "subcutaneous",
+        "is_fixed_combination": false,
+        "n_randomized": 24,
+        "n_analyzed": 24,
+        "evidence": [
+          {
+            "quote": "Randomized, No.",
+            "location": "table",
+            "table_label": "Table."
+          }
+        ]
+      },
+      {
+        "name": "Semaglutide",
+        "role": "experimental",
+        "drug": "semaglutide",
+        "dose": "0.5 mg once weekly",
+        "route": "subcutaneous",
+        "is_fixed_combination": false,
+        "n_randomized": 24,
+        "n_analyzed": 24,
+        "evidence": [
+          {
+            "quote": "only the 2 lowest dose sequences (0.25 mg/week for weeks 1-4 and 0.5 mg/week for weeks 5-8) were used prior to primary outcome collection (between weeks 8 and 9)",
+            "location": "methods",
+            "table_label": null
+          }
+        ]
+      }
+    ],
+    "outcomes": [
+      {
+        "name": "estimated volume of alcohol consumed (g-ETOH) during posttreatment laboratory self-administration",
+        "is_primary": true,
+        "timepoint": "between weeks 8 and 9",
+        "comparison": "Semaglutide vs Placebo",
+        "estimand": "not_reported",
+        "effect_measure": "other",
+        "value": -0.48,
+        "ci_lower": -0.85,
+        "ci_upper": -0.11,
+        "ci_level": 0.95,
+        "p_value": ".01",
+        "unit": null,
+        "evidence": [
+          {
+            "quote": "semaglutide reduced posttreatment laboratory consumption with a medium to large effect size for grams of alcohol consumed (β, −0.48; 95% CI, −0.85 to −0.11; P = .01)",
+            "location": "results",
+            "table_label": null
+          }
+        ]
+      },
+      {
+        "name": "peak breath alcohol concentration (BrAC) during posttreatment laboratory self-administration",
+        "is_primary": true,
+        "timepoint": "between weeks 8 and 9",
+        "comparison": "Semaglutide vs Placebo",
+        "estimand": "not_reported",
+        "effect_measure": "other",
+        "value": -0.46,
+        "ci_lower": -0.87,
+        "ci_upper": -0.06,
+        "ci_level": 0.95,
+        "p_value": ".03",
+        "unit": null,
+        "evidence": [
+          {
+            "quote": "peak breath alcohol concentration (β, −0.46; 95% CI, −0.87 to −0.06; P = .03)",
+            "location": "results",
+            "table_label": null
+          }
+        ]
+      }
+    ],
+    "adverse_events": [
+      {
+        "term": "Serious adverse events",
+        "arm_name": "Placebo",
+        "n_patients": 0,
+        "percent_patients": null,
+        "is_serious": true,
+        "evidence": [
+          {
+            "quote": "No serious adverse events, adverse interactions with alcohol, or treatment-related discontinuations were recorded.",
+            "location": "results",
+            "table_label": null
+          }
+        ]
+      },
+      {
+        "term": "Serious adverse events",
+        "arm_name": "Semaglutide",
+        "n_patients": 0,
+        "percent_patients": null,
+        "is_serious": true,
+        "evidence": [
+          {
+            "quote": "No serious adverse events, adverse interactions with alcohol, or treatment-related discontinuations were recorded.",
+            "location": "results",
+            "table_label": null
+          }
+        ]
+      },
+      {
+        "term": "Adverse interactions with alcohol",
+        "arm_name": "Placebo",
+        "n_patients": 0,
+        "percent_patients": null,
+        "is_serious": null,
+        "evidence": [
+          {
+            "quote": "No serious adverse events, adverse interactions with alcohol, or treatment-related discontinuations were recorded.",
+            "location": "results",
+            "table_label": null
+          }
+        ]
+      },
+      {
+        "term": "Adverse interactions with alcohol",
+        "arm_name": "Semaglutide",
+        "n_patients": 0,
+        "percent_patients": null,
+        "is_serious": null,
+        "evidence": [
+          {
+            "quote": "No serious adverse events, adverse interactions with alcohol, or treatment-related discontinuations were recorded.",
+            "location": "results",
+            "table_label": null
+          }
+        ]
+      },
+      {
+        "term": "Treatment-related discontinuations",
+        "arm_name": "Placebo",
+        "n_patients": 0,
+        "percent_patients": null,
+        "is_serious": null,
+        "evidence": [
+          {
+            "quote": "No serious adverse events, adverse interactions with alcohol, or treatment-related discontinuations were recorded.",
+            "location": "results",
+            "table_label": null
+          }
+        ]
+      },
+      {
+        "term": "Treatment-related discontinuations",
+        "arm_name": "Semaglutide",
+        "n_patients": 0,
+        "percent_patients": null,
+        "is_serious": null,
+        "evidence": [
+          {
+            "quote": "No serious adverse events, adverse interactions with alcohol, or treatment-related discontinuations were recorded.",
+            "location": "results",
+            "table_label": null
+          }
+        ]
+      }
+    ]
+  },
+  "model": "claude-sonnet-5",
+  "usage": {
+    "input_tokens": 28879,
+    "output_tokens": 2198
+  },
+  "validation_issues": []
+}

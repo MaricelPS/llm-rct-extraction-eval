@@ -1,0 +1,242 @@
+{
+  "extraction": {
+    "pmcid": "PMC10971983",
+    "trial_registration": "NCT03878706",
+    "design_notes": "Patients were randomized to insulin, liraglutide, empagliflozin or their combination for six months. Two consultant cardiologists blinded to patients' data evaluated the echocardiographic and vascular data.",
+    "population": {
+      "condition": "type 2 diabetes mellitus treated with metformin",
+      "key_inclusion_criteria": [
+        "Poor glycemic control, defined by HbA1c > 7%, was an inclusion criterion for this study.",
+        "provided that they were at high or exceptionally high cardiovascular risk"
+      ],
+      "mean_age": 59.5,
+      "percent_female": null,
+      "evidence": [
+        {
+          "quote": "We studied 200 patients with type II DM at high or very high risk for cardiovascular complications (59.5 ± 9.1 year old, 151 male).",
+          "location": "results",
+          "table_label": null
+        }
+      ]
+    },
+    "arms": [
+      {
+        "name": "Insulin",
+        "role": "active_comparator",
+        "drug": "insulin",
+        "dose": null,
+        "route": "subcutaneous",
+        "is_fixed_combination": false,
+        "n_randomized": null,
+        "n_analyzed": 50,
+        "evidence": [
+          {
+            "quote": "220 subjects were randomized to receive, on top of metformin, either basal insulin",
+            "location": "methods",
+            "table_label": null
+          },
+          {
+            "quote": "Insulin (N = 50)",
+            "location": "table",
+            "table_label": "Table 1"
+          }
+        ]
+      },
+      {
+        "name": "GLP1 (Liraglutide)",
+        "role": "experimental",
+        "drug": "liraglutide",
+        "dose": "1.8 mg once daily",
+        "route": "subcutaneous",
+        "is_fixed_combination": false,
+        "n_randomized": null,
+        "n_analyzed": 50,
+        "evidence": [
+          {
+            "quote": "1.8 mg of liraglutide subcutaneously once daily",
+            "location": "methods",
+            "table_label": null
+          },
+          {
+            "quote": "GLP1 (Liraglutide) (N = 50)",
+            "location": "table",
+            "table_label": "Table 1"
+          }
+        ]
+      },
+      {
+        "name": "SGLT2 (Empagliflozin)",
+        "role": "experimental",
+        "drug": "empagliflozin",
+        "dose": "25 mg once daily",
+        "route": "oral",
+        "is_fixed_combination": false,
+        "n_randomized": null,
+        "n_analyzed": 50,
+        "evidence": [
+          {
+            "quote": "25 mg empagliflozin per os once daily",
+            "location": "methods",
+            "table_label": null
+          },
+          {
+            "quote": "SGLT2 (Empagliflozin) (N = 50)",
+            "location": "table",
+            "table_label": "Table 1"
+          }
+        ]
+      },
+      {
+        "name": "GLP1 & SGLT2 (Liraglutide and Empagliflozin)",
+        "role": "experimental",
+        "drug": "liraglutide + empagliflozin",
+        "dose": "1.8 mg liraglutide once daily and 25 mg empagliflozin once daily",
+        "route": "other",
+        "is_fixed_combination": false,
+        "n_randomized": null,
+        "n_analyzed": 50,
+        "evidence": [
+          {
+            "quote": "a combination of liraglutide and empagliflozin for six months",
+            "location": "methods",
+            "table_label": null
+          },
+          {
+            "quote": "GLP1 & SGLT2 (Liraglutide and Empagliflozin) (N = 50)",
+            "location": "table",
+            "table_label": "Table 1"
+          }
+        ]
+      }
+    ],
+    "outcomes": [
+      {
+        "name": "LA reservoir strain",
+        "is_primary": true,
+        "timepoint": "6 months",
+        "comparison": "GLP1 & SGLT2 (Liraglutide and Empagliflozin) vs Insulin",
+        "estimand": "not_reported",
+        "effect_measure": "other",
+        "value": null,
+        "ci_lower": null,
+        "ci_upper": null,
+        "ci_level": null,
+        "p_value": "0.005",
+        "unit": "%",
+        "evidence": [
+          {
+            "quote": "the combination resulted in a greater improvement in the LA reservoir strain (10.1% versus −3.13% in insulin, 7.9% in liraglutide and 8.2% in empagliflozin group; p = 0.005, p = 0.015 and p = 0.017)",
+            "location": "results",
+            "table_label": null
+          }
+        ]
+      },
+      {
+        "name": "LA reservoir strain",
+        "is_primary": true,
+        "timepoint": "6 months",
+        "comparison": "GLP1 & SGLT2 (Liraglutide and Empagliflozin) vs GLP1 (Liraglutide)",
+        "estimand": "not_reported",
+        "effect_measure": "other",
+        "value": null,
+        "ci_lower": null,
+        "ci_upper": null,
+        "ci_level": null,
+        "p_value": "0.015",
+        "unit": "%",
+        "evidence": [
+          {
+            "quote": "the combination resulted in a greater improvement in the LA reservoir strain (10.1% versus −3.13% in insulin, 7.9% in liraglutide and 8.2% in empagliflozin group; p = 0.005, p = 0.015 and p = 0.017)",
+            "location": "results",
+            "table_label": null
+          }
+        ]
+      },
+      {
+        "name": "LA reservoir strain",
+        "is_primary": true,
+        "timepoint": "6 months",
+        "comparison": "GLP1 & SGLT2 (Liraglutide and Empagliflozin) vs SGLT2 (Empagliflozin)",
+        "estimand": "not_reported",
+        "effect_measure": "other",
+        "value": null,
+        "ci_lower": null,
+        "ci_upper": null,
+        "ci_level": null,
+        "p_value": "0.017",
+        "unit": "%",
+        "evidence": [
+          {
+            "quote": "the combination resulted in a greater improvement in the LA reservoir strain (10.1% versus −3.13% in insulin, 7.9% in liraglutide and 8.2% in empagliflozin group; p = 0.005, p = 0.015 and p = 0.017)",
+            "location": "results",
+            "table_label": null
+          }
+        ]
+      }
+    ],
+    "adverse_events": [
+      {
+        "term": "gastrointestinal side effects",
+        "arm_name": "GLP1 (Liraglutide)",
+        "n_patients": 3,
+        "percent_patients": null,
+        "is_serious": null,
+        "evidence": [
+          {
+            "quote": "3 participants had poor compliance to treatment due to gastrointestinal side effects",
+            "location": "methods",
+            "table_label": null
+          }
+        ]
+      },
+      {
+        "term": "urinary tract infections",
+        "arm_name": "SGLT2 (Empagliflozin)",
+        "n_patients": 4,
+        "percent_patients": null,
+        "is_serious": null,
+        "evidence": [
+          {
+            "quote": "4 participants had poor compliance to treatment due to urinary tract infections",
+            "location": "methods",
+            "table_label": null
+          }
+        ]
+      },
+      {
+        "term": "gastrointestinal symptoms",
+        "arm_name": "GLP1 & SGLT2 (Liraglutide and Empagliflozin)",
+        "n_patients": 3,
+        "percent_patients": null,
+        "is_serious": null,
+        "evidence": [
+          {
+            "quote": "3 subjects stopped due to intense gastrointestinal symptoms",
+            "location": "methods",
+            "table_label": null
+          }
+        ]
+      },
+      {
+        "term": "urinary tract infection",
+        "arm_name": "GLP1 & SGLT2 (Liraglutide and Empagliflozin)",
+        "n_patients": 1,
+        "percent_patients": null,
+        "is_serious": null,
+        "evidence": [
+          {
+            "quote": "1 subject stopped because of a urinary tract infection",
+            "location": "methods",
+            "table_label": null
+          }
+        ]
+      }
+    ]
+  },
+  "model": "claude-sonnet-5",
+  "usage": {
+    "input_tokens": 30223,
+    "output_tokens": 4353
+  },
+  "validation_issues": []
+}

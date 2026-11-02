@@ -1,0 +1,155 @@
+{
+  "extraction": {
+    "pmcid": "PMC10933706",
+    "trial_registration": null,
+    "design_notes": "Single-center, open-label randomized clinical trial (STARDUST); outcome assessors and laboratory staff masked to group assignment; duration 6 months with follow-up at baseline, 3 months, and 6 months.",
+    "population": {
+      "condition": "type 2 diabetes and peripheral artery disease",
+      "key_inclusion_criteria": [
+        "individuals 35 years or older with type 2 diabetes and a diagnosis of PAD, evaluated with Doppler ultrasonography, computed tomography angiography, or angiography in the previous 12 months",
+        "transcutaneous oxygen pressure (TcPo2) of the foot had to range from 49 to 30 mm Hg at the screening visit",
+        "optimal or suboptimal glycemic control (HbA1c ranging from 6.5% to 8%) while taking stable doses of glucose-lowering medications"
+      ],
+      "mean_age": 67.5,
+      "percent_female": 22.0,
+      "evidence": [
+        {
+          "quote": "Fifty-five participants (mean [SD] age, 67.5 [8.5] years; 43 [78%] male and 12 [22%] female; 55 [100%] White) were randomized",
+          "location": "results",
+          "table_label": null
+        },
+        {
+          "quote": "individuals 35 years or older with type 2 diabetes and a diagnosis of PAD, evaluated with Doppler ultrasonography, computed tomography angiography, or angiography in the previous 12 months",
+          "location": "methods",
+          "table_label": null
+        }
+      ]
+    },
+    "arms": [
+      {
+        "name": "Liraglutide group",
+        "role": "experimental",
+        "drug": "liraglutide",
+        "dose": "1.8 mg once daily",
+        "route": "subcutaneous",
+        "is_fixed_combination": false,
+        "n_randomized": 30,
+        "n_analyzed": 27,
+        "evidence": [
+          {
+            "quote": "30 participants were assigned to the liraglutide group",
+            "location": "methods",
+            "table_label": null
+          },
+          {
+            "quote": "so all liraglutide group participants took 1.8 mg/d of liraglutide",
+            "location": "results",
+            "table_label": null
+          }
+        ]
+      },
+      {
+        "name": "Control group",
+        "role": "active_comparator",
+        "drug": null,
+        "dose": null,
+        "route": "not_reported",
+        "is_fixed_combination": false,
+        "n_randomized": 30,
+        "n_analyzed": 28,
+        "evidence": [
+          {
+            "quote": "30 to the control group",
+            "location": "methods",
+            "table_label": null
+          },
+          {
+            "quote": "27 to the liraglutide group and 28 to the control group",
+            "location": "results",
+            "table_label": null
+          }
+        ]
+      }
+    ],
+    "outcomes": [
+      {
+        "name": "change from baseline in TcPo2",
+        "is_primary": true,
+        "timepoint": "6 months",
+        "comparison": "Liraglutide group vs Control group",
+        "estimand": "not_reported",
+        "effect_measure": "estimated_treatment_difference",
+        "value": 11.2,
+        "ci_lower": 8.0,
+        "ci_upper": 14.5,
+        "ci_level": 0.95,
+        "p_value": "<.001",
+        "unit": "mm Hg",
+        "evidence": [
+          {
+            "quote": "with significant differences favoring the liraglutide group at the end of the trial (estimated treatment difference, 11.2 mm Hg; 95% CI, 8.0-14.5 mm Hg; P < .001)",
+            "location": "results",
+            "table_label": null
+          }
+        ]
+      },
+      {
+        "name": "proportion of patients achieving a 10% increase in TcPo2 from baseline",
+        "is_primary": true,
+        "timepoint": "6 months",
+        "comparison": "Liraglutide group vs Control group",
+        "estimand": "not_reported",
+        "effect_measure": "risk_ratio",
+        "value": 1.91,
+        "ci_lower": 1.26,
+        "ci_upper": 2.9,
+        "ci_level": 0.95,
+        "p_value": "<.001",
+        "unit": null,
+        "evidence": [
+          {
+            "quote": "The increase of at least 10% from baseline in TcPo2 occurred in 24 participants (89%) randomized to the liraglutide group and 13 participants (46%) assigned to the control group (relative risk, 1.91; 95% CI, 1.26-2.90; P < .001).",
+            "location": "results",
+            "table_label": null
+          }
+        ]
+      }
+    ],
+    "adverse_events": [
+      {
+        "term": "No participants in either group reported adverse events to any medication administered",
+        "arm_name": "Liraglutide group",
+        "n_patients": 0,
+        "percent_patients": null,
+        "is_serious": null,
+        "evidence": [
+          {
+            "quote": "No participants in either group reported adverse events to any medication administered.",
+            "location": "results",
+            "table_label": null
+          }
+        ]
+      },
+      {
+        "term": "No participants in either group reported adverse events to any medication administered",
+        "arm_name": "Control group",
+        "n_patients": 0,
+        "percent_patients": null,
+        "is_serious": null,
+        "evidence": [
+          {
+            "quote": "No participants in either group reported adverse events to any medication administered.",
+            "location": "results",
+            "table_label": null
+          }
+        ]
+      }
+    ]
+  },
+  "model": "claude-sonnet-5",
+  "usage": {
+    "input_tokens": 29614,
+    "output_tokens": 1569
+  },
+  "validation_issues": []
+}

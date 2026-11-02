@@ -1,0 +1,127 @@
+{
+  "extraction": {
+    "pmcid": "PMC10709975",
+    "trial_registration": "NCT02621489",
+    "design_notes": "Randomized, comparator-controlled, open label, assessor-blinded multicentric trial. Followed for 12 weeks.",
+    "population": {
+      "condition": "type 2 diabetes",
+      "key_inclusion_criteria": [
+        "We aimed to include female and male subjects aged 18 to 80 years old with known or newly diagnosed T2D with a HbA1c between 47–110 mmol/mol (DCCT 6.5–12.2%), who were eligible for PCI with implantation of DES."
+      ],
+      "mean_age": 66.6,
+      "percent_female": null,
+      "evidence": [
+        {
+          "quote": "The mean age was 66.6 years (8.8 years) and 58% of the subjects were men.",
+          "location": "results",
+          "table_label": null
+        }
+      ]
+    },
+    "arms": [
+      {
+        "name": "Exenatide",
+        "role": "experimental",
+        "drug": "exenatide",
+        "dose": "2 mg once weekly",
+        "route": "subcutaneous",
+        "is_fixed_combination": false,
+        "n_randomized": 20,
+        "n_analyzed": 19,
+        "evidence": [
+          {
+            "quote": "After PCI, participants were randomized to either exenatide, i.e. Bydureon® 2 mg once weekly in subcutaneous injection plus standard treatment or standard treatment alone.",
+            "location": "methods",
+            "table_label": null
+          },
+          {
+            "quote": "Exenatide (n = 19)",
+            "location": "table",
+            "table_label": "Table 2"
+          }
+        ]
+      },
+      {
+        "name": "Control",
+        "role": "active_comparator",
+        "drug": null,
+        "dose": null,
+        "route": "not_reported",
+        "is_fixed_combination": false,
+        "n_randomized": 18,
+        "n_analyzed": 17,
+        "evidence": [
+          {
+            "quote": "standard treatment alone",
+            "location": "methods",
+            "table_label": null
+          },
+          {
+            "quote": "Control (n = 17)",
+            "location": "table",
+            "table_label": "Table 2"
+          }
+        ]
+      }
+    ],
+    "outcomes": [
+      {
+        "name": "percentage of strut coverage",
+        "is_primary": true,
+        "timepoint": "12 weeks",
+        "comparison": "Exenatide vs Control",
+        "estimand": "not_reported",
+        "effect_measure": "other",
+        "value": null,
+        "ci_lower": null,
+        "ci_upper": null,
+        "ci_level": null,
+        "p_value": "0.692",
+        "unit": "%",
+        "evidence": [
+          {
+            "quote": "Strut coverage was 95% (88.7–98.5%) in the exenatide group and 91.4% (88.8–98.5%) in the control group (p = 0.692).",
+            "location": "abstract",
+            "table_label": null
+          }
+        ]
+      }
+    ],
+    "adverse_events": [
+      {
+        "term": "Serious adverse events",
+        "arm_name": "Exenatide",
+        "n_patients": 0,
+        "percent_patients": null,
+        "is_serious": true,
+        "evidence": [
+          {
+            "quote": "There were no serious adverse events during the study neither from the study drug or the follow-up invasive procedure.",
+            "location": "results",
+            "table_label": null
+          }
+        ]
+      },
+      {
+        "term": "Serious adverse events",
+        "arm_name": "Control",
+        "n_patients": 0,
+        "percent_patients": null,
+        "is_serious": true,
+        "evidence": [
+          {
+            "quote": "There were no serious adverse events during the study neither from the study drug or the follow-up invasive procedure.",
+            "location": "results",
+            "table_label": null
+          }
+        ]
+      }
+    ]
+  },
+  "model": "claude-sonnet-5",
+  "usage": {
+    "input_tokens": 65839,
+    "output_tokens": 1032
+  },
+  "validation_issues": []
+}

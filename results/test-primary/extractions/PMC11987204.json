@@ -1,0 +1,550 @@
+{
+  "extraction": {
+    "pmcid": "PMC11987204",
+    "trial_registration": "CTR20221721",
+    "design_notes": "Multicenter, randomized, open-label, active comparator phase 3 study; 28-week study with 14-day screening, 2-week lead-in period, and 24-week treatment period; patients randomized 1:1 to receive subcutaneous injection once weekly",
+    "population": {
+      "condition": "type 2 diabetes mellitus",
+      "key_inclusion_criteria": [
+        "patients aged 18–75 years who were diagnosed with T2DM for at least 6 months",
+        "inadequate blood glucose control following the use of a stable dose of metformin at 1.5 to 2.0 g daily for at least 8 weeks prior to screening",
+        "BMIs ranging from 18.5 to 35 kg/m2",
+        "HbA1c levels ranging from 7% to 11% at screening and baseline"
+      ],
+      "mean_age": 52.4,
+      "percent_female": 40.9,
+      "evidence": [
+        {
+          "quote": "Chinese adults diagnosed with type 2 diabetes mellitus (T2DM) were randomly assigned 1:1",
+          "location": "abstract",
+          "table_label": null
+        },
+        {
+          "quote": "52.4 (11.34)",
+          "location": "table",
+          "table_label": "Table 1"
+        },
+        {
+          "quote": "180 (40.9)",
+          "location": "table",
+          "table_label": "Table 1"
+        }
+      ]
+    },
+    "arms": [
+      {
+        "name": "LY05008 group",
+        "role": "experimental",
+        "drug": "LY05008 (dulaglutide biosimilar)",
+        "dose": "1.5 mg once weekly",
+        "route": "subcutaneous",
+        "is_fixed_combination": false,
+        "n_randomized": 222,
+        "n_analyzed": 222,
+        "evidence": [
+          {
+            "quote": "A total of 440 eligible patients included in the FAS and SS were enrolled and randomized at a 1:1 ratio to one of the two treatment groups, with 222 patients in the LY05008 group and 218 patients in the dulaglutide group.",
+            "location": "results",
+            "table_label": null
+          }
+        ]
+      },
+      {
+        "name": "Dulaglutide group",
+        "role": "active_comparator",
+        "drug": "dulaglutide",
+        "dose": "1.5 mg once weekly",
+        "route": "subcutaneous",
+        "is_fixed_combination": false,
+        "n_randomized": 218,
+        "n_analyzed": 218,
+        "evidence": [
+          {
+            "quote": "A total of 440 eligible patients included in the FAS and SS were enrolled and randomized at a 1:1 ratio to one of the two treatment groups, with 222 patients in the LY05008 group and 218 patients in the dulaglutide group.",
+            "location": "results",
+            "table_label": null
+          }
+        ]
+      }
+    ],
+    "outcomes": [
+      {
+        "name": "mean change in HbA1c from baseline to Week 24",
+        "is_primary": true,
+        "timepoint": "Week 24",
+        "comparison": "LY05008 group vs Dulaglutide group",
+        "estimand": "not_reported",
+        "effect_measure": "estimated_treatment_difference",
+        "value": 0.06,
+        "ci_lower": -0.08,
+        "ci_upper": 0.19,
+        "ci_level": 0.95,
+        "p_value": null,
+        "unit": "%",
+        "evidence": [
+          {
+            "quote": "with a least square mean difference (LSMD) and 95% confidence interval (CI) of 0.06% (−0.08, 0.19) (p > 0.05)",
+            "location": "abstract",
+            "table_label": null
+          }
+        ]
+      }
+    ],
+    "adverse_events": [
+      {
+        "term": "AEs",
+        "arm_name": "LY05008 group",
+        "n_patients": 207,
+        "percent_patients": 93.2,
+        "is_serious": null,
+        "evidence": [
+          {
+            "quote": "AEs",
+            "location": "table",
+            "table_label": "Table 7"
+          }
+        ]
+      },
+      {
+        "term": "AEs",
+        "arm_name": "Dulaglutide group",
+        "n_patients": 202,
+        "percent_patients": 92.7,
+        "is_serious": null,
+        "evidence": [
+          {
+            "quote": "AEs",
+            "location": "table",
+            "table_label": "Table 7"
+          }
+        ]
+      },
+      {
+        "term": "TEAEs",
+        "arm_name": "LY05008 group",
+        "n_patients": 202,
+        "percent_patients": 91.0,
+        "is_serious": null,
+        "evidence": [
+          {
+            "quote": "TEAEs",
+            "location": "table",
+            "table_label": "Table 7"
+          }
+        ]
+      },
+      {
+        "term": "TEAEs",
+        "arm_name": "Dulaglutide group",
+        "n_patients": 196,
+        "percent_patients": 89.9,
+        "is_serious": null,
+        "evidence": [
+          {
+            "quote": "TEAEs",
+            "location": "table",
+            "table_label": "Table 7"
+          }
+        ]
+      },
+      {
+        "term": "Study drug‐related TEAEs",
+        "arm_name": "LY05008 group",
+        "n_patients": 128,
+        "percent_patients": 57.7,
+        "is_serious": null,
+        "evidence": [
+          {
+            "quote": "Study drug‐related TEAEs",
+            "location": "table",
+            "table_label": "Table 7"
+          }
+        ]
+      },
+      {
+        "term": "Study drug‐related TEAEs",
+        "arm_name": "Dulaglutide group",
+        "n_patients": 134,
+        "percent_patients": 61.5,
+        "is_serious": null,
+        "evidence": [
+          {
+            "quote": "Study drug‐related TEAEs",
+            "location": "table",
+            "table_label": "Table 7"
+          }
+        ]
+      },
+      {
+        "term": "Severe TEAEs",
+        "arm_name": "LY05008 group",
+        "n_patients": 0,
+        "percent_patients": null,
+        "is_serious": null,
+        "evidence": [
+          {
+            "quote": "Severe TEAEs",
+            "location": "table",
+            "table_label": "Table 7"
+          }
+        ]
+      },
+      {
+        "term": "Severe TEAEs",
+        "arm_name": "Dulaglutide group",
+        "n_patients": 3,
+        "percent_patients": 1.4,
+        "is_serious": null,
+        "evidence": [
+          {
+            "quote": "Severe TEAEs",
+            "location": "table",
+            "table_label": "Table 7"
+          }
+        ]
+      },
+      {
+        "term": "Severe study drug‐related TEAEs",
+        "arm_name": "LY05008 group",
+        "n_patients": 0,
+        "percent_patients": null,
+        "is_serious": null,
+        "evidence": [
+          {
+            "quote": "Severe study drug‐related TEAEs",
+            "location": "table",
+            "table_label": "Table 7"
+          }
+        ]
+      },
+      {
+        "term": "Severe study drug‐related TEAEs",
+        "arm_name": "Dulaglutide group",
+        "n_patients": 0,
+        "percent_patients": null,
+        "is_serious": null,
+        "evidence": [
+          {
+            "quote": "Severe study drug‐related TEAEs",
+            "location": "table",
+            "table_label": "Table 7"
+          }
+        ]
+      },
+      {
+        "term": "AESIs",
+        "arm_name": "LY05008 group",
+        "n_patients": 0,
+        "percent_patients": null,
+        "is_serious": null,
+        "evidence": [
+          {
+            "quote": "AESIs",
+            "location": "table",
+            "table_label": "Table 7"
+          }
+        ]
+      },
+      {
+        "term": "AESIs",
+        "arm_name": "Dulaglutide group",
+        "n_patients": 0,
+        "percent_patients": null,
+        "is_serious": null,
+        "evidence": [
+          {
+            "quote": "AESIs",
+            "location": "table",
+            "table_label": "Table 7"
+          }
+        ]
+      },
+      {
+        "term": "Patients who withdrew from the study due to TEAEs",
+        "arm_name": "LY05008 group",
+        "n_patients": 4,
+        "percent_patients": 1.8,
+        "is_serious": null,
+        "evidence": [
+          {
+            "quote": "Patients who withdrew from the study due to TEAEs",
+            "location": "table",
+            "table_label": "Table 7"
+          }
+        ]
+      },
+      {
+        "term": "Patients who withdrew from the study due to TEAEs",
+        "arm_name": "Dulaglutide group",
+        "n_patients": 7,
+        "percent_patients": 3.2,
+        "is_serious": null,
+        "evidence": [
+          {
+            "quote": "Patients who withdrew from the study due to TEAEs",
+            "location": "table",
+            "table_label": "Table 7"
+          }
+        ]
+      },
+      {
+        "term": "Patients who withdrew l from the study due to study drug‐related TEAEs",
+        "arm_name": "LY05008 group",
+        "n_patients": 4,
+        "percent_patients": 1.8,
+        "is_serious": null,
+        "evidence": [
+          {
+            "quote": "Patients who withdrew l from the study due to study drug‐related TEAEs",
+            "location": "table",
+            "table_label": "Table 7"
+          }
+        ]
+      },
+      {
+        "term": "Patients who withdrew l from the study due to study drug‐related TEAEs",
+        "arm_name": "Dulaglutide group",
+        "n_patients": 6,
+        "percent_patients": 2.8,
+        "is_serious": null,
+        "evidence": [
+          {
+            "quote": "Patients who withdrew l from the study due to study drug‐related TEAEs",
+            "location": "table",
+            "table_label": "Table 7"
+          }
+        ]
+      },
+      {
+        "term": "SAEs",
+        "arm_name": "LY05008 group",
+        "n_patients": 9,
+        "percent_patients": 4.1,
+        "is_serious": true,
+        "evidence": [
+          {
+            "quote": "SAEs",
+            "location": "table",
+            "table_label": "Table 7"
+          }
+        ]
+      },
+      {
+        "term": "SAEs",
+        "arm_name": "Dulaglutide group",
+        "n_patients": 8,
+        "percent_patients": 3.7,
+        "is_serious": true,
+        "evidence": [
+          {
+            "quote": "SAEs",
+            "location": "table",
+            "table_label": "Table 7"
+          }
+        ]
+      },
+      {
+        "term": "Study drug‐related SAEs",
+        "arm_name": "LY05008 group",
+        "n_patients": 1,
+        "percent_patients": 0.5,
+        "is_serious": true,
+        "evidence": [
+          {
+            "quote": "Study drug‐related SAEs",
+            "location": "table",
+            "table_label": "Table 7"
+          }
+        ]
+      },
+      {
+        "term": "Study drug‐related SAEs",
+        "arm_name": "Dulaglutide group",
+        "n_patients": 1,
+        "percent_patients": 0.5,
+        "is_serious": true,
+        "evidence": [
+          {
+            "quote": "Study drug‐related SAEs",
+            "location": "table",
+            "table_label": "Table 7"
+          }
+        ]
+      },
+      {
+        "term": "TEAEs leading to treatment interruption",
+        "arm_name": "LY05008 group",
+        "n_patients": 4,
+        "percent_patients": 1.8,
+        "is_serious": null,
+        "evidence": [
+          {
+            "quote": "TEAEs leading to treatment interruption",
+            "location": "table",
+            "table_label": "Table 7"
+          }
+        ]
+      },
+      {
+        "term": "TEAEs leading to treatment interruption",
+        "arm_name": "Dulaglutide group",
+        "n_patients": 1,
+        "percent_patients": 0.5,
+        "is_serious": null,
+        "evidence": [
+          {
+            "quote": "TEAEs leading to treatment interruption",
+            "location": "table",
+            "table_label": "Table 7"
+          }
+        ]
+      },
+      {
+        "term": "Study drug‐related TEAEs leading to treatment interruption",
+        "arm_name": "LY05008 group",
+        "n_patients": 4,
+        "percent_patients": 1.8,
+        "is_serious": null,
+        "evidence": [
+          {
+            "quote": "Study drug‐related TEAEs leading to treatment interruption",
+            "location": "table",
+            "table_label": "Table 7"
+          }
+        ]
+      },
+      {
+        "term": "Study drug‐related TEAEs leading to treatment interruption",
+        "arm_name": "Dulaglutide group",
+        "n_patients": 1,
+        "percent_patients": 0.5,
+        "is_serious": null,
+        "evidence": [
+          {
+            "quote": "Study drug‐related TEAEs leading to treatment interruption",
+            "location": "table",
+            "table_label": "Table 7"
+          }
+        ]
+      },
+      {
+        "term": "TEAEs leading to permanent discontinuation of the drug",
+        "arm_name": "LY05008 group",
+        "n_patients": 4,
+        "percent_patients": 1.8,
+        "is_serious": null,
+        "evidence": [
+          {
+            "quote": "TEAEs leading to permanent discontinuation of the drug",
+            "location": "table",
+            "table_label": "Table 7"
+          }
+        ]
+      },
+      {
+        "term": "TEAEs leading to permanent discontinuation of the drug",
+        "arm_name": "Dulaglutide group",
+        "n_patients": 11,
+        "percent_patients": 5.0,
+        "is_serious": null,
+        "evidence": [
+          {
+            "quote": "TEAEs leading to permanent discontinuation of the drug",
+            "location": "table",
+            "table_label": "Table 7"
+          }
+        ]
+      },
+      {
+        "term": "Study drug‐related TEAEs leading to permanent discontinuation of the drug",
+        "arm_name": "LY05008 group",
+        "n_patients": 4,
+        "percent_patients": 1.8,
+        "is_serious": null,
+        "evidence": [
+          {
+            "quote": "Study drug‐related TEAEs leading to permanent discontinuation of the drug",
+            "location": "table",
+            "table_label": "Table 7"
+          }
+        ]
+      },
+      {
+        "term": "Study drug‐related TEAEs leading to permanent discontinuation of the drug",
+        "arm_name": "Dulaglutide group",
+        "n_patients": 10,
+        "percent_patients": 4.6,
+        "is_serious": null,
+        "evidence": [
+          {
+            "quote": "Study drug‐related TEAEs leading to permanent discontinuation of the drug",
+            "location": "table",
+            "table_label": "Table 7"
+          }
+        ]
+      },
+      {
+        "term": "TEAEs leading to death",
+        "arm_name": "LY05008 group",
+        "n_patients": 0,
+        "percent_patients": null,
+        "is_serious": true,
+        "evidence": [
+          {
+            "quote": "TEAEs leading to death",
+            "location": "table",
+            "table_label": "Table 7"
+          }
+        ]
+      },
+      {
+        "term": "TEAEs leading to death",
+        "arm_name": "Dulaglutide group",
+        "n_patients": 0,
+        "percent_patients": null,
+        "is_serious": true,
+        "evidence": [
+          {
+            "quote": "TEAEs leading to death",
+            "location": "table",
+            "table_label": "Table 7"
+          }
+        ]
+      },
+      {
+        "term": "Study drug‐related TEAEs leading to death",
+        "arm_name": "LY05008 group",
+        "n_patients": 0,
+        "percent_patients": null,
+        "is_serious": true,
+        "evidence": [
+          {
+            "quote": "Study drug‐related TEAEs leading to death",
+            "location": "table",
+            "table_label": "Table 7"
+          }
+        ]
+      },
+      {
+        "term": "Study drug‐related TEAEs leading to death",
+        "arm_name": "Dulaglutide group",
+        "n_patients": 0,
+        "percent_patients": null,
+        "is_serious": true,
+        "evidence": [
+          {
+            "quote": "Study drug‐related TEAEs leading to death",
+            "location": "table",
+            "table_label": "Table 7"
+          }
+        ]
+      }
+    ]
+  },
+  "model": "claude-sonnet-5",
+  "usage": {
+    "input_tokens": 56322,
+    "output_tokens": 6174
+  },
+  "validation_issues": []
+}

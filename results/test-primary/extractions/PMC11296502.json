@@ -1,0 +1,196 @@
+{
+  "extraction": {
+    "pmcid": "PMC11296502",
+    "trial_registration": null,
+    "design_notes": "Single-center, randomized, open-label, cross-over phase-2 trial. Participants received pioglitazone and liraglutide treatments in two 16-week periods, in random order, with an 8-week washout period between the two treatments. Primary and secondary endpoint analyses were performed on the per protocol set of patients with measurements available at pre-treatment and week-16 for treatment arms.",
+    "population": {
+      "condition": "type 2 diabetes",
+      "key_inclusion_criteria": [
+        "adulthood, a diagnosis of T2D at least 6 months before enrolment and a glycated haemoglobin (HbA1c) level of no more than 86mmol/mol at the screening (baseline) visit",
+        "Participants were either drug-naïve or on treatment with oral glucose-lowering therapies for at least 12-weeks prior to screening"
+      ],
+      "mean_age": 63.0,
+      "percent_female": 34.0,
+      "evidence": [
+        {
+          "quote": "Key inclusion criteria were adulthood, a diagnosis of T2D at least 6 months before enrolment and a glycated haemoglobin (HbA1c) level of no more than 86mmol/mol at the screening (baseline) visit.",
+          "location": "methods",
+          "table_label": null
+        },
+        {
+          "quote": "The mean age was 63years (95% Confidence Interval, 59 to 68), 27 (66%) were male",
+          "location": "results",
+          "table_label": null
+        }
+      ]
+    },
+    "arms": [
+      {
+        "name": "Liraglutide",
+        "role": "experimental",
+        "drug": "liraglutide",
+        "dose": "1.2mg once weekly",
+        "route": "subcutaneous",
+        "is_fixed_combination": false,
+        "n_randomized": null,
+        "n_analyzed": 32,
+        "evidence": [
+          {
+            "quote": "Liraglutide initiated at 0.6mg via subcutaneous injection once-weekly, with the dose titrated up to 1.2mg once weekly in 2-weeks.",
+            "location": "methods",
+            "table_label": null
+          },
+          {
+            "quote": "Liraglutide pretreatment (n=32)",
+            "location": "table",
+            "table_label": "Table 2"
+          }
+        ]
+      },
+      {
+        "name": "Pioglitazone",
+        "role": "active_comparator",
+        "drug": "pioglitazone",
+        "dose": "45mg once-daily",
+        "route": "oral",
+        "is_fixed_combination": false,
+        "n_randomized": null,
+        "n_analyzed": 35,
+        "evidence": [
+          {
+            "quote": "Pioglitazone initiated at 15mg orally once daily, with the dose increased by 15mg every other week reaching the target dose of 45mg once-daily after 4-weeks.",
+            "location": "methods",
+            "table_label": null
+          },
+          {
+            "quote": "Pioglitazone pre-treatment (n=35)",
+            "location": "table",
+            "table_label": "Table 2"
+          }
+        ]
+      }
+    ],
+    "outcomes": [
+      {
+        "name": "myocardial perfusion reserve (MPR)",
+        "is_primary": true,
+        "timepoint": "week 16",
+        "comparison": "Liraglutide vs Pioglitazone",
+        "estimand": "not_reported",
+        "effect_measure": "mean_difference",
+        "value": 0.43,
+        "ci_lower": -0.8,
+        "ci_upper": 0.9,
+        "ci_level": 0.95,
+        "p_value": "0.04",
+        "unit": null,
+        "evidence": [
+          {
+            "quote": "the difference between mean change in MPR was 0.43(−0.8 to 0.9;P=0.04)",
+            "location": "results",
+            "table_label": null
+          }
+        ]
+      },
+      {
+        "name": "global dobutamine stress myocardial blood flow (stress-MBF)",
+        "is_primary": true,
+        "timepoint": "week 16",
+        "comparison": "Liraglutide vs Pioglitazone",
+        "estimand": "not_reported",
+        "effect_measure": "mean_difference",
+        "value": 0.46,
+        "ci_lower": -0.24,
+        "ci_upper": 0.51,
+        "ci_level": 0.95,
+        "p_value": "0.01",
+        "unit": "ml/g/min",
+        "evidence": [
+          {
+            "quote": "The difference between mean change in stress-MBF after liraglutide and pioglitazone use was 0.46ml/g/min(−0.24 to 0.51;P=0.01)",
+            "location": "results",
+            "table_label": null
+          }
+        ]
+      }
+    ],
+    "adverse_events": [
+      {
+        "term": "weight gain",
+        "arm_name": "Pioglitazone",
+        "n_patients": 3,
+        "percent_patients": null,
+        "is_serious": null,
+        "evidence": [
+          {
+            "quote": "3 participants assigned to pioglitazone-first discontinued therapy due to weight gain and ankle swelling",
+            "location": "results",
+            "table_label": null
+          }
+        ]
+      },
+      {
+        "term": "ankle swelling",
+        "arm_name": "Pioglitazone",
+        "n_patients": 3,
+        "percent_patients": null,
+        "is_serious": null,
+        "evidence": [
+          {
+            "quote": "3 participants assigned to pioglitazone-first discontinued therapy due to weight gain and ankle swelling",
+            "location": "results",
+            "table_label": null
+          }
+        ]
+      },
+      {
+        "term": "nausea",
+        "arm_name": "Liraglutide",
+        "n_patients": 3,
+        "percent_patients": null,
+        "is_serious": null,
+        "evidence": [
+          {
+            "quote": "3 participants assigned to liraglutide-first discontinued therapy due to gastrointestinal symptoms of nausea and abdominal discomfort",
+            "location": "results",
+            "table_label": null
+          }
+        ]
+      },
+      {
+        "term": "abdominal discomfort",
+        "arm_name": "Liraglutide",
+        "n_patients": 3,
+        "percent_patients": null,
+        "is_serious": null,
+        "evidence": [
+          {
+            "quote": "3 participants assigned to liraglutide-first discontinued therapy due to gastrointestinal symptoms of nausea and abdominal discomfort",
+            "location": "results",
+            "table_label": null
+          }
+        ]
+      },
+      {
+        "term": "gastrointestinal side effects",
+        "arm_name": "Liraglutide",
+        "n_patients": 3,
+        "percent_patients": null,
+        "is_serious": null,
+        "evidence": [
+          {
+            "quote": "3 participants discontinued the treatment due to gastrointestinal side effects",
+            "location": "results",
+            "table_label": null
+          }
+        ]
+      }
+    ]
+  },
+  "model": "claude-sonnet-5",
+  "usage": {
+    "input_tokens": 70504,
+    "output_tokens": 2699
+  },
+  "validation_issues": []
+}

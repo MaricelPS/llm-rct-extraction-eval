@@ -1,0 +1,408 @@
+{
+  "extraction": {
+    "pmcid": "PMC11950020",
+    "trial_registration": "NCT05259033",
+    "design_notes": "52 week, randomised, multicentre, open-label, parallel group, Phase IIIa trial; 2 week screening period, 52 week treatment period and 5 week follow-up period",
+    "population": {
+      "condition": "type 2 diabetes",
+      "key_inclusion_criteria": [
+        "Eligible participants were adults (≥18 years old) with inadequately managed type 2 diabetes (HbA1c 53.0–85.8 mmol/mol [7.0–10.0%])",
+        "treated with stable doses of daily or weekly GLP-1 RAs (excluding once-weekly semaglutide with doses higher than 1.0 mg), according to the local label, for the treatment of type 2 diabetes for at least 90 days before screening, with or without stable doses of additional oral glucose-lowering medications"
+      ],
+      "mean_age": 59.1,
+      "percent_female": null,
+      "evidence": [
+        {
+          "quote": "Eligible participants were adults (≥18 years old) with inadequately managed type 2 diabetes (HbA1c 53.0–85.8 mmol/mol [7.0–10.0%])",
+          "location": "methods",
+          "table_label": null
+        },
+        {
+          "quote": "Age, years",
+          "location": "table",
+          "table_label": "Table 1"
+        }
+      ]
+    },
+    "arms": [
+      {
+        "name": "IcoSema",
+        "role": "experimental",
+        "drug": "insulin icodec + semaglutide",
+        "dose": null,
+        "route": "subcutaneous",
+        "is_fixed_combination": true,
+        "n_randomized": 342,
+        "n_analyzed": 342,
+        "evidence": [
+          {
+            "quote": "randomly assigned 1:1 to once-weekly IcoSema or once-weekly semaglutide 1.0 mg",
+            "location": "abstract",
+            "table_label": null
+          },
+          {
+            "quote": "IcoSema (n=342)",
+            "location": "results",
+            "table_label": null
+          }
+        ]
+      },
+      {
+        "name": "Semaglutide 1.0 mg",
+        "role": "active_comparator",
+        "drug": "semaglutide",
+        "dose": "1.0 mg once weekly",
+        "route": "subcutaneous",
+        "is_fixed_combination": false,
+        "n_randomized": 341,
+        "n_analyzed": 341,
+        "evidence": [
+          {
+            "quote": "semaglutide 1.0 mg (n=341)",
+            "location": "results",
+            "table_label": null
+          }
+        ]
+      }
+    ],
+    "outcomes": [
+      {
+        "name": "change in HbA1c from baseline",
+        "is_primary": true,
+        "timepoint": "week 52",
+        "comparison": "IcoSema vs Semaglutide 1.0 mg",
+        "estimand": "treatment_policy",
+        "effect_measure": "estimated_treatment_difference",
+        "value": -4.85,
+        "ci_lower": -6.13,
+        "ci_upper": -3.57,
+        "ci_level": 0.95,
+        "p_value": "<0.0001",
+        "unit": "mmol/mol",
+        "evidence": [
+          {
+            "quote": "the estimated treatment difference (ETD) was –4.85 (95% CI −6.13, −3.57) mmol/mol (−0.44 [95% CI −0.56, −0.33]%-points), confirming superiority of IcoSema to semaglutide (p<0.0001)",
+            "location": "abstract",
+            "table_label": null
+          }
+        ]
+      }
+    ],
+    "adverse_events": [
+      {
+        "term": "AEs",
+        "arm_name": "IcoSema",
+        "n_patients": 270,
+        "percent_patients": 79.2,
+        "is_serious": null,
+        "evidence": [
+          {
+            "quote": "AEs",
+            "location": "table",
+            "table_label": "Table 4"
+          }
+        ]
+      },
+      {
+        "term": "AEs",
+        "arm_name": "Semaglutide 1.0 mg",
+        "n_patients": 252,
+        "percent_patients": 74.1,
+        "is_serious": null,
+        "evidence": [
+          {
+            "quote": "AEs",
+            "location": "table",
+            "table_label": "Table 4"
+          }
+        ]
+      },
+      {
+        "term": "Serious AEs",
+        "arm_name": "IcoSema",
+        "n_patients": 38,
+        "percent_patients": 11.1,
+        "is_serious": true,
+        "evidence": [
+          {
+            "quote": "Serious AEs",
+            "location": "table",
+            "table_label": "Table 4"
+          }
+        ]
+      },
+      {
+        "term": "Serious AEs",
+        "arm_name": "Semaglutide 1.0 mg",
+        "n_patients": 21,
+        "percent_patients": 6.2,
+        "is_serious": true,
+        "evidence": [
+          {
+            "quote": "Serious AEs",
+            "location": "table",
+            "table_label": "Table 4"
+          }
+        ]
+      },
+      {
+        "term": "Nausea",
+        "arm_name": "IcoSema",
+        "n_patients": 40,
+        "percent_patients": 11.7,
+        "is_serious": null,
+        "evidence": [
+          {
+            "quote": "Nausea",
+            "location": "table",
+            "table_label": "Table 4"
+          }
+        ]
+      },
+      {
+        "term": "Nausea",
+        "arm_name": "Semaglutide 1.0 mg",
+        "n_patients": 39,
+        "percent_patients": 11.5,
+        "is_serious": null,
+        "evidence": [
+          {
+            "quote": "Nausea",
+            "location": "table",
+            "table_label": "Table 4"
+          }
+        ]
+      },
+      {
+        "term": "Diarrhoea",
+        "arm_name": "IcoSema",
+        "n_patients": 38,
+        "percent_patients": 11.1,
+        "is_serious": null,
+        "evidence": [
+          {
+            "quote": "Diarrhoea",
+            "location": "table",
+            "table_label": "Table 4"
+          }
+        ]
+      },
+      {
+        "term": "Diarrhoea",
+        "arm_name": "Semaglutide 1.0 mg",
+        "n_patients": 42,
+        "percent_patients": 12.4,
+        "is_serious": null,
+        "evidence": [
+          {
+            "quote": "Diarrhoea",
+            "location": "table",
+            "table_label": "Table 4"
+          }
+        ]
+      },
+      {
+        "term": "Vomiting",
+        "arm_name": "IcoSema",
+        "n_patients": 18,
+        "percent_patients": 5.3,
+        "is_serious": null,
+        "evidence": [
+          {
+            "quote": "Vomiting",
+            "location": "table",
+            "table_label": "Table 4"
+          }
+        ]
+      },
+      {
+        "term": "Vomiting",
+        "arm_name": "Semaglutide 1.0 mg",
+        "n_patients": 22,
+        "percent_patients": 6.5,
+        "is_serious": null,
+        "evidence": [
+          {
+            "quote": "Vomiting",
+            "location": "table",
+            "table_label": "Table 4"
+          }
+        ]
+      },
+      {
+        "term": "Constipation",
+        "arm_name": "IcoSema",
+        "n_patients": 11,
+        "percent_patients": 3.2,
+        "is_serious": null,
+        "evidence": [
+          {
+            "quote": "Constipation",
+            "location": "table",
+            "table_label": "Table 4"
+          }
+        ]
+      },
+      {
+        "term": "Constipation",
+        "arm_name": "Semaglutide 1.0 mg",
+        "n_patients": 17,
+        "percent_patients": 5.0,
+        "is_serious": null,
+        "evidence": [
+          {
+            "quote": "Constipation",
+            "location": "table",
+            "table_label": "Table 4"
+          }
+        ]
+      },
+      {
+        "term": "COVID-19",
+        "arm_name": "IcoSema",
+        "n_patients": 51,
+        "percent_patients": 15.0,
+        "is_serious": null,
+        "evidence": [
+          {
+            "quote": "COVID-19",
+            "location": "table",
+            "table_label": "Table 4"
+          }
+        ]
+      },
+      {
+        "term": "COVID-19",
+        "arm_name": "Semaglutide 1.0 mg",
+        "n_patients": 49,
+        "percent_patients": 14.4,
+        "is_serious": null,
+        "evidence": [
+          {
+            "quote": "COVID-19",
+            "location": "table",
+            "table_label": "Table 4"
+          }
+        ]
+      },
+      {
+        "term": "Nasopharyngitis",
+        "arm_name": "IcoSema",
+        "n_patients": 33,
+        "percent_patients": 9.7,
+        "is_serious": null,
+        "evidence": [
+          {
+            "quote": "Nasopharyngitis",
+            "location": "table",
+            "table_label": "Table 4"
+          }
+        ]
+      },
+      {
+        "term": "Nasopharyngitis",
+        "arm_name": "Semaglutide 1.0 mg",
+        "n_patients": 33,
+        "percent_patients": 9.7,
+        "is_serious": null,
+        "evidence": [
+          {
+            "quote": "Nasopharyngitis",
+            "location": "table",
+            "table_label": "Table 4"
+          }
+        ]
+      },
+      {
+        "term": "Upper respiratory-tract infection",
+        "arm_name": "IcoSema",
+        "n_patients": 22,
+        "percent_patients": 6.5,
+        "is_serious": null,
+        "evidence": [
+          {
+            "quote": "Upper respiratory-tract infection",
+            "location": "table",
+            "table_label": "Table 4"
+          }
+        ]
+      },
+      {
+        "term": "Upper respiratory-tract infection",
+        "arm_name": "Semaglutide 1.0 mg",
+        "n_patients": 29,
+        "percent_patients": 8.5,
+        "is_serious": null,
+        "evidence": [
+          {
+            "quote": "Upper respiratory-tract infection",
+            "location": "table",
+            "table_label": "Table 4"
+          }
+        ]
+      },
+      {
+        "term": "Headache",
+        "arm_name": "IcoSema",
+        "n_patients": 20,
+        "percent_patients": 5.9,
+        "is_serious": null,
+        "evidence": [
+          {
+            "quote": "Headache",
+            "location": "table",
+            "table_label": "Table 4"
+          }
+        ]
+      },
+      {
+        "term": "Headache",
+        "arm_name": "Semaglutide 1.0 mg",
+        "n_patients": 6,
+        "percent_patients": 1.8,
+        "is_serious": null,
+        "evidence": [
+          {
+            "quote": "Headache",
+            "location": "table",
+            "table_label": "Table 4"
+          }
+        ]
+      },
+      {
+        "term": "Diabetic retinopathy",
+        "arm_name": "IcoSema",
+        "n_patients": 19,
+        "percent_patients": 5.6,
+        "is_serious": null,
+        "evidence": [
+          {
+            "quote": "Diabetic retinopathy",
+            "location": "table",
+            "table_label": "Table 4"
+          }
+        ]
+      },
+      {
+        "term": "Diabetic retinopathy",
+        "arm_name": "Semaglutide 1.0 mg",
+        "n_patients": 10,
+        "percent_patients": 2.9,
+        "is_serious": null,
+        "evidence": [
+          {
+            "quote": "Diabetic retinopathy",
+            "location": "table",
+            "table_label": "Table 4"
+          }
+        ]
+      }
+    ]
+  },
+  "model": "claude-sonnet-5",
+  "usage": {
+    "input_tokens": 50666,
+    "output_tokens": 4537
+  },
+  "validation_issues": []
+}

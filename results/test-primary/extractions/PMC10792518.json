@@ -1,0 +1,1021 @@
+{
+  "extraction": {
+    "pmcid": "PMC10792518",
+    "trial_registration": "NCT03987451",
+    "design_notes": "This multinational, multicentre, randomised, double-blind, placebo-controlled, phase 2 trial was conducted in 38 centres in Europe and the USA.",
+    "population": {
+      "condition": "non-alcoholic steatohepatitis-related cirrhosis",
+      "key_inclusion_criteria": [
+        "histological evidence of NASH and Kleiner F4 according to the NASH Clinical Research Network (CRN) classification",
+        "a histological non-alcoholic fatty liver disease (NAFLD) activity score (NAS) of 3 or more with a score of 1 or more for both lobular inflammation and hepatocyte ballooning",
+        "a body-mass index (BMI) of 27 kg/m2 or greater",
+        "aged 18\\u201375 years (both inclusive) at the time of signing informed consent"
+      ],
+      "mean_age": 59.5,
+      "percent_female": 69.0,
+      "evidence": [
+        {
+          "quote": "Patients had a mean age of 59·5 years (SD 8·0) and mean BMI of 34·9 kg/m2 (SD 5·9); 53 (75%) patients had diabetes.",
+          "location": "abstract",
+          "table_label": null
+        },
+        {
+          "quote": "49 (69%) patients were female and 22 (31%) were male.",
+          "location": "abstract",
+          "table_label": null
+        }
+      ]
+    },
+    "arms": [
+      {
+        "name": "Semaglutide 2·4 mg group",
+        "role": "experimental",
+        "drug": "semaglutide",
+        "dose": "2·4 mg once weekly",
+        "route": "subcutaneous",
+        "is_fixed_combination": false,
+        "n_randomized": 47,
+        "n_analyzed": 47,
+        "evidence": [
+          {
+            "quote": "47 patients were randomly assigned to the semaglutide group and 24 to the placebo group.",
+            "location": "results",
+            "table_label": null
+          }
+        ]
+      },
+      {
+        "name": "Placebo group",
+        "role": "placebo",
+        "drug": null,
+        "dose": null,
+        "route": "subcutaneous",
+        "is_fixed_combination": false,
+        "n_randomized": 24,
+        "n_analyzed": 24,
+        "evidence": [
+          {
+            "quote": "47 patients were randomly assigned to the semaglutide group and 24 to the placebo group.",
+            "location": "results",
+            "table_label": null
+          }
+        ]
+      }
+    ],
+    "outcomes": [
+      {
+        "name": "improvement in liver fibrosis of one stage or more without worsening of NASH",
+        "is_primary": true,
+        "timepoint": "week 48",
+        "comparison": "Semaglutide 2·4 mg group vs Placebo group",
+        "estimand": "not_reported",
+        "effect_measure": "odds_ratio",
+        "value": 0.28,
+        "ci_lower": 0.06,
+        "ci_upper": 1.24,
+        "ci_level": 0.95,
+        "p_value": "0·087",
+        "unit": null,
+        "evidence": [
+          {
+            "quote": "five [11%] of 47 patients in the semaglutide group vs seven [29%] of 24 patients in the placebo group; odds ratio 0·28 [95% CI 0·06–1·24]; p=0·087",
+            "location": "results",
+            "table_label": null
+          }
+        ]
+      }
+    ],
+    "adverse_events": [
+      {
+        "term": "All patients with adverse events",
+        "arm_name": "Semaglutide 2·4 mg group",
+        "n_patients": 42,
+        "percent_patients": 89.0,
+        "is_serious": null,
+        "evidence": [
+          {
+            "quote": "All patients with adverse events",
+            "location": "table",
+            "table_label": "Table 2"
+          }
+        ]
+      },
+      {
+        "term": "All patients with adverse events",
+        "arm_name": "Placebo group",
+        "n_patients": 19,
+        "percent_patients": 79.0,
+        "is_serious": null,
+        "evidence": [
+          {
+            "quote": "All patients with adverse events",
+            "location": "table",
+            "table_label": "Table 2"
+          }
+        ]
+      },
+      {
+        "term": "Gastrointestinal disorders",
+        "arm_name": "Semaglutide 2·4 mg group",
+        "n_patients": 36,
+        "percent_patients": 77.0,
+        "is_serious": null,
+        "evidence": [
+          {
+            "quote": "Gastrointestinal disorders",
+            "location": "table",
+            "table_label": "Table 2"
+          }
+        ]
+      },
+      {
+        "term": "Gastrointestinal disorders",
+        "arm_name": "Placebo group",
+        "n_patients": 8,
+        "percent_patients": 33.0,
+        "is_serious": null,
+        "evidence": [
+          {
+            "quote": "Gastrointestinal disorders",
+            "location": "table",
+            "table_label": "Table 2"
+          }
+        ]
+      },
+      {
+        "term": "Nausea",
+        "arm_name": "Semaglutide 2·4 mg group",
+        "n_patients": 21,
+        "percent_patients": 45.0,
+        "is_serious": null,
+        "evidence": [
+          {
+            "quote": "Nausea",
+            "location": "table",
+            "table_label": "Table 2"
+          }
+        ]
+      },
+      {
+        "term": "Nausea",
+        "arm_name": "Placebo group",
+        "n_patients": 4,
+        "percent_patients": 17.0,
+        "is_serious": null,
+        "evidence": [
+          {
+            "quote": "Nausea",
+            "location": "table",
+            "table_label": "Table 2"
+          }
+        ]
+      },
+      {
+        "term": "Diarrhoea",
+        "arm_name": "Semaglutide 2·4 mg group",
+        "n_patients": 9,
+        "percent_patients": 19.0,
+        "is_serious": null,
+        "evidence": [
+          {
+            "quote": "Diarrhoea",
+            "location": "table",
+            "table_label": "Table 2"
+          }
+        ]
+      },
+      {
+        "term": "Diarrhoea",
+        "arm_name": "Placebo group",
+        "n_patients": 2,
+        "percent_patients": 8.0,
+        "is_serious": null,
+        "evidence": [
+          {
+            "quote": "Diarrhoea",
+            "location": "table",
+            "table_label": "Table 2"
+          }
+        ]
+      },
+      {
+        "term": "Vomiting",
+        "arm_name": "Semaglutide 2·4 mg group",
+        "n_patients": 8,
+        "percent_patients": 17.0,
+        "is_serious": null,
+        "evidence": [
+          {
+            "quote": "Vomiting",
+            "location": "table",
+            "table_label": "Table 2"
+          }
+        ]
+      },
+      {
+        "term": "Vomiting",
+        "arm_name": "Placebo group",
+        "n_patients": 0,
+        "percent_patients": 0.0,
+        "is_serious": null,
+        "evidence": [
+          {
+            "quote": "Vomiting",
+            "location": "table",
+            "table_label": "Table 2"
+          }
+        ]
+      },
+      {
+        "term": "Abdominal pain",
+        "arm_name": "Semaglutide 2·4 mg group",
+        "n_patients": 6,
+        "percent_patients": 13.0,
+        "is_serious": null,
+        "evidence": [
+          {
+            "quote": "Abdominal pain",
+            "location": "table",
+            "table_label": "Table 2"
+          }
+        ]
+      },
+      {
+        "term": "Abdominal pain",
+        "arm_name": "Placebo group",
+        "n_patients": 1,
+        "percent_patients": 4.0,
+        "is_serious": null,
+        "evidence": [
+          {
+            "quote": "Abdominal pain",
+            "location": "table",
+            "table_label": "Table 2"
+          }
+        ]
+      },
+      {
+        "term": "Decreased appetite",
+        "arm_name": "Semaglutide 2·4 mg group",
+        "n_patients": 6,
+        "percent_patients": 13.0,
+        "is_serious": null,
+        "evidence": [
+          {
+            "quote": "Decreased appetite",
+            "location": "table",
+            "table_label": "Table 2"
+          }
+        ]
+      },
+      {
+        "term": "Decreased appetite",
+        "arm_name": "Placebo group",
+        "n_patients": 1,
+        "percent_patients": 4.0,
+        "is_serious": null,
+        "evidence": [
+          {
+            "quote": "Decreased appetite",
+            "location": "table",
+            "table_label": "Table 2"
+          }
+        ]
+      },
+      {
+        "term": "Eructation",
+        "arm_name": "Semaglutide 2·4 mg group",
+        "n_patients": 6,
+        "percent_patients": 13.0,
+        "is_serious": null,
+        "evidence": [
+          {
+            "quote": "Eructation",
+            "location": "table",
+            "table_label": "Table 2"
+          }
+        ]
+      },
+      {
+        "term": "Eructation",
+        "arm_name": "Placebo group",
+        "n_patients": 0,
+        "percent_patients": 0.0,
+        "is_serious": null,
+        "evidence": [
+          {
+            "quote": "Eructation",
+            "location": "table",
+            "table_label": "Table 2"
+          }
+        ]
+      },
+      {
+        "term": "Abdominal pain upper",
+        "arm_name": "Semaglutide 2·4 mg group",
+        "n_patients": 5,
+        "percent_patients": 11.0,
+        "is_serious": null,
+        "evidence": [
+          {
+            "quote": "Abdominal pain upper",
+            "location": "table",
+            "table_label": "Table 2"
+          }
+        ]
+      },
+      {
+        "term": "Abdominal pain upper",
+        "arm_name": "Placebo group",
+        "n_patients": 2,
+        "percent_patients": 8.0,
+        "is_serious": null,
+        "evidence": [
+          {
+            "quote": "Abdominal pain upper",
+            "location": "table",
+            "table_label": "Table 2"
+          }
+        ]
+      },
+      {
+        "term": "Dyspepsia",
+        "arm_name": "Semaglutide 2·4 mg group",
+        "n_patients": 5,
+        "percent_patients": 11.0,
+        "is_serious": null,
+        "evidence": [
+          {
+            "quote": "Dyspepsia",
+            "location": "table",
+            "table_label": "Table 2"
+          }
+        ]
+      },
+      {
+        "term": "Dyspepsia",
+        "arm_name": "Placebo group",
+        "n_patients": 0,
+        "percent_patients": 0.0,
+        "is_serious": null,
+        "evidence": [
+          {
+            "quote": "Dyspepsia",
+            "location": "table",
+            "table_label": "Table 2"
+          }
+        ]
+      },
+      {
+        "term": "Urinary tract infection",
+        "arm_name": "Semaglutide 2·4 mg group",
+        "n_patients": 3,
+        "percent_patients": 6.0,
+        "is_serious": null,
+        "evidence": [
+          {
+            "quote": "Urinary tract infection",
+            "location": "table",
+            "table_label": "Table 2"
+          }
+        ]
+      },
+      {
+        "term": "Urinary tract infection",
+        "arm_name": "Placebo group",
+        "n_patients": 4,
+        "percent_patients": 17.0,
+        "is_serious": null,
+        "evidence": [
+          {
+            "quote": "Urinary tract infection",
+            "location": "table",
+            "table_label": "Table 2"
+          }
+        ]
+      },
+      {
+        "term": "Back pain",
+        "arm_name": "Semaglutide 2·4 mg group",
+        "n_patients": 0,
+        "percent_patients": null,
+        "is_serious": null,
+        "evidence": [
+          {
+            "quote": "Back pain",
+            "location": "table",
+            "table_label": "Table 2"
+          }
+        ]
+      },
+      {
+        "term": "Back pain",
+        "arm_name": "Placebo group",
+        "n_patients": 3,
+        "percent_patients": 13.0,
+        "is_serious": null,
+        "evidence": [
+          {
+            "quote": "Back pain",
+            "location": "table",
+            "table_label": "Table 2"
+          }
+        ]
+      },
+      {
+        "term": "Patients with serious adverse events: On-treatment",
+        "arm_name": "Semaglutide 2·4 mg group",
+        "n_patients": 6,
+        "percent_patients": 13.0,
+        "is_serious": true,
+        "evidence": [
+          {
+            "quote": "On-treatment",
+            "location": "table",
+            "table_label": "Table 2"
+          }
+        ]
+      },
+      {
+        "term": "Patients with serious adverse events: On-treatment",
+        "arm_name": "Placebo group",
+        "n_patients": 2,
+        "percent_patients": 8.0,
+        "is_serious": true,
+        "evidence": [
+          {
+            "quote": "On-treatment",
+            "location": "table",
+            "table_label": "Table 2"
+          }
+        ]
+      },
+      {
+        "term": "Patients with serious adverse events: In-trial",
+        "arm_name": "Semaglutide 2·4 mg group",
+        "n_patients": 6,
+        "percent_patients": 13.0,
+        "is_serious": true,
+        "evidence": [
+          {
+            "quote": "In-trial",
+            "location": "table",
+            "table_label": "Table 2"
+          }
+        ]
+      },
+      {
+        "term": "Patients with serious adverse events: In-trial",
+        "arm_name": "Placebo group",
+        "n_patients": 2,
+        "percent_patients": 8.0,
+        "is_serious": true,
+        "evidence": [
+          {
+            "quote": "In-trial",
+            "location": "table",
+            "table_label": "Table 2"
+          }
+        ]
+      },
+      {
+        "term": "Serious adverse events: Gastrointestinal disorders",
+        "arm_name": "Semaglutide 2·4 mg group",
+        "n_patients": 3,
+        "percent_patients": 6.0,
+        "is_serious": true,
+        "evidence": [
+          {
+            "quote": "Gastrointestinal disorders",
+            "location": "table",
+            "table_label": "Table 2"
+          }
+        ]
+      },
+      {
+        "term": "Serious adverse events: Gastrointestinal disorders",
+        "arm_name": "Placebo group",
+        "n_patients": 2,
+        "percent_patients": 8.0,
+        "is_serious": true,
+        "evidence": [
+          {
+            "quote": "Gastrointestinal disorders",
+            "location": "table",
+            "table_label": "Table 2"
+          }
+        ]
+      },
+      {
+        "term": "Serious adverse events: Eye disorders",
+        "arm_name": "Semaglutide 2·4 mg group",
+        "n_patients": 1,
+        "percent_patients": 2.0,
+        "is_serious": true,
+        "evidence": [
+          {
+            "quote": "Eye disorders",
+            "location": "table",
+            "table_label": "Table 2"
+          }
+        ]
+      },
+      {
+        "term": "Serious adverse events: Eye disorders",
+        "arm_name": "Placebo group",
+        "n_patients": 0,
+        "percent_patients": null,
+        "is_serious": true,
+        "evidence": [
+          {
+            "quote": "Eye disorders",
+            "location": "table",
+            "table_label": "Table 2"
+          }
+        ]
+      },
+      {
+        "term": "Serious adverse events: Hepatobiliary disorders",
+        "arm_name": "Semaglutide 2·4 mg group",
+        "n_patients": 1,
+        "percent_patients": 2.0,
+        "is_serious": true,
+        "evidence": [
+          {
+            "quote": "Hepatobiliary disorders",
+            "location": "table",
+            "table_label": "Table 2"
+          }
+        ]
+      },
+      {
+        "term": "Serious adverse events: Hepatobiliary disorders",
+        "arm_name": "Placebo group",
+        "n_patients": 0,
+        "percent_patients": null,
+        "is_serious": true,
+        "evidence": [
+          {
+            "quote": "Hepatobiliary disorders",
+            "location": "table",
+            "table_label": "Table 2"
+          }
+        ]
+      },
+      {
+        "term": "Serious adverse events: Injury, poisoning, and procedural complications",
+        "arm_name": "Semaglutide 2·4 mg group",
+        "n_patients": 1,
+        "percent_patients": 2.0,
+        "is_serious": true,
+        "evidence": [
+          {
+            "quote": "Injury, poisoning, and procedural complications",
+            "location": "table",
+            "table_label": "Table 2"
+          }
+        ]
+      },
+      {
+        "term": "Serious adverse events: Injury, poisoning, and procedural complications",
+        "arm_name": "Placebo group",
+        "n_patients": 0,
+        "percent_patients": null,
+        "is_serious": true,
+        "evidence": [
+          {
+            "quote": "Injury, poisoning, and procedural complications",
+            "location": "table",
+            "table_label": "Table 2"
+          }
+        ]
+      },
+      {
+        "term": "Serious adverse events: Metabolism and nutrition disorders",
+        "arm_name": "Semaglutide 2·4 mg group",
+        "n_patients": 1,
+        "percent_patients": 2.0,
+        "is_serious": true,
+        "evidence": [
+          {
+            "quote": "Metabolism and nutrition disorders",
+            "location": "table",
+            "table_label": "Table 2"
+          }
+        ]
+      },
+      {
+        "term": "Serious adverse events: Metabolism and nutrition disorders",
+        "arm_name": "Placebo group",
+        "n_patients": 0,
+        "percent_patients": null,
+        "is_serious": true,
+        "evidence": [
+          {
+            "quote": "Metabolism and nutrition disorders",
+            "location": "table",
+            "table_label": "Table 2"
+          }
+        ]
+      },
+      {
+        "term": "Serious adverse events: Nervous system disorders",
+        "arm_name": "Semaglutide 2·4 mg group",
+        "n_patients": 1,
+        "percent_patients": 2.0,
+        "is_serious": true,
+        "evidence": [
+          {
+            "quote": "Nervous system disorders",
+            "location": "table",
+            "table_label": "Table 2"
+          }
+        ]
+      },
+      {
+        "term": "Serious adverse events: Nervous system disorders",
+        "arm_name": "Placebo group",
+        "n_patients": 0,
+        "percent_patients": null,
+        "is_serious": true,
+        "evidence": [
+          {
+            "quote": "Nervous system disorders",
+            "location": "table",
+            "table_label": "Table 2"
+          }
+        ]
+      },
+      {
+        "term": "Serious adverse events: Renal and urinary disorders",
+        "arm_name": "Semaglutide 2·4 mg group",
+        "n_patients": 1,
+        "percent_patients": 2.0,
+        "is_serious": true,
+        "evidence": [
+          {
+            "quote": "Renal and urinary disorders",
+            "location": "table",
+            "table_label": "Table 2"
+          }
+        ]
+      },
+      {
+        "term": "Serious adverse events: Renal and urinary disorders",
+        "arm_name": "Placebo group",
+        "n_patients": 0,
+        "percent_patients": null,
+        "is_serious": true,
+        "evidence": [
+          {
+            "quote": "Renal and urinary disorders",
+            "location": "table",
+            "table_label": "Table 2"
+          }
+        ]
+      },
+      {
+        "term": "Serious adverse events: Respiratory, thoracic, and mediastinal disorders",
+        "arm_name": "Semaglutide 2·4 mg group",
+        "n_patients": 1,
+        "percent_patients": 2.0,
+        "is_serious": true,
+        "evidence": [
+          {
+            "quote": "Respiratory, thoracic, and mediastinal disorders",
+            "location": "table",
+            "table_label": "Table 2"
+          }
+        ]
+      },
+      {
+        "term": "Serious adverse events: Respiratory, thoracic, and mediastinal disorders",
+        "arm_name": "Placebo group",
+        "n_patients": 0,
+        "percent_patients": null,
+        "is_serious": true,
+        "evidence": [
+          {
+            "quote": "Respiratory, thoracic, and mediastinal disorders",
+            "location": "table",
+            "table_label": "Table 2"
+          }
+        ]
+      },
+      {
+        "term": "Serious adverse events: Musculoskeletal and connective tissues disorders",
+        "arm_name": "Semaglutide 2·4 mg group",
+        "n_patients": 0,
+        "percent_patients": null,
+        "is_serious": true,
+        "evidence": [
+          {
+            "quote": "Musculoskeletal and connective tissues disorders",
+            "location": "table",
+            "table_label": "Table 2"
+          }
+        ]
+      },
+      {
+        "term": "Serious adverse events: Musculoskeletal and connective tissues disorders",
+        "arm_name": "Placebo group",
+        "n_patients": 1,
+        "percent_patients": 4.0,
+        "is_serious": true,
+        "evidence": [
+          {
+            "quote": "Musculoskeletal and connective tissues disorders",
+            "location": "table",
+            "table_label": "Table 2"
+          }
+        ]
+      },
+      {
+        "term": "Serious adverse events: Psychiatric disorders",
+        "arm_name": "Semaglutide 2·4 mg group",
+        "n_patients": 0,
+        "percent_patients": null,
+        "is_serious": true,
+        "evidence": [
+          {
+            "quote": "Psychiatric disorders",
+            "location": "table",
+            "table_label": "Table 2"
+          }
+        ]
+      },
+      {
+        "term": "Serious adverse events: Psychiatric disorders",
+        "arm_name": "Placebo group",
+        "n_patients": 1,
+        "percent_patients": 4.0,
+        "is_serious": true,
+        "evidence": [
+          {
+            "quote": "Psychiatric disorders",
+            "location": "table",
+            "table_label": "Table 2"
+          }
+        ]
+      },
+      {
+        "term": "Serious adverse events: Fatal events",
+        "arm_name": "Semaglutide 2·4 mg group",
+        "n_patients": 0,
+        "percent_patients": null,
+        "is_serious": true,
+        "evidence": [
+          {
+            "quote": "Fatal events",
+            "location": "table",
+            "table_label": "Table 2"
+          }
+        ]
+      },
+      {
+        "term": "Serious adverse events: Fatal events",
+        "arm_name": "Placebo group",
+        "n_patients": 0,
+        "percent_patients": null,
+        "is_serious": true,
+        "evidence": [
+          {
+            "quote": "Fatal events",
+            "location": "table",
+            "table_label": "Table 2"
+          }
+        ]
+      },
+      {
+        "term": "Severity: Mild",
+        "arm_name": "Semaglutide 2·4 mg group",
+        "n_patients": 37,
+        "percent_patients": 79.0,
+        "is_serious": null,
+        "evidence": [
+          {
+            "quote": "Mild",
+            "location": "table",
+            "table_label": "Table 2"
+          }
+        ]
+      },
+      {
+        "term": "Severity: Mild",
+        "arm_name": "Placebo group",
+        "n_patients": 17,
+        "percent_patients": 71.0,
+        "is_serious": null,
+        "evidence": [
+          {
+            "quote": "Mild",
+            "location": "table",
+            "table_label": "Table 2"
+          }
+        ]
+      },
+      {
+        "term": "Severity: Moderate",
+        "arm_name": "Semaglutide 2·4 mg group",
+        "n_patients": 26,
+        "percent_patients": 55.0,
+        "is_serious": null,
+        "evidence": [
+          {
+            "quote": "Moderate",
+            "location": "table",
+            "table_label": "Table 2"
+          }
+        ]
+      },
+      {
+        "term": "Severity: Moderate",
+        "arm_name": "Placebo group",
+        "n_patients": 10,
+        "percent_patients": 42.0,
+        "is_serious": null,
+        "evidence": [
+          {
+            "quote": "Moderate",
+            "location": "table",
+            "table_label": "Table 2"
+          }
+        ]
+      },
+      {
+        "term": "Severity: Severe",
+        "arm_name": "Semaglutide 2·4 mg group",
+        "n_patients": 8,
+        "percent_patients": 17.0,
+        "is_serious": null,
+        "evidence": [
+          {
+            "quote": "Severe",
+            "location": "table",
+            "table_label": "Table 2"
+          }
+        ]
+      },
+      {
+        "term": "Severity: Severe",
+        "arm_name": "Placebo group",
+        "n_patients": 1,
+        "percent_patients": 4.0,
+        "is_serious": null,
+        "evidence": [
+          {
+            "quote": "Severe",
+            "location": "table",
+            "table_label": "Table 2"
+          }
+        ]
+      },
+      {
+        "term": "Relationship to trial product: Probable",
+        "arm_name": "Semaglutide 2·4 mg group",
+        "n_patients": 22,
+        "percent_patients": 47.0,
+        "is_serious": null,
+        "evidence": [
+          {
+            "quote": "Probable",
+            "location": "table",
+            "table_label": "Table 2"
+          }
+        ]
+      },
+      {
+        "term": "Relationship to trial product: Probable",
+        "arm_name": "Placebo group",
+        "n_patients": 4,
+        "percent_patients": 17.0,
+        "is_serious": null,
+        "evidence": [
+          {
+            "quote": "Probable",
+            "location": "table",
+            "table_label": "Table 2"
+          }
+        ]
+      },
+      {
+        "term": "Relationship to trial product: Possible",
+        "arm_name": "Semaglutide 2·4 mg group",
+        "n_patients": 23,
+        "percent_patients": 49.0,
+        "is_serious": null,
+        "evidence": [
+          {
+            "quote": "Possible",
+            "location": "table",
+            "table_label": "Table 2"
+          }
+        ]
+      },
+      {
+        "term": "Relationship to trial product: Possible",
+        "arm_name": "Placebo group",
+        "n_patients": 9,
+        "percent_patients": 38.0,
+        "is_serious": null,
+        "evidence": [
+          {
+            "quote": "Possible",
+            "location": "table",
+            "table_label": "Table 2"
+          }
+        ]
+      },
+      {
+        "term": "Relationship to trial product: Unlikely",
+        "arm_name": "Semaglutide 2·4 mg group",
+        "n_patients": 31,
+        "percent_patients": 66.0,
+        "is_serious": null,
+        "evidence": [
+          {
+            "quote": "Unlikely",
+            "location": "table",
+            "table_label": "Table 2"
+          }
+        ]
+      },
+      {
+        "term": "Relationship to trial product: Unlikely",
+        "arm_name": "Placebo group",
+        "n_patients": 18,
+        "percent_patients": 75.0,
+        "is_serious": null,
+        "evidence": [
+          {
+            "quote": "Unlikely",
+            "location": "table",
+            "table_label": "Table 2"
+          }
+        ]
+      },
+      {
+        "term": "Leading to withdrawal of trial product",
+        "arm_name": "Semaglutide 2·4 mg group",
+        "n_patients": 3,
+        "percent_patients": 6.0,
+        "is_serious": null,
+        "evidence": [
+          {
+            "quote": "Leading to withdrawal of trial product",
+            "location": "table",
+            "table_label": "Table 2"
+          }
+        ]
+      },
+      {
+        "term": "Leading to withdrawal of trial product",
+        "arm_name": "Placebo group",
+        "n_patients": 0,
+        "percent_patients": null,
+        "is_serious": null,
+        "evidence": [
+          {
+            "quote": "Leading to withdrawal of trial product",
+            "location": "table",
+            "table_label": "Table 2"
+          }
+        ]
+      },
+      {
+        "term": "Leading to withdrawal from trial",
+        "arm_name": "Semaglutide 2·4 mg group",
+        "n_patients": 0,
+        "percent_patients": null,
+        "is_serious": null,
+        "evidence": [
+          {
+            "quote": "Leading to withdrawal from trial",
+            "location": "table",
+            "table_label": "Table 2"
+          }
+        ]
+      },
+      {
+        "term": "Leading to withdrawal from trial",
+        "arm_name": "Placebo group",
+        "n_patients": 0,
+        "percent_patients": null,
+        "is_serious": null,
+        "evidence": [
+          {
+            "quote": "Leading to withdrawal from trial",
+            "location": "table",
+            "table_label": "Table 2"
+          }
+        ]
+      }
+    ]
+  },
+  "model": "claude-sonnet-5",
+  "usage": {
+    "input_tokens": 46369,
+    "output_tokens": 8984
+  },
+  "validation_issues": []
+}

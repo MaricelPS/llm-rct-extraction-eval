@@ -1,0 +1,179 @@
+{
+  "extraction": {
+    "pmcid": "PMC12890759",
+    "trial_registration": "NCT04945070",
+    "design_notes": "five‐centre, open‐label, parallel‐group, active comparator, phase IV randomised controlled trial with a 24‐week active treatment period",
+    "population": {
+      "condition": "type 2 diabetes",
+      "key_inclusion_criteria": [
+        "age 18–80 years, HbA1c ≤9% [75 mmol/mol], total daily dose of insulin ≤0.8 IU/kg, and fasting C‐peptide above the lower limit of normal",
+        "treated with an MDI regimen (≥3 insulin injections/day) and with metformin (unless not tolerated) ± SGT2i on stable doses ≥3 months prior to screening"
+      ],
+      "mean_age": 66.2,
+      "percent_female": 21.0,
+      "evidence": [
+        {
+          "quote": "Ninety individuals (n = 45 in both treatment groups), 71/91 (79.0%) male with mean (SD) age 66.2 (8.7) years",
+          "location": "abstract",
+          "table_label": null
+        },
+        {
+          "quote": "Female",
+          "location": "table",
+          "table_label": "Table 1"
+        }
+      ]
+    },
+    "arms": [
+      {
+        "name": "iGlarLixi",
+        "role": "experimental",
+        "drug": "insulin glargine/lixisenatide",
+        "dose": null,
+        "route": "subcutaneous",
+        "is_fixed_combination": true,
+        "n_randomized": 45,
+        "n_analyzed": 45,
+        "evidence": [
+          {
+            "quote": "Ninety‐one individuals were randomly assigned for either continuation with the MDI regimen (n = 46) or initiation of iGlarLixi (n = 45). A total of 90 participants were included in the full analysis set (n = 45 for both treatment groups)",
+            "location": "results",
+            "table_label": null
+          }
+        ]
+      },
+      {
+        "name": "MDI",
+        "role": "active_comparator",
+        "drug": "insulin",
+        "dose": null,
+        "route": "subcutaneous",
+        "is_fixed_combination": false,
+        "n_randomized": 46,
+        "n_analyzed": 45,
+        "evidence": [
+          {
+            "quote": "Ninety‐one individuals were randomly assigned for either continuation with the MDI regimen (n = 46) or initiation of iGlarLixi (n = 45). A total of 90 participants were included in the full analysis set (n = 45 for both treatment groups)",
+            "location": "results",
+            "table_label": null
+          }
+        ]
+      }
+    ],
+    "outcomes": [
+      {
+        "name": "mean change in HbA1c from baseline",
+        "is_primary": true,
+        "timepoint": "24 weeks",
+        "comparison": "iGlarLixi vs MDI",
+        "estimand": "not_reported",
+        "effect_measure": "mean_difference",
+        "value": -0.12,
+        "ci_lower": -0.48,
+        "ci_upper": 0.23,
+        "ci_level": 0.95,
+        "p_value": null,
+        "unit": "%",
+        "evidence": [
+          {
+            "quote": "The mean (95% CI) difference in the HbA1c change between iGlarLixi and the MDI group was −0.12 (−0.48, 0.23)% (−1.39 [−5.21, 2.43] mmol/mol), indicating comparable glycaemic control in both treatment groups",
+            "location": "results",
+            "table_label": null
+          }
+        ]
+      }
+    ],
+    "adverse_events": [
+      {
+        "term": "Severe hypoglycaemia",
+        "arm_name": "iGlarLixi",
+        "n_patients": 0,
+        "percent_patients": null,
+        "is_serious": null,
+        "evidence": [
+          {
+            "quote": "No severe hypoglycaemia was reported in any of the study participants during the duration of the trial.",
+            "location": "results",
+            "table_label": null
+          }
+        ]
+      },
+      {
+        "term": "Severe hypoglycaemia",
+        "arm_name": "MDI",
+        "n_patients": 0,
+        "percent_patients": null,
+        "is_serious": null,
+        "evidence": [
+          {
+            "quote": "No severe hypoglycaemia was reported in any of the study participants during the duration of the trial.",
+            "location": "results",
+            "table_label": null
+          }
+        ]
+      },
+      {
+        "term": "Upper respiratory tract infection",
+        "arm_name": "iGlarLixi",
+        "n_patients": 11,
+        "percent_patients": null,
+        "is_serious": null,
+        "evidence": [
+          {
+            "quote": "in 22 participants (iGlarLixi n = 11, MDI n = 11)",
+            "location": "results",
+            "table_label": null
+          }
+        ]
+      },
+      {
+        "term": "Upper respiratory tract infection",
+        "arm_name": "MDI",
+        "n_patients": 11,
+        "percent_patients": null,
+        "is_serious": null,
+        "evidence": [
+          {
+            "quote": "in 22 participants (iGlarLixi n = 11, MDI n = 11)",
+            "location": "results",
+            "table_label": null
+          }
+        ]
+      },
+      {
+        "term": "Covid-19 infection",
+        "arm_name": "iGlarLixi",
+        "n_patients": 2,
+        "percent_patients": null,
+        "is_serious": null,
+        "evidence": [
+          {
+            "quote": "Covid‐19 infection was confirmed in five participants (two were in the iGlarLixi and three in the MDI groups)",
+            "location": "results",
+            "table_label": null
+          }
+        ]
+      },
+      {
+        "term": "Covid-19 infection",
+        "arm_name": "MDI",
+        "n_patients": 3,
+        "percent_patients": null,
+        "is_serious": null,
+        "evidence": [
+          {
+            "quote": "Covid‐19 infection was confirmed in five participants (two were in the iGlarLixi and three in the MDI groups)",
+            "location": "results",
+            "table_label": null
+          }
+        ]
+      }
+    ]
+  },
+  "model": "claude-sonnet-5",
+  "usage": {
+    "input_tokens": 31618,
+    "output_tokens": 2411
+  },
+  "validation_issues": []
+}

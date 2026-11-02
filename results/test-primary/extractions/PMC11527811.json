@@ -1,0 +1,127 @@
+{
+  "extraction": {
+    "pmcid": "PMC11527811",
+    "trial_registration": "ChiCTR2400080460",
+    "design_notes": "This was a 12 week prospective randomized controlled trial. This was a single‐blind trial, blinded only to the subjects, and the researchers were informed to facilitate intervention and response.",
+    "population": {
+      "condition": "type 2 diabetes",
+      "key_inclusion_criteria": [
+        "a confirmed diagnosis of type 2 diabetes, age over 18 years, recent hemoglobin A1c (HbA1c) measurement taken within the previous 2 weeks showing levels above 7.0%, strong self‐management ability, possession of a smartphone, and the capability to learn to use the internet"
+      ],
+      "mean_age": null,
+      "percent_female": null,
+      "evidence": [
+        {
+          "quote": "a confirmed diagnosis of type 2 diabetes, age over 18 years, recent hemoglobin A1c (HbA1c) measurement taken within the previous 2 weeks showing levels above 7.0%, strong self‐management ability, possession of a smartphone, and the capability to learn to use the internet",
+          "location": "methods",
+          "table_label": null
+        }
+      ]
+    },
+    "arms": [
+      {
+        "name": "Group A",
+        "role": "active_comparator",
+        "drug": null,
+        "dose": null,
+        "route": "not_reported",
+        "is_fixed_combination": false,
+        "n_randomized": 90,
+        "n_analyzed": 75,
+        "evidence": [
+          {
+            "quote": "Routine standard diabetes care was applied to the patients in Group A.",
+            "location": "abstract",
+            "table_label": null
+          },
+          {
+            "quote": "In total, 180 patients with type 2 diabetes were randomly allocated into the control group (group A, n = 90) and the experimental group (group B, n = 90).",
+            "location": "methods",
+            "table_label": null
+          }
+        ]
+      },
+      {
+        "name": "Group B",
+        "role": "experimental",
+        "drug": null,
+        "dose": null,
+        "route": "not_reported",
+        "is_fixed_combination": false,
+        "n_randomized": 90,
+        "n_analyzed": 73,
+        "evidence": [
+          {
+            "quote": "The integrated data platform with dietary management was applied to Group B.",
+            "location": "abstract",
+            "table_label": null
+          },
+          {
+            "quote": "the research analysis was finally conducted in75 subjects in group A and 73 subjects in group B",
+            "location": "methods",
+            "table_label": null
+          }
+        ]
+      }
+    ],
+    "outcomes": [
+      {
+        "name": "change in HbA1c from baseline",
+        "is_primary": true,
+        "timepoint": "Week 12",
+        "comparison": "Group B vs Group A",
+        "estimand": "not_reported",
+        "effect_measure": "other",
+        "value": null,
+        "ci_lower": null,
+        "ci_upper": null,
+        "ci_level": null,
+        "p_value": "0.002",
+        "unit": "%",
+        "evidence": [
+          {
+            "quote": "HbA1c (%) at week 12",
+            "location": "table",
+            "table_label": "Table 2"
+          }
+        ]
+      }
+    ],
+    "adverse_events": [
+      {
+        "term": "Incidence of hypoglycemia",
+        "arm_name": "Group A",
+        "n_patients": null,
+        "percent_patients": 24.0,
+        "is_serious": null,
+        "evidence": [
+          {
+            "quote": "the incidence of hypoglycemia was 24% and 11% in group A and B, respectively",
+            "location": "results",
+            "table_label": null
+          }
+        ]
+      },
+      {
+        "term": "Incidence of hypoglycemia",
+        "arm_name": "Group B",
+        "n_patients": null,
+        "percent_patients": 11.0,
+        "is_serious": null,
+        "evidence": [
+          {
+            "quote": "the incidence of hypoglycemia was 24% and 11% in group A and B, respectively",
+            "location": "results",
+            "table_label": null
+          }
+        ]
+      }
+    ]
+  },
+  "model": "claude-sonnet-5",
+  "usage": {
+    "input_tokens": 32375,
+    "output_tokens": 2667
+  },
+  "validation_issues": []
+}

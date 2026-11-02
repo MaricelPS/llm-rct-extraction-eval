@@ -1,0 +1,142 @@
+{
+  "extraction": {
+    "pmcid": "PMC12992176",
+    "trial_registration": "ISRCTN97699312; EudraCT/CTIS number: 2016‐001758‐17",
+    "design_notes": "single centre, randomised, double‐blind parallel group placebo‐controlled study that evaluated if 24 weeks' treatment with lixisenatide as compared to placebo had an effect on the primary endpoint of Ao‐PWV",
+    "population": {
+      "condition": "type 2 diabetes and kidney disease",
+      "key_inclusion_criteria": [
+        "Inclusion criteria included people with T2D age over 35 years with clinical diagnosis of CKD on a maximum tolerated and stable dose of ACE‐inhibitor or angiotensin receptor blocker in the preceding 3 months.",
+        "All participants needed to have an estimated glomerular filtration rate (eGFR) more than 30 mL/min."
+      ],
+      "mean_age": 61.8,
+      "percent_female": 35.6,
+      "evidence": [
+        {
+          "quote": "mean (standard deviation) age of 61.8 (9.3) years",
+          "location": "results",
+          "table_label": null
+        },
+        {
+          "quote": "64.4% were males and 35.6% females with T2D",
+          "location": "results",
+          "table_label": null
+        }
+      ]
+    },
+    "arms": [
+      {
+        "name": "Lixisenatide",
+        "role": "experimental",
+        "drug": "lixisenatide",
+        "dose": "20 mcg once daily",
+        "route": "subcutaneous",
+        "is_fixed_combination": false,
+        "n_randomized": 51,
+        "n_analyzed": 47,
+        "evidence": [
+          {
+            "quote": "participants were randomised by means of a computer‐generated random sequence to either lixisenatide 10 mcg once daily increased to 20 mcg after 2 weeks or placebo",
+            "location": "methods",
+            "table_label": null
+          },
+          {
+            "quote": "101 participants were randomised to lixisenatide (n = 51) or placebo (n = 50), of whom 90 were eligible for the final mITT analyses (lixisenatide n = 47 and placebo n = 43)",
+            "location": "results",
+            "table_label": null
+          }
+        ]
+      },
+      {
+        "name": "Placebo",
+        "role": "placebo",
+        "drug": null,
+        "dose": null,
+        "route": "subcutaneous",
+        "is_fixed_combination": false,
+        "n_randomized": 50,
+        "n_analyzed": 43,
+        "evidence": [
+          {
+            "quote": "101 participants were randomised to lixisenatide (n = 51) or placebo (n = 50), of whom 90 were eligible for the final mITT analyses (lixisenatide n = 47 and placebo n = 43)",
+            "location": "results",
+            "table_label": null
+          }
+        ]
+      }
+    ],
+    "outcomes": [
+      {
+        "name": "Aortic pulse wave velocity (Ao-PWV)",
+        "is_primary": true,
+        "timepoint": "week 24",
+        "comparison": "Lixisenatide vs Placebo",
+        "estimand": "not_reported",
+        "effect_measure": "other",
+        "value": null,
+        "ci_lower": -0.39,
+        "ci_upper": 1.01,
+        "ci_level": 0.95,
+        "p_value": "0.38",
+        "unit": "m/s",
+        "evidence": [
+          {
+            "quote": "Aortic pulse wave velocity (m/s) (Ao‐PWV) | 9.65 (9.17, 10.13) | 9.96 (9.45, 10.46) | 0.38 (−0.39, 1.01)",
+            "location": "table",
+            "table_label": "Table 2"
+          }
+        ]
+      }
+    ],
+    "adverse_events": [
+      {
+        "term": "Deaths",
+        "arm_name": "Lixisenatide",
+        "n_patients": 0,
+        "percent_patients": null,
+        "is_serious": true,
+        "evidence": [
+          {
+            "quote": "There were no deaths during the study",
+            "location": "results",
+            "table_label": null
+          }
+        ]
+      },
+      {
+        "term": "Deaths",
+        "arm_name": "Placebo",
+        "n_patients": 0,
+        "percent_patients": null,
+        "is_serious": true,
+        "evidence": [
+          {
+            "quote": "There were no deaths during the study",
+            "location": "results",
+            "table_label": null
+          }
+        ]
+      },
+      {
+        "term": "Serious adverse events related to the drug",
+        "arm_name": "Lixisenatide",
+        "n_patients": 0,
+        "percent_patients": null,
+        "is_serious": true,
+        "evidence": [
+          {
+            "quote": "overall, lixisenatide was well tolerated with no serious adverse events related to the drug reported",
+            "location": "results",
+            "table_label": null
+          }
+        ]
+      }
+    ]
+  },
+  "model": "claude-sonnet-5",
+  "usage": {
+    "input_tokens": 32859,
+    "output_tokens": 1639
+  },
+  "validation_issues": []
+}

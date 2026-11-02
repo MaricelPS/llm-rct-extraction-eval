@@ -1,0 +1,124 @@
+{
+  "extraction": {
+    "pmcid": "PMC11060164",
+    "trial_registration": "UMIN000047518",
+    "design_notes": "This randomized, non‐blinded, parallel‐group comparison study of individuals with type 2 diabetes mellitus was conducted from June 2022 to July 2023.",
+    "population": {
+      "condition": "type 2 diabetes mellitus",
+      "key_inclusion_criteria": [
+        "These participants had been receiving dietary and exercise therapy, along with oral hypoglycemic agents, but had not achieved their diabetes management goals, requiring further treatment intensification."
+      ],
+      "mean_age": 62.1,
+      "percent_female": 33.3,
+      "evidence": [
+        {
+          "quote": "Thirty‐six outpatients with type 2 diabetes mellitus (24 men and 12 women; average age, 62.1 years) were randomly assigned to the groups.",
+          "location": "abstract",
+          "table_label": null
+        }
+      ]
+    },
+    "arms": [
+      {
+        "name": "IGlarLixi group",
+        "role": "active_comparator",
+        "drug": "insulin glargine + lixisenatide",
+        "dose": null,
+        "route": "subcutaneous",
+        "is_fixed_combination": true,
+        "n_randomized": 18,
+        "n_analyzed": 18,
+        "evidence": [
+          {
+            "quote": "IGlarLixi group (n = 18)",
+            "location": "table",
+            "table_label": "Table 1"
+          }
+        ]
+      },
+      {
+        "name": "IDegLira group",
+        "role": "active_comparator",
+        "drug": "insulin degludec + liraglutide",
+        "dose": null,
+        "route": "subcutaneous",
+        "is_fixed_combination": true,
+        "n_randomized": 18,
+        "n_analyzed": 18,
+        "evidence": [
+          {
+            "quote": "IDegLira group (n = 18)",
+            "location": "table",
+            "table_label": "Table 1"
+          }
+        ]
+      }
+    ],
+    "outcomes": [
+      {
+        "name": "Time in range (TIR)",
+        "is_primary": true,
+        "timepoint": "18 weeks",
+        "comparison": "IGlarLixi group vs IDegLira group",
+        "estimand": "not_reported",
+        "effect_measure": "other",
+        "value": null,
+        "ci_lower": null,
+        "ci_upper": null,
+        "ci_level": null,
+        "p_value": "0.431",
+        "unit": "%",
+        "evidence": [
+          {
+            "quote": "Percentage of time in target glucose range (70–180 mg/dL)",
+            "location": "table",
+            "table_label": "Table 2"
+          }
+        ]
+      },
+      {
+        "name": "Time below range (TBR) level 1",
+        "is_primary": true,
+        "timepoint": "18 weeks",
+        "comparison": "IGlarLixi group vs IDegLira group",
+        "estimand": "not_reported",
+        "effect_measure": "other",
+        "value": null,
+        "ci_lower": null,
+        "ci_upper": null,
+        "ci_level": null,
+        "p_value": "0.207",
+        "unit": "%",
+        "evidence": [
+          {
+            "quote": "Percentage of time below target glucose range (<70 mg/dL)",
+            "location": "table",
+            "table_label": "Table 2"
+          }
+        ]
+      }
+    ],
+    "adverse_events": [
+      {
+        "term": "mild nausea",
+        "arm_name": "IDegLira group",
+        "n_patients": 1,
+        "percent_patients": null,
+        "is_serious": false,
+        "evidence": [
+          {
+            "quote": "One participant in the IDegLira group had an adverse event of mild nausea, but all participants completed the study without dropping out.",
+            "location": "results",
+            "table_label": null
+          }
+        ]
+      }
+    ]
+  },
+  "model": "claude-sonnet-5",
+  "usage": {
+    "input_tokens": 33780,
+    "output_tokens": 1059
+  },
+  "validation_issues": []
+}

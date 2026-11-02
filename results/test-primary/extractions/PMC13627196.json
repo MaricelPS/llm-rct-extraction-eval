@@ -1,0 +1,195 @@
+{
+  "extraction": {
+    "pmcid": "PMC13627196",
+    "trial_registration": "NCT07370922",
+    "design_notes": "open-label, parallel-group, prospective, randomised-controlled trial; outcome assessors were masked (blind) to group assignment; 24-week follow-up",
+    "population": {
+      "condition": "transfusion-dependent β-thalassaemia-induced diabetes",
+      "key_inclusion_criteria": [
+        "adolescents with TDT-induced diabetes aged 10–18 years, uncontrolled on metformin"
+      ],
+      "mean_age": 12.25,
+      "percent_female": 37.5,
+      "evidence": [
+        {
+          "quote": "adolescents with TDT-induced diabetes aged 10–18 years, uncontrolled on metformin therapy",
+          "location": "methods",
+          "table_label": null
+        },
+        {
+          "quote": "They were 50 boys (62.5%) and 30 girls (37.5%) with a mean age of 12.25 ± 1.33 years",
+          "location": "results",
+          "table_label": null
+        }
+      ]
+    },
+    "arms": [
+      {
+        "name": "Dulaglutide group",
+        "role": "experimental",
+        "drug": "dulaglutide",
+        "dose": "0.75 mg once weekly",
+        "route": "subcutaneous",
+        "is_fixed_combination": false,
+        "n_randomized": 40,
+        "n_analyzed": 40,
+        "evidence": [
+          {
+            "quote": "The intervention group received the GLP-1RA dulaglutide, Trulicity 0.75 mg/0.5 ml, in a dose of 0.75 mg s.c. once weekly for 24 weeks",
+            "location": "methods",
+            "table_label": null
+          },
+          {
+            "quote": "Eligible participants were randomly assigned in a 1:1 manner based on a computer-generated randomisation sequence into two groups (40 participants per group).",
+            "location": "methods",
+            "table_label": null
+          }
+        ]
+      },
+      {
+        "name": "Insulin group",
+        "role": "active_comparator",
+        "drug": "insulin degludec + insulin aspart",
+        "dose": null,
+        "route": "subcutaneous",
+        "is_fixed_combination": false,
+        "n_randomized": 40,
+        "n_analyzed": 40,
+        "evidence": [
+          {
+            "quote": "group II received conventional basal-bolus insulin therapy, including subcutaneous insulin degludec (Tresiba; Novo Nordisk, Copenhagen, Denmark) as the basal insulin and insulin aspart (NovoRapid, Novo Nordisk, Copenhagen, Denmark) as the mealtime insulin, titrated according to the ISPAD 2022 guidelines",
+            "location": "methods",
+            "table_label": null
+          },
+          {
+            "quote": "Eligible participants were randomly assigned in a 1:1 manner based on a computer-generated randomisation sequence into two groups (40 participants per group).",
+            "location": "methods",
+            "table_label": null
+          }
+        ]
+      }
+    ],
+    "outcomes": [
+      {
+        "name": "change in CV (glycaemic variability)",
+        "is_primary": true,
+        "timepoint": "week 24",
+        "comparison": "Dulaglutide group vs Insulin group",
+        "estimand": "not_reported",
+        "effect_measure": "other",
+        "value": null,
+        "ci_lower": null,
+        "ci_upper": null,
+        "ci_level": null,
+        "p_value": "<0.001",
+        "unit": "%",
+        "evidence": [
+          {
+            "quote": "CV, %",
+            "location": "table",
+            "table_label": "Table 3"
+          }
+        ]
+      },
+      {
+        "name": "estimated standardised effect size for the between-group difference in the CV",
+        "is_primary": true,
+        "timepoint": "week 24",
+        "comparison": "Dulaglutide group vs Insulin group",
+        "estimand": "not_reported",
+        "effect_measure": "other",
+        "value": 1.69,
+        "ci_lower": 1.16,
+        "ci_upper": 2.22,
+        "ci_level": 0.95,
+        "p_value": null,
+        "unit": null,
+        "evidence": [
+          {
+            "quote": "The estimated standardised effect size for the between-group difference in the CV was 1.69 (95% CI 1.16, 2.22).",
+            "location": "results",
+            "table_label": null
+          }
+        ]
+      }
+    ],
+    "adverse_events": [
+      {
+        "term": "gastrointestinal manifestations",
+        "arm_name": "Dulaglutide group",
+        "n_patients": 10,
+        "percent_patients": null,
+        "is_serious": null,
+        "evidence": [
+          {
+            "quote": "10 participants in the dulaglutide group reported gastrointestinal manifestations in the form of nausea, vomiting and abdominal distension",
+            "location": "results",
+            "table_label": null
+          }
+        ]
+      },
+      {
+        "term": "gastrointestinal manifestations",
+        "arm_name": "Insulin group",
+        "n_patients": 4,
+        "percent_patients": null,
+        "is_serious": null,
+        "evidence": [
+          {
+            "quote": "As regards the insulin group, four participants had gastrointestinal manifestations, and 16 had hypoglycaemia",
+            "location": "results",
+            "table_label": null
+          }
+        ]
+      },
+      {
+        "term": "hypoglycaemia",
+        "arm_name": "Insulin group",
+        "n_patients": 16,
+        "percent_patients": null,
+        "is_serious": null,
+        "evidence": [
+          {
+            "quote": "16 had hypoglycaemia, but none had clinically important or severe hypoglycaemia",
+            "location": "results",
+            "table_label": null
+          }
+        ]
+      },
+      {
+        "term": "serious adverse event",
+        "arm_name": "Dulaglutide group",
+        "n_patients": 0,
+        "percent_patients": null,
+        "is_serious": true,
+        "evidence": [
+          {
+            "quote": "No serious adverse event was reported.",
+            "location": "abstract",
+            "table_label": null
+          }
+        ]
+      },
+      {
+        "term": "serious adverse event",
+        "arm_name": "Insulin group",
+        "n_patients": 0,
+        "percent_patients": null,
+        "is_serious": true,
+        "evidence": [
+          {
+            "quote": "No serious adverse event was reported.",
+            "location": "abstract",
+            "table_label": null
+          }
+        ]
+      }
+    ]
+  },
+  "model": "claude-sonnet-5",
+  "usage": {
+    "input_tokens": 50257,
+    "output_tokens": 2515
+  },
+  "validation_issues": []
+}

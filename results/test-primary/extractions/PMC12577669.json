@@ -1,0 +1,471 @@
+{
+  "extraction": {
+    "pmcid": "PMC12577669",
+    "trial_registration": "NCT04431713",
+    "design_notes": "We conducted a randomized, phase IIa, open label, parallel‐group, single‐center trial of exenatide once weekly in MSA. The trial had a washout design, comprising a 48‐week treatment exposure period... and then underwent a final assessment after a prolonged drug washout period at week 96.",
+    "population": {
+      "condition": "multiple system atrophy",
+      "key_inclusion_criteria": [
+        "Eligible men and women were aged 30 to 80 years",
+        "had a diagnosis of possible or probable MSA of the parkinsonian (MSA‐P) or cerebellar subtype (MSA‐C) according to the Gilman Criteria",
+        "Participants were less than 5 years from the time of documented MSA diagnosis",
+        "They were able to walk at least 10 meters (with or without assistance)",
+        "had an anticipated survival of at least 3 years in the opinion of the investigator"
+      ],
+      "mean_age": null,
+      "percent_female": null,
+      "evidence": [
+        {
+          "quote": "Eligible men and women were aged 30 to 80 years and had a diagnosis of possible or probable MSA of the parkinsonian (MSA‐P) or cerebellar subtype (MSA‐C) according to the Gilman Criteria.",
+          "location": "methods",
+          "table_label": null
+        }
+      ]
+    },
+    "arms": [
+      {
+        "name": "Exenatide",
+        "role": "experimental",
+        "drug": "exenatide",
+        "dose": "2 mg once weekly",
+        "route": "subcutaneous",
+        "is_fixed_combination": false,
+        "n_randomized": 25,
+        "n_analyzed": null,
+        "evidence": [
+          {
+            "quote": "Participants were randomly assigned (1:1) to self‐administer subcutaneous exenatide in the form of Bydureon or Bydureon BCise at a dose of 2 mg once weekly in addition to their standard of care, or to continue standard of care alone.",
+            "location": "methods",
+            "table_label": null
+          }
+        ]
+      },
+      {
+        "name": "Control",
+        "role": "active_comparator",
+        "drug": null,
+        "dose": null,
+        "route": "not_reported",
+        "is_fixed_combination": false,
+        "n_randomized": 25,
+        "n_analyzed": null,
+        "evidence": [
+          {
+            "quote": "or to continue standard of care alone.",
+            "location": "methods",
+            "table_label": null
+          }
+        ]
+      }
+    ],
+    "outcomes": [
+      {
+        "name": "UMSARS parts I + II combined score",
+        "is_primary": true,
+        "timepoint": "week 48",
+        "comparison": "Exenatide vs Control",
+        "estimand": "not_reported",
+        "effect_measure": "other",
+        "value": -7.44,
+        "ci_lower": -11.29,
+        "ci_upper": -3.58,
+        "ci_level": 0.95,
+        "p_value": "0.0003",
+        "unit": "points",
+        "evidence": [
+          {
+            "quote": "there was a significant adjusted difference of −7.44 points (−11.29 to −3.58) favoring exenatide (p = 0·0003)",
+            "location": "results",
+            "table_label": null
+          }
+        ]
+      }
+    ],
+    "adverse_events": [
+      {
+        "term": "Gastrointestinal disorders, for example, nausea, bloating, and constipation",
+        "arm_name": "Exenatide",
+        "n_patients": 14,
+        "percent_patients": null,
+        "is_serious": false,
+        "evidence": [
+          {
+            "quote": "Gastrointestinal disorders, for example, nausea, bloating, and constipation",
+            "location": "table",
+            "table_label": "Table 4"
+          }
+        ]
+      },
+      {
+        "term": "Gastrointestinal disorders, for example, nausea, bloating, and constipation",
+        "arm_name": "Control",
+        "n_patients": 12,
+        "percent_patients": null,
+        "is_serious": false,
+        "evidence": [
+          {
+            "quote": "Gastrointestinal disorders, for example, nausea, bloating, and constipation",
+            "location": "table",
+            "table_label": "Table 4"
+          }
+        ]
+      },
+      {
+        "term": "Skin disorders, for example, nodules and rashes",
+        "arm_name": "Exenatide",
+        "n_patients": 12,
+        "percent_patients": null,
+        "is_serious": false,
+        "evidence": [
+          {
+            "quote": "Skin disorders, for example, nodules and rashes",
+            "location": "table",
+            "table_label": "Table 4"
+          }
+        ]
+      },
+      {
+        "term": "Skin disorders, for example, nodules and rashes",
+        "arm_name": "Control",
+        "n_patients": 4,
+        "percent_patients": null,
+        "is_serious": false,
+        "evidence": [
+          {
+            "quote": "Skin disorders, for example, nodules and rashes",
+            "location": "table",
+            "table_label": "Table 4"
+          }
+        ]
+      },
+      {
+        "term": "Infections, for example, UTI and chest",
+        "arm_name": "Exenatide",
+        "n_patients": 16,
+        "percent_patients": null,
+        "is_serious": false,
+        "evidence": [
+          {
+            "quote": "Infections, for example, UTI and chest",
+            "location": "table",
+            "table_label": "Table 4"
+          }
+        ]
+      },
+      {
+        "term": "Infections, for example, UTI and chest",
+        "arm_name": "Control",
+        "n_patients": 14,
+        "percent_patients": null,
+        "is_serious": false,
+        "evidence": [
+          {
+            "quote": "Infections, for example, UTI and chest",
+            "location": "table",
+            "table_label": "Table 4"
+          }
+        ]
+      },
+      {
+        "term": "Weight loss, anorexia",
+        "arm_name": "Exenatide",
+        "n_patients": 11,
+        "percent_patients": null,
+        "is_serious": false,
+        "evidence": [
+          {
+            "quote": "Weight loss, anorexia",
+            "location": "table",
+            "table_label": "Table 4"
+          }
+        ]
+      },
+      {
+        "term": "Weight loss, anorexia",
+        "arm_name": "Control",
+        "n_patients": 4,
+        "percent_patients": null,
+        "is_serious": false,
+        "evidence": [
+          {
+            "quote": "Weight loss, anorexia",
+            "location": "table",
+            "table_label": "Table 4"
+          }
+        ]
+      },
+      {
+        "term": "General, for example, fatigue and pain",
+        "arm_name": "Exenatide",
+        "n_patients": 6,
+        "percent_patients": null,
+        "is_serious": false,
+        "evidence": [
+          {
+            "quote": "General, for example, fatigue and pain",
+            "location": "table",
+            "table_label": "Table 4"
+          }
+        ]
+      },
+      {
+        "term": "General, for example, fatigue and pain",
+        "arm_name": "Control",
+        "n_patients": 6,
+        "percent_patients": null,
+        "is_serious": false,
+        "evidence": [
+          {
+            "quote": "General, for example, fatigue and pain",
+            "location": "table",
+            "table_label": "Table 4"
+          }
+        ]
+      },
+      {
+        "term": "Gait disturbance",
+        "arm_name": "Exenatide",
+        "n_patients": 17,
+        "percent_patients": null,
+        "is_serious": false,
+        "evidence": [
+          {
+            "quote": "Gait disturbance",
+            "location": "table",
+            "table_label": "Table 4"
+          }
+        ]
+      },
+      {
+        "term": "Gait disturbance",
+        "arm_name": "Control",
+        "n_patients": 17,
+        "percent_patients": null,
+        "is_serious": false,
+        "evidence": [
+          {
+            "quote": "Gait disturbance",
+            "location": "table",
+            "table_label": "Table 4"
+          }
+        ]
+      },
+      {
+        "term": "Other miscellaneous",
+        "arm_name": "Exenatide",
+        "n_patients": 21,
+        "percent_patients": null,
+        "is_serious": false,
+        "evidence": [
+          {
+            "quote": "Other miscellaneous",
+            "location": "table",
+            "table_label": "Table 4"
+          }
+        ]
+      },
+      {
+        "term": "Other miscellaneous",
+        "arm_name": "Control",
+        "n_patients": 22,
+        "percent_patients": null,
+        "is_serious": false,
+        "evidence": [
+          {
+            "quote": "Other miscellaneous",
+            "location": "table",
+            "table_label": "Table 4"
+          }
+        ]
+      },
+      {
+        "term": "Serious adverse events: Infections",
+        "arm_name": "Exenatide",
+        "n_patients": 6,
+        "percent_patients": null,
+        "is_serious": true,
+        "evidence": [
+          {
+            "quote": "Infections",
+            "location": "table",
+            "table_label": "Table 4"
+          }
+        ]
+      },
+      {
+        "term": "Serious adverse events: Infections",
+        "arm_name": "Control",
+        "n_patients": 7,
+        "percent_patients": null,
+        "is_serious": true,
+        "evidence": [
+          {
+            "quote": "Infections",
+            "location": "table",
+            "table_label": "Table 4"
+          }
+        ]
+      },
+      {
+        "term": "Serious adverse events: Gastrointestinal",
+        "arm_name": "Exenatide",
+        "n_patients": 2,
+        "percent_patients": null,
+        "is_serious": true,
+        "evidence": [
+          {
+            "quote": "Gastrointestinal",
+            "location": "table",
+            "table_label": "Table 4"
+          }
+        ]
+      },
+      {
+        "term": "Serious adverse events: Gastrointestinal",
+        "arm_name": "Control",
+        "n_patients": 4,
+        "percent_patients": null,
+        "is_serious": true,
+        "evidence": [
+          {
+            "quote": "Gastrointestinal",
+            "location": "table",
+            "table_label": "Table 4"
+          }
+        ]
+      },
+      {
+        "term": "Serious adverse events: Cardiac",
+        "arm_name": "Exenatide",
+        "n_patients": 0,
+        "percent_patients": null,
+        "is_serious": true,
+        "evidence": [
+          {
+            "quote": "Cardiac",
+            "location": "table",
+            "table_label": "Table 4"
+          }
+        ]
+      },
+      {
+        "term": "Serious adverse events: Falls",
+        "arm_name": "Exenatide",
+        "n_patients": 2,
+        "percent_patients": null,
+        "is_serious": true,
+        "evidence": [
+          {
+            "quote": "Falls",
+            "location": "table",
+            "table_label": "Table 4"
+          }
+        ]
+      },
+      {
+        "term": "Serious adverse events: Falls",
+        "arm_name": "Control",
+        "n_patients": 0,
+        "percent_patients": null,
+        "is_serious": true,
+        "evidence": [
+          {
+            "quote": "Falls",
+            "location": "table",
+            "table_label": "Table 4"
+          }
+        ]
+      },
+      {
+        "term": "Serious adverse events: Anxiety and depression",
+        "arm_name": "Exenatide",
+        "n_patients": 1,
+        "percent_patients": null,
+        "is_serious": true,
+        "evidence": [
+          {
+            "quote": "Anxiety and depression",
+            "location": "table",
+            "table_label": "Table 4"
+          }
+        ]
+      },
+      {
+        "term": "Serious adverse events: Anxiety and depression",
+        "arm_name": "Control",
+        "n_patients": 0,
+        "percent_patients": null,
+        "is_serious": true,
+        "evidence": [
+          {
+            "quote": "Anxiety and depression",
+            "location": "table",
+            "table_label": "Table 4"
+          }
+        ]
+      },
+      {
+        "term": "Serious adverse events: Other",
+        "arm_name": "Exenatide",
+        "n_patients": 3,
+        "percent_patients": null,
+        "is_serious": true,
+        "evidence": [
+          {
+            "quote": "Other",
+            "location": "table",
+            "table_label": "Table 4"
+          }
+        ]
+      },
+      {
+        "term": "Serious adverse events: Other",
+        "arm_name": "Control",
+        "n_patients": 4,
+        "percent_patients": null,
+        "is_serious": true,
+        "evidence": [
+          {
+            "quote": "Other",
+            "location": "table",
+            "table_label": "Table 4"
+          }
+        ]
+      },
+      {
+        "term": "Serious adverse events: Serum amylase increase",
+        "arm_name": "Exenatide",
+        "n_patients": 1,
+        "percent_patients": null,
+        "is_serious": true,
+        "evidence": [
+          {
+            "quote": "Serum amylase increase",
+            "location": "table",
+            "table_label": "Table 4"
+          }
+        ]
+      },
+      {
+        "term": "Serious adverse events: Serum amylase increase",
+        "arm_name": "Control",
+        "n_patients": 0,
+        "percent_patients": null,
+        "is_serious": true,
+        "evidence": [
+          {
+            "quote": "Serum amylase increase",
+            "location": "table",
+            "table_label": "Table 4"
+          }
+        ]
+      }
+    ]
+  },
+  "model": "claude-sonnet-5",
+  "usage": {
+    "input_tokens": 46897,
+    "output_tokens": 6196
+  },
+  "validation_issues": []
+}

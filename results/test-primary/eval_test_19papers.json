@@ -1,0 +1,119 @@
+{
+  "fields": {
+    "adverse_events.is_serious": {
+      "correct": 214,
+      "total": 224
+    },
+    "adverse_events.n_patients": {
+      "correct": 224,
+      "total": 224
+    },
+    "adverse_events.percent_patients": {
+      "correct": 217,
+      "total": 224
+    },
+    "adverse_events.term": {
+      "correct": 222,
+      "total": 224
+    },
+    "arms.dose": {
+      "correct": 29,
+      "total": 38
+    },
+    "arms.drug": {
+      "correct": 34,
+      "total": 38
+    },
+    "arms.is_fixed_combination": {
+      "correct": 38,
+      "total": 38
+    },
+    "arms.n_analyzed": {
+      "correct": 33,
+      "total": 38
+    },
+    "arms.n_randomized": {
+      "correct": 32,
+      "total": 38
+    },
+    "arms.role": {
+      "correct": 37,
+      "total": 38
+    },
+    "arms.route": {
+      "correct": 33,
+      "total": 38
+    },
+    "outcomes.ci_level": {
+      "correct": 16,
+      "total": 22
+    },
+    "outcomes.ci_lower": {
+      "correct": 20,
+      "total": 22
+    },
+    "outcomes.ci_upper": {
+      "correct": 20,
+      "total": 22
+    },
+    "outcomes.effect_measure": {
+      "correct": 15,
+      "total": 22
+    },
+    "outcomes.estimand": {
+      "correct": 21,
+      "total": 22
+    },
+    "outcomes.p_value": {
+      "correct": 20,
+      "total": 22
+    },
+    "outcomes.timepoint": {
+      "correct": 22,
+      "total": 22
+    },
+    "outcomes.unit": {
+      "correct": 17,
+      "total": 22
+    },
+    "outcomes.value": {
+      "correct": 21,
+      "total": 22
+    },
+    "population.condition": {
+      "correct": 8,
+      "total": 19
+    },
+    "population.mean_age": {
+      "correct": 18,
+      "total": 19
+    },
+    "population.percent_female": {
+      "correct": 17,
+      "total": 19
+    }
+  },
+  "sets": {
+    "arms": {
+      "gold": 40,
+      "pred": 40,
+      "matched": 38,
+      "precision": 0.95,
+      "recall": 0.95
+    },
+    "outcomes": {
+      "gold": 24,
+      "pred": 27,
+      "matched": 22,
+      "precision": 0.8148148148148148,
+      "recall": 0.9166666666666666
+    },
+    "adverse_events": {
+      "gold": 256,
+      "pred": 337,
+      "matched": 224,
+      "precision": 0.6646884272997032,
+      "recall": 0.875
+    }
+  }
+}

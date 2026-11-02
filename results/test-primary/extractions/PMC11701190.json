@@ -1,0 +1,217 @@
+{
+  "extraction": {
+    "pmcid": "PMC11701190",
+    "trial_registration": "NCT04538352",
+    "design_notes": "26-week, single-centre, open-label, randomised controlled trial; participants randomised 2:1 to semaglutide or MDI groups; all analyses performed in the intention-to-treat population.",
+    "population": {
+      "condition": "type 2 diabetes",
+      "key_inclusion_criteria": [
+        "Eligible subjects were adults (age 18–75 years) with type 2 diabetes and HbA1c ≤7.5% (≤58 mmol/mol) on MDI (defined as ≥3 daily injections of insulin analogues, including ≥2 injections of prandial insulin) up to a total daily dose (TDD) of 120 units and ≤0.5 units/kg per day of prandial insulin.",
+        "Only metformin and/or SGLT2‐inhibitors were allowed as background diabetes therapy."
+      ],
+      "mean_age": null,
+      "percent_female": 42.0,
+      "evidence": [
+        {
+          "quote": "Eligible subjects were adults (age 18–75 years) with type 2 diabetes and HbA1c ≤7.5% (≤58 mmol/mol) on MDI (defined as ≥3 daily injections of insulin analogues, including ≥2 injections of prandial insulin) up to a total daily dose (TDD) of 120 units and ≤0.5 units/kg per day of prandial insulin.",
+          "location": "methods",
+          "table_label": null
+        },
+        {
+          "quote": "Female | 25 (42%)",
+          "location": "table",
+          "table_label": "Table 1"
+        }
+      ]
+    },
+    "arms": [
+      {
+        "name": "Semaglutide",
+        "role": "experimental",
+        "drug": "semaglutide + insulin degludec",
+        "dose": "1.0 mg once weekly",
+        "route": "subcutaneous",
+        "is_fixed_combination": false,
+        "n_randomized": 40,
+        "n_analyzed": 40,
+        "evidence": [
+          {
+            "quote": "Participants were randomly assigned 2:1 to insulin degludec once daily plus subcutaneous semaglutide 1.0 mg once weekly (semaglutide group) or to continue MDI with daily insulin degludec plus prandial insulin aspart (MDI group).",
+            "location": "methods",
+            "table_label": null
+          },
+          {
+            "quote": "60 individuals were enrolled and randomised to the semaglutide group (n = 40) or the MDI group (n = 20)",
+            "location": "results",
+            "table_label": null
+          }
+        ]
+      },
+      {
+        "name": "MDI",
+        "role": "active_comparator",
+        "drug": "insulin degludec + insulin aspart",
+        "dose": null,
+        "route": "subcutaneous",
+        "is_fixed_combination": false,
+        "n_randomized": 20,
+        "n_analyzed": 20,
+        "evidence": [
+          {
+            "quote": "Participants randomised to the MDI group were transitioned from their existing basal‐bolus regimen to insulin degludec and insulin aspart.",
+            "location": "methods",
+            "table_label": null
+          },
+          {
+            "quote": "60 individuals were enrolled and randomised to the semaglutide group (n = 40) or the MDI group (n = 20)",
+            "location": "results",
+            "table_label": null
+          }
+        ]
+      }
+    ],
+    "outcomes": [
+      {
+        "name": "Percentage of participants maintaining HbA1c ≤7.5% (≤58 mmol/mol)",
+        "is_primary": true,
+        "timepoint": "Week 26",
+        "comparison": "Semaglutide vs MDI",
+        "estimand": "not_reported",
+        "effect_measure": "odds_ratio",
+        "value": 2.6,
+        "ci_lower": 0.7,
+        "ci_upper": 11.0,
+        "ci_level": 0.95,
+        "p_value": "0.18",
+        "unit": null,
+        "evidence": [
+          {
+            "quote": "At Week 26, 36/40 participants (90%) in the semaglutide group and 15/20 (75%) in the MDI group maintained HbA1c ≤7.5% (≤58 mmol/mol) (odds ratio, 2.6; 95% CI 0.7, 11.0; p = 0.18).",
+            "location": "results",
+            "table_label": null
+          }
+        ]
+      }
+    ],
+    "adverse_events": [
+      {
+        "term": "Any adverse event",
+        "arm_name": "MDI",
+        "n_patients": 8,
+        "percent_patients": 40.0,
+        "is_serious": null,
+        "evidence": [
+          {
+            "quote": "Any adverse event",
+            "location": "table",
+            "table_label": "Table 2"
+          }
+        ]
+      },
+      {
+        "term": "Any adverse event",
+        "arm_name": "Semaglutide",
+        "n_patients": 16,
+        "percent_patients": 40.0,
+        "is_serious": null,
+        "evidence": [
+          {
+            "quote": "Any adverse event",
+            "location": "table",
+            "table_label": "Table 2"
+          }
+        ]
+      },
+      {
+        "term": "Serious adverse event",
+        "arm_name": "MDI",
+        "n_patients": 4,
+        "percent_patients": 20.0,
+        "is_serious": true,
+        "evidence": [
+          {
+            "quote": "Serious adverse event",
+            "location": "table",
+            "table_label": "Table 2"
+          }
+        ]
+      },
+      {
+        "term": "Serious adverse event",
+        "arm_name": "Semaglutide",
+        "n_patients": 9,
+        "percent_patients": 22.0,
+        "is_serious": true,
+        "evidence": [
+          {
+            "quote": "Serious adverse event",
+            "location": "table",
+            "table_label": "Table 2"
+          }
+        ]
+      },
+      {
+        "term": "Adverse event leading to drug discontinuation",
+        "arm_name": "MDI",
+        "n_patients": 1,
+        "percent_patients": 5.0,
+        "is_serious": null,
+        "evidence": [
+          {
+            "quote": "Adverse event leading to drug discontinuation",
+            "location": "table",
+            "table_label": "Table 2"
+          }
+        ]
+      },
+      {
+        "term": "Adverse event leading to drug discontinuation",
+        "arm_name": "Semaglutide",
+        "n_patients": 2,
+        "percent_patients": 5.0,
+        "is_serious": null,
+        "evidence": [
+          {
+            "quote": "Adverse event leading to drug discontinuation",
+            "location": "table",
+            "table_label": "Table 2"
+          }
+        ]
+      },
+      {
+        "term": "Adverse event leading to a dose decrease",
+        "arm_name": "MDI",
+        "n_patients": 1,
+        "percent_patients": 5.0,
+        "is_serious": null,
+        "evidence": [
+          {
+            "quote": "Adverse event leading to a dose decrease",
+            "location": "table",
+            "table_label": "Table 2"
+          }
+        ]
+      },
+      {
+        "term": "Adverse event leading to a dose decrease",
+        "arm_name": "Semaglutide",
+        "n_patients": 4,
+        "percent_patients": 10.0,
+        "is_serious": null,
+        "evidence": [
+          {
+            "quote": "Adverse event leading to a dose decrease",
+            "location": "table",
+            "table_label": "Table 2"
+          }
+        ]
+      }
+    ]
+  },
+  "model": "claude-sonnet-5",
+  "usage": {
+    "input_tokens": 30716,
+    "output_tokens": 2974
+  },
+  "validation_issues": []
+}

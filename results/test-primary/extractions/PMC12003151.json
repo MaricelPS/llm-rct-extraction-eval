@@ -1,0 +1,577 @@
+{
+  "extraction": {
+    "pmcid": "PMC12003151",
+    "trial_registration": "NCT05205928",
+    "design_notes": "Randomized, double-blind, crossover trial. Each arm was 15 weeks, with 2 weeks of washout, for a total study duration of 32 weeks. Participants titrated up to 1 mg or maximum tolerated dose of semaglutide or placebo over 11 weeks, followed by automated insulin delivery system use for 4 weeks.",
+    "population": {
+      "condition": "type 1 diabetes",
+      "key_inclusion_criteria": [
+        "aged 18 years old and older with a diagnosis of T1D for 1 year or longer",
+        "use of an insulin pump for 3 months or longer",
+        "HbA1c of 11% or less"
+      ],
+      "mean_age": 45.0,
+      "percent_female": 61.0,
+      "evidence": [
+        {
+          "quote": "28 participants (61% female, aged 45 (s.d. = 14) years, with an HbA1c of 7.4% (0.8%); Table 1)",
+          "location": "results",
+          "table_label": null
+        }
+      ]
+    },
+    "arms": [
+      {
+        "name": "Semaglutide",
+        "role": "experimental",
+        "drug": "semaglutide",
+        "dose": "1 mg once weekly",
+        "route": "subcutaneous",
+        "is_fixed_combination": false,
+        "n_randomized": null,
+        "n_analyzed": 24,
+        "evidence": [
+          {
+            "quote": "participants were titrated up to 1 mg or the maximum tolerated dose of semaglutide or placebo over 11 weeks",
+            "location": "abstract",
+            "table_label": null
+          },
+          {
+            "quote": "Comparison of CGM and pump data between placebo and semaglutide (at the maximum tolerated dose) as adjunct to hybrid closed-loop therapy (n = 24)",
+            "location": "table",
+            "table_label": "Table 2"
+          }
+        ]
+      },
+      {
+        "name": "Placebo",
+        "role": "placebo",
+        "drug": null,
+        "dose": null,
+        "route": "subcutaneous",
+        "is_fixed_combination": false,
+        "n_randomized": null,
+        "n_analyzed": 24,
+        "evidence": [
+          {
+            "quote": "semaglutide or placebo (saline) in sterile amber glass vials were given to participants",
+            "location": "methods",
+            "table_label": null
+          },
+          {
+            "quote": "Comparison of CGM and pump data between placebo and semaglutide (at the maximum tolerated dose) as adjunct to hybrid closed-loop therapy (n = 24)",
+            "location": "table",
+            "table_label": "Table 2"
+          }
+        ]
+      }
+    ],
+    "outcomes": [
+      {
+        "name": "percentage of time spent in the target glucose range of 3.9–10.0 mmol l−1",
+        "is_primary": true,
+        "timepoint": "last 4 weeks of each intervention",
+        "comparison": "Semaglutide vs Placebo",
+        "estimand": "not_reported",
+        "effect_measure": "other",
+        "value": 4.8,
+        "ci_lower": null,
+        "ci_upper": null,
+        "ci_level": null,
+        "p_value": "0.006",
+        "unit": "percentage points",
+        "evidence": [
+          {
+            "quote": "a difference of 4.8 (7.6) percentage points (P = 0.006; Table 2)",
+            "location": "results",
+            "table_label": null
+          }
+        ]
+      }
+    ],
+    "adverse_events": [
+      {
+        "term": "Any AE",
+        "arm_name": "Placebo",
+        "n_patients": 17,
+        "percent_patients": 63.0,
+        "is_serious": null,
+        "evidence": [
+          {
+            "quote": "Any AE",
+            "location": "table",
+            "table_label": "Table 4"
+          }
+        ]
+      },
+      {
+        "term": "Any AE",
+        "arm_name": "Semaglutide",
+        "n_patients": 27,
+        "percent_patients": 96.0,
+        "is_serious": null,
+        "evidence": [
+          {
+            "quote": "Any AE",
+            "location": "table",
+            "table_label": "Table 4"
+          }
+        ]
+      },
+      {
+        "term": "Serious AE",
+        "arm_name": "Placebo",
+        "n_patients": 0,
+        "percent_patients": 0.0,
+        "is_serious": true,
+        "evidence": [
+          {
+            "quote": "Serious AE",
+            "location": "table",
+            "table_label": "Table 4"
+          }
+        ]
+      },
+      {
+        "term": "Serious AE",
+        "arm_name": "Semaglutide",
+        "n_patients": 1,
+        "percent_patients": 4.0,
+        "is_serious": true,
+        "evidence": [
+          {
+            "quote": "Serious AE",
+            "location": "table",
+            "table_label": "Table 4"
+          }
+        ]
+      },
+      {
+        "term": "Gastrointestinal AE",
+        "arm_name": "Placebo",
+        "n_patients": 7,
+        "percent_patients": 26.0,
+        "is_serious": null,
+        "evidence": [
+          {
+            "quote": "Gastrointestinal AE",
+            "location": "table",
+            "table_label": "Table 4"
+          }
+        ]
+      },
+      {
+        "term": "Gastrointestinal AE",
+        "arm_name": "Semaglutide",
+        "n_patients": 23,
+        "percent_patients": 82.0,
+        "is_serious": null,
+        "evidence": [
+          {
+            "quote": "Gastrointestinal AE",
+            "location": "table",
+            "table_label": "Table 4"
+          }
+        ]
+      },
+      {
+        "term": "Nausea",
+        "arm_name": "Placebo",
+        "n_patients": 2,
+        "percent_patients": 7.0,
+        "is_serious": null,
+        "evidence": [
+          {
+            "quote": "Nausea",
+            "location": "table",
+            "table_label": "Table 4"
+          }
+        ]
+      },
+      {
+        "term": "Nausea",
+        "arm_name": "Semaglutide",
+        "n_patients": 25,
+        "percent_patients": 89.0,
+        "is_serious": null,
+        "evidence": [
+          {
+            "quote": "Nausea",
+            "location": "table",
+            "table_label": "Table 4"
+          }
+        ]
+      },
+      {
+        "term": "Loss or decrease in appetite",
+        "arm_name": "Placebo",
+        "n_patients": 1,
+        "percent_patients": 4.0,
+        "is_serious": null,
+        "evidence": [
+          {
+            "quote": "Loss or decrease in appetite",
+            "location": "table",
+            "table_label": "Table 4"
+          }
+        ]
+      },
+      {
+        "term": "Loss or decrease in appetite",
+        "arm_name": "Semaglutide",
+        "n_patients": 10,
+        "percent_patients": 36.0,
+        "is_serious": null,
+        "evidence": [
+          {
+            "quote": "Loss or decrease in appetite",
+            "location": "table",
+            "table_label": "Table 4"
+          }
+        ]
+      },
+      {
+        "term": "Constipation",
+        "arm_name": "Placebo",
+        "n_patients": 2,
+        "percent_patients": 7.0,
+        "is_serious": null,
+        "evidence": [
+          {
+            "quote": "Constipation",
+            "location": "table",
+            "table_label": "Table 4"
+          }
+        ]
+      },
+      {
+        "term": "Constipation",
+        "arm_name": "Semaglutide",
+        "n_patients": 8,
+        "percent_patients": 29.0,
+        "is_serious": null,
+        "evidence": [
+          {
+            "quote": "Constipation",
+            "location": "table",
+            "table_label": "Table 4"
+          }
+        ]
+      },
+      {
+        "term": "Fatigue",
+        "arm_name": "Placebo",
+        "n_patients": 0,
+        "percent_patients": 0.0,
+        "is_serious": null,
+        "evidence": [
+          {
+            "quote": "Fatigue",
+            "location": "table",
+            "table_label": "Table 4"
+          }
+        ]
+      },
+      {
+        "term": "Fatigue",
+        "arm_name": "Semaglutide",
+        "n_patients": 6,
+        "percent_patients": 21.0,
+        "is_serious": null,
+        "evidence": [
+          {
+            "quote": "Fatigue",
+            "location": "table",
+            "table_label": "Table 4"
+          }
+        ]
+      },
+      {
+        "term": "Emesis",
+        "arm_name": "Placebo",
+        "n_patients": 0,
+        "percent_patients": 0.0,
+        "is_serious": null,
+        "evidence": [
+          {
+            "quote": "Emesis",
+            "location": "table",
+            "table_label": "Table 4"
+          }
+        ]
+      },
+      {
+        "term": "Emesis",
+        "arm_name": "Semaglutide",
+        "n_patients": 5,
+        "percent_patients": 18.0,
+        "is_serious": null,
+        "evidence": [
+          {
+            "quote": "Emesis",
+            "location": "table",
+            "table_label": "Table 4"
+          }
+        ]
+      },
+      {
+        "term": "Diarrhea",
+        "arm_name": "Placebo",
+        "n_patients": 0,
+        "percent_patients": 0.0,
+        "is_serious": null,
+        "evidence": [
+          {
+            "quote": "Diarrhea",
+            "location": "table",
+            "table_label": "Table 4"
+          }
+        ]
+      },
+      {
+        "term": "Diarrhea",
+        "arm_name": "Semaglutide",
+        "n_patients": 5,
+        "percent_patients": 18.0,
+        "is_serious": null,
+        "evidence": [
+          {
+            "quote": "Diarrhea",
+            "location": "table",
+            "table_label": "Table 4"
+          }
+        ]
+      },
+      {
+        "term": "Upper respiratory tract infection",
+        "arm_name": "Placebo",
+        "n_patients": 6,
+        "percent_patients": 22.0,
+        "is_serious": null,
+        "evidence": [
+          {
+            "quote": "Upper respiratory tract infection",
+            "location": "table",
+            "table_label": "Table 4"
+          }
+        ]
+      },
+      {
+        "term": "Upper respiratory tract infection",
+        "arm_name": "Semaglutide",
+        "n_patients": 6,
+        "percent_patients": 21.0,
+        "is_serious": null,
+        "evidence": [
+          {
+            "quote": "Upper respiratory tract infection",
+            "location": "table",
+            "table_label": "Table 4"
+          }
+        ]
+      },
+      {
+        "term": "Gastroesophageal reflux",
+        "arm_name": "Placebo",
+        "n_patients": 1,
+        "percent_patients": 4.0,
+        "is_serious": null,
+        "evidence": [
+          {
+            "quote": "Gastroesophageal reflux",
+            "location": "table",
+            "table_label": "Table 4"
+          }
+        ]
+      },
+      {
+        "term": "Gastroesophageal reflux",
+        "arm_name": "Semaglutide",
+        "n_patients": 4,
+        "percent_patients": 14.0,
+        "is_serious": null,
+        "evidence": [
+          {
+            "quote": "Gastroesophageal reflux",
+            "location": "table",
+            "table_label": "Table 4"
+          }
+        ]
+      },
+      {
+        "term": "Light-headedness",
+        "arm_name": "Placebo",
+        "n_patients": 0,
+        "percent_patients": 0.0,
+        "is_serious": null,
+        "evidence": [
+          {
+            "quote": "Light-headedness",
+            "location": "table",
+            "table_label": "Table 4"
+          }
+        ]
+      },
+      {
+        "term": "Light-headedness",
+        "arm_name": "Semaglutide",
+        "n_patients": 4,
+        "percent_patients": 14.0,
+        "is_serious": null,
+        "evidence": [
+          {
+            "quote": "Light-headedness",
+            "location": "table",
+            "table_label": "Table 4"
+          }
+        ]
+      },
+      {
+        "term": "Severe hypoglycemic event",
+        "arm_name": "Placebo",
+        "n_patients": 1,
+        "percent_patients": 4.0,
+        "is_serious": null,
+        "evidence": [
+          {
+            "quote": "Severe hypoglycemic event",
+            "location": "table",
+            "table_label": "Table 4"
+          }
+        ]
+      },
+      {
+        "term": "Severe hypoglycemic event",
+        "arm_name": "Semaglutide",
+        "n_patients": 0,
+        "percent_patients": null,
+        "is_serious": null,
+        "evidence": [
+          {
+            "quote": "Severe hypoglycemic event",
+            "location": "table",
+            "table_label": "Table 4"
+          }
+        ]
+      },
+      {
+        "term": "Euglycemic ketosis",
+        "arm_name": "Placebo",
+        "n_patients": 0,
+        "percent_patients": null,
+        "is_serious": null,
+        "evidence": [
+          {
+            "quote": "Euglycemic ketosis",
+            "location": "table",
+            "table_label": "Table 4"
+          }
+        ]
+      },
+      {
+        "term": "Euglycemic ketosis",
+        "arm_name": "Semaglutide",
+        "n_patients": 2,
+        "percent_patients": 7.0,
+        "is_serious": null,
+        "evidence": [
+          {
+            "quote": "Euglycemic ketosis",
+            "location": "table",
+            "table_label": "Table 4"
+          }
+        ]
+      },
+      {
+        "term": "Diabetic ketoacidosis",
+        "arm_name": "Placebo",
+        "n_patients": 0,
+        "percent_patients": null,
+        "is_serious": null,
+        "evidence": [
+          {
+            "quote": "Diabetic ketoacidosis",
+            "location": "table",
+            "table_label": "Table 4"
+          }
+        ]
+      },
+      {
+        "term": "Diabetic ketoacidosis",
+        "arm_name": "Semaglutide",
+        "n_patients": 0,
+        "percent_patients": null,
+        "is_serious": null,
+        "evidence": [
+          {
+            "quote": "Diabetic ketoacidosis",
+            "location": "table",
+            "table_label": "Table 4"
+          }
+        ]
+      },
+      {
+        "term": "Progression of diabetic retinopathy: Proliferative",
+        "arm_name": "Placebo",
+        "n_patients": 1,
+        "percent_patients": 4.0,
+        "is_serious": null,
+        "evidence": [
+          {
+            "quote": "Proliferative",
+            "location": "table",
+            "table_label": "Table 4"
+          }
+        ]
+      },
+      {
+        "term": "Progression of diabetic retinopathy: Proliferative",
+        "arm_name": "Semaglutide",
+        "n_patients": 0,
+        "percent_patients": 0.0,
+        "is_serious": null,
+        "evidence": [
+          {
+            "quote": "Proliferative",
+            "location": "table",
+            "table_label": "Table 4"
+          }
+        ]
+      },
+      {
+        "term": "Progression of diabetic retinopathy: Nonproliferative",
+        "arm_name": "Placebo",
+        "n_patients": 0,
+        "percent_patients": 0.0,
+        "is_serious": null,
+        "evidence": [
+          {
+            "quote": "Nonproliferative",
+            "location": "table",
+            "table_label": "Table 4"
+          }
+        ]
+      },
+      {
+        "term": "Progression of diabetic retinopathy: Nonproliferative",
+        "arm_name": "Semaglutide",
+        "n_patients": 1,
+        "percent_patients": 4.0,
+        "is_serious": null,
+        "evidence": [
+          {
+            "quote": "Nonproliferative",
+            "location": "table",
+            "table_label": "Table 4"
+          }
+        ]
+      }
+    ]
+  },
+  "model": "claude-sonnet-5",
+  "usage": {
+    "input_tokens": 50581,
+    "output_tokens": 5002
+  },
+  "validation_issues": []
+}
