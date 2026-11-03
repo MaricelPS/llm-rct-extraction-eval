@@ -44,7 +44,7 @@
       "is_primary": true,
       "timepoint": "Week 24",
       "comparison": "LY05008 vs Dulaglutide",
-      "effect_measure": "other",
+      "effect_measure": "mean_difference",
       "value": 0.06,
       "ci_lower": -0.08,
       "ci_upper": 0.19,

@@ -20,7 +20,7 @@
       "name": "liraglutide",
       "role": "experimental",
       "drug": "liraglutide",
-      "dose": "0.6 mg for the first week, which was increased to 1.2 mg in the second week and followed by 1.8 mg until day 90",
+      "dose": "1.8 mg per day",
       "route": "subcutaneous",
       "is_fixed_combination": false,
       "n_randomized": 317,

@@ -19,3 +19,7 @@ PMC10933706,arms[control group]: drug is null,control receives conventional risk
 PMC12577669,arms[Standard of Care]: drug is null,control continues usual care without an assigned study drug
 PMC12584062,arms[control]: drug is null,both arms receive guideline-based standard treatment; only the experimental arm adds liraglutide
 PMC12584062,population.condition,both conditions are required for inclusion; abbreviations as written in the article
+PMC11417641,effect_measure 'other' with an effect estimate,regression coefficient (beta) is not an ETD or mean difference; 'other' per guideline
+PMC11822619,effect_measure 'other' with an effect estimate,regression coefficient (beta) from residualized change model; 'other' per guideline
+PMC13627196,effect_measure 'other' with an effect estimate,estimated standardised effect size is neither an ETD nor a mean difference; 'other' per guideline
+

@@ -42,14 +42,14 @@
       "is_primary": true,
       "timepoint": "Baseline to week 24",
       "comparison": "Dulaglutide vs conventional basal-bolus insulin therapy",
-      "effect_measure": "estimated_treatment_difference",
+      "effect_measure": "other",
       "estimand": "not_reported",
       "value": 1.69,
       "ci_lower": 1.16,
       "ci_upper": 2.22,
       "ci_level": 0.95,
       "p_value": null,
-      "unit": "other",
+      "unit": null,
       "evidence": []
     }
   ],

@@ -45,7 +45,7 @@
       "is_primary": true,
       "timepoint": "Week 52",
       "comparison": "IcoSema vs Semaglutide 1.0 mg",
-      "effect_measure": "other",
+      "effect_measure": "estimated_treatment_difference",
       "value": -4.85,
       "ci_lower": -6.13,
       "ci_upper": -3.57,
