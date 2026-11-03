@@ -3,7 +3,7 @@
   "trial_registration": null,
   "design_notes": "single-center, randomized, open-label, cross-over phase-2 trial",
   "population": {
-    "condition": "type 2 diabetes mellitus without established cardiovascular disease",
+    "condition": "type 2 diabetes mellitus",
     "key_inclusion_criteria": [
       "adults",
       "diagnosis of type 2 diabetes mellitus at least 6 months before enrolment",
@@ -31,7 +31,7 @@
       "name": "pioglitazone",
       "role": "active_comparator",
       "drug": "pioglitazone",
-      "dose": "15 mg once-daily, increased by 15 mg every other week to 45 mg once-daily",
+      "dose": "45 mg once-daily",
       "route": "oral",
       "is_fixed_combination": false,
       "n_randomized": null,

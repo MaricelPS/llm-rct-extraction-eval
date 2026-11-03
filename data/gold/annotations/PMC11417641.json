@@ -23,7 +23,7 @@
       "name": "Semaglutide",
       "role": "experimental",
       "drug": "semaglutide",
-      "dose": "0.25 mg weekly for 4 weeks, followed by 0.5 mg weekly for another 4 weeks, then 1.0 mg weekly for 24 weeks",
+      "dose": "1.0 mg weekly",
       "route": "subcutaneous",
       "is_fixed_combination": false,
       "n_randomized": 54,

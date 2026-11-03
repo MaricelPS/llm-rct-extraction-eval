@@ -17,7 +17,7 @@
       "name": "Dulaglutide",
       "role": "experimental",
       "drug": "dulaglutide",
-      "dose": "0.75 mg once weekly for 24 weeks",
+      "dose": "0.75 mg once weekly",
       "route": "subcutaneous",
       "is_fixed_combination": false,
       "n_randomized": 40,

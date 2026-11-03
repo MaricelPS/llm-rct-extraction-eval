@@ -50,7 +50,7 @@
       "ci_upper": null,
       "ci_level": null,
       "p_value": "0.431",
-      "unit": "% of time in target glucose range (70–180 mg/dL)",
+      "unit": "%",
       "estimand": "not_reported",
       "evidence": []
     },
@@ -65,7 +65,7 @@
       "ci_upper": null,
       "ci_level": null,
       "p_value": "0.207",
-      "unit": "% of time below target glucose range (<70 mg/dL)",
+      "unit": "%",
       "estimand": "not_reported",
       "evidence": []
     }

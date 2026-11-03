@@ -31,7 +31,7 @@
       "name": "control",
       "role": "active_comparator",
       "drug": null,
-      "dose": "standard treatment according to the guidelines",
+      "dose": null,
       "route": "not_reported",
       "is_fixed_combination": false,
       "n_randomized": 319,

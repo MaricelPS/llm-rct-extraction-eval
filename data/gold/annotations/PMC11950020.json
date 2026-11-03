@@ -49,7 +49,7 @@
       "value": -4.85,
       "ci_lower": -6.13,
       "ci_upper": -3.57,
-      "ci_level": 95,
+      "ci_level": 0.95,
       "p_value": "<0.0001",
       "unit": "mmol/mol",
       "estimand": "treatment_policy",

@@ -1,2 +1,21 @@
 pmcid,section,label,field,kind,gold_original,gold_nuevo,salida_modelo,categoria,justificacion,evidencia
 PMC11527811,paper,-,_paper,ineligible,in test split,excluded,-,ineligible,"GLP-1 RA not part of the randomized intervention: semaglutide is background therapy in both arms (33.3% vs 31.5%); randomized intervention is a digital platform. Guideline clarification for v2: background GLP-1 RA use does not qualify.","Methods (interventions, endpoints); Table 1"
+PMC11701190,outcomes,Percentage of participants maintaining HbA1c ≤7.5% (≤58 mmol/mol),ci_level,mismatch,95.0,0.95,-,gold_error,ci_level: as a decimal (0.95),gold-lint after test run
+PMC11822619,outcomes,Alcohol consumed during laboratory self-administration,ci_level,mismatch,95.0,0.95,0.95,gold_error,ci_level: as a decimal (0.95),gold-lint after test run
+PMC11822619,outcomes,Peak breath alcohol concentration,ci_level,mismatch,95.0,0.95,0.95,gold_error,ci_level: as a decimal (0.95),gold-lint after test run
+PMC11950020,outcomes,Change in HbA1c from baseline,ci_level,mismatch,95.0,0.95,0.95,gold_error,ci_level: as a decimal (0.95),gold-lint after test run
+PMC11987204,outcomes,Mean change from baseline in HbA1c at Week 24,ci_level,mismatch,95.0,0.95,0.95,gold_error,ci_level: as a decimal (0.95),gold-lint after test run
+PMC12992176,outcomes,Ao-PWV,ci_level,mismatch,95.0,0.95,0.95,gold_error,ci_level: as a decimal (0.95),gold-lint after test run
+PMC11296502,arms,pioglitazone,dose,mismatch,"15 mg once-daily, increased by 15 mg every other week to 45 mg once-daily",45 mg once-daily,45mg once-daily,gold_error,"dose: maintenance dose and frequency, without escalation schedules",gold-lint after test run
+PMC11417641,arms,Semaglutide,dose,mismatch,"0.25 mg weekly for 4 weeks, followed by 0.5 mg weekly for another 4 weeks, then 1.0 mg weekly for 24 weeks",1.0 mg weekly,1·0 mg once weekly,gold_error,"dose: maintenance dose and frequency, without escalation schedules",gold-lint after test run
+PMC11987204,arms,LY05008,dose,mismatch,"1.5 mg once weekly for 24 weeks, with metformin 1.5–2.0 g daily as background therapy",1.5 mg once weekly,1.5 mg once weekly,gold_error,"dose: maintenance dose and frequency, without escalation schedules",gold-lint after test run
+PMC11987204,arms,Dulaglutide,dose,mismatch,"1.5 mg once weekly for 24 weeks, with metformin 1.5–2.0 g daily as background therapy",1.5 mg once weekly,1.5 mg once weekly,gold_error,"dose: maintenance dose and frequency, without escalation schedules",gold-lint after test run
+PMC12992176,arms,Lixisenatide,dose,mismatch,10 mcg once daily increased to 20 mcg after 2 weeks,20 mcg once daily,20 mcg once daily,gold_error,"dose: maintenance dose and frequency, without escalation schedules",gold-lint after test run
+PMC13627196,arms,Dulaglutide,dose,mismatch,0.75 mg once weekly for 24 weeks,0.75 mg once weekly,0.75 mg once weekly,gold_error,"dose: maintenance dose and frequency, without escalation schedules",gold-lint after test run
+PMC11987204,arms,Dulaglutide,drug,mismatch,"Dulaglutide (Trulicity), reference product",dulaglutide,dulaglutide,gold_error,drug: active substance only,gold-lint after test run
+PMC12890759,arms,MDI,drug,mismatch,,insulin,insulin,gold_error,drug: class as the article names it (MDI -> insulin),gold-lint after test run
+PMC12584062,arms,control,dose,mismatch,standard treatment according to the guidelines,,None,gold_error,dose: maintenance dose and frequency; standard care is not a dose,gold-lint after test run
+PMC11060164,outcomes,Time in range (TIR),unit,mismatch,% of time in target glucose range (70–180 mg/dL),%,%,gold_error,unit: as written,gold-lint after test run
+PMC11060164,outcomes,Time below range (TBR) level 1,unit,mismatch,% of time below target glucose range (<70 mg/dL),%,%,gold_error,unit: as written,gold-lint after test run
+PMC11296502,population,-,condition,mismatch,type 2 diabetes mellitus without established cardiovascular disease,type 2 diabetes mellitus,type 2 diabetes,gold_error,condition: without qualifiers,gold-lint after test run
+PMC12890759,population,-,condition,mismatch,people with type 2 diabetes (PwT2D),type 2 diabetes,type 2 diabetes,gold_error,"condition: the disease, without qualifiers",gold-lint after test run
