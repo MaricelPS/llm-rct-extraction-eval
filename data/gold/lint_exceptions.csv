@@ -14,3 +14,8 @@ PMC11417641,percent 0.0 is valid only,zero cells read "0 (0·00%)" in Table 3
 PMC12584062,percent 0.0 is valid only,Acute pancreatitis: Incidence % column reads 0
 PMC12577669,Serious adverse events: Cardiac,Standard of Care cell reports 1 event without patient count; not annotated per guidelines
 PMC12577669,Serious adverse events: Worsening MSA,Standard of Care cell reports 1 event without patient count; not annotated per guidelines
+PMC10709975,arms[Control]: drug is null,protocol background therapy (metformin + NPH insulin) is common to both arms; arm drug records the randomized intervention only
+PMC10933706,arms[control group]: drug is null,control receives conventional risk-factor treatment without an assigned study drug
+PMC12577669,arms[Standard of Care]: drug is null,control continues usual care without an assigned study drug
+PMC12584062,arms[control]: drug is null,both arms receive guideline-based standard treatment; only the experimental arm adds liraglutide
+PMC12584062,population.condition,both conditions are required for inclusion; abbreviations as written in the article

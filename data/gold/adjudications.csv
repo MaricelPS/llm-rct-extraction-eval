@@ -19,3 +19,4 @@ PMC11060164,outcomes,Time in range (TIR),unit,mismatch,% of time in target gluco
 PMC11060164,outcomes,Time below range (TBR) level 1,unit,mismatch,% of time below target glucose range (<70 mg/dL),%,%,gold_error,unit: as written,gold-lint after test run
 PMC11296502,population,-,condition,mismatch,type 2 diabetes mellitus without established cardiovascular disease,type 2 diabetes mellitus,type 2 diabetes,gold_error,condition: without qualifiers,gold-lint after test run
 PMC12890759,population,-,condition,mismatch,people with type 2 diabetes (PwT2D),type 2 diabetes,type 2 diabetes,gold_error,"condition: the disease, without qualifiers",gold-lint after test run
+PMC10709975,arms,Control,drug,decision,,null (kept),-,ambiguous,"Protocol-defined background therapy common to both arms (metformin + NPH insulin) is not recorded as arm drug; consistent with PMC11987204. Guideline clarification for v2.","Methods (standard treatment, randomization)"
