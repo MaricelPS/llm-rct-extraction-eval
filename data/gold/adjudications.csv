@@ -1,0 +1,2 @@
+pmcid,section,label,field,kind,gold_original,gold_nuevo,salida_modelo,categoria,justificacion,evidencia
+PMC11527811,paper,-,_paper,ineligible,in test split,excluded,-,ineligible,"GLP-1 RA not part of the randomized intervention: semaglutide is background therapy in both arms (33.3% vs 31.5%); randomized intervention is a digital platform. Guideline clarification for v2: background GLP-1 RA use does not qualify.","Methods (interventions, endpoints); Table 1"
