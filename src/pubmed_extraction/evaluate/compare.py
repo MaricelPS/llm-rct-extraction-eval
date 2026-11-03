@@ -21,6 +21,15 @@ class Tally:
         self.total += 1
         self.correct += int(ok)
 
+@dataclass
+class Diff:
+    pmcid: str
+    section: str
+    label: str
+    field: str   # nombre del campo, o "_object" para faltantes/sobrantes
+    kind: str    # "mismatch" | "missing" | "extra"
+    gold: object
+    pred: object
 
 @dataclass
 class PaperReport:
@@ -28,16 +37,28 @@ class PaperReport:
     fields: dict[str, Tally] = field(default_factory=dict)
     sets: dict[str, dict[str, int]] = field(default_factory=dict)
     diffs: list[str] = field(default_factory=list)
+    records: list[Diff] = field(default_factory=list)
 
     def check(self, section: str, label: str, name: str, ok: bool, gold, pred) -> None:
         self.fields.setdefault(f"{section}.{name}", Tally()).add(ok)
         if not ok:
             self.diffs.append(f"{section} [{label}] {name}: gold={gold!r} pred={pred!r}")
+            self.records.append(Diff(self.pmcid, section, label, name, "mismatch", gold, pred))
 
+    def object_diff(self, section: str, label: str, kind: str) -> None:
+        """Objeto faltante ("missing") o sobrante ("extra") en la predicción."""
+        if kind == "missing":
+            suffix = "missing in prediction"
+        elif section == "outcomes":
+            suffix = "extra primary in prediction"
+        else:
+            suffix = "extra in prediction"
+        self.diffs.append(f"{section} [{label}] {suffix}")
+        gold, pred = (label, None) if kind == "missing" else (None, label)
+        self.records.append(Diff(self.pmcid, section, label, "_object", kind, gold, pred))
 
 def similarity(a: str | None, b: str | None) -> float:
     return SequenceMatcher(None, _normalize(a or ""), _normalize(b or "")).ratio()
-
 
 def text_eq(gold: str | None, pred: str | None) -> bool:
     if not gold and not pred:
@@ -45,7 +66,6 @@ def text_eq(gold: str | None, pred: str | None) -> bool:
     if not gold or not pred:
         return False
     return similarity(gold, pred) >= TEXT_THRESHOLD
-
 
 def num_eq(gold: float | None, pred: float | None) -> bool:
     if gold is None or pred is None:
@@ -149,7 +169,7 @@ def compare(gold: TrialExtraction, pred: TrialExtraction) -> PaperReport:
     for g_arm in gold.arms:
         p_name = pred_by_gold.get(g_arm.name)
         if p_name is None:
-            report.diffs.append(f"arms [{g_arm.name}] missing in prediction")
+            report.object_diff("arms",g_arm.name, "missing")
             continue
         p_arm = pred_arms[p_name]
         for name, ok, gv, pv in [
@@ -167,7 +187,7 @@ def compare(gold: TrialExtraction, pred: TrialExtraction) -> PaperReport:
             report.check("arms", g_arm.name, name, ok, gv, pv)
     for p_arm in pred.arms:
         if p_arm.name not in arm_map:
-            report.diffs.append(f"arms [{p_arm.name}] extra in prediction")
+            report.object_diff("arms", p_arm.name, "extra")
 
     # Primary outcomes: match on comparison, then estimand and name similarity
     pred_primary = [o for o in pred.outcomes if o.is_primary]
@@ -178,7 +198,7 @@ def compare(gold: TrialExtraction, pred: TrialExtraction) -> PaperReport:
         candidates = [o for o in remaining if _sides(o.comparison, arm_map) == g_sides]
         label = f"{g_out.name[:40]} | {g_out.comparison} / {g_out.estimand.value}"
         if not candidates:
-            report.diffs.append(f"outcomes [{label}] missing in prediction")
+            report.object_diff("outcomes",label,"missing")
             continue
         p_out = max(candidates, key=lambda o: (o.estimand == g_out.estimand,
                                                similarity(o.name, g_out.name)))
@@ -198,9 +218,8 @@ def compare(gold: TrialExtraction, pred: TrialExtraction) -> PaperReport:
         ]:
             report.check("outcomes", label, name, ok, gv, pv)
     for p_out in remaining:
-        report.diffs.append(
-            f"outcomes [{p_out.name[:40]} | {p_out.comparison} / {p_out.estimand.value}] "
-            "extra primary in prediction"
+        report.object_diff("outcomes",f"{p_out.name[:40]} | {p_out.comparison} / {p_out.estimand.value}",
+            "extra"
         )
     report.sets["outcomes"] = {"gold": len(gold.outcomes), "pred": len(pred_primary), "matched": matched}
 
@@ -227,7 +246,7 @@ def compare(gold: TrialExtraction, pred: TrialExtraction) -> PaperReport:
         pool = exact or fuzzy or by_core
         label = f"{g_ae.term} / {g_ae.arm_name}"
         if not pool:
-            report.diffs.append(f"adverse_events [{label}] missing in prediction")
+            report.object_diff("adverse_events",label, "missing")
             continue
         pick = max(pool, key=lambda x: similarity(x[1].term, g_ae.term))
         remaining_aes.remove(pick)
@@ -242,7 +261,7 @@ def compare(gold: TrialExtraction, pred: TrialExtraction) -> PaperReport:
         ]:
             report.check("adverse_events", label, name, ok, gv, pv)
     for arm, p_ae in remaining_aes:
-        report.diffs.append(f"adverse_events [{p_ae.term} / {arm}] extra in prediction")
+        report.object_diff("adverse_events", f"{p_ae.term} / {arm}", "extra")
     report.sets["adverse_events"] = {
         "gold": len(gold.adverse_events), "pred": len(pred.adverse_events), "matched": matched_aes,
     }

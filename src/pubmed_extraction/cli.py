@@ -9,6 +9,7 @@ from rich.progress import track
 import json
 from collections import Counter
 
+from pubmed_extraction.evaluate.adjudication import write_adjudication_sheet
 from pubmed_extraction.evaluate.gold import (
     ANNOTATIONS_DIR,
     lint_annotation,
@@ -304,6 +305,9 @@ def evaluate(
                 typer.echo(f"  - {diff}")
 
     summary = summarize(reports)
+    diffs_path = EVAL_DIR / f"{config}_{split_name}_diffs.csv"
+    n_rows = write_adjudication_sheet(reports, diffs_path)
+    typer.echo(f"Saved {n_rows} diffs to {diffs_path}")
     typer.echo(f"\n=== Summary: {split_name} ({len(reports)} papers, {config}) ===")
     typer.echo("\nSets (precision / recall):")
     for section, c in summary["sets"].items():
