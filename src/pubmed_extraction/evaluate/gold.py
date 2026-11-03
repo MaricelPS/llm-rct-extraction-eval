@@ -143,13 +143,19 @@ def validate_annotation(path: Path) -> list[str]:
 
 QUALIFIER_WORDS = re.compile(
     r"controlled|inadequate|suboptimal|population|chinese|japanese|hospital|outpatient|"
-    r"metformin|treated with|on insulin",
+    r"metformin|treated with|on insulin|people with|patients with|without|at high|"
+    r"requiring|risk",
     re.I,
 )
 ROUTE_WORDS = re.compile(r"\boral\b|subcutaneous|injection|tablet", re.I)
 DOSE_DETAIL_WORDS = re.compile(
-    r"titrat|escalat|target|starting|increment|reduced by|over the first", re.I
+    r"titrat|escalat|target|starting|increment|reduced by|over the first|"
+    r"increas|followed by|\bthen\b|\buntil\b|for \d+ (?:day|week|month)s?|for weeks|"
+    r"\bweeks? \d|background|if tolerated|as tolerated|maintained at|deferred",
+    re.I,
 )
+DRUG_DETAIL = re.compile(r"[()®™]|reference|biosimilar|product", re.I)
+MAX_UNIT_WORDS = 2
 SECTION_PREFIX = re.compile(r"^(safety focus areas|most frequent|adverse events by)", re.I)
 FOOTNOTE_TAIL = re.compile(r"\s[a-f†‡§*]$")
 DEATH_WORDS = re.compile(r"death|fatal|died", re.I)
@@ -173,6 +179,12 @@ def lint_annotation(annotation: TrialExtraction) -> list[str]:
             warnings.append(f"{tag}: drug contains numbers (dose?): {arm.drug!r}")
         if arm.dose and DOSE_DETAIL_WORDS.search(arm.dose):
             warnings.append(f"{tag}: dose may include escalation or titration details: {arm.dose!r}")
+        if arm.drug and DRUG_DETAIL.search(arm.drug):
+            warnings.append(f"{tag}: drug may include brand, code or description: {arm.drug!r}")
+        if arm.role.value != "placebo" and not arm.drug:
+            warnings.append(f"{tag}: drug is null for a non-placebo arm (use substance or class)")
+        if arm.dose and not arm.drug:
+            warnings.append(f"{tag}: dose without drug: {arm.dose!r}")
         if arm.n_randomized is not None and arm.n_analyzed is not None:
             if arm.n_analyzed > arm.n_randomized:
                 warnings.append(f"{tag}: n_analyzed exceeds n_randomized")
@@ -191,6 +203,16 @@ def lint_annotation(annotation: TrialExtraction) -> list[str]:
             warnings.append(f"{tag}: p_value should not start with 'p': {outcome.p_value!r}")
         if outcome.estimand.value == "other":
             warnings.append(f"{tag}: estimand 'other' (trial product estimands are 'hypothetical')")
+        if outcome.ci_level is not None and outcome.ci_level > 1:
+            warnings.append(f"{tag}: ci_level must be a decimal (0.95): {outcome.ci_level!r}")
+        if outcome.unit and (
+            outcome.unit.strip().lower() == "other"
+            or len(outcome.unit.split()) > MAX_UNIT_WORDS
+        ):
+            warnings.append(f"{tag}: unit should be a unit, not a description: {outcome.unit!r}")
+        if outcome.effect_measure.value == "other" and outcome.value is not None:
+            warnings.append(f"{tag}: effect_measure 'other' with an effect estimate "
+                            "('other' is for p-value only)")
         first = _normalize(outcome.comparison.split(" vs ")[0])
         if roles.get(first) != "experimental":
             warnings.append(f"{tag}: experimental arm should come first: {outcome.comparison!r}")
