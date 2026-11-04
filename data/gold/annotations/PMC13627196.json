@@ -58,7 +58,7 @@
       "term": "Gastrointestinal manifestations",
       "arm_name": "Dulaglutide",
       "n_patients": 10,
-      "percent_patients": 25.0,
+      "percent_patients": null,
       "is_serious": null,
       "evidence": []
     },
@@ -66,7 +66,7 @@
       "term": "Gastrointestinal manifestations",
       "arm_name": "Conventional basal-bolus insulin therapy",
       "n_patients": 4,
-      "percent_patients": 10.0,
+      "percent_patients": null,
       "is_serious": null,
       "evidence": []
     },
@@ -74,7 +74,7 @@
       "term": "Hypoglycaemia",
       "arm_name": "Conventional basal-bolus insulin therapy",
       "n_patients": 16,
-      "percent_patients": 40.0,
+      "percent_patients": null,
       "is_serious": null,
       "evidence": []
     },

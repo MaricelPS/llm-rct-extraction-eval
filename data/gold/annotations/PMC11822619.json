@@ -71,5 +71,54 @@
       "evidence": []
     }
   ],
-  "adverse_events": []
+  "adverse_events": [
+    {
+      "term": "Serious adverse events",
+      "arm_name": "Semaglutide",
+      "n_patients": 0,
+      "percent_patients": null,
+      "is_serious": true,
+      "evidence": []
+    },
+    {
+      "term": "Serious adverse events",
+      "arm_name": "Placebo",
+      "n_patients": 0,
+      "percent_patients": null,
+      "is_serious": true,
+      "evidence": []
+    },
+    {
+      "term": "Adverse interactions with alcohol",
+      "arm_name": "Semaglutide",
+      "n_patients": 0,
+      "percent_patients": null,
+      "is_serious": null,
+      "evidence": []
+    },
+    {
+      "term": "Adverse interactions with alcohol",
+      "arm_name": "Placebo",
+      "n_patients": 0,
+      "percent_patients": null,
+      "is_serious": null,
+      "evidence": []
+    },
+    {
+      "term": "Treatment-related discontinuations",
+      "arm_name": "Semaglutide",
+      "n_patients": 0,
+      "percent_patients": null,
+      "is_serious": null,
+      "evidence": []
+    },
+    {
+      "term": "Treatment-related discontinuations",
+      "arm_name": "Placebo",
+      "n_patients": 0,
+      "percent_patients": null,
+      "is_serious": null,
+      "evidence": []
+    }
+  ]
 }

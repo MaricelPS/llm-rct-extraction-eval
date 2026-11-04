@@ -56,5 +56,22 @@
       "evidence": []
     }
   ],
-  "adverse_events": []
+  "adverse_events": [
+    {
+      "term": "Serious adverse events",
+      "arm_name": "Exenatide",
+      "n_patients": 0,
+      "percent_patients": null,
+      "is_serious": true,
+      "evidence": []
+    },
+    {
+      "term": "Serious adverse events",
+      "arm_name": "Control",
+      "n_patients": 0,
+      "percent_patients": null,
+      "is_serious": true,
+      "evidence": []
+    }
+  ]
 }

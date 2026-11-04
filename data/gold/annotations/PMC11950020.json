@@ -58,7 +58,7 @@
   ],
   "adverse_events": [
     {
-      "term": "Any adverse event",
+      "term": "AEs",
       "arm_name": "IcoSema",
       "n_patients": 270,
       "percent_patients": 79.2,
@@ -66,7 +66,7 @@
       "evidence": []
     },
     {
-      "term": "Any adverse event",
+      "term": "AEs",
       "arm_name": "Semaglutide 1.0 mg",
       "n_patients": 252,
       "percent_patients": 74.1,
@@ -74,7 +74,7 @@
       "evidence": []
     },
     {
-      "term": "Serious adverse events",
+      "term": "Serious AEs",
       "arm_name": "IcoSema",
       "n_patients": 38,
       "percent_patients": 11.1,
@@ -82,7 +82,7 @@
       "evidence": []
     },
     {
-      "term": "Serious adverse events",
+      "term": "Serious AEs",
       "arm_name": "Semaglutide 1.0 mg",
       "n_patients": 21,
       "percent_patients": 6.2,
@@ -214,6 +214,22 @@
       "arm_name": "Semaglutide 1.0 mg",
       "n_patients": 10,
       "percent_patients": 2.9,
+      "is_serious": null,
+      "evidence": []
+    },
+    {
+      "term": "Constipation",
+      "arm_name": "IcoSema",
+      "n_patients": 11,
+      "percent_patients": 3.2,
+      "is_serious": null,
+      "evidence": []
+    },
+    {
+      "term": "Constipation",
+      "arm_name": "Semaglutide 1.0 mg",
+      "n_patients": 17,
+      "percent_patients": 5.0,
       "is_serious": null,
       "evidence": []
     }

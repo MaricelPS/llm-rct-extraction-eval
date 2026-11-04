@@ -56,5 +56,30 @@
       "evidence": []
     }
   ],
-  "adverse_events": []
+  "adverse_events": [
+    {
+      "term": "Deaths",
+      "arm_name": "Lixisenatide",
+      "n_patients": 0,
+      "percent_patients": null,
+      "is_serious": true,
+      "evidence": []
+    },
+    {
+      "term": "Deaths",
+      "arm_name": "Placebo",
+      "n_patients": 0,
+      "percent_patients": null,
+      "is_serious": true,
+      "evidence": []
+    },
+    {
+      "term": "Serious adverse events related to the drug",
+      "arm_name": "Lixisenatide",
+      "n_patients": 0,
+      "percent_patients": null,
+      "is_serious": true,
+      "evidence": []
+    }
+  ]
 }

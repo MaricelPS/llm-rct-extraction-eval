@@ -12,11 +12,11 @@ PMC11060164,Mild nausea,reported only for the IDegLira arm; not reported for IGl
 PMC11296502,crossover design,efficacy analysed in 32 completers of both periods (Table 3)
 PMC11417641,percent 0.0 is valid only,zero cells read "0 (0·00%)" in Table 3
 PMC12584062,percent 0.0 is valid only,Acute pancreatitis: Incidence % column reads 0
-PMC12577669,Serious adverse events: Cardiac,Standard of Care cell reports 1 event without patient count; not annotated per guidelines
-PMC12577669,Serious adverse events: Worsening MSA,Standard of Care cell reports 1 event without patient count; not annotated per guidelines
+PMC12577669,Serious adverse events: Cardiac,Standard Care cell reports 1 event without patient count; not annotated per guidelines
+PMC12577669,Serious adverse events: Worsening MSA,Standard Care cell reports 1 event without patient count; not annotated per guidelines
 PMC10709975,arms[Control]: drug is null,protocol background therapy (metformin + NPH insulin) is common to both arms; arm drug records the randomized intervention only
 PMC10933706,arms[control group]: drug is null,control receives conventional risk-factor treatment without an assigned study drug
-PMC12577669,arms[Standard of Care]: drug is null,control continues usual care without an assigned study drug
+PMC12577669,arms[Standard Care]: drug is null,control continues usual care without an assigned study drug
 PMC12584062,arms[control]: drug is null,both arms receive guideline-based standard treatment; only the experimental arm adds liraglutide
 PMC12584062,population.condition,both conditions are required for inclusion; abbreviations as written in the article
 PMC11417641,effect_measure 'other' with an effect estimate,regression coefficient (beta) is not an ETD or mean difference; 'other' per guideline
@@ -24,3 +24,4 @@ PMC11822619,effect_measure 'other' with an effect estimate,regression coefficien
 PMC13627196,effect_measure 'other' with an effect estimate,estimated standardised effect size is neither an ETD nor a mean difference; 'other' per guideline
 PMC10792518,Eructation / placebo,"cell reads ""0 (0%)"""
 PMC10792518,Dyspepsia / placebo,"cell reads ""0 (0%)"""
+PMC12992176,present in 1 of 2 arms,statement on serious adverse events related to the drug refers to the lixisenatide group only

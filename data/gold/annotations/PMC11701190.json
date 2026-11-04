@@ -18,7 +18,7 @@
   },
   "arms": [
     {
-      "name": "Semaglutide plus basal insulin",
+      "name": "Semaglutide",
       "role": "experimental",
       "drug": "semaglutide + insulin degludec",
       "dose": "1 mg once weekly + insulin degludec once daily",
@@ -29,7 +29,7 @@
       "evidence": []
     },
     {
-      "name": "Multiple daily insulin injections (MDI)",
+      "name": "MDI",
       "role": "active_comparator",
       "drug": "insulin degludec + insulin aspart",
       "dose": "Insulin degludec once daily plus prandial insulin aspart; doses adjusted according to the study protocol",
@@ -45,7 +45,7 @@
       "name": "Percentage of participants maintaining HbA1c ≤7.5% (≤58 mmol/mol)",
       "is_primary": true,
       "timepoint": "Week 26",
-      "comparison": "Semaglutide plus basal insulin vs Multiple daily insulin injections (MDI)",
+      "comparison": "Semaglutide vs MDI",
       "effect_measure": "odds_ratio",
       "value": 2.6,
       "ci_lower": 0.7,
@@ -60,7 +60,7 @@
   "adverse_events": [
     {
       "term": "Any adverse event",
-      "arm_name": "Multiple daily insulin injections (MDI)",
+      "arm_name": "MDI",
       "n_patients": 8,
       "percent_patients": 40,
       "is_serious": null,
@@ -68,7 +68,7 @@
     },
     {
       "term": "Any adverse event",
-      "arm_name": "Semaglutide plus basal insulin",
+      "arm_name": "Semaglutide",
       "n_patients": 16,
       "percent_patients": 40,
       "is_serious": null,
@@ -76,7 +76,7 @@
     },
     {
       "term": "Serious adverse event",
-      "arm_name": "Multiple daily insulin injections (MDI)",
+      "arm_name": "MDI",
       "n_patients": 4,
       "percent_patients": 20,
       "is_serious": true,
@@ -84,7 +84,7 @@
     },
     {
       "term": "Serious adverse event",
-      "arm_name": "Semaglutide plus basal insulin",
+      "arm_name": "Semaglutide",
       "n_patients": 9,
       "percent_patients": 22,
       "is_serious": true,
@@ -92,7 +92,7 @@
     },
     {
       "term": "Adverse event leading to drug discontinuation",
-      "arm_name": "Multiple daily insulin injections (MDI)",
+      "arm_name": "MDI",
       "n_patients": 1,
       "percent_patients": 5,
       "is_serious": null,
@@ -100,7 +100,7 @@
     },
     {
       "term": "Adverse event leading to drug discontinuation",
-      "arm_name": "Semaglutide plus basal insulin",
+      "arm_name": "Semaglutide",
       "n_patients": 2,
       "percent_patients": 5,
       "is_serious": null,
@@ -108,7 +108,7 @@
     },
     {
       "term": "Adverse event leading to a dose decrease",
-      "arm_name": "Multiple daily insulin injections (MDI)",
+      "arm_name": "MDI",
       "n_patients": 1,
       "percent_patients": 5,
       "is_serious": null,
@@ -116,7 +116,7 @@
     },
     {
       "term": "Adverse event leading to a dose decrease",
-      "arm_name": "Semaglutide plus basal insulin",
+      "arm_name": "Semaglutide",
       "n_patients": 4,
       "percent_patients": 10,
       "is_serious": null,
