@@ -22,4 +22,5 @@ PMC12584062,population.condition,both conditions are required for inclusion; abb
 PMC11417641,effect_measure 'other' with an effect estimate,regression coefficient (beta) is not an ETD or mean difference; 'other' per guideline
 PMC11822619,effect_measure 'other' with an effect estimate,regression coefficient (beta) from residualized change model; 'other' per guideline
 PMC13627196,effect_measure 'other' with an effect estimate,estimated standardised effect size is neither an ETD nor a mean difference; 'other' per guideline
-
+PMC10792518,Eructation / placebo,"cell reads ""0 (0%)"""
+PMC10792518,Dyspepsia / placebo,"cell reads ""0 (0%)"""

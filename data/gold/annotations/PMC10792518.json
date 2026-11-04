@@ -58,42 +58,42 @@
   ],
   "adverse_events": [
     {
-      "term": "Any adverse event",
+      "term": "All patients with adverse events",
       "arm_name": "semaglutide",
       "n_patients": 42,
-      "percent_patients": 89,
+      "percent_patients": 89.0,
       "is_serious": null,
       "evidence": []
     },
     {
-      "term": "Any adverse event",
+      "term": "All patients with adverse events",
       "arm_name": "placebo",
       "n_patients": 19,
-      "percent_patients": 79,
+      "percent_patients": 79.0,
       "is_serious": null,
       "evidence": []
     },
     {
-      "term": "Serious adverse event",
+      "term": "Gastrointestinal disorders",
       "arm_name": "semaglutide",
-      "n_patients": 6,
-      "percent_patients": 13,
-      "is_serious": true,
+      "n_patients": 36,
+      "percent_patients": 77.0,
+      "is_serious": null,
       "evidence": []
     },
     {
-      "term": "Serious adverse event",
+      "term": "Gastrointestinal disorders",
       "arm_name": "placebo",
-      "n_patients": 2,
-      "percent_patients": 8,
-      "is_serious": true,
+      "n_patients": 8,
+      "percent_patients": 33.0,
+      "is_serious": null,
       "evidence": []
     },
     {
       "term": "Nausea",
       "arm_name": "semaglutide",
       "n_patients": 21,
-      "percent_patients": 45,
+      "percent_patients": 45.0,
       "is_serious": null,
       "evidence": []
     },
@@ -101,7 +101,7 @@
       "term": "Nausea",
       "arm_name": "placebo",
       "n_patients": 4,
-      "percent_patients": 17,
+      "percent_patients": 17.0,
       "is_serious": null,
       "evidence": []
     },
@@ -109,7 +109,7 @@
       "term": "Diarrhoea",
       "arm_name": "semaglutide",
       "n_patients": 9,
-      "percent_patients": 19,
+      "percent_patients": 19.0,
       "is_serious": null,
       "evidence": []
     },
@@ -117,7 +117,7 @@
       "term": "Diarrhoea",
       "arm_name": "placebo",
       "n_patients": 2,
-      "percent_patients": 8,
+      "percent_patients": 8.0,
       "is_serious": null,
       "evidence": []
     },
@@ -125,7 +125,7 @@
       "term": "Vomiting",
       "arm_name": "semaglutide",
       "n_patients": 8,
-      "percent_patients": 17,
+      "percent_patients": 17.0,
       "is_serious": null,
       "evidence": []
     },
@@ -133,7 +133,455 @@
       "term": "Vomiting",
       "arm_name": "placebo",
       "n_patients": 0,
-      "percent_patients": 0,
+      "percent_patients": 0.0,
+      "is_serious": null,
+      "evidence": []
+    },
+    {
+      "term": "Abdominal pain",
+      "arm_name": "semaglutide",
+      "n_patients": 6,
+      "percent_patients": 13.0,
+      "is_serious": null,
+      "evidence": []
+    },
+    {
+      "term": "Abdominal pain",
+      "arm_name": "placebo",
+      "n_patients": 1,
+      "percent_patients": 4.0,
+      "is_serious": null,
+      "evidence": []
+    },
+    {
+      "term": "Decreased appetite",
+      "arm_name": "semaglutide",
+      "n_patients": 6,
+      "percent_patients": 13.0,
+      "is_serious": null,
+      "evidence": []
+    },
+    {
+      "term": "Decreased appetite",
+      "arm_name": "placebo",
+      "n_patients": 1,
+      "percent_patients": 4.0,
+      "is_serious": null,
+      "evidence": []
+    },
+    {
+      "term": "Eructation",
+      "arm_name": "semaglutide",
+      "n_patients": 6,
+      "percent_patients": 13.0,
+      "is_serious": null,
+      "evidence": []
+    },
+    {
+      "term": "Eructation",
+      "arm_name": "placebo",
+      "n_patients": 0,
+      "percent_patients": 0.0,
+      "is_serious": null,
+      "evidence": []
+    },
+    {
+      "term": "Abdominal pain upper",
+      "arm_name": "semaglutide",
+      "n_patients": 5,
+      "percent_patients": 11.0,
+      "is_serious": null,
+      "evidence": []
+    },
+    {
+      "term": "Abdominal pain upper",
+      "arm_name": "placebo",
+      "n_patients": 2,
+      "percent_patients": 8.0,
+      "is_serious": null,
+      "evidence": []
+    },
+    {
+      "term": "Dyspepsia",
+      "arm_name": "semaglutide",
+      "n_patients": 5,
+      "percent_patients": 11.0,
+      "is_serious": null,
+      "evidence": []
+    },
+    {
+      "term": "Dyspepsia",
+      "arm_name": "placebo",
+      "n_patients": 0,
+      "percent_patients": 0.0,
+      "is_serious": null,
+      "evidence": []
+    },
+    {
+      "term": "Urinary tract infection",
+      "arm_name": "semaglutide",
+      "n_patients": 3,
+      "percent_patients": 6.0,
+      "is_serious": null,
+      "evidence": []
+    },
+    {
+      "term": "Urinary tract infection",
+      "arm_name": "placebo",
+      "n_patients": 4,
+      "percent_patients": 17.0,
+      "is_serious": null,
+      "evidence": []
+    },
+    {
+      "term": "Back pain",
+      "arm_name": "semaglutide",
+      "n_patients": 0,
+      "percent_patients": null,
+      "is_serious": null,
+      "evidence": []
+    },
+    {
+      "term": "Back pain",
+      "arm_name": "placebo",
+      "n_patients": 3,
+      "percent_patients": 13.0,
+      "is_serious": null,
+      "evidence": []
+    },
+    {
+      "term": "Patients with serious adverse events: On-treatment",
+      "arm_name": "semaglutide",
+      "n_patients": 6,
+      "percent_patients": 13.0,
+      "is_serious": true,
+      "evidence": []
+    },
+    {
+      "term": "Patients with serious adverse events: On-treatment",
+      "arm_name": "placebo",
+      "n_patients": 2,
+      "percent_patients": 8.0,
+      "is_serious": true,
+      "evidence": []
+    },
+    {
+      "term": "Patients with serious adverse events: In-trial",
+      "arm_name": "semaglutide",
+      "n_patients": 6,
+      "percent_patients": 13.0,
+      "is_serious": true,
+      "evidence": []
+    },
+    {
+      "term": "Patients with serious adverse events: In-trial",
+      "arm_name": "placebo",
+      "n_patients": 2,
+      "percent_patients": 8.0,
+      "is_serious": true,
+      "evidence": []
+    },
+    {
+      "term": "Serious adverse events: Gastrointestinal disorders",
+      "arm_name": "semaglutide",
+      "n_patients": 3,
+      "percent_patients": 6.0,
+      "is_serious": true,
+      "evidence": []
+    },
+    {
+      "term": "Serious adverse events: Gastrointestinal disorders",
+      "arm_name": "placebo",
+      "n_patients": 2,
+      "percent_patients": 8.0,
+      "is_serious": true,
+      "evidence": []
+    },
+    {
+      "term": "Serious adverse events: Eye disorders",
+      "arm_name": "semaglutide",
+      "n_patients": 1,
+      "percent_patients": 2.0,
+      "is_serious": true,
+      "evidence": []
+    },
+    {
+      "term": "Serious adverse events: Eye disorders",
+      "arm_name": "placebo",
+      "n_patients": 0,
+      "percent_patients": null,
+      "is_serious": true,
+      "evidence": []
+    },
+    {
+      "term": "Serious adverse events: Hepatobiliary disorders",
+      "arm_name": "semaglutide",
+      "n_patients": 1,
+      "percent_patients": 2.0,
+      "is_serious": true,
+      "evidence": []
+    },
+    {
+      "term": "Serious adverse events: Hepatobiliary disorders",
+      "arm_name": "placebo",
+      "n_patients": 0,
+      "percent_patients": null,
+      "is_serious": true,
+      "evidence": []
+    },
+    {
+      "term": "Serious adverse events: Injury, poisoning, and procedural complications",
+      "arm_name": "semaglutide",
+      "n_patients": 1,
+      "percent_patients": 2.0,
+      "is_serious": true,
+      "evidence": []
+    },
+    {
+      "term": "Serious adverse events: Injury, poisoning, and procedural complications",
+      "arm_name": "placebo",
+      "n_patients": 0,
+      "percent_patients": null,
+      "is_serious": true,
+      "evidence": []
+    },
+    {
+      "term": "Serious adverse events: Metabolism and nutrition disorders",
+      "arm_name": "semaglutide",
+      "n_patients": 1,
+      "percent_patients": 2.0,
+      "is_serious": true,
+      "evidence": []
+    },
+    {
+      "term": "Serious adverse events: Metabolism and nutrition disorders",
+      "arm_name": "placebo",
+      "n_patients": 0,
+      "percent_patients": null,
+      "is_serious": true,
+      "evidence": []
+    },
+    {
+      "term": "Serious adverse events: Nervous system disorders",
+      "arm_name": "semaglutide",
+      "n_patients": 1,
+      "percent_patients": 2.0,
+      "is_serious": true,
+      "evidence": []
+    },
+    {
+      "term": "Serious adverse events: Nervous system disorders",
+      "arm_name": "placebo",
+      "n_patients": 0,
+      "percent_patients": null,
+      "is_serious": true,
+      "evidence": []
+    },
+    {
+      "term": "Serious adverse events: Renal and urinary disorders",
+      "arm_name": "semaglutide",
+      "n_patients": 1,
+      "percent_patients": 2.0,
+      "is_serious": true,
+      "evidence": []
+    },
+    {
+      "term": "Serious adverse events: Renal and urinary disorders",
+      "arm_name": "placebo",
+      "n_patients": 0,
+      "percent_patients": null,
+      "is_serious": true,
+      "evidence": []
+    },
+    {
+      "term": "Serious adverse events: Respiratory, thoracic, and mediastinal disorders",
+      "arm_name": "semaglutide",
+      "n_patients": 1,
+      "percent_patients": 2.0,
+      "is_serious": true,
+      "evidence": []
+    },
+    {
+      "term": "Serious adverse events: Respiratory, thoracic, and mediastinal disorders",
+      "arm_name": "placebo",
+      "n_patients": 0,
+      "percent_patients": null,
+      "is_serious": true,
+      "evidence": []
+    },
+    {
+      "term": "Serious adverse events: Musculoskeletal and connective tissues disorders",
+      "arm_name": "semaglutide",
+      "n_patients": 0,
+      "percent_patients": null,
+      "is_serious": true,
+      "evidence": []
+    },
+    {
+      "term": "Serious adverse events: Musculoskeletal and connective tissues disorders",
+      "arm_name": "placebo",
+      "n_patients": 1,
+      "percent_patients": 4.0,
+      "is_serious": true,
+      "evidence": []
+    },
+    {
+      "term": "Serious adverse events: Psychiatric disorders",
+      "arm_name": "semaglutide",
+      "n_patients": 0,
+      "percent_patients": null,
+      "is_serious": true,
+      "evidence": []
+    },
+    {
+      "term": "Serious adverse events: Psychiatric disorders",
+      "arm_name": "placebo",
+      "n_patients": 1,
+      "percent_patients": 4.0,
+      "is_serious": true,
+      "evidence": []
+    },
+    {
+      "term": "Serious adverse events: Fatal events",
+      "arm_name": "semaglutide",
+      "n_patients": 0,
+      "percent_patients": null,
+      "is_serious": true,
+      "evidence": []
+    },
+    {
+      "term": "Serious adverse events: Fatal events",
+      "arm_name": "placebo",
+      "n_patients": 0,
+      "percent_patients": null,
+      "is_serious": true,
+      "evidence": []
+    },
+    {
+      "term": "Severity: Mild",
+      "arm_name": "semaglutide",
+      "n_patients": 37,
+      "percent_patients": 79.0,
+      "is_serious": null,
+      "evidence": []
+    },
+    {
+      "term": "Severity: Mild",
+      "arm_name": "placebo",
+      "n_patients": 17,
+      "percent_patients": 71.0,
+      "is_serious": null,
+      "evidence": []
+    },
+    {
+      "term": "Severity: Moderate",
+      "arm_name": "semaglutide",
+      "n_patients": 26,
+      "percent_patients": 55.0,
+      "is_serious": null,
+      "evidence": []
+    },
+    {
+      "term": "Severity: Moderate",
+      "arm_name": "placebo",
+      "n_patients": 10,
+      "percent_patients": 42.0,
+      "is_serious": null,
+      "evidence": []
+    },
+    {
+      "term": "Severity: Severe",
+      "arm_name": "semaglutide",
+      "n_patients": 8,
+      "percent_patients": 17.0,
+      "is_serious": null,
+      "evidence": []
+    },
+    {
+      "term": "Severity: Severe",
+      "arm_name": "placebo",
+      "n_patients": 1,
+      "percent_patients": 4.0,
+      "is_serious": null,
+      "evidence": []
+    },
+    {
+      "term": "Relationship to trial product: Probable",
+      "arm_name": "semaglutide",
+      "n_patients": 22,
+      "percent_patients": 47.0,
+      "is_serious": null,
+      "evidence": []
+    },
+    {
+      "term": "Relationship to trial product: Probable",
+      "arm_name": "placebo",
+      "n_patients": 4,
+      "percent_patients": 17.0,
+      "is_serious": null,
+      "evidence": []
+    },
+    {
+      "term": "Relationship to trial product: Possible",
+      "arm_name": "semaglutide",
+      "n_patients": 23,
+      "percent_patients": 49.0,
+      "is_serious": null,
+      "evidence": []
+    },
+    {
+      "term": "Relationship to trial product: Possible",
+      "arm_name": "placebo",
+      "n_patients": 9,
+      "percent_patients": 38.0,
+      "is_serious": null,
+      "evidence": []
+    },
+    {
+      "term": "Relationship to trial product: Unlikely",
+      "arm_name": "semaglutide",
+      "n_patients": 31,
+      "percent_patients": 66.0,
+      "is_serious": null,
+      "evidence": []
+    },
+    {
+      "term": "Relationship to trial product: Unlikely",
+      "arm_name": "placebo",
+      "n_patients": 18,
+      "percent_patients": 75.0,
+      "is_serious": null,
+      "evidence": []
+    },
+    {
+      "term": "Leading to withdrawal of trial product",
+      "arm_name": "semaglutide",
+      "n_patients": 3,
+      "percent_patients": 6.0,
+      "is_serious": null,
+      "evidence": []
+    },
+    {
+      "term": "Leading to withdrawal of trial product",
+      "arm_name": "placebo",
+      "n_patients": 0,
+      "percent_patients": null,
+      "is_serious": null,
+      "evidence": []
+    },
+    {
+      "term": "Leading to withdrawal from trial",
+      "arm_name": "semaglutide",
+      "n_patients": 0,
+      "percent_patients": null,
+      "is_serious": null,
+      "evidence": []
+    },
+    {
+      "term": "Leading to withdrawal from trial",
+      "arm_name": "placebo",
+      "n_patients": 0,
+      "percent_patients": null,
       "is_serious": null,
       "evidence": []
     }

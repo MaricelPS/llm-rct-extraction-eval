@@ -1,0 +1,34 @@
+term;semaglutide;placebo;is_serious
+All patients with adverse events;42 (89%);19 (79%);
+Gastrointestinal disorders;36 (77%);8 (33%);
+Nausea;21 (45%);4 (17%);
+Diarrhoea;9 (19%);2 (8%);
+Vomiting;8 (17%);0 (0%);
+Abdominal pain;6 (13%);1 (4%);
+Decreased appetite;6 (13%);1 (4%);
+Eructation;6 (13%);0 (0%);
+Abdominal pain upper;5 (11%);2 (8%);
+Dyspepsia;5 (11%);0 (0%);
+Urinary tract infection;3 (6%);4 (17%);
+Back pain;0;3 (13%);
+Patients with serious adverse events: On-treatment;6 (13%);2 (8%);true
+Patients with serious adverse events: In-trial;6 (13%);2 (8%);true
+Serious adverse events: Gastrointestinal disorders;3 (6%);2 (8%);true
+Serious adverse events: Eye disorders;1 (2%);0;true
+Serious adverse events: Hepatobiliary disorders;1 (2%);0;true
+Serious adverse events: Injury, poisoning, and procedural complications;1 (2%);0;true
+Serious adverse events: Metabolism and nutrition disorders;1 (2%);0;true
+Serious adverse events: Nervous system disorders;1 (2%);0;true
+Serious adverse events: Renal and urinary disorders;1 (2%);0;true
+Serious adverse events: Respiratory, thoracic, and mediastinal disorders;1 (2%);0;true
+Serious adverse events: Musculoskeletal and connective tissues disorders;0;1 (4%);true
+Serious adverse events: Psychiatric disorders;0;1 (4%);true
+Serious adverse events: Fatal events;0;0;true
+Severity: Mild;37 (79%);17 (71%);
+Severity: Moderate;26 (55%);10 (42%);
+Severity: Severe;8 (17%);1 (4%);
+Relationship to trial product: Probable;22 (47%);4 (17%);
+Relationship to trial product: Possible;23 (49%);9 (38%);
+Relationship to trial product: Unlikely;31 (66%);18 (75%);
+Leading to withdrawal of trial product;3 (6%);0;
+Leading to withdrawal from trial;0;0;
