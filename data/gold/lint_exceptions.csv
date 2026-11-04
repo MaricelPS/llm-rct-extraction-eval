@@ -1,7 +1,7 @@
 pmcid,warning_contains,reason
 PMC10599987,Patient with surgery-related AEs / Placebo,cell reads "0 (0.0%)"
 PMC10372755,population.condition,suboptimal GLP-1 response is an inclusion criterion defining the population, not a qualifier
-PMC12003151,percent 0.0 is valid only,zero cells read "0 (0)" in Table 4
+PMC12003151,percent 0.0 is valid only,"zero cells read ""0 (0)"" in Table 4 (AE rows); count-only ""0"" cells have null percent"
 PMC12003151,crossover design,efficacy analysed in 24 completers with paired data for both conditions
 PMC13627196,Clinically important hypoglycaemia,zero-event statement covers the insulin arm only
 PMC13627196,Severe hypoglycaemia,zero-event statement covers the insulin arm only

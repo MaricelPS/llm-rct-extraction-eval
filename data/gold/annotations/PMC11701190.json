@@ -32,7 +32,7 @@
       "name": "MDI",
       "role": "active_comparator",
       "drug": "insulin degludec + insulin aspart",
-      "dose": "Insulin degludec once daily plus prandial insulin aspart; doses adjusted according to the study protocol",
+      "dose": "insulin degludec once daily + prandial insulin aspart",
       "route": "subcutaneous",
       "is_fixed_combination": false,
       "n_randomized": 20,

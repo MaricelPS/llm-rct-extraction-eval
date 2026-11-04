@@ -11,8 +11,8 @@
       "HbA1c of 11% or less",
       "if applicable, agreement to use a highly effective method of birth control in persons of child-bearing potential or active avoidance of pregnancy during the trial"
     ],
-    "mean_age": null,
-    "percent_female": null,
+    "mean_age": 45.0,
+    "percent_female": 61.0,
     "evidence": []
   },
   "arms": [
@@ -32,7 +32,7 @@
       "role": "placebo",
       "drug": null,
       "dose": null,
-      "route": "not_reported",
+      "route": "subcutaneous",
       "is_fixed_combination": false,
       "n_randomized": null,
       "n_analyzed": 24,
@@ -253,7 +253,7 @@
       "term": "Severe hypoglycemic event",
       "arm_name": "Semaglutide",
       "n_patients": 0,
-      "percent_patients": 0,
+      "percent_patients": null,
       "is_serious": null,
       "evidence": []
     },
@@ -277,7 +277,7 @@
       "term": "Euglycemic ketosis",
       "arm_name": "Placebo",
       "n_patients": 0,
-      "percent_patients": 0,
+      "percent_patients": null,
       "is_serious": null,
       "evidence": []
     },
@@ -285,7 +285,7 @@
       "term": "Diabetic ketoacidosis",
       "arm_name": "Semaglutide",
       "n_patients": 0,
-      "percent_patients": 0,
+      "percent_patients": null,
       "is_serious": null,
       "evidence": []
     },
@@ -293,7 +293,39 @@
       "term": "Diabetic ketoacidosis",
       "arm_name": "Placebo",
       "n_patients": 0,
-      "percent_patients": 0,
+      "percent_patients": null,
+      "is_serious": null,
+      "evidence": []
+    },
+    {
+      "term": "Progression of diabetic retinopathy: Proliferative",
+      "arm_name": "Placebo",
+      "n_patients": 1,
+      "percent_patients": 4.0,
+      "is_serious": null,
+      "evidence": []
+    },
+    {
+      "term": "Progression of diabetic retinopathy: Proliferative",
+      "arm_name": "Semaglutide",
+      "n_patients": 0,
+      "percent_patients": 0.0,
+      "is_serious": null,
+      "evidence": []
+    },
+    {
+      "term": "Progression of diabetic retinopathy: Nonproliferative",
+      "arm_name": "Placebo",
+      "n_patients": 0,
+      "percent_patients": 0.0,
+      "is_serious": null,
+      "evidence": []
+    },
+    {
+      "term": "Progression of diabetic retinopathy: Nonproliferative",
+      "arm_name": "Semaglutide",
+      "n_patients": 1,
+      "percent_patients": 4.0,
       "is_serious": null,
       "evidence": []
     }

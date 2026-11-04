@@ -29,8 +29,6 @@ RULES = [
     ("death_serious", lambda r: r["field"] == "is_serious" and r["gold"] == "True"
                                 and r["pred"] == "" and r["label"].lower().startswith("death"),
      "model_error", "deaths are serious adverse events (is_serious true)"),
-    ("zero_percent", lambda r: r["pmcid"] == "PMC12003151" and r["field"] == "percent_patients",
-     "model_error", "cell reads '0 (0)': percentage as written"),
     ("external_lit", lambda r: r["pmcid"] == "PMC10971983" and r["section"] == "adverse_events"
                                and r["kind"] == "extra",
      "model_error", "AEs taken from discussion of external literature, not from this trial"),
@@ -69,6 +67,24 @@ RULES = [
     ("split_outcome", lambda r: r["pmcid"] == "PMC13627196" and r["section"] == "outcomes",
      "model_error", "standardised effect size extracted as a separate outcome; values missing "
                     "from the primary outcome; p-value taken from another result"),
+    ("crossover_fas", lambda r: r["pmcid"] == "PMC11296502" and r["field"] == "n_analyzed",
+     "model_error", "efficacy analysed in 32 completers of both periods (Table 3); "
+                    "model reported randomized/started"),
+    ("itt_25", lambda r: r["pmcid"] == "PMC12577669" and r["field"] == "n_analyzed",
+     "model_error", "primary analysis population is ITT with 25 per arm (text and Table 1)"),
+    ("n_rand_50", lambda r: r["pmcid"] == "PMC10971983" and r["field"] == "n_randomized",
+     "model_error", "article reports 50 randomized per arm"),
+    ("frc_role", lambda r: r["pmcid"] == "PMC11060164" and r["field"] == "role",
+     "ambiguous", "head-to-head of two fixed-ratio combinations; article designates no "
+                  "experimental arm (v2 clarification)"),
+    ("paired_diff", lambda r: r["pmcid"] == "PMC12003151" and r["field"] == "effect_measure",
+     "model_error", "paired difference in means is a mean difference"),
+    ("route_unstated", lambda r: r["pmcid"] == "PMC12992176" and r["field"] == "route",
+     "model_error", "route not stated in the article; model used outside knowledge"),
+    ("aopwv_measure", lambda r: r["pmcid"] == "PMC12992176" and r["field"] == "effect_measure",
+     "model_error", "between-group difference in means with CI (Table 2) is a mean difference"),
+    ("hypo_missing", lambda r: r["pmcid"] == "PMC12890759" and r["kind"] == "missing",
+     "model_error", "hypoglycaemia counts per arm reported in the text were omitted"),
 ]
 
 

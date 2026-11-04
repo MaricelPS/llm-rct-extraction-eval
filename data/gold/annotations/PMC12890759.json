@@ -104,6 +104,22 @@
       "percent_patients": null,
       "is_serious": null,
       "evidence": []
+    },
+    {
+      "term": "Severe hypoglycaemia",
+      "arm_name": "iGlarLixi",
+      "n_patients": 0,
+      "percent_patients": null,
+      "is_serious": null,
+      "evidence": []
+    },
+    {
+      "term": "Severe hypoglycaemia",
+      "arm_name": "MDI",
+      "n_patients": 0,
+      "percent_patients": null,
+      "is_serious": null,
+      "evidence": []
     }
   ]
 }
