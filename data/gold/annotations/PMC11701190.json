@@ -52,7 +52,7 @@
       "ci_upper": 11.0,
       "ci_level": 0.95,
       "p_value": "0.18",
-      "unit": "%",
+      "unit": null,
       "estimand": "not_reported",
       "evidence": []
     }
