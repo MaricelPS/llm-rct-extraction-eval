@@ -20,7 +20,8 @@ RULES = [
                          and r["field"] == "term",
      "model_error", "omits parent-row prefix (study-/possibly-/not study-related, "
                     "discontinuation); guideline ambiguous when the row also names an event (v2 clarification)"),
-    ("arm_cascade", lambda r: r["pmcid"] == "PMC12577669" and r["kind"] in ("missing", "extra"),
+    ("arm_cascade", lambda r: r["pmcid"] == "PMC12577669" and r["kind"] in ("missing", "extra")
+                              and ("Standard Care" in r["label"] or "Control" in r["label"]),
      "model_error", "arm named 'Control' instead of table header 'Standard Care'; all objects "
                     "of that arm unmatched (cascade)"),
     ("serious_false", lambda r: r["field"] == "is_serious" and r["gold"] == ""
@@ -48,9 +49,9 @@ RULES = [
                   "original unit; guideline gap (v2 clarification)"),
     ("middle_dot", lambda r: "·" in r["pred"] and r["field"] in ("p_value", "dose"),
      "equivalente", "same value; middle-dot decimal separator copied from the article"),
-    ("combined_dose", lambda r: r["pmcid"] == "PMC11701190" and r["field"] == "dose"
-                                and r["label"] == "Semaglutide",
-     "ambiguous", "dose of a combined arm not covered by guidelines; model kept GLP-1 RA only"),
+    ("combined_dose", lambda r: r["pmcid"] == "PMC11701190" and r["field"] == "dose",
+     "ambiguous", "dose of combined or individualized insulin regimens not covered by "
+                  "guidelines (v2 clarification)"),
     ("drug_code", lambda r: r["pmcid"] == "PMC11987204" and r["field"] == "drug",
      "model_error", "drug must be the active substance only (no code or description)"),
     ("absence_term", lambda r: r["pmcid"] == "PMC10933706" and r["section"] == "adverse_events",
@@ -85,6 +86,18 @@ RULES = [
      "model_error", "between-group difference in means with CI (Table 2) is a mean difference"),
     ("hypo_missing", lambda r: r["pmcid"] == "PMC12890759" and r["kind"] == "missing",
      "model_error", "hypoglycaemia counts per arm reported in the text were omitted"),
+    ("two_analyses", lambda r: r["pmcid"] == "PMC10599987" and r["section"] == "outcomes"
+                               and r["kind"] == "extra",
+     "ambiguous", "article reports two analyses of the primary outcome at 6 months without "
+                  "named estimands (unadjusted median change, p=0.53; pre-specified multivariate, p=0.98); "
+                  "gold keeps the pre-specified analysis; guideline does not say which to choose "
+                  "(v2 clarification)"),
+    ("lsmd", lambda r: r["pmcid"] == "PMC11987204" and r["field"] == "effect_measure",
+     "model_error", "article reports least squares mean difference (LSMD), not an ETD"),
+    ("sae_row_omitted", lambda r: r["pmcid"] == "PMC12577669" and r["kind"] == "missing"
+                                  and "Exenatide" in r["label"] and r["section"] == "adverse_events",
+     "model_error", "SAE row with a patient count in the exenatide arm omitted (the Standard "
+                    "Care cell reports events only, which does not exclude the exenatide cell)"),
 ]
 
 
