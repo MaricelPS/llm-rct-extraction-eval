@@ -98,6 +98,29 @@ RULES = [
                                   and "Exenatide" in r["label"] and r["section"] == "adverse_events",
      "model_error", "SAE row with a patient count in the exenatide arm omitted (the Standard "
                     "Care cell reports events only, which does not exclude the exenatide cell)"),
+    ("condition_wording", lambda r: r["pmcid"] == "PMC10372755" and r["field"] == "condition",
+     "equivalente", "both wordings appear in the article (design and conclusion)"),
+    ("md_not_etd", lambda r: r["pmcid"] == "PMC10372755" and r["field"] == "effect_measure",
+     "model_error", "article reports a 'mean difference', not an ETD"),
+    ("itt_not_estimand", lambda r: r["pmcid"] == "PMC10372755" and r["field"] == "estimand",
+     "model_error", "'intention-to-treat analysis' is an analysis set, not a named estimand; "
+                    "not_reported per guideline"),
+    ("n_rand_27_28", lambda r: r["pmcid"] == "PMC10933706" and r["field"] == "n_randomized",
+     "model_error", "article reports 27 and 28 randomized"),
+    ("basal_insulin", lambda r: r["pmcid"] == "PMC10971983" and r["field"] == "drug",
+     "model_error", "article names the class 'basal insulin' (drug: class as the article names it)"),
+    ("route_insulin", lambda r: r["pmcid"] == "PMC10971983" and r["field"] == "route",
+     "model_error", "'subcutaneously' refers to liraglutide; no route stated for basal insulin"),
+    ("beta_unit", lambda r: r["pmcid"] == "PMC11822619" and r["field"] == "unit",
+     "ambiguous", "measure defined in g-ETOH but beta presented as an effect size "
+                  "(possibly standardized); gold kept"),
+    ("p_in_table", lambda r: r["pmcid"] == "PMC11987204" and r["field"] == "p_value",
+     "model_error", "p-value reported in Table 2 (printed as '00.421') omitted"),
+    ("route_mdi", lambda r: r["pmcid"] == "PMC12890759" and r["field"] == "route",
+     "model_error", "'insulin injections' does not state the route; model used outside knowledge"),
+    ("fas_16", lambda r: r["pmcid"] == "PMC10709975" and r["field"] == "n_analyzed",
+     "model_error", "primary outcome measured at follow-up only, exenatide n=16 (Table 3); "
+                    "19 is the baseline OCT set"),
 ]
 
 

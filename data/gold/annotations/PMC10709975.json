@@ -12,7 +12,7 @@
       "indication for PCI including stable angina, unstable angina or non-ST elevation myocardial infarction (NSTEMI)"
     ],
     "mean_age": 66.6,
-    "percent_female": 42,
+    "percent_female": null,
     "evidence": []
   },
   "arms": [

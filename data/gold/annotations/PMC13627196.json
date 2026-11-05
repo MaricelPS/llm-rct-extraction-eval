@@ -21,7 +21,7 @@
       "route": "subcutaneous",
       "is_fixed_combination": false,
       "n_randomized": 40,
-      "n_analyzed": 37,
+      "n_analyzed": 40,
       "evidence": []
     },
     {
@@ -32,7 +32,7 @@
       "route": "subcutaneous",
       "is_fixed_combination": false,
       "n_randomized": 40,
-      "n_analyzed": 39,
+      "n_analyzed": 40,
       "evidence": []
     }
   ],
