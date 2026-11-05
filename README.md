@@ -268,6 +268,7 @@ Frozen results:
 | `test-pre`, `results/test-primary/` | primary test run, before adjudication |
 | `results/test-secondary-maxtokens/` | re-extraction of PMC11417641 |
 | `test-post`, `results/test-post-adjudication/` | evaluation with the adjudicated gold |
+| `gold-v1` | gold set before lint fixes (superseded by `freeze-v1`) |
 
 ## Repository layout
 
